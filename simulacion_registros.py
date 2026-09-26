@@ -22,44 +22,37 @@ Faker.seed(42)
 #2. Identificar los datos a simular con su tipo de dato
 '''
  id (texto (UUID)), 
- nombre (texto), 
- descripcion (texto), 
- fecha_inicio (fecha), 
- fecha_fin (fecha), 
+ fecha_registro (fecha), 
+ observacion (texto), 
  estado (texto),
-id_empresa (texto (UUID)), 
-id_categoria (texto (UUID)), 
-id_prioridad (texto (UUID)).
+id_usuario (texto (UUID)), 
+id_reto (texto (UUID))
 '''
 
 #3. Establecer una constante para el número de simulaciones
-FILAS=500
+FILAS=800
 ESTADOS=["Activo","No Activo","Bloqueado","En revisión","en_curso","EN CURSO","Cerrado"]
-IDS_EMPRESA=[321,123,456,654,789]
-IDS_CATEGORIA=[1,2,3,4,5]
-IDS_PRIORIDAD=[1,2,3,4,5]
+IDS_USUARIO=[321,123,456,654,789]
+IDS_RETO=[1,2,3,4,5]
 falsito=Faker("es_CO")
 fecha_inicio=falsito.date_time_between(start_date="-1y", end_date="+3m")
 
 #4. Funcion generadora
-def generar_datos(numero_filas=500):
-    retos=[]
+def generar_datos(numero_filas=800):
+    registros=[]
     for _ in range(numero_filas):
-        retos.append({
+        registros.append({
             "id":str(uuid.uuid4()),
-            "nombre":falsito.sentence(nb_words=6).rstrip("."),
-            "descripcion":falsito.sentence(nb_words=12),
-            "fecha_inicio":falsito.date_time_between(start_date="-1y", end_date="+3m"),
-            "fecha_fin":fecha_inicio + timedelta(days=random.randint(15, 180)),
+            "fecha_registro":falsito.date_time_between(start_date="-1y", end_date="now"),
+            "observacion":falsito.sentence(nb_words=10),
             "estado":random.choice(ESTADOS),
-            "id_empresa":random.choice(IDS_EMPRESA),
-            "id_categoria":random.choice(IDS_CATEGORIA),
-            "id_prioridad":random.choice(IDS_PRIORIDAD)
-        })
-    return retos
+            "id_empresa":random.choice(IDS_USUARIO),
+            "id_categoria":random.choice(IDS_RETO)
+            })
+    return registros
 
 #5. Convirtiendo los datos generados en un dataFrame con PANDAS
-tabla_ordenada_retos=pd.DataFrame(generar_datos())
+tabla_ordenada_registros=pd.DataFrame(generar_datos())
 
 #Probar la funcionón
-print(tabla_ordenada_retos)
+print(tabla_ordenada_registros)
