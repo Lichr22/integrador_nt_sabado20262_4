@@ -46,13 +46,61 @@ def generar_datos(numero_filas=800):
             "fecha_registro":falsito.date_time_between(start_date="-1y", end_date="now"),
             "observacion":falsito.sentence(nb_words=10),
             "estado":random.choice(ESTADOS),
-            "id_empresa":random.choice(IDS_USUARIO),
-            "id_categoria":random.choice(IDS_RETO)
+            "id_usuario":random.choice(IDS_USUARIO),
+            "id_reto":random.choice(IDS_RETO)
             })
     return registros
 
 #5. Convirtiendo los datos generados en un dataFrame con PANDAS
 tabla_ordenada_registros=pd.DataFrame(generar_datos())
 
-#Probar la funcionón
+#6. Probar la funcionón
 print(tabla_ordenada_registros)
+
+#7. Preparar la simulación para ensuciar los datos
+
+#7.1 Funcion para obtener una muestra de los datos
+def obtener_muestra(datos,porcentaje):
+    return datos.sample(fraccion=porcentaje,random_state=random.randint(0,9999)).index
+
+#7.2 Función auxiliar para cambiar valores de un texto
+def escribir_mal(texto):
+    variantes=[texto.lower(), texto.title(), texto.capitalize(), f" {texto} ", "JuanJo"]
+    return random.choice(variantes)
+
+#7.3 Funcion auxiliar para cambiar los booleanos
+def convertir_booleano(valor):
+        if valor:
+             return random.choice(["SI","1"])
+        else:
+             return random.choice(["NO","0"])
+
+#7.4 Funcion principal para ensuciar los datos simulados
+def ensuciar(datos_df):
+     datos_df=datos_df.copy()
+
+     filas_elegidas=obtener_muestra(datos_df,0.2)
+     datos_df.loc[filas_elegidas,"observación"]= None
+
+     filas_elegidas=obtener_muestra(datos_df,0.1)
+     datos_df.loc[filas_elegidas,"estado"]=datos_df.loc[filas_elegidas,"estado"].map(escribir_mal)
+
+     #Nezclar el formato de la fecha
+     #ISO = 2026-10-03 YYYY-mm-dd
+     #LATINO = d/m/y h:m
+
+     iso=datos_df["fecha_registro"].dt.strtime("%Y-%m-%d %H:%M:%S")
+     latino=datos_df["fecha_registro"].dt.strtime("%d/%m/8%y %H:%M")
+     datos_df["fecha_registro"]=iso
+     filas_elegidas=obtener_muestra(datos_df,0.25)
+     datos_df.loc[filas_elegidas,"fecha_registro"]=latino.loc[filas_elegidas]
+
+     filas_elegidas = obtener_muestra(datos_df, 0.10)
+     filas_origen = obtener_muestra(datos_df, 0.10)
+     datos_df.loc[filas_elegidas, ["id_usuario", "id_reto"]] = datos_df.loc[filas_origen, ["id_usuario", "id_reto"]].values
+
+     # 5% de las filas repetidas tal cual (duplicados exactos)
+     filas_elegidas = obtener_muestra(datos_df, 0.05)
+     duplicados_exactos = datos_df.loc[filas_elegidas].copy()
+     datos_df = pd.concat([datos_df, duplicados_exactos], ignore_index=True)
+
