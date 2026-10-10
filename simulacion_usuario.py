@@ -101,9 +101,3 @@ def ensuciar(datos_df):
     datos_df["fecha_registro"]=iso
     filas_elegidas=obtener_muestra(datos_df, 0.25)
     datos_df.loc[filas_elegidas, "fecha_registro"]=latino.loc[filas_elegidas]
-
-    
-
-
-
-
