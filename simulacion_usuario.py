@@ -19,7 +19,7 @@ Faker.seed(42)
 # descripcion (texto),
 # area_responsable (texto)*****
 
-#3. Establecer una constante para EL NUMERO DE SIMULACIONES
+#3. Establecer una constante para el NUMERO DE SIMULACIONES
 FILAS=250
 ROLES=["administrador","empresario","estudiante","profesor"]
 FALSITO = Faker("es_CO")
