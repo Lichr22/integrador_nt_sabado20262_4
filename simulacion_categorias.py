@@ -45,3 +45,34 @@ tabla_ordenada_categorias=pd.DataFrame(generar_datos())
 
 #6. Probar la funcion
 print(tabla_ordenada_categorias)
+
+#7. Preparar la simulación para ensuciar mis datos
+
+#7.1 Funcion para obtener una muestra de los datos
+def obtener_muestra(datos, porcentaje):
+    return datos.sample(fraccion=porcentaje,random_state=random.randint(0, 9999)).index
+
+#7.2 Funcion auxiliar para cambiar valores de un texto
+def escribir_mal(texto):
+    variantes=[texto.lower(),texto.title(),texto.capitalize(),f" {texto} ", "Juan Jose"]
+    return random.choice(variantes)
+
+#7.3 Funcion auxilixar para cambiar los booleanos
+def covertir_booleanos(valor):
+    if valor:
+        return random.choice(["SI", "1"])
+    else: 
+        return random.choice(["NO", "0"])
+
+#7.4 Funcion principal para ensuciar los datos simulados
+def ensuciar_datos(datos_df):
+    datos_df=datos_df.copy()
+
+    filas_elegidas = obtener_muestra(datos_df, 0.4) 
+    datos_df.loc[filas_elegidas, "nombre"] = datos_df.loc[filas_elegidas, "nombre"].apply(escribir_mal)
+
+    filas_elegidas = obtener_muestra(datos_df, 0.15)
+    datos_df.loc[filas_elegidas, "descripcion"] = None
+
+    filas_elegidas = obtener_muestra(datos_df, 0.10)
+    datos_df.loc[filas_elegidas, "area_responsable"] = None
