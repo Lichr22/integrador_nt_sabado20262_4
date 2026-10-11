@@ -35,11 +35,10 @@ id_prioridad (texto (UUID)).
 #3. Establecer una constante para el número de simulaciones
 FILAS=500
 ESTADOS=["Activo","No Activo","Bloqueado","En revisión","en_curso","EN CURSO","Cerrado"]
-IDS_EMPRESA=[321,123,456,654,789]
-IDS_CATEGORIA=[1,2,3,4,5]
-IDS_PRIORIDAD=[1,2,3,4,5]
+IDS_EMPRESA=[str(uuid.uuid4()) for _ in range(5)]
+IDS_CATEGORIA=[str(uuid.uuid4()) for _ in range(5)]
+IDS_PRIORIDAD=[str(uuid.uuid4()) for _ in range(5)]
 falsito=Faker("es_CO")
-fecha_inicio=falsito.date_time_between(start_date="-1y", end_date="+3m")
 
 #4. Funcion generadora
 def generar_datos(numero_filas=500):
@@ -49,8 +48,8 @@ def generar_datos(numero_filas=500):
             "id":str(uuid.uuid4()),
             "nombre":falsito.sentence(nb_words=6).rstrip("."),
             "descripcion":falsito.sentence(nb_words=12),
-            "fecha_inicio":falsito.date_time_between(start_date="-1y", end_date="+3m"),
-            "fecha_fin":fecha_inicio + timedelta(days=random.randint(15, 180)),
+            "fecha_inicio":(fi := falsito.date_time_between(start_date="-1y", end_date="+3m")),
+            "fecha_fin":fi + timedelta(days=random.randint(15, 180)),
             "estado":random.choice(ESTADOS),
             "id_empresa":random.choice(IDS_EMPRESA),
             "id_categoria":random.choice(IDS_CATEGORIA),
@@ -69,7 +68,7 @@ print(tabla_ordenada_retos)
 
 #7.1 Funcion para obtener una muestra de los datos
 def obtener_muestra(datos,porcentaje):
-    return datos.sample(fraccion=porcentaje,random_state=random.randint(0,9999)).index
+    return datos.sample(frac=porcentaje,random_state=random.randint(0,9999)).index
 
 #7.2 Función auxiliar para cambiar valores de un texto
 def escribir_mal(texto):
@@ -116,3 +115,8 @@ def ensuciar(datos_df):
 
      filas_elegidas=obtener_muestra(datos_df,0.1)
      datos_df.loc[filas_elegidas,"estado"]=datos_df.loc[filas_elegidas,"estado"].map(escribir_mal)
+
+     return datos_df
+
+tabla_ordenada_retos = ensuciar(tabla_ordenada_retos)
+print(tabla_ordenada_retos)
