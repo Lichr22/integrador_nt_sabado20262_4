@@ -1,0 +1,2252 @@
+[
+  {
+    "id":"3eec84bc-2d9a-491f-93b0-40cbb3709e79",
+    "nombre":"María Marcela Torres",
+    "correo":"buitragostiven@example.org",
+    "contrasena_hash":"913d199f349e540cf50caa123e5697cb1d6089eff315529b3ea3f7d9ff917632",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2024-11-24 02:50:09"
+  },
+  {
+    "id":"57023c36-76c7-425c-8e41-76fbb5ee0b89",
+    "nombre":"Luz Moreno",
+    "correo":"londonoalejandro@example.net",
+    "contrasena_hash":"aa91bb1289552259250e1b2a3cc07a788779cc744490e7f50a6cba9cd8eb48b4",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-04-19 15:40:29"
+  },
+  {
+    "id":"8c65d179-4501-43c1-9148-262e663f6a29",
+    "nombre":"William Anderson Rodríguez Cifuentes",
+    "correo":"jherrera@example.org",
+    "contrasena_hash":"761d6a1bf9580e75cfa815a19e7e69f30b50e13883934096cf5d37d8adb13f98",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-07-18 20:56:27"
+  },
+  {
+    "id":"066305ce-dc55-44a8-bd4c-537dd65f8139",
+    "nombre":"Luz Luz Sanabria",
+    "correo":"mario78@example.org",
+    "contrasena_hash":"9cd52e58dcfc7bee1bfae889e674e81b2831cfbf025d4434d8f2f57ccf4d6784",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-08-20 10:45:00"
+  },
+  {
+    "id":"3f0d91ba-d5a5-4924-9f1d-cd22b1a4fb31",
+    "nombre":"Esperanza Fabiola Beltrán",
+    "correo":"carlos10@example.net",
+    "contrasena_hash":"4e132b417a4596b2edd634bb466f602660787cfd9bfa68884ba1e5da53632f94",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-12-06 04:56:47"
+  },
+  {
+    "id":"93d9fb1a-4ac3-47fc-a09d-7a4834b35097",
+    "nombre":"Yadira Bibiana Rivera",
+    "correo":"xacevedoexample.org@ejemplo.com",
+    "contrasena_hash":"4a37ee90281551b78b2dde8c6a3c9d3b45da019ba8014cd496f6ef8cc269d91c",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-11-04 03:51:28"
+  },
+  {
+    "id":"a36147ea-614d-4e6d-a46b-c950521bf150",
+    "nombre":"Hernando Carrillo",
+    "correo":"sin_correo@ejemplo.com",
+    "contrasena_hash":"2f26e3fe0b795d16831fe3408e4ac6540f62d39a9a60d22a709e422e36333eca",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-10-24 11:31:07"
+  },
+  {
+    "id":"d42aeea7-11a4-4194-924b-9cc6040459a7",
+    "nombre":"Fernando Velandia Pacheco",
+    "correo":"manuelbenitez@example.org",
+    "contrasena_hash":"92aa91f91a0a1660cc8b38a2f9fe97b1c0e1d0452bed70d894a0db7b5d310f9a",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2024-11-24 08:45:20"
+  },
+  {
+    "id":"9f3e04fb-d98b-4e97-9f90-04d47dd63aed",
+    "nombre":"Diego Andrés Barreto",
+    "correo":"fernanda76@example.net",
+    "contrasena_hash":"abb346954e29a8141c8cb94eddfb8190b61b3051dfa0b4ec95d5e29d93e182d8",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-05-24 04:05:17"
+  },
+  {
+    "id":"4212b5b8-67d4-4cb5-a309-f3b76a8d4b25",
+    "nombre":"Paola Londoño Muñoz",
+    "correo":"zburbano@example.com",
+    "contrasena_hash":"528a0ba6937407022a0b6ab2b585d67c2d34910b599f40a76b083229b39904be",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-02-14 21:03:16"
+  },
+  {
+    "id":"c85a7108-9cee-4a53-8658-057370175584",
+    "nombre":"Luis José González Pineda",
+    "correo":"yhurtado@example.com",
+    "contrasena_hash":"338722e96dad3aae7568873eb3b6e1944c3f951dc876e9865a963bee68f43e8c",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-10-28 23:26:46"
+  },
+  {
+    "id":"a3e9ba85-cb68-406b-a4d3-3005c83899ce",
+    "nombre":"Alcides Estrada",
+    "correo":"duartemartha@example.net",
+    "contrasena_hash":"32c23b80181cdf52be16c3fbf2bc5bc3b713cb596449a76be09e5bfed67a14a7",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-06-19 10:04:00"
+  },
+  {
+    "id":"35851261-dac9-419a-823b-206d609e8ccd",
+    "nombre":"Luis Óscar Cárdenas",
+    "correo":"miller28@example.org",
+    "contrasena_hash":"42378b182b047f5e843072aa4141a3b1eff586c0285523cf355b223a0d73c04b",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-06-19 05:46:40"
+  },
+  {
+    "id":"1346d2c9-326e-47cb-95ab-8353cba6ddd8",
+    "nombre":"Ana Mery Montoya Patiño",
+    "correo":"carvajalfrancia@example.org",
+    "contrasena_hash":"c509823c0820d9d7ea38abcff816c8fb5eebca42f04a3833721db9af6927f77e",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-12-09 22:55:36"
+  },
+  {
+    "id":"b13ae888-30ef-418b-ac36-48bd074ed4b4",
+    "nombre":"David Moreno",
+    "correo":"garciayury@example.org",
+    "contrasena_hash":"2eb28aab3b37da76916e5718305a00835a518306f46227f39c45dfc21dbf85fd",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-12-18 04:43:35"
+  },
+  {
+    "id":"0feda1ec-6ea6-43e7-a0cb-a8efef24274d",
+    "nombre":"Patricia Ortega Caicedo",
+    "correo":"andres96@example.org",
+    "contrasena_hash":"215e10fcd56d8f84a4647be5e5e5033754a80a52fed17351305f5e0fec344867",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-09-06 01:31:39"
+  },
+  {
+    "id":"377ed20e-e6bd-4c21-96fe-96abdfdc6537",
+    "nombre":"Edith Alejandra Sandoval Arias",
+    "correo":"ogonzalez@example.org",
+    "contrasena_hash":"e901ca7cf8dd3bd6503db5a64cc84076fdf0c33906ccbf83bfaa5874e4933c9c",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-01-30 09:13:59"
+  },
+  {
+    "id":"b2573a21-7ed1-451b-9d6b-c306f24978f1",
+    "nombre":"Elizabeth María Toro Martínez",
+    "correo":"espitiahumberto@example.org",
+    "contrasena_hash":"812db7572d950c1b8b4a4f34bdec7a445209d6ef706ffa2dcfc03601340e2074",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-03-06 17:33:22"
+  },
+  {
+    "id":"71de2e4b-86c3-4a84-9e58-ee1db3f984aa",
+    "nombre":"Alberto Carlos Rubio Jaramillo",
+    "correo":"evargas@example.com",
+    "contrasena_hash":"8111b62d5150f0ec6dc6a65e87fa1f3e8edcb094d842ab4d6dbb0a06e5b152bc",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-01-13 17:17:06"
+  },
+  {
+    "id":"bfb08d24-398e-4772-b58e-14324ba756d7",
+    "nombre":"Javier Peña Alvarado",
+    "correo":"gilmarino@example.org",
+    "contrasena_hash":"e995646fb19d8824a5b315e3443bbc18184872ce6e9cbe45209753b07c839676",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-05-19 01:14:00"
+  },
+  {
+    "id":"b0c83904-8b59-4933-8d27-2d962bc46094",
+    "nombre":"Raúl Luis Ramírez",
+    "correo":"lhernandez@example.com",
+    "contrasena_hash":"09e637ff7d74149186e53ac39cc9f7a2393b55f62a92088646a7b6e3a7ff4d7d",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-09-09 15:57:48"
+  },
+  {
+    "id":"f1e2ceb3-5722-47fa-aa10-d7af129c6817",
+    "nombre":"Inés Gabriela Caicedo",
+    "correo":"arangoandres@example.org",
+    "contrasena_hash":"c7851c0f1530640d469066362549c79ff9663512e68519975f1389a37198061e",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2026-10-19 23:05:45"
+  },
+  {
+    "id":"88014bfe-5e08-4703-a83d-9732b52740cb",
+    "nombre":"Ana Olga Rojas Castillo",
+    "correo":"perezmaria@example.com",
+    "contrasena_hash":"206813f36553af6c471b8b52d69649975505d8f049f93d6cbdf7db081a13248c",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-07-01 10:29:00"
+  },
+  {
+    "id":"f70307f7-1fed-4a92-8e08-102ac2b9fe04",
+    "nombre":"Jorge Gustavo Ariza Páez",
+    "correo":"ssanchez@example.org",
+    "contrasena_hash":"e54dece40379a5be1596ee27755d8b97f6c654e3b580ada6a9fe814613cd3888",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-01-23 07:04:01"
+  },
+  {
+    "id":"b158750b-23b4-407f-85af-cfc4893f2fc3",
+    "nombre":"Katherine Martínez",
+    "correo":"hmora@example.org",
+    "contrasena_hash":"5c2a35e1d703717481c4d5dcb500e2d2eb7c0444794097ef3b65ebe8a1a4d837",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-11-28 20:58:23"
+  },
+  {
+    "id":"b64bf66e-8283-4c18-8859-dffdf3df98e9",
+    "nombre":"Manuela María García",
+    "correo":"liliaibarra@example.net",
+    "contrasena_hash":"6c5becfb1dfe76b0b51000d873e489f6e8af4649336cfc4e6679c696e6dac269",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-02-04 05:00:00"
+  },
+  {
+    "id":"56bab15c-06d4-49b2-a0a2-3dd9b6a6671c",
+    "nombre":"Natalia Guerrero",
+    "correo":"ignacio35@example.org",
+    "contrasena_hash":"80a50e0ed6bc260ffa9e6aeb490b71ad1ce60b59212fb2b171a610f8f8dd16a3",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-02-09 02:06:00"
+  },
+  {
+    "id":"178d61fb-4982-435e-beb1-9e6d04e8cbcb",
+    "nombre":"Miguel Oviedo",
+    "correo":"rodriguezantonio@example.net",
+    "contrasena_hash":"eda531ac99a5256e82e24bb2153f30e75bb094c615197ca8c0988a205e84e589",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2024-12-26 08:02:33"
+  },
+  {
+    "id":"ea2bb8e1-d275-473e-b7a0-0f6529e956f2",
+    "nombre":"Johana Patricia Romero García",
+    "correo":"elianasanchez@example.net",
+    "contrasena_hash":"a076f4a88f1694c9622b2f3e6f16087244d97d3751571b524fb1e55dd54a204f",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-02-17 12:51:49"
+  },
+  {
+    "id":"8798a59b-360e-4222-899e-022d40e4e2fd",
+    "nombre":"Nelly Cortés",
+    "correo":"sin_correo@ejemplo.com",
+    "contrasena_hash":"157f62fd0bad5b4bc794ad19ffb7117173489013111e5f3edfe90945ad0635c4",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-05-30 02:00:00"
+  },
+  {
+    "id":"b92605e8-9b68-4c69-a954-6fc8380752f1",
+    "nombre":"Marcela Calderón Becerra",
+    "correo":"eduardomarquez@example.net",
+    "contrasena_hash":"d93d4e55114cda87626e8a5ce601bf09c184051654fb0e3a89e1de39dc367aa1",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2026-03-10 15:03:33"
+  },
+  {
+    "id":"6529ee92-b3a6-4843-9dd0-2a97985bd69c",
+    "nombre":"Luz Salazar",
+    "correo":"maria52example.net@ejemplo.com",
+    "contrasena_hash":"354b9fcedd419b55319fef1e1156801a065e1580a14a9827f2b474da28fa6e27",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-03-04 22:28:00"
+  },
+  {
+    "id":"3809261c-154a-4e92-8c25-cdd42145f347",
+    "nombre":"Jaime Alejandro Rodríguez García",
+    "correo":"luispalacio@example.net",
+    "contrasena_hash":"fc6e8ad7547e1cc68b5998d9fc3dc2d140fd8ebde2a86166195fe3dc601cad9b",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-09-29 06:10:08"
+  },
+  {
+    "id":"db5c5414-883b-4ded-8877-e23e5a962a48",
+    "nombre":"María Morales Saavedra",
+    "correo":"maldonadolaura@example.org",
+    "contrasena_hash":"19af4a21c30b3f36e938e14caba2620484962c9077a86b88b19a9a04630a36e4",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-01-08 03:24:41"
+  },
+  {
+    "id":"08059e16-67ce-466c-990f-295bfd23b3d2",
+    "nombre":"Gildardo Zambrano Velandia",
+    "correo":"wilsonobandoexample.org@ejemplo.com",
+    "contrasena_hash":"e0d36b57438e8da872d8736d6b863db9977d6be4c266df4a480af151af5f6872",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2024-11-18 16:24:54"
+  },
+  {
+    "id":"02c75076-6a2f-434b-b9e2-673f3da1d93e",
+    "nombre":"Aura Quintero Granados",
+    "correo":"monicamesa@example.org",
+    "contrasena_hash":"96ef5b1ead44f2679b2af38a87dc4fb4310f35a5baa7cbd21f7e348da4f8be3b",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2024-11-29 12:14:34"
+  },
+  {
+    "id":"ef5c7ea9-eaf3-4828-96d4-42e128437490",
+    "nombre":"David Ferney Cruz Suárez",
+    "correo":"inesduran@example.com",
+    "contrasena_hash":"abb81c41d18aebd6db7cbc2f340432a7f74ad30f92a7551af1386bec08ba9725",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-01-09 19:04:14"
+  },
+  {
+    "id":"d37643f4-4624-4b25-9690-cb0c014baed8",
+    "nombre":"Marlén Isabel Bedoya",
+    "correo":"iduarte@example.com",
+    "contrasena_hash":"0c08e6f646b99353b6144fa6b6e4ce506b6a5f70b94c2a88bcd56d5c5389a8a3",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-01-28 00:29:23"
+  },
+  {
+    "id":"cead1831-18b7-4ee4-a166-4cb9fe1a575e",
+    "nombre":"Juan Burgos",
+    "correo":"maria96@example.com",
+    "contrasena_hash":"49843e6e986f479997ea8885a03bbe655d80fdb667803afc62b1a3bef51ca04e",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-01-07 01:43:58"
+  },
+  {
+    "id":"b08fc0d2-7749-4ba1-808b-4a3e86634952",
+    "nombre":"Ricardo Molina Flórez",
+    "correo":"johanablanco@example.org",
+    "contrasena_hash":"d1318b78a0eb2dde5d36ba03b70b60403e1500940de97052635cd146139e0e7b",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-07-18 20:48:00"
+  },
+  {
+    "id":"79f395bf-81cc-42db-a246-f46e912996b4",
+    "nombre":"Rosa María Vergara Valencia",
+    "correo":"alexander14@example.net",
+    "contrasena_hash":"797a3e45e9927c4aa1e860d148f6659636626202bebd827a8c96f7d67a77bf6a",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-09-12 15:21:00"
+  },
+  {
+    "id":"2088f9f0-add8-46d2-b188-f235e65e94ae",
+    "nombre":"Diego Jesús Hernández",
+    "correo":"yvergara@example.net",
+    "contrasena_hash":"1c2eb5986ead95919a281c75d28d110f0afda0f89ad6185c112c9c3b08165bf2",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-03-14 14:28:00"
+  },
+  {
+    "id":"09d9e12e-e485-4245-8283-f63e56108312",
+    "nombre":"Diego Palacio",
+    "correo":"sin_correo@ejemplo.com",
+    "contrasena_hash":"8f5bfd940218a10739ae331333324948a4e6f08090d6ea160dbaf9aacd6aefc3",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-10-26 14:22:19"
+  },
+  {
+    "id":"c4bb1feb-24c2-4171-bc8a-7e96b5a04dc9",
+    "nombre":"Óscar Alberto Ortega Galeano",
+    "correo":"alexandergutierrez@example.net",
+    "contrasena_hash":"65a31258120287f1c42a7d3537c5429b753f439e7bd73d8c4b70e7fbec33af1d",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-07-17 18:43:33"
+  },
+  {
+    "id":"95af1101-bb4d-45bc-83f1-d1d52719533e",
+    "nombre":"Amanda Janeth Sandoval",
+    "correo":"mariosanchez@example.org",
+    "contrasena_hash":"0764349837af5adb7f6fa800b376f8e2ca7728e21d8834d1453d5c6d7cb1c1a6",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-03-11 11:32:50"
+  },
+  {
+    "id":"d9281dad-c653-4573-b32e-36cbedef6850",
+    "nombre":"Lorena Raquel Escobar",
+    "correo":"pzapata@example.org",
+    "contrasena_hash":"253a878a69438a02165b7e4fd7a749f6b382cb42a30e0281d1c47fadcd768e5c",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2024-03-11 17:43:36"
+  },
+  {
+    "id":"8a31b7e1-bc8d-4443-b58f-58f6cf294106",
+    "nombre":"Ligia Sandra Cifuentes",
+    "correo":"pmartinez@example.org",
+    "contrasena_hash":"2c9dec0f5a696fd198bf421a3b46bb20ee59f5878f095d856a0b0f78f441e738",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-07-14 21:51:00"
+  },
+  {
+    "id":"7d9416f3-2a20-443c-8839-871435c069c8",
+    "nombre":"Hernán Ovidio Hurtado Quiroga",
+    "correo":"uavila@example.net",
+    "contrasena_hash":"30a638f262caff7a2af2338686c5781b800569329042ba982d1006e847eb26c8",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-04-10 19:21:40"
+  },
+  {
+    "id":"feb4ab0b-44db-4c51-95f8-1e1469d16feb",
+    "nombre":"Efrain Alfredo Ortega Muñoz",
+    "correo":"pedrocastro@example.net",
+    "contrasena_hash":"267ac97d8637b278bf958c1e6eafa369915e1157a4cd11ba55312c1b3908a58d",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-04-05 06:13:48"
+  },
+  {
+    "id":"2899eeaa-f833-49d8-b722-e41750b45d37",
+    "nombre":"Óscar Forero",
+    "correo":"luisaruiz@example.net",
+    "contrasena_hash":"652bd42aa22e8e1c4b243f6dff9eca7aaf93338a271660ee7718f975c50ae088",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-02-24 14:03:04"
+  },
+  {
+    "id":"471e46ca-bd44-4e4d-bf60-70864bc8129e",
+    "nombre":"Liliana Ana Rojas Guerrero",
+    "correo":"andres60@example.org",
+    "contrasena_hash":"0af844cdd022337f5168ff609efd387794bf641791e4ceb811c6f1ab0535d546",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-08-28 22:44:16"
+  },
+  {
+    "id":"38f3138d-dd9e-4606-b5d5-4a09f23487cc",
+    "nombre":"Elisa Cabrera",
+    "correo":"wacosta@example.com",
+    "contrasena_hash":"cad699403b3d00fd614a826a255090bc720e86f09963a018026fcdf7fde9f90e",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-08-24 07:47:12"
+  },
+  {
+    "id":"9516d21f-740c-4ea8-a6af-de0bb0e2129a",
+    "nombre":"Ángel Galvis Vera",
+    "correo":"yenifercastro@example.com",
+    "contrasena_hash":"4ee055718325f5b925326fddb471a8dc32e82ce163323fccc65df906254b1e55",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-07-18 12:16:00"
+  },
+  {
+    "id":"55fed6ba-0893-4879-b319-4ad3ec1befc9",
+    "nombre":"Nelson Villa Villegas",
+    "correo":"fajardojuan@example.net",
+    "contrasena_hash":"858d3cbb26320c6dbd2eb61f334481369fd4e03b46db3521192b4322cb70c31c",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-03-13 16:05:08"
+  },
+  {
+    "id":"9daf1ba4-f048-491c-87ca-871cfbd527a4",
+    "nombre":"Carlos Restrepo Martínez",
+    "correo":"dvalencia@example.com",
+    "contrasena_hash":"f04f3cd770b4621896cbea242b8d7f1dfd0c18c4cca9c50a6d5b68acd293c029",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-09-13 16:02:30"
+  },
+  {
+    "id":"93d11ba2-07e7-45b2-b865-1dcb36db44fd",
+    "nombre":"Fernando Angarita Salazar",
+    "correo":"correacesar@example.org",
+    "contrasena_hash":"2d77699db37aca5deb2a33c6375bc0e31bed8dfb579134ac8ae98cc2cfd1f0a3",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-07-29 06:05:51"
+  },
+  {
+    "id":"d7de22cc-1099-497b-9e96-c62c443680c5",
+    "nombre":"Camila Sara Arango Gallego",
+    "correo":"alejandrarodriguez@example.org",
+    "contrasena_hash":"9fb5bd3506a944c50c15c59d5db0abe3d25ff878a674ca9d72c71187fccb3ac2",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-02-11 06:10:54"
+  },
+  {
+    "id":"c5fab0d7-469b-45d0-92e9-c984308a0b0b",
+    "nombre":"Blanca Sandra Bermúdez",
+    "correo":"claudia91@example.org",
+    "contrasena_hash":"c277ae4bf4e34c0a0eb7b4abf312800e4ecd208eddd69853042f72d383d4eb46",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-01-22 09:28:14"
+  },
+  {
+    "id":"280453e8-9ec9-42b0-96e4-bcc9dbd3a910",
+    "nombre":"Margoth Escobar",
+    "correo":"tmedina@example.org",
+    "contrasena_hash":"0419003752c954987e3a847724693f7bd30c645bb85c5770af31da9308f21624",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-04-19 20:20:00"
+  },
+  {
+    "id":"0850fd51-4735-45bf-b535-5a74faf2f898",
+    "nombre":"Luz Constanza Gaitán Carvajal",
+    "correo":"roserocarlos@example.org",
+    "contrasena_hash":"38d3a823b791bd2c7386a018e6803349e0556351782f2094f88e45d428388e27",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-09-28 03:54:31"
+  },
+  {
+    "id":"4eceaab5-a21d-4e0a-9e18-f8c04e103b61",
+    "nombre":"Andrés Augusto Rodríguez",
+    "correo":"gpinto@example.com",
+    "contrasena_hash":"078942353dc3eadc1a4e88335f559ebe30922d4788ef46f00ddb940d1f2d4f24",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2026-08-03 02:31:44"
+  },
+  {
+    "id":"78b562ce-8efd-4f73-899e-756d649a1dca",
+    "nombre":"Guillermo Óscar Ardila Paz",
+    "correo":"david87@example.com",
+    "contrasena_hash":"228333c1ed72ea815c31995e86826cf3314b8ada2c861f16d2636a1c76758c46",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-05-21 05:40:00"
+  },
+  {
+    "id":"a6158790-6281-479c-8bec-16ddaea10877",
+    "nombre":"Alexander Vargas",
+    "correo":"castrogina@example.com",
+    "contrasena_hash":"8483a1b5f692f375a37b5f2f3f3af29a3d94155284ea81d88c69c9a0d79f02bb",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-02-04 10:17:59"
+  },
+  {
+    "id":"5cf30aa9-6e4b-42cb-9882-168524ebbb13",
+    "nombre":"Enrique Zapata Valencia",
+    "correo":"zrojas@example.com",
+    "contrasena_hash":"39799c6856ab146326085ebe09cc378f8d302a8aadb4b1e127f892a2380a8207",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-09-14 04:43:03"
+  },
+  {
+    "id":"5d9a532b-9266-4316-8ead-d35a7877a93d",
+    "nombre":"Jaime Delgado",
+    "correo":"andreapinzon@example.com",
+    "contrasena_hash":"d668cfde040c5eaa1d4e69b25622d994b09eddf3cc014defa2d9f14ee4008491",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-05-05 02:19:36"
+  },
+  {
+    "id":"83e944d5-7cd1-4642-8734-894ecf73f5cf",
+    "nombre":"Armando Mauricio Alzate López",
+    "correo":"karinavargas@example.net",
+    "contrasena_hash":"41c6a5d6a6daa9eb15a183ddf9e46a5d8c83edeadb73266ef60f77d3457560c8",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-11-02 00:34:00"
+  },
+  {
+    "id":"b49d611c-11cd-421c-8044-acdd91b98283",
+    "nombre":"Alejandro Omar Valencia",
+    "correo":"qortiz@example.org",
+    "contrasena_hash":"0e8acb583ba483be23ae800bc03470b2bf39c2c2816b7368536ac627b7407ed9",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-03-29 00:23:00"
+  },
+  {
+    "id":"fe90f9db-9710-4fca-ac47-0119c6e4e2f0",
+    "nombre":"Luis Sebastián Castellanos",
+    "correo":"lilianadaza@example.com",
+    "contrasena_hash":"6ca585e917736dc9b94d673c2c308c323be7e8a07fc644db3217eb5617fea35f",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-06-12 21:39:00"
+  },
+  {
+    "id":"114b95a9-1a54-4e3d-be1a-704a2ff934b1",
+    "nombre":"Heriberto Roa",
+    "correo":"lorena24@example.org",
+    "contrasena_hash":"6d54a5f45626fe08cd421d63dbac4d969c049a93e3cb9348bc21a12592b19a36",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-05-02 18:02:28"
+  },
+  {
+    "id":"60e69da4-48ea-4927-a8e2-9421baea4eeb",
+    "nombre":"José Martínez",
+    "correo":"jhon27@example.org",
+    "contrasena_hash":"ad17e5a624bbb01dc90e21f707036f8337e97f09276498d4e8370a4ffddf808c",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-01-19 07:41:00"
+  },
+  {
+    "id":"c52eb4de-aa91-43c1-8920-469c7c0dd944",
+    "nombre":"Felipe Mendoza",
+    "correo":"tuliomunoz@example.com",
+    "contrasena_hash":"eb9802f8be31f9dc3059e39cb64c77819bdc4ecd7dcdf2a1723e9d7c1a32ec3a",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2024-12-20 04:27:00"
+  },
+  {
+    "id":"a564c0b9-f1ea-46cf-8b7f-67e915d7a03d",
+    "nombre":"Mauricio Escobar Pacheco",
+    "correo":"milenalondono@example.com",
+    "contrasena_hash":"be73bae8060ab15e962344506dc4488c484edd08795b96274058d21598d01621",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-11-05 04:58:43"
+  },
+  {
+    "id":"e8ce6bb6-24cb-4536-ba84-2a94ee5f4490",
+    "nombre":"Yaneth Laura Hurtado",
+    "correo":"ivanflorez@example.com",
+    "contrasena_hash":"ee6e3dbd7c1c707cd0883e71ae9083f57ebb73711ec3721bf6495657506d6783",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-01-30 13:16:00"
+  },
+  {
+    "id":"c282e49e-c7f1-4de9-9e72-389fba98ff17",
+    "nombre":"Jesús Beltrán León",
+    "correo":"erazolaura@example.org",
+    "contrasena_hash":"5777bdfb428e76e18330291872dd279a8b627638bf46fbf522e57ad37cdb883c",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-01-01 11:48:28"
+  },
+  {
+    "id":"a2a47b50-25c7-4599-a6f0-5e4aae476b29",
+    "nombre":"Paola Caicedo Sánchez",
+    "correo":"mcardona@example.com",
+    "contrasena_hash":"d93baa3c55fa724b9b93dc849288c9df78ab3b9882873822a4a78c2cadf8f47d",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-04-28 05:23:37"
+  },
+  {
+    "id":"2ac25a08-afee-4482-8c1f-10a9a59e0963",
+    "nombre":"Guillermo Narváez",
+    "correo":"ogarcia@example.com",
+    "contrasena_hash":"4d8902b960e90cf37d68a457d47394d836b392695ac89bc285c4cd04e2d064ba",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2026-02-27 22:17:22"
+  },
+  {
+    "id":"70f0fd35-544e-425f-908d-29a06addeda7",
+    "nombre":"Fernanda Luisa Jaimes Gamboa",
+    "correo":"patriciaperez@example.com",
+    "contrasena_hash":"82b7de6c4c1a6fe54fabdea0e183a74d6910b283101dadabfd190751bcb7dd14",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-01-08 15:19:00"
+  },
+  {
+    "id":"9f6a3371-a989-448d-bd60-e204e0cba7c0",
+    "nombre":"Óscar Correa",
+    "correo":"diego48@example.net",
+    "contrasena_hash":"a9e4ce44efc56d8692e6f4a23b09e37c93f1d3454b64075f4be1639ff9d35405",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2024-12-31 21:54:31"
+  },
+  {
+    "id":"653c5fdf-d070-483a-8c24-a6283472c6d6",
+    "nombre":"Hilda Galvis",
+    "correo":"maria39@example.net",
+    "contrasena_hash":"0b4a2365a0a6222a90e1a85d75518651aef8744a9ebede3643f1e4c81769e079",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-06-16 10:31:50"
+  },
+  {
+    "id":"9bb96769-ce7e-4e8a-b191-4faf6c0d0535",
+    "nombre":"Fabián Castellanos",
+    "correo":"nelcyarango@example.com",
+    "contrasena_hash":"a57c467f83e077b793475b2e862a78bb18c0622977248dcc23ceab9e762d73c3",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-01-28 01:41:00"
+  },
+  {
+    "id":"292d9ef1-3f3d-426b-adde-50a65d813618",
+    "nombre":"Víctor Rincón López",
+    "correo":"maribel51@example.org",
+    "contrasena_hash":"99d81e985d7137eedc60a7a9ed57d2106d7d3b166576b5eac978a853e9f9d076",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-04-22 05:22:42"
+  },
+  {
+    "id":"46bfdb93-1243-48ef-8a13-6c0f42022f01",
+    "nombre":"Jorge Esneider Aguilar Caicedo",
+    "correo":"qlopez@example.com",
+    "contrasena_hash":"9229b84961c49e4b6890eb9c283edd5ad9ca04331983ac434f67c99ae4ab2f8c",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-06-22 11:42:03"
+  },
+  {
+    "id":"21efae1d-d1cd-4a99-b607-ef164a21ba36",
+    "nombre":"León Luna Rodríguez",
+    "correo":"mpena@example.net",
+    "contrasena_hash":"643049ee57bda7504bd996d2c0b83bc1f3a612e0b8432959e51e63f392986e19",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-09-06 23:29:10"
+  },
+  {
+    "id":"90518f35-597d-4535-ae79-4d49295b1a97",
+    "nombre":"John Fabio Ramírez Caicedo",
+    "correo":"betty71@example.org",
+    "contrasena_hash":"dcf0990fff4a72a9263388fc2345f016159c90d28cd64c29886f4ab10970d329",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-02-15 08:33:00"
+  },
+  {
+    "id":"bd8cea29-20fb-4f6c-84e7-708f7a5d8b8c",
+    "nombre":"Maritza Lucía Rodríguez Parra",
+    "correo":"jonatanbarreto@example.com",
+    "contrasena_hash":"473496c38b9c1f755c5f16e603fef74a0662e615c11c2ee4210e988fdaad6eef",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-03-17 12:32:51"
+  },
+  {
+    "id":"a88290cb-dae1-4da1-a623-ee4cbae3ded4",
+    "nombre":"Tatiana Becerra Palacios",
+    "correo":"marleny77@example.org",
+    "contrasena_hash":"98825c006d0a363ba7679d63f4dec73c9142c840f1e965ea5384cf79f3c8ceac",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-02-19 18:41:00"
+  },
+  {
+    "id":"af785410-cb80-4f33-aed1-1b27272db7b4",
+    "nombre":"Juan Carvajal Cano",
+    "correo":"wilsoncastro@example.com",
+    "contrasena_hash":"8f582f7927625174fec5e79f3764c1ae6b98546d0f20d9f300cf25a79d2942db",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-07-04 06:28:00"
+  },
+  {
+    "id":"88e23562-7016-44bd-84cc-c095135a11a7",
+    "nombre":"Steven Gutiérrez",
+    "correo":"fredy97@example.org",
+    "contrasena_hash":"b835bba4c38abcc85cf426e11cc6957159a1f923e8e2e27cc9203cd60f25a356",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-10-11 15:08:30"
+  },
+  {
+    "id":"721c7f5f-a7d0-47ab-aaa5-d227a7db975f",
+    "nombre":"Enrique Alonso Rivera",
+    "correo":"gabriel39@example.com",
+    "contrasena_hash":"aec6b9bc61ef84998e4f3170fde32019dd11ba867a5d7eee306040c8fc02b3e2",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-06-24 19:33:00"
+  },
+  {
+    "id":"905d5995-9ae3-4659-9a0c-e670ca05008d",
+    "nombre":"José Sarmiento Rueda",
+    "correo":"qflorez@example.net",
+    "contrasena_hash":"a58290097f5067812a6168ba609dd1d3273ad0afd99a165b04e9d2eccb3efdc9",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-11-19 03:57:32"
+  },
+  {
+    "id":"45608719-07c0-4cda-b851-7e225f7023bb",
+    "nombre":"Patricia Paz",
+    "correo":"gabriel71@example.net",
+    "contrasena_hash":"03f5003e1967ac582cbf5a35125116191106c601f5d93389ed9603c9cfb568e3",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2024-11-11 08:27:49"
+  },
+  {
+    "id":"798e6b41-0afa-4e1e-8c96-a18276d78311",
+    "nombre":"Adriana Hoyos Sánchez",
+    "correo":"qocampo@example.com",
+    "contrasena_hash":"39d5a3bcfa7d221e678f87302b061bf228a614309f593e0f77c5fd74194025c7",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-04-09 03:59:24"
+  },
+  {
+    "id":"9c912b0e-9081-4629-9e0e-d6dc0f9bbcce",
+    "nombre":"Jennifer Jennifer Andrade",
+    "correo":"sin_correo@ejemplo.com",
+    "contrasena_hash":"29061d101c61cbef8efe9dfda6bf505c1ea438f4c22fcad901a73c5796812c92",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-11-13 10:21:51"
+  },
+  {
+    "id":"4995eb0f-ca50-455a-8654-fa125f344077",
+    "nombre":"Natalia Moreno",
+    "correo":"leider16@example.org",
+    "contrasena_hash":"c20df23fa021c040bda8db127bab66e028c43147f6faf5ac293d7b8d2f45da1f",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-04-30 03:50:00"
+  },
+  {
+    "id":"cf8e9579-dad6-43c5-8e4e-386baa7efd80",
+    "nombre":"Inés Erika Rentería",
+    "correo":"valencialuz@example.com",
+    "contrasena_hash":"470d460908efdcd1860c8bd6a87bdcf4374ca2bc48d1a511cea0d5df3be6d85c",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-02-20 11:58:53"
+  },
+  {
+    "id":"4d070e30-8d5a-4bba-b510-f7e27acfe32c",
+    "nombre":"Mónica Amparo Alzate Pérez",
+    "correo":"leonnidia@example.net",
+    "contrasena_hash":"1b8a9a661dc5de330a1dde6606c8b22d935003406393be6048b68011b47dbe9e",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-09-10 10:43:48"
+  },
+  {
+    "id":"cd0e4147-c91e-4664-bcc3-89c9a0d27410",
+    "nombre":"Martha Henao Cruz",
+    "correo":"maldonadoyuri@example.com",
+    "contrasena_hash":"8246bf405ee6b4109eed3b15064e830a7de2f9fb83fbf8e004606ae0785e8182",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-03-02 03:14:00"
+  },
+  {
+    "id":"6605e105-e25b-4a1c-89a4-fc04d09071f7",
+    "nombre":"Inés Carolina Fernández",
+    "correo":"dbarrios@example.com",
+    "contrasena_hash":"3b81647d147e0c8926d98442f6e21655f588fb712adeb1ab481b8af92d2a7116",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2025-08-25 05:33:00"
+  },
+  {
+    "id":"e27ffe32-9b37-415e-be27-a79c91a2501c",
+    "nombre":"Luis Eduardo Mosquera Jiménez",
+    "correo":"sin_correo@ejemplo.com",
+    "contrasena_hash":"021ce31677cb204479fdfb88821b54c94635e9a84db197529138b5717127a2bb",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2026-04-16 02:35:00"
+  },
+  {
+    "id":"d28e2549-cd95-40c3-ba2b-aca72d8902da",
+    "nombre":"Yasmín Sarmiento",
+    "correo":"jaime39@example.com",
+    "contrasena_hash":"72bb7e9c244f052a2871084ccf5a7eb2f49a2c6a88111310b1ceceb76b08e9ba",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-03-27 02:40:00"
+  },
+  {
+    "id":"7a383762-45ee-4f39-a0b5-2bac703f6ef6",
+    "nombre":"Pedro Camargo",
+    "correo":"antoniorenteria@example.net",
+    "contrasena_hash":"15bfd2d8a068f8f77359a5e2898ccaad53a5c4426a9ff91b284a205504a98594",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-04-07 23:07:43"
+  },
+  {
+    "id":"438141b0-a983-40af-8656-ce3f1cd017b2",
+    "nombre":"José Manuel Hernández Chávez",
+    "correo":"mauricio23@example.org",
+    "contrasena_hash":"fc3db1663e0ce905a64432cb3df2e5f382444cb717799d660b97269360c7890c",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-11-09 04:46:24"
+  },
+  {
+    "id":"42a67bb2-1aec-4c03-9b9a-1d7dae4f9685",
+    "nombre":"Sebastián Ronald Serrano",
+    "correo":"nestor74@example.net",
+    "contrasena_hash":"90d90c3a17dd9da972db6aa5bd42c7f54d7e91d906379897a54b1b967edb1ef7",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-07-17 02:20:00"
+  },
+  {
+    "id":"394d6e00-1190-455e-b9ce-ce05240b4978",
+    "nombre":"Cristina María Gallego",
+    "correo":"humbertovanegas@example.com",
+    "contrasena_hash":"d73f8534b2819294afa9542571ef5de130c95f0d94f584260423714b354c1bb2",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-07-17 08:57:00"
+  },
+  {
+    "id":"9004c987-8b6a-4238-928b-81d03dd310d6",
+    "nombre":"Luis Jhon Ortiz",
+    "correo":"cardenasjavier@example.net",
+    "contrasena_hash":"cefeaa7675070942bff2d2d94f7c8777b9e9aa274cf7e41d226c347ff776df16",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-08-22 09:11:38"
+  },
+  {
+    "id":"f88040d7-b28d-441e-87fd-60006897d4ce",
+    "nombre":"Luis David Rodríguez",
+    "correo":"albeiro31@example.net",
+    "contrasena_hash":"01f5165c3d76eab4ae56bb0f656b28c5cd6828f6c1dca1472c70e8ebb0ec2c6f",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-06-10 18:34:41"
+  },
+  {
+    "id":"f1a37308-bbfb-456e-bc9f-2d34d0e4b510",
+    "nombre":"Augusto González",
+    "correo":"monroyangie@example.com",
+    "contrasena_hash":"5bbde089556e63ea8a7653ec2586f618ed6324499014d8a0670b27f1bf5c2571",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-04-30 19:21:13"
+  },
+  {
+    "id":"1c4e81ac-db38-4ec6-9a4b-6fd8a876f239",
+    "nombre":"Elena Arias Núñez",
+    "correo":"sin_correo@ejemplo.com",
+    "contrasena_hash":"99ac1807797f997fc9517e8eb3c340695ed15f63c384800ea761d1e3a8ba2ba4",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-03-23 02:59:00"
+  },
+  {
+    "id":"eea19abf-dd18-4bec-835d-2085bed2902e",
+    "nombre":"Elvira Natalia Rico",
+    "correo":"maria53@example.com",
+    "contrasena_hash":"4eef5c183ffe39d8aa70c371982233d1d6109e9867990065ca72acdcbe12512a",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-01-05 19:49:20"
+  },
+  {
+    "id":"788f9684-90f1-41eb-beb7-d3978aad21c9",
+    "nombre":"Luis Héctor Vásquez",
+    "correo":"luz43@example.org",
+    "contrasena_hash":"fe9274cc457a88cd0607a61168abb62523f1bf14d23bd92f065f7a0c84db08a1",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-08-01 14:23:00"
+  },
+  {
+    "id":"a3821ac8-9ffe-49d1-9a80-540079001108",
+    "nombre":"Luis Alberto Henao Domínguez",
+    "correo":"mesaolga@example.org",
+    "contrasena_hash":"02f8d67bf4fd301e29e0056d13ac4acdbc6050409fe5acb0e1e3ec0223be11e9",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-07-04 19:40:23"
+  },
+  {
+    "id":"6c4b0149-82a3-490c-9b39-56d6d3275cf9",
+    "nombre":"Marleny Yaneth Orozco",
+    "correo":"sin_correo@ejemplo.com",
+    "contrasena_hash":"342af7fbfda27cfdd0841cfa4d78a886b4a14c5a404541cd547ac9e943aa248f",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-08-28 04:12:49"
+  },
+  {
+    "id":"551e1c9b-a2b7-414d-a8d2-c72c1e707ecf",
+    "nombre":"Adela Montoya Vera",
+    "correo":"duranmaria@example.org",
+    "contrasena_hash":"d1ca632ac43b272246b2291ef2b8527bf5444fd4ec20b7034ebd2ea8975cc585",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-07-04 19:47:00"
+  },
+  {
+    "id":"1f5dc151-0f11-48b3-b392-1ff3d587e62c",
+    "nombre":"Elizabeth María Ortiz Hernández",
+    "correo":"vsilva@example.org",
+    "contrasena_hash":"aa5f69cd59bab3b10a2b6d686eeb33f84266a3764ae425bdd0f8bee984395542",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-06-26 17:39:09"
+  },
+  {
+    "id":"ab1e4f7d-a007-439b-b36a-30d36da5d78b",
+    "nombre":"Rafael Luis Mora",
+    "correo":"bonillaferney@example.net",
+    "contrasena_hash":"56bac80050c404a1944f07c6217a1e7352a7ac9c217a1a621675636ce0218836",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-10-21 04:53:00"
+  },
+  {
+    "id":"aed7c477-af39-4c51-98ad-76c8932e66a2",
+    "nombre":"María Acosta",
+    "correo":"gosorio@example.com",
+    "contrasena_hash":"3c445c89d16b3f45043b9bf8ef81072a85df6313b41a24ec2d834aaa2a497432",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-09-10 22:57:54"
+  },
+  {
+    "id":"de0d593a-2273-4ea4-931c-29fdb0a3e07e",
+    "nombre":"Verónica Cecilia Sánchez",
+    "correo":"esperanzabarrera@example.net",
+    "contrasena_hash":"4f1705f5e7603ac4821bee32e215ca58b5df08635af74e3ad8571e6f96f7b0f6",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-08-22 06:56:00"
+  },
+  {
+    "id":"478da3a7-aaa6-466f-a2ae-ccc0e5fc0801",
+    "nombre":"Daniel Calderón",
+    "correo":"alzatemartha@example.net",
+    "contrasena_hash":"a8f58a9b60ca317c66c3453476e4b87e4b266f0b7bac7dff4b77fbf6b4e29732",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-06-19 16:52:05"
+  },
+  {
+    "id":"39664f93-4dfc-4512-ae1d-bf7a46ad289f",
+    "nombre":"Fernanda Estefanía Peña Niño",
+    "correo":"gguerrero@example.com",
+    "contrasena_hash":"e436925227d3ea9165ffd32de86f43591f5961eed5306d766797f6fe757aec0c",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-03-31 00:52:23"
+  },
+  {
+    "id":"d87523a8-47c8-4a6c-a914-ed5d2b8a6f2c",
+    "nombre":"Eduardo Sánchez",
+    "correo":"fmartinez@example.org",
+    "contrasena_hash":"2e25ded319ba28289010301ed8c10411dba69e773193d52998b356bfba7593e9",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-05-31 18:30:29"
+  },
+  {
+    "id":"256f36a2-bcf0-4e12-a2c6-9be5a29ba9f5",
+    "nombre":"Eliecer Jaime Orozco",
+    "correo":"enrique65@example.net",
+    "contrasena_hash":"3b30ed162c37e026934628a94102c43ee63b5d45ba984b208a276dc7237dc02c",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-09-23 22:28:00"
+  },
+  {
+    "id":"4915d122-6a45-44ab-8e04-c8bd481e3d0f",
+    "nombre":"Yeny Carvajal",
+    "correo":"sandra83@example.org",
+    "contrasena_hash":"cfdceeba7d3b6844e4b232e08f0d426a5547c970847cc403f02ef4787af2a06f",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-04-22 14:35:28"
+  },
+  {
+    "id":"e0999798-b3f7-4f78-9309-64c3d077b774",
+    "nombre":"Carolina Yaneth González",
+    "correo":"carlos68@example.net",
+    "contrasena_hash":"2158f6a63fa3f01c7959ecfbe0916781e3bbf9fc93bf42391ca3e26099fb730e",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-03-13 15:08:40"
+  },
+  {
+    "id":"249bb5e6-945c-4355-a9d8-ea55bac4b1af",
+    "nombre":"Angie Navarro",
+    "correo":"maria44@example.com",
+    "contrasena_hash":"e76a98a4009ce80bc1ce453e7362783e015b7c30d4b02db72b1ec9a60b3a34e5",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-03-20 08:00:30"
+  },
+  {
+    "id":"5f64dba8-6227-4076-a484-bd8656b27b99",
+    "nombre":"Amparo Castillo Sánchez",
+    "correo":"lopezandres@example.com",
+    "contrasena_hash":"c14e622f4f0b4893c9a38961c07429d08f842b26704e314d2384c1df49c09e54",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2025-07-22 05:07:32"
+  },
+  {
+    "id":"ebac7dcc-fb4d-4afd-83ff-620649b4629a",
+    "nombre":"Rosa Camargo Castaño",
+    "correo":"loaizalucia@example.net",
+    "contrasena_hash":"1f9b64ee812c5e7f7b743a42f09e637205c63dba8e839229bc49a6a7ec5e5db2",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-01-01 19:09:13"
+  },
+  {
+    "id":"1dbbca4e-cb2a-4b3f-97c3-c13348a05c4d",
+    "nombre":"Óscar Salazar",
+    "correo":"npena@example.net",
+    "contrasena_hash":"70544bee5e638d035f39d0d0eb7bf96367b57f5e24261b8092c8bc4517999118",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-09-29 08:32:00"
+  },
+  {
+    "id":"328b1945-f2bf-4514-a325-2ceee89f12db",
+    "nombre":"Isabel Ruth Reyes",
+    "correo":"maria69@example.org",
+    "contrasena_hash":"316260357ed76d799c4a85c64436f97ff85bf0c8aee4aa3327937c9a44a6fae9",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-06-21 13:13:40"
+  },
+  {
+    "id":"b13eec68-4488-4c1e-b02b-8e2e46960e7e",
+    "nombre":"Jenny Nidia Gutiérrez González",
+    "correo":"lcanoexample.org@ejemplo.com",
+    "contrasena_hash":"fac45ec3afe0cd0ceb569740704dbd462810074dee8efd5472bf9f2a31bca18d",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-04-29 23:44:49"
+  },
+  {
+    "id":"f297267a-4deb-466d-93d8-0b6eee4c7eeb",
+    "nombre":"Tatiana Elvira Arévalo García",
+    "correo":"mejiaaurora@example.org",
+    "contrasena_hash":"6b2d3f478927b17274591d10421f268cb68fa1415fd6a912818c2a3acd483482",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-01-20 15:17:33"
+  },
+  {
+    "id":"8aec7fcf-f873-4a4c-ba74-1b207bd6692c",
+    "nombre":"Fabián Blanco Guerrero",
+    "correo":"parrajunior@example.org",
+    "contrasena_hash":"d3bf3444caea8d869fcfdf779d2d4ce0aff0e73d7a25b58bf3909d52f822852e",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-02-22 13:03:14"
+  },
+  {
+    "id":"53439720-32ce-495e-b95f-08f592f77f30",
+    "nombre":"Albeiro Jaider López Meza",
+    "correo":"nohoracastillo@example.org",
+    "contrasena_hash":"86d99424f394538b2115a6fb15e6a66718d89fb8be82f85b595e2d5d1ef114e5",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-06-28 10:18:03"
+  },
+  {
+    "id":"654102a3-cbd3-46c4-bc1a-b5a8d00c0f0c",
+    "nombre":"David Alexis García",
+    "correo":"contreraselena@example.com",
+    "contrasena_hash":"770b7b0802d06b902d3449fd7cd3b7bfa4758f2af7ccfb128fabe928ab44e032",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-07-28 12:40:20"
+  },
+  {
+    "id":"b26205c6-d945-4565-a4a9-fca10b8ca550",
+    "nombre":"Paola Sánchez Ramírez",
+    "correo":"rafaelhoyos@example.org",
+    "contrasena_hash":"68122637f8e1fe3a2fb09d2b44235339e3c31441b82908128d85143503cbb7f8",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-02-03 04:10:38"
+  },
+  {
+    "id":"0e797485-6400-4f04-90da-cc0167ba5c5e",
+    "nombre":"Miguel Julio Murillo Duarte",
+    "correo":"wilson52@example.com",
+    "contrasena_hash":"1299eab23b8886e63743d725300ca67a6d03a7ea50f6b91634aa7d836a8f9626",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-08-10 21:43:10"
+  },
+  {
+    "id":"678fe24f-cefd-4a42-91cd-741e91fa052a",
+    "nombre":"Ernesto Vega",
+    "correo":"jose47@example.com",
+    "contrasena_hash":"c194ee94161875b283bacbd2cace7b49facc9b7bc731978d76ad8b3802212c15",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-12-08 20:07:51"
+  },
+  {
+    "id":"e163c665-531f-474c-997b-b80e72bf4f24",
+    "nombre":"Andrés Alvarado",
+    "correo":"garzonjose@example.com",
+    "contrasena_hash":"d4ca9c2b6877d665d122e95a920b10352a2dd0d4cf9b91a0c5c73e86a40a560b",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-07-07 10:55:00"
+  },
+  {
+    "id":"dc0fbc78-31ca-48ac-a2cb-b7e0c08b1387",
+    "nombre":"Lorena Arrieta",
+    "correo":"angelicaacosta@example.org",
+    "contrasena_hash":"c531885a256ffb82aab74deb200263295c2f0311361ae36170cd91613d1143ed",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-10-15 08:43:24"
+  },
+  {
+    "id":"57714888-283f-4967-ba0f-28b55efe1a6c",
+    "nombre":"Mariana Yuliana Riascos",
+    "correo":"moracarolina@example.org",
+    "contrasena_hash":"d8c7158baaf551a03dace17a7a557834c3b4405485be511ba695a88acad86ba1",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-06-10 17:46:47"
+  },
+  {
+    "id":"851b4bd9-140b-4dcf-9e01-8288582d7ad3",
+    "nombre":"Rosa Prada Giraldo",
+    "correo":"javier05@example.org",
+    "contrasena_hash":"5f641a61ac54e4da9384c9c4a130439ca62293ac357328632432a2fcbaec657c",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-06-01 19:33:07"
+  },
+  {
+    "id":"cf9cc7b5-6c72-4732-8a25-a1742e6a47ce",
+    "nombre":"Jorge Vanegas Hoyos",
+    "correo":"nellymurillo@example.org",
+    "contrasena_hash":"5284192589e3ce6f9933272ef06f4763a6eafaa0d2d8e22a16c6daaa12a24880",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-06-28 09:30:09"
+  },
+  {
+    "id":"e092863e-d875-460d-9c5f-92f34619da89",
+    "nombre":"Carlos Blanco García",
+    "correo":"vfranco@example.org",
+    "contrasena_hash":"e302b79a75e9710f20fe89cff19c2286b0252ac8e8162f339f56a3116a78c618",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-05-08 07:16:44"
+  },
+  {
+    "id":"5e9987b8-ed6d-4aea-9278-86b2505988dc",
+    "nombre":"Paula Laura Morales",
+    "correo":"natalia35@example.com",
+    "contrasena_hash":"56e72a8119a84d8ee703f3e014af3e2d5cab70a46dd1059332176b3fb6d15c59",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-02-14 06:46:04"
+  },
+  {
+    "id":"fa2971b0-e5d4-490b-b1d7-dd25d8982029",
+    "nombre":"María Meza López",
+    "correo":"durangerman@example.net",
+    "contrasena_hash":"d89a7969f77eb3301b80da5c28c7c054a9b450e91128f20b706a89dcd6d71b9a",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-08-19 00:55:52"
+  },
+  {
+    "id":"1d56e52a-e051-4cb3-a1a6-2acd2f051fc4",
+    "nombre":"Ana Serrano Fuentes",
+    "correo":"oscargomez@example.com",
+    "contrasena_hash":"c0cfc2c74374fb9696744c67c80927b373889423af17f59104d322f2080aea77",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-02-05 22:14:51"
+  },
+  {
+    "id":"e3ee16e4-831c-4433-bcf2-9051c0baf14b",
+    "nombre":"Ricardo Germán Páez Moreno",
+    "correo":"nataliamontes@example.com",
+    "contrasena_hash":"29bb6d43fe2f3edd6c1659438029ae8c1efc34139d4311781babd55e5fd11010",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-03-30 03:05:15"
+  },
+  {
+    "id":"2a724be4-1391-48f7-87b2-82121a6c8c2b",
+    "nombre":"Pedro Julián Mendoza",
+    "correo":"jaime88example.com@ejemplo.com",
+    "contrasena_hash":"2947255c8b7ee57d97f84ca66bfeaf2bf1a5c90b47463ad18b69880acdcea2ad",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-07-26 22:19:13"
+  },
+  {
+    "id":"65e621f5-e08b-46f8-9e54-9dfa38c91e36",
+    "nombre":"Yenny Patricia Vargas Bedoya",
+    "correo":"luis18@example.org",
+    "contrasena_hash":"b3779f7840f5c8176613286e3c23b1eee9b5735fa1b53e745728e8d005523604",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-06-15 03:53:33"
+  },
+  {
+    "id":"a9e0504f-2332-4ffb-b987-d4fd67d9e723",
+    "nombre":"Marcela Espitia Sánchez",
+    "correo":"olopez@example.com",
+    "contrasena_hash":"39facb0dfeed7d9df7e5fd124132f314857f2163a1a46ed7663566599ae6f52d",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-10-23 03:37:00"
+  },
+  {
+    "id":"f03e4540-c46f-4d05-b16c-e6fd39e61dd1",
+    "nombre":"Adriana Medina",
+    "correo":"leidy15@example.org",
+    "contrasena_hash":"30af809cbc1422f6338e12f1f631283d1d7a5f5f430f3f2aacfb017fd7ced07c",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-10-23 10:12:00"
+  },
+  {
+    "id":"7a84006e-0e61-4b6a-ac2a-e7f3bdeca63b",
+    "nombre":"Mireya Camila Mercado",
+    "correo":"mariaalarcon@example.com",
+    "contrasena_hash":"d9c8bbdc11c19453fa1eb30a3b115c0f92e3bd6c4b02d3a37c9624bbb93837d7",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-02-15 05:38:49"
+  },
+  {
+    "id":"ab5daf13-0f75-4fe9-9366-ae7f3fa07b32",
+    "nombre":"Daniel José García Muñoz",
+    "correo":"luisbonilla@example.net",
+    "contrasena_hash":"6ccde8c8f594ae26ef8d05b07ac8faa255eb0f2a8d7be9ad6fbaffe5a2063047",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2026-06-25 07:16:13"
+  },
+  {
+    "id":"fe2eb716-b981-432b-8783-cf7c28709f11",
+    "nombre":"David González",
+    "correo":"mireyaalzate@example.com",
+    "contrasena_hash":"4b67e6a1965d3843c87f7a686dccf8b7101172c83b53d035f893b232283dec74",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-11-08 07:21:12"
+  },
+  {
+    "id":"709fd38e-9b89-40e5-8622-6c3a4ec67e1a",
+    "nombre":"Orlando José Molina Vargas",
+    "correo":"margaritarodriguez@example.com",
+    "contrasena_hash":"ff2f78518dc01dcf21f66192d48de2b779407fc6c097a43982206b618bf7cc1a",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-09-18 23:44:00"
+  },
+  {
+    "id":"0d90a279-90a7-40e6-8378-a335979059f7",
+    "nombre":"Vanessa García Bastidas",
+    "correo":"posadaandres@example.net",
+    "contrasena_hash":"11f13ba5efc87691d1bdb869b5733a1eaa7873e9335c8e33a075875a77a67c03",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2025-08-29 16:56:00"
+  },
+  {
+    "id":"035e457b-37ca-4007-b239-3bdcf42242ed",
+    "nombre":"José Jhon Arias Cano",
+    "correo":"fabian53@example.net",
+    "contrasena_hash":"c1fc310b5e3aad14c084ce832f430f9498b87cc28979989fc794931ff7114f9b",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-01-18 22:47:54"
+  },
+  {
+    "id":"2dc8b088-c94e-4108-ba84-f07fadab88b3",
+    "nombre":"Carlos Javier Quintero",
+    "correo":"alvaroduque@example.net",
+    "contrasena_hash":"5ff4cb37bd43250b0a12bffad095bcd81b0d973c53d751a7e9aadf88a3d5b769",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-03-21 00:16:19"
+  },
+  {
+    "id":"085b7479-94ac-4997-95af-af3623765c2b",
+    "nombre":"María Guevara Cruz",
+    "correo":"alejandra30@example.com",
+    "contrasena_hash":"bd2052937010491328d1d7adf57919b2a7664f96165394516eb9dbda4d25f9cd",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-04-12 17:48:37"
+  },
+  {
+    "id":"bd7437ad-b422-42a7-806d-3ce7d062d128",
+    "nombre":"Johnny Ríos Muñoz",
+    "correo":"alexandraprieto@example.org",
+    "contrasena_hash":"9d5e0696f0d2bfee1f0cc448eabbe19d5ecd3a4d4db986c163480816869494a8",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-07-15 05:53:18"
+  },
+  {
+    "id":"a5eedd13-16d4-4687-80a7-9be6a6951b46",
+    "nombre":"Luis Morales",
+    "correo":"yvillamizar@example.com",
+    "contrasena_hash":"7d307746e02da00fad12b6a12896efe12a559349ec0954245961614198e6cba3",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-11-19 20:15:44"
+  },
+  {
+    "id":"c16290e1-3b1c-4b1d-b09d-60175dbf4c7b",
+    "nombre":"Manuel Ernesto Ortiz García",
+    "correo":"mgarcia@example.org",
+    "contrasena_hash":"8e632c90b54961c3262f4d4d47d38b4f44583b7649661000c231c81b64ba382a",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-06-07 22:10:44"
+  },
+  {
+    "id":"aaca619c-24d9-48e7-923b-feb9836d765c",
+    "nombre":"María Sofía Suárez",
+    "correo":"cperez@example.com",
+    "contrasena_hash":"4b0c0ad0c54d72f181971f52e112244fd7ef208550e87fc3a901230479e16aca",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-05-17 23:09:58"
+  },
+  {
+    "id":"3b57409b-7a0a-4e64-89a0-5fc8bae401ab",
+    "nombre":"Mario Óscar Henao",
+    "correo":"garciafernando@example.com",
+    "contrasena_hash":"fe4a73ee48aad737470b7074d2e89789cb8612f4c00ed1b274cd41bb79e8959a",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-04-06 21:28:31"
+  },
+  {
+    "id":"7e1f1b59-0966-4046-9b7f-b3af8132bcfe",
+    "nombre":"Irene Sánchez Calderón",
+    "correo":"egomez@example.org",
+    "contrasena_hash":"f8f98833637abced0940631996c4135e82d3cfc2b33f49cc7b3fe1dff2d109c6",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-10-08 23:13:17"
+  },
+  {
+    "id":"61fe3edf-5efc-4b8d-a58c-1c4779b9a18b",
+    "nombre":"Eduardo Julián Calderón",
+    "correo":"xnunez@example.com",
+    "contrasena_hash":"0791ca96f4c280c83bc8fb5267d11d48d9620ac4fcd1816d5f79007957ff4dbb",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2026-01-19 05:02:28"
+  },
+  {
+    "id":"f7ed2c3c-e966-4d4b-ad60-201fea212f3c",
+    "nombre":"Mónica Castillo Bernal",
+    "correo":"darwinrodriguez@example.org",
+    "contrasena_hash":"d9a5fc9bda97800b706be4bef161d85b84ecf6390055a79fc7b34c56514699b2",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-08-27 00:19:53"
+  },
+  {
+    "id":"1a13bce6-dbbb-4266-9a8f-4e9a8e2262c6",
+    "nombre":"Carmen Carmen Marín",
+    "correo":"jhon73@example.org",
+    "contrasena_hash":"b442aad37d8820195d7a782d2d62836fabb28c6d6eb9bdd4820a5ed3ed6e9bcd",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2024-12-26 22:47:38"
+  },
+  {
+    "id":"ba341ee4-a727-4d30-b3ba-51097f087742",
+    "nombre":"Juan Esteban Bolívar Arrieta",
+    "correo":"enrique18@example.net",
+    "contrasena_hash":"76df058f75f1f997ceb1b3746a2f9e7a60092e1de195f61826b78a2a23c4846f",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-06-20 09:57:41"
+  },
+  {
+    "id":"6fba7c26-5748-4cb6-b61a-50480f6bb13f",
+    "nombre":"Maritza Chaparro Henao",
+    "correo":"jose13@example.org",
+    "contrasena_hash":"67b0a1b54628046b35286c902d2e1c1eb37374b49326e93dcb62c41da64ddbf2",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2025-11-18 03:36:00"
+  },
+  {
+    "id":"8c2c7d7e-b77a-4f70-9b5b-6264c47df2be",
+    "nombre":"Gloria Córdoba",
+    "correo":"jarenas@example.org",
+    "contrasena_hash":"d904b089e5e28599c371f6f0b90b218648567b28ea65d8106ce047c1825de7f6",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-05-01 09:32:13"
+  },
+  {
+    "id":"f3610b5f-a00e-41a3-a758-4c4d64d41bb1",
+    "nombre":"Lucía Catherine Pinzón",
+    "correo":"ksolano@example.org",
+    "contrasena_hash":"eda3974e29919e132deab2c6579d674f673c5777d862b4346021daf6e655df2d",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-07-03 16:11:00"
+  },
+  {
+    "id":"d4e7ddc8-4f72-4bc5-918c-81cc1c38c3eb",
+    "nombre":"Lorena Ruth Herrera",
+    "correo":"sebastianhernandez@example.net",
+    "contrasena_hash":"e511b2fb8b3d4d921f98be4945a8f57eaece81f68bfe4acad041fd97a11201bd",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2024-12-12 11:20:00"
+  },
+  {
+    "id":"d32ba5cb-3b2b-408b-96ac-1f7cf99cd364",
+    "nombre":"Beatriz Lucía Pérez",
+    "correo":"erikaibarraexample.com@ejemplo.com",
+    "contrasena_hash":"1041a7277ce82f195bae81027e0b9510888d7100f43b297454b425c3e089495f",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-05-13 01:59:07"
+  },
+  {
+    "id":"af54d52f-726e-4f7b-b3a6-c698adead0d3",
+    "nombre":"Yolanda Esperanza Hernández Suárez",
+    "correo":"sierraclaudia@example.net",
+    "contrasena_hash":"3feda1a82c874161ac7baefaf0435f7f9de84f2744c4d9a7495d38fac7294570",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-03-26 02:02:04"
+  },
+  {
+    "id":"fbbf2c0d-2c80-4e99-ae63-dc607bafead0",
+    "nombre":"Marco Julio Luna",
+    "correo":"garciaefrainexample.net@ejemplo.com",
+    "contrasena_hash":"fb37f13641169df8e8f930373f273afa114b21b86cd0bde378b66819f1bb7160",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-12-04 04:07:00"
+  },
+  {
+    "id":"b64002c8-d715-4939-bd61-35f15717efc7",
+    "nombre":"Edwin Gómez Campo",
+    "correo":"jorge47@example.org",
+    "contrasena_hash":"26f2546709442dd14453a9009ecd3665bfcba0455d1cf2e6a825299c89ae35dd",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-04-15 11:31:07"
+  },
+  {
+    "id":"32c992a1-71db-430d-9a5f-aa70fb958d63",
+    "nombre":"Jesús García Martínez",
+    "correo":"dguerrero@example.org",
+    "contrasena_hash":"74add56d09830496718783bc1096108b0662fa85fe1d5b0cda6495c91eec30e2",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-02-19 00:32:32"
+  },
+  {
+    "id":"411f5eee-82e3-4c95-a010-8cfe157982f1",
+    "nombre":"Ramiro Alexander Ojeda",
+    "correo":"hermes25@example.net",
+    "contrasena_hash":"e95064ef305779de572b3c83d93f3ad4cd8a6d4342e0b42c9dba64f960b14291",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2025-05-07 07:06:54"
+  },
+  {
+    "id":"4d45286b-bea6-4737-893e-fb42ad30b193",
+    "nombre":"Cristina Marcela Vargas López",
+    "correo":"giovanny96@example.org",
+    "contrasena_hash":"dbd10c399bd9f737a9c9ca03ec8edab956732b3941b2f8e736e11ee8bf2856ce",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2026-01-10 06:39:24"
+  },
+  {
+    "id":"5e82e194-8324-462c-95e0-c7baec8abb71",
+    "nombre":"Silvia Saavedra Camargo",
+    "correo":"cristiansierra@example.net",
+    "contrasena_hash":"c4582e137d3b973db89b5193c822a9745d21d82cf7cf27c62f2307d9b14e988f",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-09-13 05:31:19"
+  },
+  {
+    "id":"53b4eb8e-5686-4091-a69b-2a6e43e6ae0b",
+    "nombre":"César López",
+    "correo":"pmora@example.org",
+    "contrasena_hash":"336407785f5338a6cd14d70b862212677e673b820ecdaccc9b45433fbb838578",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2024-07-12 05:25:02"
+  },
+  {
+    "id":"0dddab8d-e684-4ce8-b24b-545a2d729368",
+    "nombre":"Isabel Carvajal",
+    "correo":"agutierrez@example.org",
+    "contrasena_hash":"c58d8610722d7f8d2d7b596d53e2519e8ad970c26bb7d68ec909fe0da8753877",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-09-15 20:31:51"
+  },
+  {
+    "id":"f24c3471-cae1-44b5-b202-676bf279b3ba",
+    "nombre":"Wilson Cabrera",
+    "correo":"maria09@example.net",
+    "contrasena_hash":"5b93e0bcb3e9cdb3c5688c71e80f0a30c79b744ab9c9dc3a7f79af12a34e1968",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-03-01 03:11:12"
+  },
+  {
+    "id":"8c151aed-8162-4623-8455-39a57f6f5222",
+    "nombre":"Andrés Mora",
+    "correo":"augusto99@example.org",
+    "contrasena_hash":"db29041be67f5094cf466d0eaad85885ceda268e68a7d06fe4ce72deb57c69e9",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-01-13 12:38:14"
+  },
+  {
+    "id":"926c04f9-58ab-4a6f-a207-cae997d6c955",
+    "nombre":"Eduardo Ospino Velásquez",
+    "correo":"alfonso39@example.net",
+    "contrasena_hash":"035c828c6e1b1840666a18311d771124bdddbf2328f50bbea4c61e5d2e02e444",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2024-11-30 16:46:11"
+  },
+  {
+    "id":"e136f9dc-3572-41ef-9017-b4eace980dba",
+    "nombre":"María Forero",
+    "correo":"jdelgado@example.net",
+    "contrasena_hash":"b4bd50cf30e765a589f1918ab2d92fc1a969b6dc797b81018bbcddba99313fda",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-02-16 00:04:00"
+  },
+  {
+    "id":"b7dfb6b0-6acd-48fb-aa06-4ae5f2300de8",
+    "nombre":"Eduar Alexander Medina",
+    "correo":"juan88@example.net",
+    "contrasena_hash":"08069652faf664d355f5c02aae93e48ac96847f9630191ee42fadedc1f6eff5b",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-10-01 16:01:57"
+  },
+  {
+    "id":"f01ab053-21a8-4ade-a748-b5bf72b436f8",
+    "nombre":"Felipe Rodríguez",
+    "correo":"javier69@example.com",
+    "contrasena_hash":"fff04c364d2333b05d9f348be5a51a7d1902ed5355b890b8e56a4f7c87b61d01",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2026-05-16 19:23:13"
+  },
+  {
+    "id":"6a44ff63-386b-4696-aa43-7590ab998d33",
+    "nombre":"Stella Ortiz",
+    "correo":"oscarorozco@example.org",
+    "contrasena_hash":"31cf6c20b4df972757278d7607fdc87f93334641bbdc106967c25b6a37a7ce40",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-05-13 14:11:10"
+  },
+  {
+    "id":"999de703-905a-46a2-ae89-4dbbd8b2fab1",
+    "nombre":"Carlos Duarte Gómez",
+    "correo":"ramirezedna@example.com",
+    "contrasena_hash":"ba25695fa18f0ee95007788ff86a4ecb0f47ceead2c92db4449fc1cd939571b1",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-04-19 18:13:18"
+  },
+  {
+    "id":"d6d0606c-2a23-4eed-ac8a-5be19123f69d",
+    "nombre":"Adriana Ximena Cáceres Arboleda",
+    "correo":"ruedajose@example.net",
+    "contrasena_hash":"965ba874764988a2d924436c4bb5230eee9995bbb17b0abb6a61a92812472843",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-03-28 19:09:58"
+  },
+  {
+    "id":"a3ac6e33-3a09-4da7-9f56-d89ed93d84b2",
+    "nombre":"Cristian Alexander Pérez Barreto",
+    "correo":"luis49@example.com",
+    "contrasena_hash":"846e2665ec26e296cae6e8961dd5caf335dc7f80324d5c13198522428105e4ce",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-05-09 21:48:00"
+  },
+  {
+    "id":"efdd8f2e-2507-4539-808b-5397dc9fc0a5",
+    "nombre":"Jaime Torres",
+    "correo":"angel37example.com@ejemplo.com",
+    "contrasena_hash":"edb8f863784ddd5ab9195039610bb71f4478df8c67827f209977fadaca6862ca",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-08-01 18:36:35"
+  },
+  {
+    "id":"910971a6-e2ef-4617-9a6c-c6b4ddaa9117",
+    "nombre":"Jorge Córdoba",
+    "correo":"ztriana@example.com",
+    "contrasena_hash":"d1f166af7103849bec4263217080f9f753df2e73431f665f7c809b188f3892d4",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-07-17 09:29:24"
+  },
+  {
+    "id":"cf5780e4-45d0-4d1f-80e0-e8fd211e70d1",
+    "nombre":"Milena Gutiérrez Forero",
+    "correo":"martin47@example.org",
+    "contrasena_hash":"3fd9b12da1eb77ed9496031fb27e46869a9548e4f4725ba48c18050045b0592f",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-12-22 18:11:02"
+  },
+  {
+    "id":"6d330c2d-61be-4645-8292-81976047bcc8",
+    "nombre":"Didier Vélez",
+    "correo":"sandramena@example.org",
+    "contrasena_hash":"72501d579f6d2afaf59538e49b99a1c3c7e742a394ffc02788fa52962a154efc",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-03-04 16:58:26"
+  },
+  {
+    "id":"33ba53ca-166e-486e-ae86-ec90a0b3cb4f",
+    "nombre":"Yolanda María Peña Becerra",
+    "correo":"duartemarcelaexample.net@ejemplo.com",
+    "contrasena_hash":"0ef94fce994184153736256528535cb87114695cf4a91af11a0bf10f64b222fd",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-02-03 02:35:56"
+  },
+  {
+    "id":"cf32b118-dcaa-468d-bf82-e3c931a82730",
+    "nombre":"Augusto Rangel Acosta",
+    "correo":"alfonsogutierrez@example.com",
+    "contrasena_hash":"9d5f74c2570008a8b441bbf39566dfab66e086f7cf56a9fa62b5ad9e990c5e90",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-05-10 15:32:07"
+  },
+  {
+    "id":"75a92e52-53cb-46be-a393-45931ae57360",
+    "nombre":"Teresa Martha Daza",
+    "correo":"barretocarolina@example.org",
+    "contrasena_hash":"ec3fa0951dfe77af7aee1c37b387b19500e3f08d592e8aa907df53437b6714b5",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2024-11-27 15:47:15"
+  },
+  {
+    "id":"d7532f08-b2cf-49bf-983d-00e77a399adb",
+    "nombre":"Kevin Díaz Zambrano",
+    "correo":"sin_correo@ejemplo.com",
+    "contrasena_hash":"e8fdd7fc8f8401415bbb40b0e5c1f11c93f666afa018c4f77488af99401eea83",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-10-21 14:00:00"
+  },
+  {
+    "id":"36f1b94f-bf5f-44ec-8073-f35b619cdf02",
+    "nombre":"Jorge Johnny Ríos",
+    "correo":"icampo@example.net",
+    "contrasena_hash":"f021843fb8d684912cc88e4c4dae33fea83a9b97274f6bf71db32176aef6f2d1",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-03-29 04:37:43"
+  },
+  {
+    "id":"46cc7e82-a603-44d2-b59f-80b243b7ae6b",
+    "nombre":"Claudia Dora Jaimes",
+    "correo":"mariaquintero@example.com",
+    "contrasena_hash":"99620f8538617e1f2d3e72193e11a8e9cce0cede7af2446a58393bf439859c64",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-10-06 15:08:15"
+  },
+  {
+    "id":"46d5d803-4918-45d3-9d2f-878bfcae86dd",
+    "nombre":"Andrea Yadira Triana Niño",
+    "correo":"andrea12@example.org",
+    "contrasena_hash":"1d06f12058d4a0a7b943ecf2e9841aa00cf34d44b157cb8334990a8cd761cb73",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-10-27 07:24:48"
+  },
+  {
+    "id":"663d576e-1f5d-4663-ae83-78db59c1f27d",
+    "nombre":"María Liliana Cardona Ortiz",
+    "correo":"karen90@example.com",
+    "contrasena_hash":"15f8451840e4a006fbf4af634e968ae599ae6e36f2e8f59a932af121bc9a5ead",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2026-04-21 12:30:00"
+  },
+  {
+    "id":"2928663f-7a1c-490c-b801-dd5641f4490a",
+    "nombre":"María Luz Suárez Parra",
+    "correo":"eduardo45example.net@ejemplo.com",
+    "contrasena_hash":"440b2b81f8c948392656e4c4fb108b70c305f2e67df7d5e3c231884b312636ab",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-11-02 04:15:59"
+  },
+  {
+    "id":"6b7a05bf-31ee-40c2-bc22-dcf59bfc38aa",
+    "nombre":"Carlos Omar Calderón Guerrero",
+    "correo":"zuribe@example.net",
+    "contrasena_hash":"30921cc361132dd43c11cb5477acee3ee6a489cebaf13af5b9550841e554d2ec",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-06-14 04:27:00"
+  },
+  {
+    "id":"dfadd879-e61b-411a-bd86-c24a205d7ae1",
+    "nombre":"Ruth Stella Mesa Silva",
+    "correo":"ana91@example.org",
+    "contrasena_hash":"4412e35c2a0646757e75a4c33b66aa1ea2590bef2382dae7a5c785308a380c68",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-01-10 17:25:08"
+  },
+  {
+    "id":"16d2fe66-583e-475c-b228-a3bdbed2e003",
+    "nombre":"Alexandra Ana Valencia Guzmán",
+    "correo":"sin_correo@ejemplo.com",
+    "contrasena_hash":"e729bd3dfed67a071bb1baaab9c17faacc4666c23d18864e322e1c111722e1e7",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-11-30 20:27:00"
+  },
+  {
+    "id":"ce5e85b1-f7a6-4060-8f1b-ffe9d00cc95f",
+    "nombre":"Rubén Daniel Molina Cruz",
+    "correo":"velasquezjavier@example.com",
+    "contrasena_hash":"26c8844220e3a5c7efc582e887f567c7aa44e3f2026837b00ae5f2d9fbf2d245",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-02-09 23:22:58"
+  },
+  {
+    "id":"bd32c3aa-9b71-4358-bb96-aa22d4e3b359",
+    "nombre":"Ferney Cano",
+    "correo":"gomezjohanna@example.org",
+    "contrasena_hash":"5256d36c3607210bd518e3ac1db239a1912bcfa5deadf9aa6e865964a1826b79",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2024-12-16 05:36:00"
+  },
+  {
+    "id":"df52a0cd-259e-42f9-b5e8-549b6ccb2133",
+    "nombre":"Zulma Leidy Gutiérrez",
+    "correo":"angelcastaneda@example.net",
+    "contrasena_hash":"1e5b82aef2553de5891a8c97966e4969e0c22d31640519241d8465b1a454aaa7",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2025-09-21 22:28:00"
+  },
+  {
+    "id":"ecd7f142-e164-4d5d-a30f-f6e11f7a543b",
+    "nombre":"Edier Eduardo Polo",
+    "correo":"rrivera@example.net",
+    "contrasena_hash":"40288d7da10694148a42c5c31fef0d4d1f48c4c5e9c69ffa5027ec8140bedd2a",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-10-02 17:28:24"
+  },
+  {
+    "id":"034407ff-1509-4434-81be-b39e5e19f757",
+    "nombre":"Luis Edier Medina",
+    "correo":"migueltorres@example.org",
+    "contrasena_hash":"eb390ffc01235e2aa0bccc6f3ce0b1abd517ec336d59afcca4dd0f5b403a86f0",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-06-19 04:15:00"
+  },
+  {
+    "id":"bbcc0e08-16f7-4e91-b30e-1096f1b084b3",
+    "nombre":"Fredy Iván Contreras Bravo",
+    "correo":"magdasanchez@example.org",
+    "contrasena_hash":"8d37969e30fde2cc8e83970204cc40e32d25f7f4f6a0db1956ef6e2e4111e607",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-05-16 13:47:23"
+  },
+  {
+    "id":"9a7d3996-0409-4253-a750-7a3c39258057",
+    "nombre":"María Sofía Garzón",
+    "correo":"morenopatricia@example.net",
+    "contrasena_hash":"087488ffe89e2c553b2d9df59948641f5a8308f47dddfe3ca72eb9b6b4b1e856",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-06-02 17:52:55"
+  },
+  {
+    "id":"5852e962-30a2-455a-ab7c-3c09746e7663",
+    "nombre":"Paola Gómez",
+    "correo":"nmoreno@example.org",
+    "contrasena_hash":"8d92a84cd6fe2e841d5cfd284170b1796d7813ab2d3a53163763c8fe0ccc3440",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-12-06 02:37:31"
+  },
+  {
+    "id":"4a5185db-9aab-46ad-aa5d-cd319f8dea6d",
+    "nombre":"Julia Dora Ruiz Carvajal",
+    "correo":"sin_correo@ejemplo.com",
+    "contrasena_hash":"c8420d30eedc29d1e9928a855ae8ff951d39d931f3fff1c675d3a77703bba38d",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-06-01 03:36:00"
+  },
+  {
+    "id":"022afd3b-0db4-4003-b064-9a82437cd202",
+    "nombre":"Yaneth Vega",
+    "correo":"antonioosorio@example.com",
+    "contrasena_hash":"3871f0b3843e6912f2052c8872da6ba1be0b08e44196f29993c839049f69d5fc",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2025-07-24 22:43:17"
+  },
+  {
+    "id":"b6ab91a9-f2bd-4d54-b087-fe75e1ad5abf",
+    "nombre":"Stiven Ruiz Guerrero",
+    "correo":"karendiaz@example.net",
+    "contrasena_hash":"4aa2d2b27ed7b69492fb7394309103da989a3f22dd6548caa847d1167533d4e3",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-08-21 03:13:35"
+  },
+  {
+    "id":"21b75b00-e3ae-4f4d-81f6-fb0480d570c5",
+    "nombre":"Milena Sonia Cifuentes Ceballos",
+    "correo":"jbolanos@example.net",
+    "contrasena_hash":"cd4569c57a64031fce079efb138c54fdec7fe77b3f56965918f191986dcc7093",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-07-05 01:34:29"
+  },
+  {
+    "id":"4a38d78a-632e-48b3-85a9-40a83f8107a2",
+    "nombre":"Alberto Jaimes",
+    "correo":"fsanabria@example.net",
+    "contrasena_hash":"281149bbda8b47c6303bb46e45ce71d8b371b1c17cffc59b3875c4d3ab30483e",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-03-27 09:11:00"
+  },
+  {
+    "id":"4deae709-565b-4551-a691-c9a4bbd55038",
+    "nombre":"Marcela Gil",
+    "correo":"arboledaliliana@example.net",
+    "contrasena_hash":"9c51e85072a1f57ed9008cb64b4a57e35a2a54a94880509b31e5ea1128bc01b5",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-07-01 12:05:30"
+  },
+  {
+    "id":"da625f39-c991-4dd4-aa04-3d5255c3a4a7",
+    "nombre":"Daniela Edilma Quintero Yepes",
+    "correo":"rojasliliana@example.net",
+    "contrasena_hash":"3aeb7cb30497239c41a0d7b5ce7119fbee19ede7aa86038d84dcfd47e4d1bc5a",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-08-06 08:06:29"
+  },
+  {
+    "id":"d99ebb65-7dc1-4813-b584-9e81308258bf",
+    "nombre":"René Edgar Rueda Medina",
+    "correo":"luisguevara@example.com",
+    "contrasena_hash":"2cf4ccfa1bbab2ce871b874eeee622d0e6f2009d76aee3e906358aa100c5d5ee",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-03-18 07:24:22"
+  },
+  {
+    "id":"16d505be-fd48-4a9e-8c37-519f1942832d",
+    "nombre":"Jesús Manuel Nieto",
+    "correo":"ulopezexample.com@ejemplo.com",
+    "contrasena_hash":"f8e2b81bfd26833d5ed56336c05d0bb1a565373dc1cf61c9f2e0c7bf447e191b",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-06-07 03:56:41"
+  },
+  {
+    "id":"89c133d1-81ad-4c0f-8137-1344bf50b0b0",
+    "nombre":"Rosa Adriana Londoño Torres",
+    "correo":"mariacortes@example.net",
+    "contrasena_hash":"335b4221721fe3a014d959831c78744884a99c2376b8141e84fde15ac703b346",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2025-09-19 18:35:00"
+  },
+  {
+    "id":"19b3ef83-e630-4eed-9098-ba132ed783b7",
+    "nombre":"Carlos Valencia",
+    "correo":"pjaramillo@example.com",
+    "contrasena_hash":"7ab41833b0a3ac82f5807b9e2266e805fa8ea8bb15fef7cc44a2f33fe9b54135",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-04-15 08:49:48"
+  },
+  {
+    "id":"89a0a5b4-d074-44b9-94fe-b1906f8c56bd",
+    "nombre":"Antonio Emilio Parada",
+    "correo":"ucruz@example.com",
+    "contrasena_hash":"dc026a37fdf89010e90679635e1d9dfc44c98ed35dd6b3f121eb97ff35af4c2e",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2026-12-05 21:58:52"
+  },
+  {
+    "id":"49077797-fac7-403f-8438-a3cd6e029ae2",
+    "nombre":"Juan Danilo Cerón Yepes",
+    "correo":"villapatricia@example.net",
+    "contrasena_hash":"38cd84e71a6a4b4ebb51b9a086f2ccf33f06dc402d6b39785a120398a4035025",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2024-04-11 09:22:01"
+  },
+  {
+    "id":"61b684f7-282d-4ae8-9de8-73e26ec1f07a",
+    "nombre":"Carlos Barrera García",
+    "correo":"mariamora@example.com",
+    "contrasena_hash":"897b95b2a0d7426b8c442575a5777f5058e95bf977349ed0d89ef230d779a5d8",
+    "rol":"estudiante",
+    "activo":true,
+    "fecha_registro":"2026-09-03 18:29:11"
+  },
+  {
+    "id":"ce1ed2fe-cf73-48f4-bcac-3d1a3ecf46b1",
+    "nombre":"Álvaro José Lozano Peña",
+    "correo":"contrerasesperanza@example.com",
+    "contrasena_hash":"84fa64cb911c423449c4e1b666685d874ce85cc343edf94235c123339b710a0a",
+    "rol":"empresario",
+    "activo":true,
+    "fecha_registro":"2026-07-24 00:42:47"
+  },
+  {
+    "id":"0618d299-b9a9-4a43-9d8d-e35c7bd4e72b",
+    "nombre":"Roberto Chávez González",
+    "correo":"silvadaniela@example.net",
+    "contrasena_hash":"64c0a2f18bca6ac93838cceea9b436c13ae03df7e80bf2c069a62de322deb65c",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2026-07-25 15:03:41"
+  },
+  {
+    "id":"1bbf5882-64ba-417e-8eb8-4ea8c80f7e69",
+    "nombre":"Fernando Jhon Arias",
+    "correo":"pcruz@example.net",
+    "contrasena_hash":"05d3eeaae3fe119c880d02482d69a7959dd394798b96858132c6eb2ab73a77c1",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-04-14 17:49:26"
+  },
+  {
+    "id":"7d8fe8d0-eec4-4f12-9f86-3fc9a7121dea",
+    "nombre":"Teresa Yolima Ochoa",
+    "correo":"parraleonor@example.com",
+    "contrasena_hash":"8cd26afdfeb7a6345cdf6d883d738c50894e25eed94282f65423524d477ebad6",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2024-06-11 18:31:40"
+  },
+  {
+    "id":"3887ba42-7251-4c0c-b64c-7980e53f9298",
+    "nombre":"María Meza Franco",
+    "correo":"carlos18@example.org",
+    "contrasena_hash":"8b59b524d658cfc1900908174f8d00a6dc4ae6baf39453ef245c4330e496f0ef",
+    "rol":"empresario",
+    "activo":false,
+    "fecha_registro":"2026-09-30 11:18:00"
+  },
+  {
+    "id":"d5b55f72-d766-4c5a-b292-8679fcdd97d4",
+    "nombre":"Fernando Emiro Duque Castro",
+    "correo":"diazgustavo@example.org",
+    "contrasena_hash":"67c94e2d2af2bb486585e2332791996400ed898b1c8dcf7b413b07e0713e8dff",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-01-29 09:30:36"
+  },
+  {
+    "id":"95e29b4d-c713-4fb3-b196-864c62f4ad34",
+    "nombre":"Leonor Amaya Castillo",
+    "correo":"suarezcarlos@example.net",
+    "contrasena_hash":"4f393da501afa6053b642fee625a46fea499285107a96a966d8e09ad46cdf3b1",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-08-28 16:46:00"
+  },
+  {
+    "id":"146a0b46-bf37-49c6-9692-f3cd9ea9accc",
+    "nombre":"Eduardo Gabriel Mercado",
+    "correo":"sierraroger@example.org",
+    "contrasena_hash":"bea501b75d5858aa694c1cb8d1956aea73ebd55fd03dc928fab0c70f733d6e8b",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2025-04-28 17:50:30"
+  },
+  {
+    "id":"cd2e0838-2e61-4ff7-afda-5cfee4c042a0",
+    "nombre":"Carolina Kelly Pedraza",
+    "correo":"utamayo@example.org",
+    "contrasena_hash":"baac59f497d650b9e3a8dcea3c411c496368e84bc0d52fa32f8c3729833102a6",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2026-01-07 00:45:35"
+  },
+  {
+    "id":"c0e3efbc-1995-4c57-8104-e5c2ad9b57fb",
+    "nombre":"Mauricio Javier Ibarra Mejía",
+    "correo":"ngarcia@example.com",
+    "contrasena_hash":"1d6becc661929b8ee854c21ea1a8ed3f6a8df2029d9d4f54f12a6a2c92720821",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-07-05 07:40:13"
+  },
+  {
+    "id":"f727aa16-f3a5-4083-a2ea-c8fbfa68b7ab",
+    "nombre":"María Ana Amaya",
+    "correo":"jairoruiz@example.org",
+    "contrasena_hash":"59d958ff5fd141c7e28d1d662fc43290f66e569ff46c96a400b6d1964c6d9c38",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-06-26 20:53:08"
+  },
+  {
+    "id":"bf058a12-19b6-4f78-afbd-94e9de9ce826",
+    "nombre":"Manuel Fernando Hernández Díaz",
+    "correo":"gvelasquez@example.com",
+    "contrasena_hash":"4285d2fa1bcb9e392775806e1858ed8e163b453bdb3571bce86f5d854b3c21fa",
+    "rol":"estudiante",
+    "activo":false,
+    "fecha_registro":"2025-08-01 00:58:48"
+  },
+  {
+    "id":"7284a1d8-0cbf-4811-9d5b-11940965e4e6",
+    "nombre":"Jaime Orlando Serna",
+    "correo":"arodriguez@example.com",
+    "contrasena_hash":"f9eb2731a879cbb059d24434a3454f98e8dea44f63129f1f0d66f1c1a7b51e6a",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-05-16 10:25:56"
+  },
+  {
+    "id":"18ee452d-b090-4f20-a82b-5eb3c44dbd2f",
+    "nombre":"Alexandra Andrea Flórez Hernández",
+    "correo":"alba21@example.org",
+    "contrasena_hash":"dbd98b604d511c2b70c8eb2603a7c1d7997c5af87bdc4fdb0ff1e965e0cf1bcb",
+    "rol":"profesor",
+    "activo":false,
+    "fecha_registro":"2025-09-22 12:16:49"
+  },
+  {
+    "id":"bae69670-b4fc-4385-9dfa-ca9d1af1a08f",
+    "nombre":"Jairo García",
+    "correo":"ariel79@example.net",
+    "contrasena_hash":"485956f7e16581c00678d6c011980702ae60cf458e80b766cedbd7f6d278a430",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-01-21 12:28:24"
+  },
+  {
+    "id":"f4009fc4-2740-41f2-9ec5-61403066bd96",
+    "nombre":"Lucía Núñez Quintero",
+    "correo":"varenasexample.com@ejemplo.com",
+    "contrasena_hash":"2f6d82eba5d1f313bb763bb25b3e146f9dbfe0975fc888fc1fe09a69961be305",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-07-25 19:55:42"
+  },
+  {
+    "id":"89ce49bc-bc5f-4768-9583-542d9fe989e5",
+    "nombre":"Milena Agudelo Vélez",
+    "correo":"zalvarez@example.com",
+    "contrasena_hash":"9e3427da96f46e64ffca9d8a9bf36a741fbf25bba8bcc3685e5f402a4a9be44e",
+    "rol":"administrador",
+    "activo":false,
+    "fecha_registro":"2026-04-23 05:18:56"
+  },
+  {
+    "id":"03af8c4a-9511-4811-95e2-fe900b648cdf",
+    "nombre":"Gerson Adolfo Valencia Castro",
+    "correo":"kmorales@example.org",
+    "contrasena_hash":"180c827e9de67bdad16bccc2fdf358bdba0ce56f9d4279a5e1ff598018813209",
+    "rol":"administrador",
+    "activo":true,
+    "fecha_registro":"2025-12-28 05:37:38"
+  },
+  {
+    "id":"7ac06b47-2314-4a77-9564-47d41d9083b4",
+    "nombre":"Flor Caicedo Cantillo",
+    "correo":"nvalderrama@example.com",
+    "contrasena_hash":"f4df109a7cbe3e9990caf9300782666ef1c453f8c5503677a5483eef8189e250",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2026-07-08 02:34:47"
+  },
+  {
+    "id":"06ead719-2007-4091-a36e-9b59adbd871f",
+    "nombre":"Amanda Catalina Parra",
+    "correo":"thernandez@example.org",
+    "contrasena_hash":"740d00b6621159f28dbd1b2dce07593d51fd4f66f672db7f6138943576f6d6b0",
+    "rol":"profesor",
+    "activo":true,
+    "fecha_registro":"2025-02-27 03:48:00"
+  }
+]
