@@ -1,0 +1,316 @@
+﻿id;nombre;nit;sector;contacto;correo;telefono;activa
+7561e4c8-5f2d-4a43-9553-e947835ccadd; Salazar, Rivera and Cardona ;9796886805;Tecnologia;Luz Paola Vergara;jorgegomez@buitrago.biz;+57 310-143-8889;0
+e70d2d5a-a96a-4a2b-a51f-594db74327cf;Córdoba, Marín and Giraldo;9825071461;Logistica;Marleny Dora Romero;yasmin38@romero-lopez.info;+57 351-401-0512;True
+3717e313-f3fb-467d-8e3c-5677af84a09a;Vargas, Pérez and Pérez;867.362.266-0; comunicaciones ;Lorena Fernanda Rodríguez Rojas;alfonso19@vera.com;+57 355-371-4785;False
+c78516a6-a5e8-462f-b9eb-9965da6ddb2b;GIRALDO, MEDINA AND GONZÁLEZ;5792499125;Agro;Paola Luz Arias;joseguerrero@cordoba.com;+57 378-282-7422;True
+34566b5e-e052-4d03-9797-d47ece408279;SEPÚLVEDA-BELTRÁN;5072368876;Agro;Camilo Jonathan Reyes García;roseroines@castro.com;+57 327-978-8191;False
+33f8c52d-9036-43fe-988b-c42278c48536;GUEVARA-BRAVO;5807836134; logistica ;Lorena Romero;mendozaovidio@rojas.org;+57 359-629-2330;1
+08134252-c2f1-4501-aa0c-1fc880425a72;ROMERO, CASTRO AND MONTOYA;5449481260;Agro;Milton Hernández;tatianaamaya@castellanos.biz;3729466711;No
+15bc9c07-5c84-4d0b-a959-e4dd66dc972e;Delgado-Castro;5775901751; retail ;Alberto Osorio Rojas;paula45@escobar.com;+57 300-170-1277;False
+46a2bee4-5267-481a-a375-12370829cb02;Ángel Group;324.241.541-5;Retail;María Pineda Bonilla;yolimalopez@rodriguez.com;+57 329-387-0051;False
+3e57e67f-a267-4ef2-bb88-23b5f45f8e7d;Vélez-Acosta;3611155426;Logistica;Angélica Buitrago García;leonclaudia@camargo-mendez.com;+57 369-731-1219;False
+5be5aa4d-8d24-4d6d-8cfb-25db2cd3de11;Flórez, Corredor and Álvarez;2341389994;Logistica;Estela Navarro;adriana98@cano.com;337 613 7918;False
+aa638404-7f86-4299-9926-6ecad34485ae;Ospino LLC;269.658.271-0;ALIMENTOS;María Sandra Caballero;omora@sierra.com;3889241418;SI
+2ba66eeb-e099-4fbc-972a-4206b5d0528e; Bastidas and Sons ;8569146303;Alimentos;Lucila Luz Ávila;alvarezjairo@diaz.com;3275884252;True
+29121aa6-a3f8-461e-9e0b-9ce83c4af5ce;Ocampo, Ortiz and Rivas;056.481.491-7; comunicaciones ;Alfonso Andrés Andrade Pérez;rociolopez@gil.com;300 307 5622;True
+29554b32-e38c-4f9e-ad4c-10cb92afb06b;Cortés Ltd;3441497826;Tecnologia;Tatiana Susana Díaz;posadapatricia@gaviria-perdomo.com;+57 351-870-5349;False
+65fa0062-2000-4f93-b09f-f1b4b6e7ba32;Mena-Vargas;5973832060;Agro;Luisa Yolanda Aguirre Rodríguez;maria64rojas.biz;370 241 0386;SI
+09ae1464-7182-484f-86e6-ab1be6a71c78; Lara, Cruz and Cano ;918.261.990-6;Tecnologia;Paola Muñoz Álvarez;vbermudez@ruiz-ortiz.com;332 912 1277;False
+b7462315-2c04-491c-8ec3-4d722d08e88a;Parra-Lozano;3747411249;Tecnologia;Sandra Zuluaga;andreavargas@medina-martinez.com;342 067 8831;False
+a2b103bd-128c-4b4a-94fd-50016345c12f;López-Alzate;1003236519;Agro;Andrey García;ramirezjorge@lopez.com;3070296670;1
+1d208148-68f3-450d-aea1-224226567be3;Carrillo-Pérez;324.472.099-9;Comunicaciones;Paula Tatiana Nieto Acosta;castromarcela@franco.com;3806578759;No
+c8bdce31-8bfa-4922-817c-f52ab253e01e;Ruiz, Ortiz and Rodríguez;930.407.859-3;Retail;Luz Hoyos Ortiz;cabreramarlon@sanabria.com;3239559059;False
+a5732041-7d21-45cd-ab78-464a6a2bfed4;Sánchez, Núñez and Perea;3441497826;Tecnologia;;flordiaz@martinez-sanchez.com;+57 318-515-6915;True
+fe65e477-f590-43e6-a2f8-80cd187a40d0;Ruiz-Obando;675.289.539-2;Logistica;Jesús Pacheco Hernández;nunezefrain@gaitan-fuentes.org;+57 302-959-3917;False
+4bdcae76-9c13-4f40-a98f-4f8dea960dc9;Valencia Inc;3552157043;Agro;Erika Gloria Mesa Camargo;florezfelipe@loaiza.biz;358 617 9327;False
+461c300b-51da-4a63-a5ed-b7004a8bc5ca;VERA INC;405.411.526-2;Agro;Esperanza Mayerly López;brueda@perez.com;3533688444;No
+e55a7291-5229-459e-baf5-64e0429c0bca;López Group;9872050614;Logistica;Alberto José Pérez Jiménez;ortegamartha@ortega-lara.com;3186256527;No
+289d6835-7f6b-41bb-8a0b-fe907028af1c;Ortiz Group;434.902.115-8;Logistica;Alcides Fernández Cortés;afigueroa@pacheco.com;+57 374-160-8989;False
+60e8a87f-ce1b-4c77-b70d-c538c7756dad;Riascos, Sánchez and Núñez;7223320616;Logistica;Leticia Eugenia Palacio Muñoz;garcialuis@valencia.com;+57 399-861-6229;True
+5b46274e-9e42-4fb4-b489-8837e54774dd;Murillo, Alfonso and López;191.485.646-7;Comunicaciones;José Fernando Sánchez León;vgomez@moreno.com;3054447132;SI
+e7bb5549-896d-448e-8ebb-c23eed2c1dfb;Quiroz-Marín;546.913.736-7;Logistica;Steven Rafael Pérez;camilo62@cuellar.com;3030705345;SI
+03893246-6c32-45a8-8e92-86180363c524;Mora-Acevedo;103.579.727-9;TECNOLOGIA;Javier Jair Muñoz;gutierrezximenamarquez.com;+57 333-468-0072;SI
+0124c729-980a-4217-8a62-8238a5bf9cdd;Pérez, Meneses and Torres;944.665.743-7;Retail;Pedro Bravo;aorozco@anaya.net;+57 399-441-7154;True
+5b0c197d-3d12-41a7-ab6e-3015305e79da; Valencia, Castro and Hoyos ;432.830.965-2;Tecnologia;Teresa Bolívar;eliecer66@gomez.com;3538758428;False
+8087af3a-cb2e-4537-8c84-ef65dbc9b3eb;JIMÉNEZ GROUP;2482513534;Logistica;;jimena17@gaviria.org;391 738 1684;False
+55a87776-5c52-4743-9fcf-7a535f9836aa;Martínez-Márquez;235.697.252-1;Comunicaciones;Enrique Elver Álvarez Martínez;wcastro@escobar.info;312 966 6676;1
+b6b4bf6f-9cbb-4a29-98bf-b1f6409a875f;Gómez and Sons;3441497826;Logistica;Carlos Flórez;claudia04@cardenas-guzman.net;356 257 5326;SI
+1d8e6daa-9388-46c1-b3e6-9adc8e345bee;TORRES LTD;230.982.150-6;Logistica;Hugo Trujillo;duranjesus@martinez.biz;376 184 7230;True
+2c16550f-7003-43f6-924a-ba3307e4492f;SALAZAR-LÓPEZ;849.926.189-1;LOGISTICA;Luis López;albertocastano@quiroz.com;3087375300;True
+856c1582-18f0-4565-9257-c48caa8cea6e;López, González and Córdoba;721.811.437-4;Tecnologia;Miguel López;omarmelo@meneses-alvarez.com;310 022 5579;True
+d726db1c-0bf9-4513-953a-975845c6264a;Monsalve-López;521.667.467-6;Logistica;;sandravallejo@arenas-buitrago.com;396 590 2771;True
+3e2cc9ac-b04b-4174-8900-bf32d0c2f6c6; Mendoza-Martínez ;5089935889;Comunicaciones;Marina Juliana Ramos;jsanchez@martinez.info;+57 372-175-3540;False
+87bf2636-320e-44de-97e5-b5bdf14bd29e;Torres, Franco and Castillo;317.797.177-5;Tecnologia;Jackeline Alicia Rodríguez;jpena@rodriguez.org;348 837 5503;True
+eea3412a-eae6-45d9-8aee-58555212c9b4;Quintero-Castañeda;9757113055;Tecnologia;Iván Arias;gomezclaudia@pinto.biz;+57 314-933-1637;False
+ddc496af-4863-4861-817f-ef0df605c848; Becerra Inc ;609.177.982-7;Comunicaciones;Mónica Martínez;evilla@ocampo.com;+57 321-699-5866;True
+0abc1de9-ded0-4ce6-9d41-0e23d193b08b;Ceballos, Castellanos and Castro;547.226.984-8;Alimentos;Guillermo Willian Barrera;lauraforero@herrera.com;3885158799;False
+580fbd9c-e064-4312-8dfb-83f3c52481a3;Blanco, Gil and Santos;846.081.062-0;Agro;Diana Zambrano;jadercarrillo@villa.com;3380571983;False
+58a8d91e-f315-4904-ac51-d1b4ae8d30b9;Jaimes, Giraldo and Palacios;406.665.800-4;Agro;Mercedes Sara Polo Serrano;alfonso89@guevara.com;3721228160;False
+64c8e177-49c8-4258-a549-451d83b3ea43;Castro-Ortiz;2940572025;Retail;Ximena Pineda;jackeline98@garcia-toro.net;3328182688;True
+bb7fe6dc-3d0f-4a4c-ad4b-2c273ff80ade;López-Torres;355.543.987-8;LOGISTICA;Luz Herrera;andersonavila@vargas.biz;+57 316-484-0858;False
+7bc0f04b-faf7-4ed4-8556-6c0d9cf0e3e7;Marín, Gómez and Burbano;3581128801;Comunicaciones;Mary Ximena Leal Salazar;rojaspablo@guevara.com;3075011024;True
+222f2fb0-05a5-4806-b688-555acc1e0bb1;GARCÍA, PINTO AND VALLEJO;667.665.061-8;Agro;Angélica Beltrán;bermudezpatricialopez.com;+57 347-660-7283;False
+f98d83d1-fcb2-4e13-8cdb-91b50ff2c85e;Cano PLC;4245088210;Comunicaciones;Alexandra Medina;suarezcesar@herrera.net;3222394312;1
+0c91a852-42ce-403d-b5ad-c71bff7408e6;Vera, Melo and Melo;8781414139;Retail;Efrén Javier Sandoval Moreno;david35@cardona-garzon.com;392 995 5620;True
+80f9fe0d-6e0d-47d7-8d01-0137ab398542;Vargas-Torres;645.257.775-4;ALIMENTOS;Jaime Juan Calderón Sepúlveda;adolforamirez@rivas.com;380 996 9308;False
+d198046e-bc3b-4d1b-a93b-c95a7f138114;Ríos-Molano;725.639.427-8;Comunicaciones;Alejandra Tatiana Vergara;rafaelhernandez@diaz.com;+57 375-037-3145;True
+b8e64e72-7a67-403d-9671-d6e472d39db5;Gómez and Sons;3441497826; comunicaciones ;Gerardo Ortiz;leonorrivera@arango.biz;338 655 7790;False
+9dbbf3ad-3213-4d05-a8a6-34b0075008d1;Nieto, Mendoza and Torres;8432225913;Alimentos;Anderson Pinzón Ramos;lacosta@jaimes.com;330 299 2280;True
+c7ec90b5-ab5c-42cc-b54e-4689ab2c411d;Sánchez, Pérez and Caballero;869.904.137-9;ALIMENTOS;Oswaldo Juan Serrano Carvajal;antoniopalacios@vanegas.info;+57 399-136-6210;No
+e18c22b2-47b1-45ab-85f1-988e91cc49b1;Guzmán PLC;6291279908;Agro;Luz Sofía Pabón;trianaivan@mejia.net;363 765 9916;False
+b4147a19-d38e-4fab-9892-dec48be5d4fe;Muñoz and Sons;149.864.300-9;Logistica;Beatriz Liliana Rojas;maribel12@arango-munoz.net;369 594 6368;0
+f7946944-bce6-43bb-8982-6381b40e59b8;Ramos, Arias and Cortés;4495621372;Logistica;Sandra Alejandra Quintero;perezoctaviocifuentes.info;396 114 3519;True
+665f1d0a-7d88-403c-b5fc-9fbe4dc7c35e;Vanegas Group;9849027703;Alimentos;;davidgil@moreno-rodriguez.com;3146566938;True
+1e14bc40-305d-47b7-b438-dd3b5cce1154;Daza Inc;184.895.543-9;Retail;Lorena Alejandra Rodríguez Pérez;velasquezjose@erazo-arenas.com;+57 389-476-9735;True
+313c8a37-1c41-47a0-abaa-6f08a8a7dadd;Carrillo-Triana;0714163356;Logistica;Rafael José Roa;alexandracastillo@pinto.info;3553942373;True
+1e1b712a-4f49-4496-9080-078fbdb66596;Galvis LLC;333.395.211-1;Retail;Mario Alonso Ríos Gómez;uarias@burbano-rangel.org;347 284 6392;True
+3bb447e7-31e1-45ac-bc10-fea5bb406386;Silva Group;780.856.271-8;Retail;Alexander José Gil Rivera;valenciadavid@diaz-ortiz.com;379 552 7636;True
+8f54de7a-3de3-452d-992d-78cce75c1a1d;Espinosa, Morales and Castillo;3441497826;Retail;Adrián Ramírez Vera;elsyrodriguez@sierra-barragan.net;3857448906;True
+fe5a87b0-efe2-4c46-81d3-cc5ac0cb5d0d;Barrios Inc;3471754558;AGRO;Javier Peña;arturo93@escobar.com;355 877 1694;False
+9b9fca06-557d-406f-b9e2-c527d0185524;Barrera-Sánchez;2569961125;Tecnologia;;cortiz@cano-guzman.info;+57 362-202-3413;False
+2c6ca8bd-0de8-4524-822e-49fec1e8d6b5;Medina Inc;178.006.811-4;Logistica;María Montenegro Giraldo;esthergutierrez@hernandez.com;+57 355-778-4872;SI
+efb73754-a328-437f-8a5f-071a1db23769;Montoya, Vega and Cruz;968.845.783-1;Retail;Jesús Camilo Sánchez Rodríguez;nubiacorrea@pacheco.info;+57 340-649-3085;False
+64d0028d-e16d-4c7a-a7c0-2ab3bebdecf7; Peña PLC ;663.266.341-6;Tecnologia;Beatriz Pilar Ávila Vélez;amparo84@diaz-garcia.com;341 797 4973;False
+d9e729e6-7277-475b-a405-f8b86dc9c0cb;Rodríguez-Martínez;8021442703;Tecnologia;Ana Esther Herrera;julian75@benavides-gomez.com;+57 320-461-8723;False
+0b024b97-c903-4b04-9132-4b2f6783b50b;Figueroa-Salcedo;136.730.371-8;Comunicaciones;Leidy Flor Álvarez Ruiz;sarmientoluis@munoz.com;+57 335-031-3650;True
+bdec0bea-9d42-4068-941e-86b51c07de6c;ALZATE PLC;163.009.792-5;Logistica;;jhonatan00@franco-narvaez.com;327 358 5730;True
+36f81a96-f2a0-45ab-ad5a-1644a7180e99;RIVERA, VANEGAS AND VARGAS;0778487392;Agro;Alexander Felipe Salas;patriciasanchez@fonseca-rios.info;3086209593;SI
+7b0d8445-5175-49b8-902e-3570f6e5176a;Camargo-Navarro;863.878.294-5;Alimentos;Leonardo González Guzmán;gomezduvan@arboleda.com;3731096789;True
+316445ea-138f-4636-bf4a-35f14d70c8f3;Fernández, Martínez and Torres;1037170586;Tecnologia;Yesid Andrés Garzón;ardilahernan@garces.com;313 863 3839;True
+a3461181-ba70-4468-af8a-b950b1200026;Erazo, Velásquez and Velásquez;1957612286;Logistica;Pablo Sebastián Carvajal;roberto85@pena-barrera.com;+57 393-983-6845;True
+3e147be1-b2e1-42f4-bb96-6c378e549285;Cardona-Medina;0490824043;Comunicaciones;Yadira María Pinto Barrios;jair88@carmona.com;3224593344;True
+bd8cbe68-38d7-4821-b4c0-16ff97c94a7e;Jaramillo PLC;315.727.919-4;Retail;Dora Escobar;patinoelkin@romero-ayala.biz;3139060480;No
+90b6028b-fc60-4d33-9b11-cb6449714093;Montoya-Sánchez;8320679981;Alimentos;Fernanda Ingrid Sánchez Quintero;djaramillo@castillo.com;3278376938;False
+d50fdb63-3a0d-4ab6-b457-6a4bd211a25b;Bolívar, Silva and Vargas;4659116655;Agro;Cecilia Stella Rodríguez Suárez;david79@mendoza.com;352 110 3924;True
+517ed450-4d5b-48ee-b3c7-095b87e445c6;Herrera Inc;4770538338;AGRO;Iván Trujillo;jhoncamacho@orozco-vergara.com;3420439407;False
+abb71318-ec18-413d-abdc-6f66f5c41d57;GARCÉS, MARTÍNEZ AND DURÁN;5104636815;Tecnologia;Milton Sebastián Díaz Sierra;tlondono@gomez.com;3576205554;False
+406c2bd3-a9f4-4640-b0ed-181e77c4226e;Orjuela PLC;404.608.432-5;Logistica;;elviracordoba@manrique-chavez.com;378 232 9832;False
+941deb6a-9927-4130-8f10-874b7a731a59;Pacheco-Burbano;2629251881;Agro;Cecilia Cuéllar Bonilla;fabio66@marin-saavedra.com;323 122 0994;True
+f5b83017-06cb-4f57-83d9-104dbef92ac6;Ospina, Moreno and Moreno;0517289752;Alimentos;Mauricio Hernández Ramírez;parraeder@quiroga-torres.com;331 279 7573;True
+e0d089f2-668f-4b0b-94c2-d97b8ad5df90;Parra-Gómez;6569998808;Agro;Lorena Rosario Gómez;josemedina@gomez.com;3347644726;False
+894c0152-f86e-4678-800d-26be2d381b1c;Ávila-Martínez;8277181298;Alimentos;Elena Valencia Rodríguez;tvega@nieto.com;3521117518;False
+95f299d5-8068-4e79-8293-21af0807bde6;FLÓREZ, MERCADO AND MOLINA;268.602.592-2;Comunicaciones;Andrea Amaya Guerrero;miguel74@diaz.com;394 077 7809;True
+157dc495-de14-4684-9eb0-5191cbbc2d7d;Moreno-Fernández;776.719.903-8;Retail;Edwin Velásquez;luzsanchez@romero.org;+57 394-510-1622;True
+953fe4c2-ef8c-4bb3-bff0-28a636375c31;Gutiérrez, Durán and Bermúdez;9827950145;Tecnologia;Efrain Steven Uribe;jimenezmarcela@estrada.com;339 019 8179;False
+a429cb36-fa73-4942-8680-930540793644;Gutiérrez, León and Ruiz;8995299787;Alimentos;Rubén Libardo Moreno Gutiérrez;mariarodriguez@bautista.org;3660558303;True
+c37e223e-c89c-4f7a-80cb-dec433956ea8;Castro, Angulo and Álvarez;885.015.569-9;Retail;Marta Ramírez;elkin77@jaimes.com;3785760849;False
+999dd9af-34fc-4536-8a51-b838488866b9;BUITRAGO, CORTÉS AND RODRÍGUEZ;955.124.056-8;Alimentos;Alexandra Giraldo Hurtado;camilo50@pena-zapata.com;357 438 4215;False
+8a2ffe17-7303-45d9-a2fc-b71fa0160fd7;Castaño Inc;7807823578;Logistica;Sergio Sánchez;pintoduvan@angel.biz;+57 381-040-9157;True
+683866f3-318f-4d16-bfa5-905c4c193846;López Ltd;4094353344;Alimentos;Sergio Fredy Ortiz;esperanzarodriguez@velasquez.net;+57 354-249-3214;False
+4549af4a-a933-4a13-8502-dd4d2f2fb421; Galindo, Ríos and Martínez ;0701601662;Tecnologia;Mario Alexander Figueroa Amaya;quirozalfonso@jaramillo-lopez.info;3174773329;0
+bea1f6f2-cc08-447b-9d5a-ef9b0b6bf194;BARRETO-MEDINA;557.701.715-7;Comunicaciones;Harold Jorge Romero Córdoba;parraalejandro@valencia.com;+57 348-769-6393;No
+01068ae5-66e0-4749-904b-682d81707a5a;Pérez, Ramos and Martínez;396.695.832-1;Logistica;Luis Orlando Valencia López;zdiaz@carvajal.org;+57 365-701-3290;False
+c3d7982f-913b-4f8c-bf19-b665ce16a606;Durán Group;846.997.335-4;Logistica;Jean Cuesta;heriberto90@ospino.com;+57 305-800-8514;False
+af129293-3896-4002-8b4d-ec4b75ec9096;Moreno Ltd;965.666.683-2;Tecnologia;Carlos Jaime Benítez Mosquera;qsanchez@hernandez.com;327 621 2679;True
+2ca43a1e-8b37-48c7-993c-23e6aac8a493; Trujillo-Cárdenas ;687.653.269-0;Retail;Martín David Sierra Peña;maria09@rueda-gonzalez.info;3128478189;False
+14f319a5-3d3f-4e62-b8c8-5d32b18ab96f;Vargas Ltd;1894905807;Agro;Alfonso Felipe Ardila Salazar;nancy09@suarez.info;392 904 9047;False
+73a99034-ec5d-42b0-8a0c-f61a08e77a01;Hernández Inc;4429444019;Logistica;;mario43@diaz-silva.com;+57 351-292-7663;False
+b6c8572f-12c5-4a6c-b3d7-73dae9ef61fb;MENDOZA, HENAO AND ROJAS;504.102.767-4;Alimentos;Omar Germán Lozano Rivera;jortega@polo.info;3658018569;True
+91f1c68c-4949-468d-80ec-45f1ef687757;Andrade, Quintero and Ortiz;149.673.938-5;Agro;Lucía Rodríguez Rodríguez;rodriguezdiana@duque.com;344 300 9109;SI
+9378b9bb-03a9-4e0b-b716-7d54904373e3;Santos, Rojas and Carvajal;1119269212; logistica ;Jorge Durán;henaoharold@solano-aguirre.com;3421406650;False
+5574b690-85e1-4e90-bd7d-e4aaf59cbe3f;ARTEAGA-ORTIZ;3441497826;Logistica;Alberto Franco Barreto;sandra11@padilla.info;320 064 2569;SI
+c52ff789-3009-4b9f-9dbf-caa2db527de8;Molina Group;7661830671;Agro;Enrique Jesús Martínez;moraleshernando@garcia-cruz.com;3328063461;True
+44fe1d92-e359-4b48-883a-1f0c636f573b; BARRIOS, REYES AND RIVAS ;7320309376;Tecnologia;Rosalba Angélica Sierra;bparada@herrera.com;361 387 8293;False
+0ac8236e-b233-4565-bb8f-efe4ad39a5c7; GÓMEZ AND SONS ;7079032020;Agro;Steven López;fredymartinez@gonzalez.org;+57 331-365-6519;True
+5314ebd4-ccfc-4561-8c69-076e62991ee2; Hernández, Perea and Alzate ;092.511.426-2;Retail;Jaime Óscar Velandia;hernandezdario@avila.info;310 021 9467;False
+c4369400-fbbd-4a31-a0df-3ffc061903dc;Hernández, Sánchez and Ortiz;7632909279;Alimentos;Eugenia Socorro Romero;velasquezliliana@rendon.net;+57 383-734-0312;False
+cf80b745-387c-4e7e-b377-0de084b681b8;Benítez, Vallejo and Zapata;2005436459;Tecnologia;José Gabriel Velandia Díaz;reyesmartha@camargo.org;356 353 1531;No
+5b00eb87-3360-4840-a3c2-57288521ef22;DAZA AND SONS;631.797.062-3;Comunicaciones;Juan Eduardo Cruz Ramírez;jeferson35@gomez.com;+57 342-177-6253;True
+b89fbe64-487b-4214-98bc-563fe82f2eeb;Agudelo-Angulo;929.831.687-3;Logistica;Jair Jorge Ariza Galvis;esthermejia@galindo.com;+57 390-600-7806;True
+b70b71f9-9679-449b-baff-41fb481f77c0;Medina, Montes and Benavides;1773180632;Logistica;Jesús Augusto López;kcamacho@cruz.info;372 625 7016;False
+bdb806e9-2405-4895-87e7-87cdfab7f6f8;Quintero, Gómez and Osorio;498.931.950-8; tecnologia ;Ariel Luis Morales;moralesgloria@rueda.com;353 817 9335;False
+18e4ded9-8690-4d57-aa80-49a4bac933b4;BURBANO-MORA;640.155.778-8;Comunicaciones;Leidy Mónica Luna;yesenia51@galindo.com;3162411241;True
+41334f9d-2f2a-4b7e-bf39-ff1a97c27747;Sánchez, Sánchez and Ramírez;0468275670;Tecnologia;Juan Rodríguez;fredydelgado@pena-herrera.com;379 887 7492;True
+29dd2d3b-44c8-4f84-abeb-199f348c1bee;Pérez-Muñoz;754.025.472-9;Tecnologia;;ceciliagonzalezcordoba-mendoza.com;3238055257;True
+4e11d1a4-ffea-4d0a-89a9-85b1d9b62d20;Obando, Lozano and González;0672752088;Logistica;Armando Jesús Triana;franciscopadilla@quintero-gonzalez.info;302 814 0693;True
+fe75a3c4-3c8e-4093-b9e0-55b65a06da9e;Mosquera-Valencia;939.834.301-8;Alimentos;;mruiz@barbosa.com;3656504554;0
+1d39708c-7b17-48ea-a95b-0995cb4e6ee4;Pulido-López;767.426.629-9; comunicaciones ;;patricia96rodriguez.com;+57 362-879-2326;True
+924e49c0-a4b5-4641-a510-0ef6b51a12eb;Cortés-Gómez;4947873002;Comunicaciones;Jesús Bedoya;qgonzalez@guerrero-rincon.com;301 471 9597;False
+ad60c49e-f224-4ba6-8628-8c7449cd6c30;Mejía, Muñoz and Duque;158.904.290-2;Comunicaciones;Miguel Edgar Mosquera;ortizmireya@martinez-jimenez.com;+57 383-219-2855;True
+91254648-0dab-45df-afc2-0b44b759a0fc;Vera, Ortiz and Benavides;5189520284;Agro;Alexis Camilo Cáceres;sandrasanchez@serrano.org;388 816 7112;False
+00e85a9c-22c7-4d57-9248-cba6c17679bf;Acosta LLC;527.985.240-1;Alimentos;Patricia Erika Pacheco Álvarez;carmengarcia@castellanos.info;3603108907;False
+8e656fb5-66b7-4960-b6e1-9c22e398023b;Gamboa Inc;1401193932;Agro;José Carlos Cano;efrain55@ordonez.org;338 911 9083;0
+29415c87-1591-473b-b68e-39b6fda186f6; Ramírez, Castro and Galeano ;801.387.592-7;Agro;Andrea Gloria Rivera;joseparra@gonzalez-gonzalez.com;3754801571;True
+e7526ce8-0398-4dd8-a852-f723d5e6e204;Gutiérrez-Carvajal;473.864.631-7;Agro;Juan Bayron Rincón;medinajose@garcia.org;3121535396;True
+0260dbc2-1bbd-42a3-bebf-5ea626f6c1f5;Moreno Group;7499465796;Agro;Alfonso Carlos Cárdenas González;ozapatagomez.com;317 026 9524;True
+0cc38bd3-f20a-45d4-9c66-95cad380ce22;Trujillo, Ochoa and Durán;8773477848;Alimentos;Anderson Ángel Rodríguez;arroyofabio@florez.biz;+57 377-002-8427;True
+5163e6e3-19a1-48aa-af30-6e34cd6624b4;HERNÁNDEZ-BECERRA;7197889778;Comunicaciones;Johana Giraldo Zapata;wgarzon@ruiz-gomez.com;325 590 5616;False
+137cfce4-e8cf-4eea-9d30-5250abaa9a29;Ángel-Peña;0333491141;Agro;Juan Ángel Gómez;ajaramillo@rodriguez-correa.com;+57 356-965-9171;False
+d968cce7-f691-483e-9b21-5ece5cbeefc0;GIL, QUINTERO AND MORA;5294563718;Alimentos;Isabel María Orjuela Castillo;antonioyepes@meza.com;3987635148;False
+4120a514-ba55-4c6e-9a8a-f97aa994c088;Mejía-Montoya;366.498.782-0;Comunicaciones;Nancy Rojas Burgos;oortiz@montes.org;308 357 2324;0
+ac907ae7-4b43-4d26-b67c-4e807a0b7385;Peña-Estrada;136.442.493-6;Tecnologia;Luz Diana Vargas Niño;breyes@jaimes-gomez.com;342 044 8207;False
+aa33230c-936a-4f55-8f4b-7866d0896503;Martínez Inc;5941651623;ALIMENTOS;Alexandra Tatiana González;yurani13@gonzalez.org;+57 363-632-1234;False
+d38ef023-45ae-4800-bddb-5b02d1c0a30a;Parra-Alvarado;078.515.867-3;Retail;Gilberto Cuesta;linda54@franco.com;303 486 4518;False
+0543aed1-2ed4-4ede-bc36-8b35a1bf3af7;ZULUAGA GROUP;064.413.432-7;Alimentos;Gilberto Brayan Parra;castroana@ortega-pena.com;3612481569;False
+813c6767-69f7-4d88-8cc3-5cac0a90ce6b;Guerra, Daza and Cárdenas;002.720.634-5;Logistica;Luz Carmen Forero;edgarduque@cardenas-arboleda.com;342 954 3165;False
+6c4a99c6-c595-4d1b-8ae7-eae2f66697b8;Medina Group;930.089.317-3;Alimentos;Gustavo Pérez;mbeltran@sanchez-bustos.com;3910867713;False
+e732b536-a6ab-4340-8ba6-78fce1f06206;Ramírez, Monroy and Guerra;4476263934; agro ;;leidy73@orozco-jaimes.com;3072563669;No
+03be5b63-3fcd-42f0-a939-ff15d32c1108; García-Velásquez ;053.759.900-4;Retail;Jesús Medina Arias;murillobeatriz@rincon.com;+57 358-624-1502;True
+d825f4c8-d749-4588-968b-76fb775adf24;Bohórquez-Palacio;5644948562;Alimentos;Gabriel Mauricio Quiroga;jmartinez@torres.info;+57 342-761-7075;0
+6bece29a-5579-41fb-8164-e8be4a8f3273;Londoño, Cruz and González;215.134.228-4;RETAIL;Margarita Nayibe Silva Jaramillo;pcaceres@buitrago-murcia.com;3416591520;False
+8e815e2c-c81e-446c-aa5f-db021abf86fd; CRUZ LTD ;7749050975;Comunicaciones;Sandra Martínez Franco;orlando18@florez.biz;+57 310-326-6421;False
+c0fde4c8-b973-40eb-92de-86b3f19a34df;Rincón-Mejía;3441497826;Tecnologia;Jairo Londoño Salazar;narrieta@mejia.com;+57 308-573-2788;False
+f86d57bb-4df5-4142-a53d-673bd122366f;JIMÉNEZ GROUP;174.224.386-4;Tecnologia;Esperanza Alarcón;palaciosrosario@duran-jaramillo.com;3549180172;False
+4895abfd-1351-456a-863e-e3fb087cd512; BENÍTEZ INC ;164.597.794-5;Agro;Sandra García Riascos;alfredo16@rodriguez.info;376 974 9956;True
+812156a4-4a6e-4644-ad09-a44909ff4f65;López-Hernández;3103037236;Agro;María Kelly Sánchez Salazar;perezlucia@marin.info;393 349 6050;1
+f0254e66-af4a-431a-86e5-ad272bff4273;Méndez Ltd;6679984076;Retail;Rafael Nelson Betancur Espitia;dmoreno@rodriguez.com;+57 367-179-5760;False
+4fd1ed74-14b9-4112-8b02-362a914b7962;Gutiérrez and Sons;7573839597;Comunicaciones;Mayra Vanegas Giraldo;rroa@galvis.com;+57 393-417-2232;False
+a9099728-f4d0-4b83-8647-b5edc13f0233;Rincón, Alzate and Valderrama;743.380.054-5;Comunicaciones;;quinteromartha@gonzalez.info;3455084289;False
+eb141ce5-39b0-47b6-bc71-20ab589fcd57;López, Martínez and Monroy;711.991.808-1;Comunicaciones;Valentina Bohórquez Vallejo;migueltoro@sierra.com;3521376037;True
+dc086025-e5e0-4870-aa9f-ce2aa625b1e2;Gutiérrez-Pérez;4565328632;Agro;Camilo Peña Cruz;ariel72@becerra.com;3155626060;True
+efa2d7bd-2843-4a49-a58b-a5768c39c14a;Caballero, Sánchez and Córdoba;8466845504;Comunicaciones;Judith Marín Rojas;zbenavides@parra.com;3856288431;False
+0f637603-042d-42d4-8974-a09b74bbd526; CAICEDO, GUZMÁN AND URIBE ;200.894.346-8; logistica ;Victoria Marisol Muñoz;paola17@cordoba-rodriguez.com;339 989 3544;False
+27b901ab-8449-4f7c-8f79-f82946018138;Serna, Forero and Sandoval;683.158.935-7;Alimentos;;martinezalexis@rojas-garcia.net;3698864976;False
+f62aa2d0-15fe-40a9-893b-73a727d8ab30; Barrios-Erazo ;622.827.728-8;Tecnologia;Erika Lorena Gómez;arielarias@agudelo.com;3159408215;True
+264087c0-9daa-4ea7-a83e-2b32dab5f801;Arroyo-Suárez;702.296.044-3;Logistica;Amanda Reyes González;patricia06@cordoba-ospina.com;+57 367-922-8777;False
+52759e45-9fe0-4dd3-8979-e73284d510a7;Gaviria LLC;1996636580;Logistica;Arturo Armando Gaviria Toro;luis18@ramirez.net;3909837801;False
+2de64a2a-b81d-4d89-9467-cd7bd882e25a;Rubio, Díaz and Rodríguez;339.718.956-9;Alimentos;Esther Saavedra;xiomara60@ruiz.com;+57 382-422-4124;True
+4085ffa9-83c6-4db1-b067-f0c6f7d2efc6;Buitrago-Martínez;5200461526;Alimentos;Antonio Moisés Maldonado;ramirezcesar@moreno.com;3405786170;SI
+55595a78-9a8a-4b7c-9d73-e208a29680a3;Barrera-Caro;048.913.824-9; retail ;Daniel Sanabria Sierra;katherinerengifo@montoya.net;3700794200;False
+1002adf9-e598-4068-a916-f01adc441a32;Castro-Vargas;653.984.028-9;RETAIL;Milena Elena González;danielmolano@rojas-mora.com;+57 354-743-5537;True
+24788d8f-9fa5-4936-8a8d-0a04c4e5741f;VALENCIA, CARO AND HERNÁNDEZ;097.002.687-6;AGRO;Helena Camila García;galindovictor@sandoval-romero.biz;395 620 1753;True
+fc5166a9-fa19-4451-8ea2-2fc1f6607aac;RODRÍGUEZ-VILLAMIZAR;4531943375;Tecnologia;Isabel Rentería;mariabustamante@medina.info;328 399 9219;True
+5167ed81-4fc8-4a97-b05c-8677920e2c0d;Cano and Sons;493.843.089-4;Agro;José Alejandro Sandoval Bernal;karol64duarte.info;+57 358-030-4687;True
+eeb7e511-a224-48ff-8b2d-571f3bc36b05;Rodríguez-Ramírez;190.361.332-5;Tecnologia;Andrés Pineda;ramosmario@bautista.com;+57 317-350-5831;False
+cf03690a-97d4-4c4d-9761-ce28ec63739e;BELTRÁN, CABRERA AND PINEDA;911.006.512-0;Comunicaciones;Andrés Ricardo Mejía López;velasquezelizabeth@castillo-garzon.biz;339 907 6769;SI
+cf272990-e4f1-40b7-ae5a-aa4ac1212734;López, Bernal and Gil;0785931109;Logistica;Elizabeth Marisol Rentería;fernandomunoz@ramos-beltran.com;+57 332-002-4968;True
+a39314d7-3549-41e6-bc2b-1db11da8f8ca;Gallego, Álvarez and Rivas;227.495.450-8;Logistica;María Palacios Palacio;salazarelena@bedoya.com;+57 353-779-5995;False
+f1596fb6-cb33-4689-aace-e22ec3f431dd;SUÁREZ, VALENCIA AND LÓPEZ;073.033.793-3;Logistica;Arturo Jeisson Quintero Mena;yennyluna@morales.com;+57 308-124-7395;False
+4912457b-20af-4181-abfd-b39d4b82fe25;Bastidas and Sons;3423425832;Retail;María Piedad Vallejo Rodríguez;lizethmesa@quintero.com;+57 373-552-8961;True
+9fc56e13-7bb9-419c-88d9-24a690f0e771;Sánchez and Sons;338.655.963-0;Alimentos;Graciela Milena Sánchez Vargas;omar89@rojas-garcia.info;+57 391-286-8578;False
+2d22c829-5d38-4cd4-800b-dbb3f7411bc8;Díaz-Amaya;877.749.690-3;Alimentos;Lady Lorena Moreno Torres;kcampo@rubio.com;381 214 7853;True
+e00e492e-9484-4d59-a5e9-32f6b50e1b9b;Gómez, Molina and Quintero;776.657.546-0;Retail;Inés Ortiz García;jimenezjose@franco.com;+57 311-508-3535;True
+12859d9c-a0da-4557-88bc-4249616e4f81;Suárez-Ayala;439.284.044-5;Comunicaciones;Esneider Pinto Uribe;ortegajose@leal.com;337 389 8775;False
+bb0ece21-b2ac-4b8d-8aa5-19caeeea4ba9;Álvarez and Sons;663.778.052-9;Alimentos;Lucía Daza Sierra;ruth66@gallego.com;3590902259;True
+221e1910-8532-4b4f-b45d-353eb93da179;Vera, Caro and Córdoba;663.618.637-1;AGRO;Julián Daniel Lara;perezjavier@gomez.org;370 231 6433;True
+2e052a8c-7f71-412d-86b6-f4200705baa2;NAVARRO-GARCÍA;058.025.662-1;Retail;Alba Acosta García;carmenrojas@figueroa-vergara.com;3994938743;No
+d393b5b1-c8bf-4019-b868-d4161652705e;Arroyo Group;169.385.977-7;Tecnologia;;tromero@giraldo-bravo.com;363 296 7629;False
+430e0a2c-4694-4d09-8a56-d21a7d971210;Medina Inc;3248413768;Agro;Nelsy María López;amanda24@mora.com;317 656 3600;0
+aeb11e8e-325c-4197-a0d3-9ef2d2f7ad09; González-Alarcón ;5777118372;TECNOLOGIA;Steven Marco Pérez Rodríguez;diazpaola@giraldo.com;+57 327-523-0837;True
+c60b4254-f795-4922-b5a3-67b7d408f57e;Gómez, Acevedo and Guzmán;164.709.006-3;Agro;;quinteroliliana@martinez.com;320 681 5583;False
+2376b2f9-413c-4dcd-8df3-57a2106a871e;ROJAS, RÍOS AND RICO;133.155.206-5;Tecnologia;Elena Cruz;navarroyanetharias.com;397 189 2419;1
+e095da16-b31f-485e-8b42-4b92a5b5f224;Bejarano-Benavides;2525715099;Comunicaciones;Eduardo Leonardo Moreno Fernández;morenodavidalvarez.biz;+57 339-102-5743;No
+7235008d-ca0f-4da3-a22d-cb307efee822;Rivera Ltd;039.752.450-8;Logistica;Augusto Gutiérrez Rodríguez;nubia38@fajardo.com;3396852701;False
+4c5e0658-4085-448e-822d-36496a0c8873;GARCÍA-RAMÍREZ;2321298338;Tecnologia;Fernanda Cristina Pérez;olgadiaz@suarez.info;334 715 6627;No
+cb3c3c97-ca09-4b16-9159-ba6016baa240;Salazar-León;627.066.149-8; tecnologia ;Yaneth Díaz Flórez;marlene68@ramos.com;+57 323-008-5766;False
+54625690-13b1-41bf-be5e-60d3a8de8e4a;Manrique-Arias;7491601692;Agro;Nidia Ivonne Fuentes Espinosa;jose75@martinez.com;3370502497;False
+9eba6c38-10ca-44cc-8557-ca2f0cc4e831;SÁNCHEZ, VARGAS AND ESCOBAR;2011669183;Retail;Juan Osorio Aguirre;uorozco@gallego-salgado.com;319 524 3640;False
+3d6dc6c3-3733-4c4e-bc6e-7f4a11497bbf;AYALA INC;116.864.622-5;Agro;Dayana Ramírez Díaz;cardonajohn@ramirez.com;334 679 1214;True
+e2aba71a-c6e2-49c9-9c00-b84c011e8b7a;Rivera LLC;150.937.710-0;Retail;Germán Rodríguez;lopezjose@rivera.com;377 596 5555;False
+e8f37b6a-0ee4-460d-9e9a-10df7704728c;Ibarra Ltd;669.055.107-6;Alimentos;María González Contreras;aurabeltran@polo.com;3505057397;False
+3f0d4bbe-8c28-4f2a-80f1-64958a2c757c;Mena-Alzate;567.164.932-8;Alimentos;Patricia Bautista;hernan87@triana.info;3833321160;False
+efc79c7d-d028-4204-b9ff-dcee2f7e8cec;Oviedo LLC;643.471.287-1;Tecnologia;Freddy Eduar Castañeda;francoleonor@villamizar.net;363 341 4111;False
+224ba072-8a0c-4ecb-bb8c-90d16b5ac8f6;Mena-Cuesta;1952569040;Comunicaciones;;joseagudelo@gonzalez.net;375 243 7729;False
+79033564-5751-4cb8-9f11-9897d90647bf;Sánchez-Soto;0954814973;Logistica;Jorge Horacio Martínez Arrieta;pablorojas@betancur.com;3764208656;True
+db0f4ee0-75c6-49e0-91d3-1b01109eb83b;Ortega, Romero and Giraldo;1844386125;Alimentos;Miriam Blanco;khoyos@marin.com;+57 323-330-5912;True
+78ae5dd8-0729-4667-9964-8b6c771fd0f7;Quiroga-Osorio;2015720185;Alimentos;;gonzalezrosalba@pacheco-pedraza.biz;3176475011;False
+0a38404d-f6a2-43e1-94dc-200ddab0e6cb; González Ltd ;830.999.741-9;Logistica;Liliana Anaya Narváez;carlos15@forero.com;+57 360-688-8718;True
+47e228c4-9ccc-4d7e-a19c-9f7a02140726;Montoya, Figueroa and Arango;3129208751;Alimentos;Patricia Rojas;andreamunoz@garcia.net;+57 345-826-0340;0
+0305fd1c-fdf3-4f14-a0c2-9475b673531d; Rentería, Jiménez and Lozano ;2975859883;Retail;Vanessa María Gómez;karenroa@agudelo.org;+57 354-296-1844;True
+24f975ec-03c5-48d4-ad74-ac15aa06b084;Bernal-Pérez;714.628.314-3;Alimentos;Julio Augusto Molina;mireyasanchez@rivera-alfonso.com;314 181 8615;False
+de5a248a-e024-44eb-afae-9538171dfef6;López, Chávez and Castaño;234.016.361-1;Tecnologia;Lina Pardo Fernández;wlopez@cordoba.com;302 562 5889;1
+4943f3b3-38f5-4559-bbf1-4fc280456b95;Acosta-Hernández;082.226.940-5;TECNOLOGIA;Ruth Laura Cruz Mendoza;orlando84@cantillo-guzman.com;+57 341-465-1113;SI
+b862478f-71a8-41f1-92c5-a8118ef75af5;Pérez Inc;1487068277;Tecnologia;;forerodiego@herrera.net;+57 390-972-8321;SI
+09bb40ca-542f-404e-a5fb-0ac572706fcc;Villa-Molina;067.625.153-8;Logistica;Milena Daniela Ortiz;dazacarlos@caballero.net;+57 307-970-5097;No
+4aff9cd8-ac0b-424c-8e13-12ced93c4446; JIMÉNEZ-GONZÁLEZ ;5265016731;Comunicaciones;Adriana Barreto Rodríguez;lorena65@morales-galindo.net;3417722560;No
+3aa1bc3e-5b8d-4f8d-b6e1-03346fa09718;Loaiza-Blanco;1340266502;Tecnologia;Emilia Geraldine Riascos González;zcaicedo@forero.biz;386 211 0225;True
+ee94825b-035e-466d-a9df-da06692166f6;Rodríguez, Duque and Martínez;569.067.447-1;Comunicaciones;Antonio Sánchez Palacios;blancagonzalez@portilla-vargas.biz;+57 337-189-2392;False
+eaad460a-9cc4-4973-bf1e-a3770f038fac;González Group;043.260.931-0;Logistica;Diego Suárez Barrera;inesosorio@palacios.com;+57 341-454-5635;False
+7cae748f-6198-47c1-b24d-933759de9448;Díaz Inc;053.474.916-2;Retail;Roger Morales;martha08@valencia.com;3989534396;True
+ae3ed310-3af8-4cf0-ae5d-102c71e771cb;Murcia and Sons;910.933.711-8;Retail;;mariaramirez@amaya.net;355 716 1768;False
+ab4c3870-fc9e-44f5-bcac-8315dd216a60;Mercado, Pérez and Castro;2409036788;Alimentos;Ana Janeth Flórez;rcastillo@diaz.org;+57 339-087-8844;0
+6505f62f-253b-4c4c-bf8a-01e9ebe73517;Jiménez LLC;8123083402;RETAIL;Edilberto Ortiz;bedoyatatiana@lozano.com;395 518 4269;False
+2137d087-2e92-4658-8332-0ceafce16c39;Valencia-Martínez;0534240891;AGRO;Esneider Muñoz Pineda;victortorres@ramirez-mendez.biz;+57 327-365-2717;False
+2a3ea145-cfc7-439a-868f-fe5eb370555f;Cruz and Sons;397.240.422-6;Tecnologia;María María Vargas Chávez;hlopez@bonilla.org;3166010023;False
+1b85cac9-848c-45df-a703-5553fdc6c581; Ortiz Ltd ;9001851327;Comunicaciones;Nicolás Jesús Acosta Vargas;antonio10@lopez.com;3862030366;False
+254261c5-2707-46f7-8057-2d19d484312b;Romero LLC;361.721.314-5;Comunicaciones;Natalia Luz Salgado;laraalberto@osorio.org;326 249 4514;1
+dedd61b1-1366-4af1-ad09-63709487fc8e;Durán-Saavedra;102.252.677-1;Retail;Nancy Geraldine Castro;ruizcarmen@romero-zapata.info;3695236687;False
+13ca1329-2dbf-4f60-ba1f-9eb850df6e90;Lozano, Lozano and Pinto;619.689.313-5;ALIMENTOS;Diana Gaitán;luis21@vallejo.com;347 286 3330;False
+3ca3bf53-b291-4beb-9169-339d216c13b2;Hernández, Burgos and Rueda;606.501.917-9;Comunicaciones;María Morales García;rodriguezalvaro@sanchez-diaz.com;+57 384-765-7041;False
+2e498e20-7cb4-4e82-ab5f-ac469cb78775;Martínez Ltd;0928206678;Comunicaciones;;estelasanchez@guzman.com;3690362891;False
+301e3fbd-be7a-4cdb-a4a1-e994b6d92cc3;Correa, Álvarez and Bedoya;620.563.411-1;Alimentos;Francisco Harold Gómez;cecilia11@hurtado.com;+57 383-034-1990;True
+4edba9f5-8511-42dc-b939-ecaa038f2186;Ospino, Ramos and Martínez;1405468356;Agro;Gildardo Hernando López;gtriana@sierra.com;+57 396-790-4227;False
+92d64e59-802e-46b8-9ace-9fd3e0858bb0;Rivas Inc;3322889857;TECNOLOGIA;Carolina Mosquera Ordóñez;tgomez@giraldo.com;3297102481;False
+94b23b6a-54f5-4b53-a508-e2f9593517ef;López-Álvarez;421.495.511-2;Alimentos;Antonio Felipe Muñoz Pardo;gilbertodominguez@gomez-andrade.biz;3692758955;0
+e1d8a4e5-ba93-49c7-ac64-231537771244;Carrillo PLC;7409038021;TECNOLOGIA;Eduardo Jaramillo;torresomar@lopez.info;3112166365;False
+80b54f10-888d-42af-a164-8f8a7fe18c59;Ruiz PLC;7371470827;Comunicaciones;Angélica Ruiz Gómez;zmartinez@angulo-mantilla.com;+57 303-064-4212;True
+31dfed86-1a9c-4c6d-aa79-a456d381fc43;Castro Inc;4768342016;Agro;Samir Jesús Ramírez;iramospaez.org;360 893 1992;SI
+0af90524-b38c-4d5e-98fd-01a7b3f66757;Vergara-Bravo;5027275164;Alimentos;Candelaria Barbosa;fernandohenao@lopez.biz;382 963 5339;False
+5d69d196-beaa-49bb-b99e-eff33c17fadb;Arias LLC;0448177665;Alimentos;Néstor Alejandro Quiroz;martha27arias-cortes.com;+57 386-646-4911;True
+2524bf27-1d80-4ed5-a91f-5f92c6c3ca08;López Inc;961.798.178-9;Tecnologia;Nelly Melo;inescardenasgonzalez-zuluaga.com;+57 357-660-5384;True
+a6ecf370-fa77-498c-ad97-5ae6b96bcf36;Cuéllar-Ortiz;6306000258;Tecnologia;Enrique Tomás Chacón;luisgiraldo@franco.org;+57 362-626-5826;False
+d3ac0e28-3f3d-4811-8d76-746602209360;LÓPEZ AND SONS;8196482531;TECNOLOGIA;María María Fuentes;mariatoro@cordoba.com;3752334383;False
+9add5b25-b406-4721-b2f2-2b80c150e409;Patiño, Serna and Fuentes;0412091179;Tecnologia;Luz Isabel Lara;garciasantiago@giraldo.com;361 713 6657;False
+cdf0cf65-528e-49ed-9384-1f4aaeba2264;Díaz Inc;299.015.579-9;Comunicaciones;Ana Villamizar;ramirezmaria@delgado.com;351 305 2312;1
+7e4fa78f-a5e3-4496-bf7c-c87eb50c5301;CASTRO-RAMÍREZ;158.477.686-3;Comunicaciones;Juan Pacheco;giovanni19@alvarez.info;367 694 5919;True
+87ca011b-d780-44e7-858e-88b385b26b67;Osorio-Ospina;517.208.496-4;Logistica;Diego Luis Montes;wmercado@garcia.com;352 510 5053;0
+62bfd6c5-099e-438d-bf6b-0e1b8ee43da0;Ospina-Ruiz;3816493831;Comunicaciones;Esteban Monroy;cordobajorge@tovar.com;307 704 6117;True
+ece21361-70de-4e97-ae67-24983f11754a;Agudelo PLC;6390409074;Retail;;quinteromaria@lopez-arenas.com;345 561 8579;True
+73f82dab-fadb-4efd-854c-ac970b6663eb;Medina Ltd;7715910300;Agro;;ftorres@vanegas.net;+57 300-401-0414;False
+76bb4e3b-5492-4049-bf43-e027a12cabfa;Pacheco-Mercado;642.297.125-2;LOGISTICA;Leonardo Camacho Guzmán;carlosduran@ruiz-ariza.com;+57 314-415-8331;False
+94dfdca8-f0b4-4035-a564-2ca4f132990c; Domínguez Inc ;303.763.715-3;Alimentos;Fabio Alexander Cárdenas;edgarlopez@torres.biz;3798363146;True
+c8d4d0d7-68d0-4347-8e07-ce0a53f92652;Duque PLC;1271130724;Agro;Leidy Contreras;monica81@mejia-sanchez.net;+57 368-507-4510;1
+57ae19db-51a2-4a19-b911-41d0cf17331d; Flórez, Chaparro and Ramírez ;3629489786;Agro;Flor Paula Bustos;marthalara@ortiz.com;+57 396-661-3473;False
+f4a42698-6710-4b4f-a0ad-cbf87a2e4553;Serna LLC;4940128974;Logistica;Andrea Flor Pérez Quintero;asanchez@ortega.com;312 095 7907;True
+6b386469-c956-4a8c-9721-6785c3938ca9;Ortega Inc;0943882211;Tecnologia;Roberto Quintero;igalvis@vergara-munoz.info;3054589714;False
+09646b5f-71aa-4c89-8f2c-ab35f0b30293;Delgado, Bedoya and Sánchez;3441497826; retail ;Alicia Diana Pedraza Henao;henry87@perez.com;369 644 3098;False
+866a7f17-c0c3-4255-8324-9519d650a22f;Herrera, Ávila and Mejía;7954107272;Agro;John Vergara;derly14cardenas.com;3910740650;True
+824e87d1-d3fe-4fe6-862d-3f30ad47b4a3;Vargas LLC;4882142369;Logistica;Milena María Saavedra;edwinhenao@castillo-renteria.com;+57 349-429-6592;True
+414ed75d-1f09-478b-a6d6-f7151fc7066e;Castañeda, Vargas and Guerrero;3441497826;Tecnologia;Luis Silva Vélez;vilma67salamanca-restrepo.net;+57 306-129-4398;False
+06e17bf0-4b79-491b-a72d-e8944c04a30c;Hernández-Ríos;940.626.078-7;Alimentos;María Ortiz;quinterodiana@ospina-barrios.com;319 803 8287;False
+ca0f5225-03f5-4b23-9710-ab45eed9f2b4;Torres Ltd;2440793110;Comunicaciones;Karen González López;sandrarodriguez@marin.biz;372 384 9791;False
+a69b829a-66e9-41ff-8fa4-c30ac4bc6df2;Sánchez-Rodríguez;2328837744;Logistica;Carol Esther Soto;zflorez@restrepo.com;304 719 6094;True
+bf7b3292-352d-4637-b8ad-49d2893dc14c;Franco Ltd;9705277402;Comunicaciones;César Ramiro Rojas;lmolina@sanchez.info;+57 324-461-7679;False
+50c85139-a299-4399-a77c-a7f1100406ad; DÍAZ, BLANCO AND PALACIOS ;8425995996;Comunicaciones;María Jennifer Pérez;vergaramelba@acosta.com;+57 312-661-0941;True
+c1ca649c-5048-49cb-a97a-4c6c34f8e6be;Sanabria Inc;759.025.176-2;Tecnologia;Diana Esther Duarte Torres;katerinecontreras@garcia.com;+57 330-205-6981;1
+c92cdcce-21d1-4005-b489-b940234132d7; Díaz-Ariza ;873.397.855-9;Comunicaciones;Yenny Mendoza Pineda;jaramillocarmen@jimenez.org;3850344651;False
+e585d296-fbf1-4941-936a-014128da96d1;Bolaños Inc;8938984690;Retail;Margarita Yéssica Bustamante;gomezpiedadquintero.com;338 503 7199;True
+e4882f57-231b-4914-9667-ad352aa0a1c7;Palacio, Arévalo and Herrera;169.918.724-0;Alimentos;María Johana Bernal;yacosta@rodriguez.com;3389608706;True
+4a1ee217-788f-4d53-8bb6-adb9b28484c4;Vélez-Osorio;6821719553;Comunicaciones;Óscar Andrés Moreno;torresmauriciojaramillo.com;+57 301-027-2405;1
+c8394f7c-cafa-4364-8cc2-4147991b07c8;AGUDELO-NARANJO;4296711148;Alimentos;Esther Aura Mosquera Ceballos;raquelsuarez@patino-jimenez.com;+57 384-588-1056;1
+be2e5c4a-a34f-407a-b5bd-228a2f5e7187;Quiroga, Reyes and García;2834831520;Retail;Doris Camila Cárdenas González;rperea@fernandez-suarez.com;3049670667;False
+58785657-c31b-4b52-b798-d21b126ee87f;Torres Group;2680408509; retail ;Arnulfo Leonel Arrieta;rafaelherrera@mejia.com;318 648 7699;1
+e0126050-a411-4663-bb28-253b76d08ce9;Muñoz, Olaya and Correa;320.441.384-5;Logistica;José Castro Ortiz;julio90@suarez.com;342 770 7070;1
+b5ecfa4c-8bd0-4f4d-b808-2df28a42a1c1;Ramos-Meza;360.914.985-1;Retail;Juan Brayan Castro Salas;lorenaperez@hoyos.com;+57 387-950-8304;False
+94527cb3-4e8a-4e42-9836-ee1080c05c04;Rodríguez-Meza;580.935.118-7;Retail;Rocío Paola Valencia;pablo61@osorio.org;+57 355-657-4902;True
+a8eef440-76e5-494f-9aca-97a28e5e4f3a;GÓMEZ-GRANADOS;9019358895;TECNOLOGIA;Liliana Margarita Navarro Sánchez;pedrazarichard@ospina.net;+57 368-180-9788;True
+9f70993d-38ad-4140-b52f-2e685c50e8d0;Ruiz-Ramírez;943.535.375-1;Retail;Inés Oliva Peña García;carojesus@moreno.com;383 692 9445;True
+0f77de82-f1b0-4e5e-b39e-64962b0211b7;González-Parra;8297327021;Logistica;Fernando Cortés Granados;hernandezmaria@rodriguez-perez.com;3288665268;True
+5c6f36c6-b7bd-4703-95fd-fe2524e9f872;Amaya Inc;5599910157;Alimentos;Víctor Mena Mejía;ubermudez@vanegas.net;+57 312-099-5765;False
+e919af6a-4231-4f9a-9fcd-5f46516eedbc;DÍAZ-CAMARGO;413.475.098-8; comunicaciones ;Jorge Flórez Uribe;mariagarces@rojas.org;+57 351-542-1447;1
+479611c1-795c-40bd-bf52-acac8246f760;Torres-Pérez;491.342.138-8;Logistica;María Pabón Olaya;mariaroa@arias.org;3678274117;True
+f29bec37-3df3-430b-bba7-d05408a93427;Rincón-García;2415131528;Retail;Fernando Víctor Molina;toroeugenia@mejia.net;353 800 3296;False
+ca7a239a-fe9f-492e-8b9e-b426c12c78a2;Sandoval LLC;7272742318; alimentos ;;mariapacheco@rivera.info;+57 382-434-7769;True
+12e33df2-df34-436f-9e04-453cf7fdb62a;Ríos-Jiménez;3146753612;Tecnologia;Robert Álvaro Romero Castillo;ivanramos@agudelo-pacheco.com;344 836 0854;True
+fb28ea29-05f1-40c4-9192-b0e88ac4b2bc; Ruiz, Giraldo and Marín ;640.473.504-7;Agro;David Pardo Lozano;erazodavid@hernandez-montoya.com;+57 361-558-1083;No
+552656a1-4a55-4606-b981-8c8baf2f0288;Lozano-Bustamante;863.425.563-8;LOGISTICA;Heidy María Rodríguez Ballesteros;sierradario@sanchez.com;333 041 6624;True
+9f973dd0-c8e3-4c32-9628-227c1a8359e7; García PLC ;600.892.196-3;Agro;Stiven Salazar;suarezirma@ortiz.org;3764613684;SI
+5a69bbc1-ca56-4aec-afc1-7f781e45713f;Gutiérrez-Narváez;836.076.581-7;Alimentos;Nancy María Fuentes Cardona;plondono@quintero-montes.com;+57 318-237-9312;True
+a01225fb-6f71-40d3-bcde-343725cedf1b;Garzón-Ortega;930.746.452-0;Tecnologia;Santiago Francisco Bohórquez;eduardo87@sierra.info;+57 378-811-6162;False
+dbc04d4d-03ab-49c7-8eb9-e4c4559e4016;Pérez Ltd;1237106728;Agro;Carlos Ramón Guerrero Rodríguez;mejiaelizabeth@ortiz.org;+57 322-483-9589;True
+5d8349ed-b5d3-412e-84a8-c316bd08acee;Ortega-Rojas;5228705622;Comunicaciones;Andrés Elmer Álvarez Díaz;montoyavanessa@pineda.com;+57 315-835-0344;False
+3d4db312-c786-4792-ae4a-573d30c26f7d;Orozco-Suárez;9648831921; agro ;Isabel Marcela López Bautista;xvalencia@calderon.org;+57 373-203-3192;False
+9a0e0593-7aa6-4816-8ea3-2a74b63a6659;PÉREZ INC;5102876754;Tecnologia;Paola Elena Perdomo;hmosquera@contreras-nieto.com;3242687741;1
+705098f6-f08d-409b-b2ea-2ddc2399e822;Maldonado, Arango and Díaz;575.639.836-5;Agro;Yuli Barragán Ramírez;andres09@valencia-vallejo.com;+57 380-940-4760;False
+dee7e0ff-e9b6-474d-aeac-602b1b7b31f0;Rueda, Castro and Martínez;907.977.278-1;Comunicaciones;Rosa Ávila;camilodiaz@garcia.com;+57 370-518-4390;True
+66b28797-d7ed-4c71-8bfa-8865a8b63f2d;Velasco-Miranda;5295806601;Logistica;Jessica Tatiana Padilla García;mgomez@pacheco.com;304 485 1579;True
+be2d5cf0-e7c9-4554-a482-595cd1aea437;García, Granados and López;121.259.020-3;Comunicaciones;Miguel Samuel Barbosa;fredy32martinez-rueda.com;+57 342-956-3343;True
+17f6932f-c14a-47df-9e33-a28a7c697668;Gonzáles LLC;7417595587;Logistica;María Palacio Flórez;jersonmejia@arrieta.net;384 183 4374;False
+a5aa8a8d-9107-478a-a743-6383a9a786fe;Caballero PLC;3441497826;Agro;Cecilia López;gabriel02@acosta-quintero.com;3254278207;False
+c13ad4d1-ac68-44d6-9eaa-627873093244;Cruz, Escobar and Mejía;673.459.576-4;Agro;Leydi Monsalve;salazarivan@castillo.com;398 392 2501;False
+f7e12610-1731-4c4e-9437-3dad4e88e64d; Alzate-Hernández ;5762702324; comunicaciones ;Andrés Moreno;shirleyvanegas@duque.com;372 517 8637;True
+c92cdcce-21d1-4005-b489-b940234132d7; Díaz-Ariza ;873.397.855-9;Comunicaciones;Yenny Mendoza Pineda;jaramillocarmen@jimenez.org;3850344651;False
+4edba9f5-8511-42dc-b939-ecaa038f2186;Ospino, Ramos and Martínez;1405468356;Agro;Gildardo Hernando López;gtriana@sierra.com;+57 396-790-4227;False
+e2aba71a-c6e2-49c9-9c00-b84c011e8b7a;Rivera LLC;150.937.710-0;Retail;Germán Rodríguez;lopezjose@rivera.com;377 596 5555;False
+f98d83d1-fcb2-4e13-8cdb-91b50ff2c85e;Cano PLC;4245088210;Comunicaciones;Alexandra Medina;suarezcesar@herrera.net;3222394312;1
+4a1ee217-788f-4d53-8bb6-adb9b28484c4;Vélez-Osorio;6821719553;Comunicaciones;Óscar Andrés Moreno;torresmauriciojaramillo.com;+57 301-027-2405;1
+e70d2d5a-a96a-4a2b-a51f-594db74327cf;Córdoba, Marín and Giraldo;9825071461;Logistica;Marleny Dora Romero;yasmin38@romero-lopez.info;+57 351-401-0512;True
+999dd9af-34fc-4536-8a51-b838488866b9;BUITRAGO, CORTÉS AND RODRÍGUEZ;955.124.056-8;Alimentos;Alexandra Giraldo Hurtado;camilo50@pena-zapata.com;357 438 4215;False
+5d8349ed-b5d3-412e-84a8-c316bd08acee;Ortega-Rojas;5228705622;Comunicaciones;Andrés Elmer Álvarez Díaz;montoyavanessa@pineda.com;+57 315-835-0344;False
+06e17bf0-4b79-491b-a72d-e8944c04a30c;Hernández-Ríos;940.626.078-7;Alimentos;María Ortiz;quinterodiana@ospina-barrios.com;319 803 8287;False
+d393b5b1-c8bf-4019-b868-d4161652705e;Arroyo Group;169.385.977-7;Tecnologia;;tromero@giraldo-bravo.com;363 296 7629;False
+55a87776-5c52-4743-9fcf-7a535f9836aa;Martínez-Márquez;235.697.252-1;Comunicaciones;Enrique Elver Álvarez Martínez;wcastro@escobar.info;312 966 6676;1
+8a2ffe17-7303-45d9-a2fc-b71fa0160fd7;Castaño Inc;7807823578;Logistica;Sergio Sánchez;pintoduvan@angel.biz;+57 381-040-9157;True
+66b28797-d7ed-4c71-8bfa-8865a8b63f2d;Velasco-Miranda;5295806601;Logistica;Jessica Tatiana Padilla García;mgomez@pacheco.com;304 485 1579;True
+de5a248a-e024-44eb-afae-9538171dfef6;López, Chávez and Castaño;234.016.361-1;Tecnologia;Lina Pardo Fernández;wlopez@cordoba.com;302 562 5889;1
+d726db1c-0bf9-4513-953a-975845c6264a;Monsalve-López;521.667.467-6;Logistica;;sandravallejo@arenas-buitrago.com;396 590 2771;True
