@@ -32,10 +32,9 @@ id_reto (texto (UUID))
 #3. Establecer una constante para el número de simulaciones
 FILAS=800
 ESTADOS=["Activo","No Activo","Bloqueado","En revisión","en_curso","EN CURSO","Cerrado"]
-IDS_USUARIO=[321,123,456,654,789]
-IDS_RETO=[1,2,3,4,5]
+IDS_USUARIO=[str(uuid.uuid4()) for _ in range(5)]
+IDS_RETO=[str(uuid.uuid4()) for _ in range(5)]
 falsito=Faker("es_CO")
-fecha_inicio=falsito.date_time_between(start_date="-1y", end_date="+3m")
 
 #4. Funcion generadora
 def generar_datos(numero_filas=800):
@@ -61,7 +60,7 @@ print(tabla_ordenada_registros)
 
 #7.1 Funcion para obtener una muestra de los datos
 def obtener_muestra(datos,porcentaje):
-    return datos.sample(fraccion=porcentaje,random_state=random.randint(0,9999)).index
+    return datos.sample(frac=porcentaje,random_state=random.randint(0,9999)).index
 
 #7.2 Función auxiliar para cambiar valores de un texto
 def escribir_mal(texto):
@@ -80,7 +79,7 @@ def ensuciar(datos_df):
      datos_df=datos_df.copy()
 
      filas_elegidas=obtener_muestra(datos_df,0.2)
-     datos_df.loc[filas_elegidas,"observación"]= None
+     datos_df.loc[filas_elegidas,"observacion"]= None
 
      filas_elegidas=obtener_muestra(datos_df,0.1)
      datos_df.loc[filas_elegidas,"estado"]=datos_df.loc[filas_elegidas,"estado"].map(escribir_mal)
@@ -89,8 +88,8 @@ def ensuciar(datos_df):
      #ISO = 2026-10-03 YYYY-mm-dd
      #LATINO = d/m/y h:m
 
-     iso=datos_df["fecha_registro"].dt.strtime("%Y-%m-%d %H:%M:%S")
-     latino=datos_df["fecha_registro"].dt.strtime("%d/%m/8%y %H:%M")
+     iso=datos_df["fecha_registro"].dt.strftime("%Y-%m-%d %H:%M:%S")
+     latino=datos_df["fecha_registro"].dt.strftime("%d/%m/%Y %H:%M")
      datos_df["fecha_registro"]=iso
      filas_elegidas=obtener_muestra(datos_df,0.25)
      datos_df.loc[filas_elegidas,"fecha_registro"]=latino.loc[filas_elegidas]
@@ -104,3 +103,7 @@ def ensuciar(datos_df):
      duplicados_exactos = datos_df.loc[filas_elegidas].copy()
      datos_df = pd.concat([datos_df, duplicados_exactos], ignore_index=True)
 
+     return datos_df
+
+tabla_ordenada_registros = ensuciar(tabla_ordenada_registros)
+print(tabla_ordenada_registros)
