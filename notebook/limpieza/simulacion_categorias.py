@@ -20,6 +20,20 @@ from notebook.exportacion.exportacion import (
 )
 
 AREAS_VALIDAS = ["Marketing", "Ventas", "Desarrollo", "Soporte", "Innovacion", "Operaciones"]
+NOMBRES_CATEGORIAS = [
+    "Tecnologia e Innovacion",
+    "Sostenibilidad Ambiental",
+    "Transformacion Digital",
+    "Optimizacion de Procesos",
+    "Inteligencia Artificial",
+    "Experiencia del Cliente",
+    "Ciberseguridad",
+    "Comercio Electronico",
+    "Logistica y Operaciones",
+    "Finanzas y Fintech",
+    "Gestion del Talento Humano",
+    "Marketing Digital",
+]
 
 
 def limpiar_categoria(df_crudo: pd.DataFrame) -> pd.DataFrame:
@@ -29,13 +43,25 @@ def limpiar_categoria(df_crudo: pd.DataFrame) -> pd.DataFrame:
     # 1. Eliminar duplicados exactos por id
     df = df.drop_duplicates(subset=["id"]).reset_index(drop=True)
 
-    # 2. Limpieza de 'nombre': quitar espacios sobrantes y capitalizar en título
-    df["nombre"] = df["nombre"].astype(str).str.strip().str.title()
+    # 2. Limpieza de 'nombre': quitar espacios sobrantes y restaurar nombre canónico
+    def normalizar_nombre(nombre):
+        if pd.isna(nombre):
+            return "General"
+        n = str(nombre).strip().lower()
+        for cat in NOMBRES_CATEGORIAS:
+            if cat.lower() == n:
+                return cat
+        return str(nombre).strip().title()
 
-    # 3. Limpieza de 'descripcion': rellenar nulos
-    df["descripcion"] = df["descripcion"].fillna("Sin descripción asignada").str.strip()
+    df["nombre"] = df["nombre"].apply(normalizar_nombre)
 
-    # 4. Limpieza de 'area_responsable': rellenar nulos y normalizar
+    # 3. Limpieza de 'descripcion': rellenar nulos con 'Sin descripcion'
+    df["descripcion"] = df["descripcion"].fillna("Sin descripcion").astype(str).str.strip()
+
+    # 4. Calcular 'largo_desc' (longitud en caracteres de la descripción)
+    df["largo_desc"] = df["descripcion"].str.len()
+
+    # 5. Limpieza de 'area_responsable': rellenar nulos y normalizar
     def normalizar_area(area):
         if pd.isna(area):
             return "General"
@@ -63,7 +89,14 @@ def ejecutar_limpieza():
     print(f"Filas después de limpieza: {len(df_limpio)}")
 
     rutas = exportar_categorias_limpios(df_limpio)
-    print("Datos limpios exportados exitosamente a 'datos/limpios/':")
+    
+    # Asegurar copia con nombre 'categorias_limpio.csv' (plural) en 'data/limpio/' y 'datos/limpios/'
+    carpeta_data_limpio = CARPETA_PROYECTO / "data" / "limpio"
+    carpeta_data_limpio.mkdir(parents=True, exist_ok=True)
+    df_limpio.to_csv(carpeta_data_limpio / "categorias_limpio.csv", sep=";", encoding="utf-8-sig", index=False)
+    df_limpio.to_csv(CARPETA_PROYECTO / "datos" / "limpios" / "categorias_limpio.csv", sep=";", encoding="utf-8-sig", index=False)
+
+    print("Datos limpios exportados exitosamente a 'datos/limpios/' y 'data/limpio/':")
     for r in rutas:
         if r:
             print(f"  * {r}")
