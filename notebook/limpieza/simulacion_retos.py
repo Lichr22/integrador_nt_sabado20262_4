@@ -19,7 +19,7 @@ from notebook.exportacion.exportacion import (
     exportar_retos_limpios,
 )
 
-ESTADOS_VALIDOS = ["Activo", "No Activo", "Bloqueado", "En revisión", "En curso", "Cerrado"]
+ESTADOS_VALIDOS = ["ACTIVO", "NO_ACTIVO", "BLOQUEADO", "EN_REVISION", "EN_CURSO", "CERRADO"]
 
 
 def limpiar_retos(df_crudo: pd.DataFrame) -> pd.DataFrame:
@@ -52,6 +52,9 @@ def limpiar_retos(df_crudo: pd.DataFrame) -> pd.DataFrame:
     anteriores = df["fecha_fin"] <= df["fecha_inicio"]
     df.loc[anteriores, "fecha_fin"] = df.loc[anteriores, "fecha_inicio"] + pd.Timedelta(days=30)
 
+    # Calcular duración en días
+    df["duracion_dias"] = (df["fecha_fin"] - df["fecha_inicio"]).dt.days
+
     # Convertir ambas fechas a formato string estándar
     df["fecha_inicio"] = df["fecha_inicio"].dt.strftime("%Y-%m-%d")
     df["fecha_fin"] = df["fecha_fin"].dt.strftime("%Y-%m-%d")
@@ -59,19 +62,19 @@ def limpiar_retos(df_crudo: pd.DataFrame) -> pd.DataFrame:
     # 6. Limpiar 'estado': corregir casing y variantes
     def normalizar_estado(estado):
         if pd.isna(estado):
-            return "Activo"
-        e = str(estado).strip().lower().replace("_", " ")
+            return "ACTIVO"
+        e = str(estado).strip().lower().replace("-", " ").replace("_", " ")
         if "revis" in e:
-            return "En revisión"
+            return "EN_REVISION"
         elif "curso" in e:
-            return "En curso"
+            return "EN_CURSO"
         elif "no activo" in e:
-            return "No Activo"
+            return "NO_ACTIVO"
         elif "bloq" in e:
-            return "Bloqueado"
+            return "BLOQUEADO"
         elif "cerrad" in e:
-            return "Cerrado"
-        return "Activo"
+            return "CERRADO"
+        return "ACTIVO"
 
     df["estado"] = df["estado"].apply(normalizar_estado)
 
