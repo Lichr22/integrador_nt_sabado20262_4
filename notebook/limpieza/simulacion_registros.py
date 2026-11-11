@@ -19,42 +19,46 @@ from notebook.exportacion.exportacion import (
     exportar_registros_limpios,
 )
 
-ESTADOS_VALIDOS = ["Activo", "No Activo", "Bloqueado", "En revisión", "En curso", "Cerrado"]
+ESTADOS_VALIDOS = ["ACTIVO", "NO_ACTIVO", "BLOQUEADO", "EN_REVISION", "EN_CURSO", "FINALIZADO"]
 
 
 def limpiar_registros(df_crudo: pd.DataFrame) -> pd.DataFrame:
     """Aplica las reglas de limpieza sobre registros crudos."""
     df = df_crudo.copy()
 
-    # 1. Eliminar duplicados exactos
+    # 1. Eliminar duplicados exactos por id
     df = df.drop_duplicates(subset=["id"]).reset_index(drop=True)
 
     # 2. Limpiar 'observacion': rellenar nulos
     df["observacion"] = df["observacion"].fillna("Sin observaciones registradas").str.strip()
 
-    # 3. Limpiar 'estado': corregir variantes y casing
+    # 3. Limpiar 'estado': corregir variantes y casing (normalizar a FINALIZADO, EN_CURSO, etc.)
     def normalizar_estado(estado):
         if pd.isna(estado):
-            return "Activo"
-        e = str(estado).strip().lower().replace("_", " ")
-        if "revis" in e:
-            return "En revisión"
+            return "ACTIVO"
+        e = str(estado).strip().lower().replace("-", " ").replace("_", " ")
+        if "cerrad" in e or "finaliz" in e:
+            return "FINALIZADO"
         elif "curso" in e:
-            return "En curso"
+            return "EN_CURSO"
         elif "no activo" in e:
-            return "No Activo"
+            return "NO_ACTIVO"
+        elif "revis" in e:
+            return "EN_REVISION"
         elif "bloq" in e:
-            return "Bloqueado"
-        elif "cerrad" in e:
-            return "Cerrado"
-        return "Activo"
+            return "BLOQUEADO"
+        return "ACTIVO"
 
     df["estado"] = df["estado"].apply(normalizar_estado)
 
     # 4. Limpiar 'fecha_registro': unificar formatos a YYYY-MM-DD HH:MM:SS
-    df["fecha_registro"] = pd.to_datetime(
+    fechas_dt = pd.to_datetime(
         df["fecha_registro"], format="mixed", dayfirst=True, errors="coerce"
-    ).dt.strftime("%Y-%m-%d %H:%M:%S")
+    )
+    df["fecha_registro"] = fechas_dt.dt.strftime("%Y-%m-%d %H:%M:%S")
+
+    # 5. Generar columna 'mes' para análisis temporal (formato YYYY-MM)
+    df["mes"] = fechas_dt.dt.strftime("%Y-%m")
 
     return df
 
@@ -73,7 +77,13 @@ def ejecutar_limpieza():
     print(f"Filas después de limpieza: {len(df_limpio)}")
 
     rutas = exportar_registros_limpios(df_limpio)
-    print("Datos limpios exportados exitosamente a 'datos/limpios/':")
+    
+    # Asegurar copia en 'data/limpio/'
+    carpeta_data_limpio = CARPETA_PROYECTO / "data" / "limpio"
+    carpeta_data_limpio.mkdir(parents=True, exist_ok=True)
+    df_limpio.to_csv(carpeta_data_limpio / "registros_limpio.csv", sep=";", encoding="utf-8-sig", index=False)
+
+    print("Datos limpios exportados exitosamente a 'datos/limpios/' y 'data/limpio/':")
     for r in rutas:
         if r:
             print(f"  * {r}")
