@@ -86,6 +86,51 @@ def exportar_categorias_limpios(datos_limpios_df):
         exportar_excel(datos_limpios_df,CARPETA_LIMPIOS,"categoria_limpio")
     ]
 
+# --- Entidad: PRIORIDADES ---
+def exportar_prioridades_crudos(datos_sucios_df):
+    return [
+        exportar_csv(datos_sucios_df,CARPETA_CRUDOS,"prioridades_crudo"),
+        exportar_json(datos_sucios_df,CARPETA_CRUDOS,"prioridades_crudo"),
+        exportar_excel(datos_sucios_df,CARPETA_CRUDOS,"prioridades_crudo")
+    ]
+
+def exportar_prioridades_limpios(datos_limpios_df):
+    return [
+        exportar_csv(datos_limpios_df,CARPETA_LIMPIOS,"prioridades_limpio"),
+        exportar_json(datos_limpios_df,CARPETA_LIMPIOS,"prioridades_limpio"),
+        exportar_excel(datos_limpios_df,CARPETA_LIMPIOS,"prioridades_limpio")
+    ]
+
+# --- Entidad: RETOS ---
+def exportar_retos_crudos(datos_sucios_df):
+    return [
+        exportar_csv(datos_sucios_df,CARPETA_CRUDOS,"retos_crudo"),
+        exportar_json(datos_sucios_df,CARPETA_CRUDOS,"retos_crudo"),
+        exportar_excel(datos_sucios_df,CARPETA_CRUDOS,"retos_crudo")
+    ]
+
+def exportar_retos_limpios(datos_limpios_df):
+    return [
+        exportar_csv(datos_limpios_df,CARPETA_LIMPIOS,"retos_limpio"),
+        exportar_json(datos_limpios_df,CARPETA_LIMPIOS,"retos_limpio"),
+        exportar_excel(datos_limpios_df,CARPETA_LIMPIOS,"retos_limpio")
+    ]
+
+# --- Entidad: REGISTROS ---
+def exportar_registros_crudos(datos_sucios_df):
+    return [
+        exportar_csv(datos_sucios_df,CARPETA_CRUDOS,"registros_crudo"),
+        exportar_json(datos_sucios_df,CARPETA_CRUDOS,"registros_crudo"),
+        exportar_excel(datos_sucios_df,CARPETA_CRUDOS,"registros_crudo")
+    ]
+
+def exportar_registros_limpios(datos_limpios_df):
+    return [
+        exportar_csv(datos_limpios_df,CARPETA_LIMPIOS,"registros_limpio"),
+        exportar_json(datos_limpios_df,CARPETA_LIMPIOS,"registros_limpio"),
+        exportar_excel(datos_limpios_df,CARPETA_LIMPIOS,"registros_limpio")
+    ]
+
 # --- Funcion generica para cualquier entidad ---
 def exportar_crudos(datos_sucios_df, entidad=NOMBRE_ENTIDAD):
     return [

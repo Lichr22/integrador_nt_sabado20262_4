@@ -1,3 +1,8 @@
+'''
+Simulación de la entidad 'prioridades'.
+Define niveles y tiempos de respuesta para los retos.
+'''
+
 import random
 import uuid
 import pandas as pd
@@ -7,7 +12,7 @@ from faker import Faker
 random.seed(42)
 Faker.seed(42)
 
-# 2. identificar los datos a similiar con su tipo de dato
+# 2. Identificar los datos a simular con su tipo de dato
 # id (texto (UUID)), 
 # nombre (texto), 
 # nivel (entero), 
@@ -34,16 +39,22 @@ DIAS = {
     5: 1
 }
 
-# 7 Preparar simulacion para ensuciar datos
+
+# 7. Preparar simulacion para ensuciar datos
 
 # 7.1 funcion para obtener una muestra de los datos
 def obtener_muestra(datos, porcentaje):
     return datos.sample(frac=porcentaje, random_state=random.randint(0, 9999)).index
 
+
 # 7.2 funcion auxiliar para cambiar valores de un texto
 def escribir_mal(texto):
-    variantes=[texto.lower(),texto.title(), texto.capitalize(), f" {texto} ", "Andres"]
+    if pd.isna(texto):
+        return texto
+    txt = str(texto)
+    variantes = [txt.lower(), txt.title(), txt.capitalize(), f" {txt} ", "Andres"]
     return random.choice(variantes)
+
 
 # 7.4 funcion principal para ensuciar los datos simulados
 def ensuciar(datos_df):
@@ -52,6 +63,8 @@ def ensuciar(datos_df):
     # Ensuciar 'nombre': variantes como MAYUSCULAS, con espacios, o Capitalizado ('ALTA', ' alta ', 'Alta')
     filas_nombre = obtener_muestra(datos_df, 0.30)
     def variar_nombre(nombre):
+        if pd.isna(nombre):
+            return nombre
         variantes = [nombre.upper(), f" {nombre} ", nombre.capitalize()]
         return random.choice(variantes)
     datos_df.loc[filas_nombre, "nombre"] = datos_df.loc[filas_nombre, "nombre"].apply(variar_nombre)
@@ -71,7 +84,8 @@ def ensuciar(datos_df):
     filas_nivel_texto = pd.Series(idx_not_null).sample(n=num_ensuciar, random_state=42).values
     
     def ensuciar_nivel(val):
-        if pd.isna(val): return val
+        if pd.isna(val):
+            return val
         val_int = int(val)
         return random.choice([str(val_int), mapa_palabras[val_int]])
         
@@ -91,8 +105,10 @@ def ensuciar(datos_df):
 
     return datos_df
 
+
 # 4. Funcion generadora
-def generar_prioridades(n=200):
+def generar_datos(n=FILAS):
+    """Genera lista de diccionarios de prioridades limpias."""
     prioridades = []
     for _ in range(n):
         nombre = random.choice(list(NIVELES.keys()))
@@ -105,14 +121,17 @@ def generar_prioridades(n=200):
             "nivel": nivel,
             "dias_max_respuesta": dias,
         })
-    
-    # 5. Conviertiendo los datos generados en un dataframe con pandas 
-    df_limpio = pd.DataFrame(prioridades)
+    return prioridades
+
+
+def generar_prioridades(n=FILAS):
+    """Genera DataFrame sucio listo para exportar a crudos."""
+    df_limpio = pd.DataFrame(generar_datos(n))
     df_sucio = ensuciar(df_limpio)
-    
     return df_sucio
 
-# 6. probar la funcion
+
+# 6. Probar la funcion
 if __name__ == "__main__":
     df = generar_prioridades(FILAS)
     print("--- FORMA DEL DATAFRAME ---")
@@ -123,3 +142,4 @@ if __name__ == "__main__":
     
     print("\n--- VALORES NULOS POR COLUMNA ---")
     print(df.isna().sum())
+

@@ -1,1572 +1,1572 @@
 [
   {
-    "id":"0e36b673-4fa5-4c9a-8aa8-fc3cd0d1c83b",
+    "id":"db479cb8-da9c-46c6-95c1-a818a7a27e7c",
     "nombre":"Optimizacion de Procesos",
     "descripcion":"Rerum provident quis atque consectetur quis consequatur quo tempore reprehenderit.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"4a609f34-bc03-40ea-8d76-80bee2375a28",
+    "id":"46ac5b61-bf6c-4761-b394-0bdfbf77cb79",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Nisi modi expedita pariatur voluptas ad suscipit debitis doloremque facere magnam.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"e90b64a9-dc53-4d04-a676-45d4c8641161",
+    "id":"70977901-3d60-4dca-bc30-0a532a041310",
     "nombre":"Optimizacion de Procesos",
     "descripcion":"Nostrum quibusdam totam officia consequuntur deleniti.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"9f998859-086e-483f-9953-7c68e2b7923b",
+    "id":"e7843ea2-90c6-4969-9c8e-14b98606e144",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Error at fugit debitis corrupti est perferendis laboriosam.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"f411b4b6-3985-4238-a5f7-8233e19fd102",
+    "id":"2cf0962b-7768-4976-aa97-21b289bcf517",
     "nombre":"Marketing Digital",
     "descripcion":"Vero in cum placeat rerum iure assumenda placeat aut.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"295b8c83-cfff-416e-b9e8-8a988f563395",
+    "id":"0eb670cd-6c77-4ba1-8955-dacf688cb50b",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Rem accusamus eum nemo fugit iste laborum vero illo quo esse.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"07bc9528-2e8d-4fda-aff7-292c85c04b28",
+    "id":"3b915380-2ccf-4fbb-b1ed-59d08d4a6b0e",
     "nombre":"Transformacion Digital",
     "descripcion":"Quia blanditiis rem tenetur magnam quos quae sapiente voluptas.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"0f412303-4e8e-44e4-a33b-86eeedd51624",
+    "id":"db2925ea-da60-467f-a6f6-a423104c1170",
     "nombre":"Inteligencia Artificial",
     "descripcion":null,
     "area_responsable":"Soporte"
   },
   {
-    "id":"d788566f-ce8b-4210-a8fc-f8f504cefbd1",
+    "id":"d8a216b4-e79e-4d04-903b-0bd98cb95043",
     "nombre":"Marketing Digital",
     "descripcion":"Ducimus maiores nostrum sit ipsa iure aliquam sint itaque amet nobis fuga incidunt.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"8bb1d584-a339-4c2e-8e5b-3a753ce3c94f",
+    "id":"816288f9-0e51-4da4-a9b0-baacad76b032",
     "nombre":"  Marketing Digital  ",
     "descripcion":"Quisquam ad eaque eos impedit ipsum error alias beatae.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"10d8d448-0baf-4707-b1b7-5ff701545eda",
+    "id":"c3c05b6e-9ed2-42cb-aac6-f2570b9224b7",
     "nombre":"  Comercio Electronico  ",
     "descripcion":null,
     "area_responsable":"  Innovacion  "
   },
   {
-    "id":"b3e2231f-2606-40a0-9d0c-36b0cac698f1",
+    "id":"fb2d078e-0997-479c-b1ea-1381dec27062",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Inventore earum voluptas porro doloribus repudiandae rerum quasi minima itaque asperiores fuga.",
     "area_responsable":"MARKETING"
   },
   {
-    "id":"03311282-1c35-412d-928e-8ee1f113fa66",
+    "id":"77cdb520-ccf8-4893-b28e-bbdd7f6f82b7",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Non quam repellat aut maiores quas excepturi.",
     "area_responsable":null
   },
   {
-    "id":"b44d9644-3f65-45e2-bdad-20ebee985189",
+    "id":"2441787f-f378-46de-8de4-26ad3bc6463a",
     "nombre":"Optimizacion de Procesos",
     "descripcion":"In ad veniam ducimus officiis sunt saepe inventore blanditiis.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"e6926f11-61c3-471a-9f8d-1c6794c457a7",
+    "id":"b259d2ef-73f4-4793-8070-2d3fafc4eceb",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Necessitatibus voluptatum nulla molestiae recusandae possimus aliquid nemo.",
     "area_responsable":" operaciones "
   },
   {
-    "id":"5a2b2c15-0075-4615-b4d5-029b02548a65",
+    "id":"15d944b7-9e1a-4444-b8a4-f05bc22ed6db",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Quis ipsa quia quod eius perferendis non tenetur.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"f2de201d-cc58-4c76-ac90-8005703399ae",
+    "id":"069f6037-4b6d-4200-bde7-e1de37fcb7b2",
     "nombre":" ciberseguridad ",
     "descripcion":"Earum illum accusantium impedit consectetur eaque nobis voluptate et.",
     "area_responsable":null
   },
   {
-    "id":"ff6e3059-bab4-48e8-ab03-455301001b49",
+    "id":"beb10ed4-b890-4d3e-b528-c28a336d8ef3",
     "nombre":"INTELIGENCIA ARTIFICIAL",
     "descripcion":"Dolore quae dolore nostrum quas non itaque in.",
     "area_responsable":"VENTAS"
   },
   {
-    "id":"5cc0bd1a-11dd-4b03-8998-7aaf4df7810d",
+    "id":"8ffbc1a9-f301-4388-a313-85ce55a0e230",
     "nombre":"Inteligencia Artificial",
     "descripcion":"Eveniet harum ut accusamus excepturi expedita ipsam iure quia distinctio possimus perferendis ducimus.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"313978e6-fb39-4565-9bd9-feaf6cc9c727",
+    "id":"018e6ca9-1e41-4e57-95c9-2209765f0695",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Optio necessitatibus aspernatur laborum voluptates assumenda.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"930b525c-c789-4212-aff6-0a9f7005d52c",
+    "id":"43691ac1-53b4-494c-a322-5f95afe8af1e",
     "nombre":"Ciberseguridad",
     "descripcion":"Fuga eos et perferendis adipisci numquam cumque expedita inventore voluptatum ad voluptate.",
     "area_responsable":null
   },
   {
-    "id":"d4093637-832b-4fc0-8970-6aff0303e0b0",
+    "id":"dae54f89-806c-47b2-81e2-af67666415c2",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Quia voluptatibus fugiat modi fugiat veniam commodi id distinctio beatae enim sint quisquam.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"f3eef8bb-ad19-41bc-8079-2b091e271d2e",
+    "id":"5e351c2e-88ef-4e65-a805-e14b7af27018",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Mollitia explicabo dolor tempore eius quo occaecati optio porro odio odio.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"08b12fd1-abb6-4fa8-884e-51832e8de73d",
+    "id":"0d08ede7-7ad1-46c7-a181-76bc2a0783c1",
     "nombre":"Comercio Electronico",
     "descripcion":"Modi hic similique libero iure repudiandae ipsum unde debitis enim minus ex.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"e22f1ed0-9d3a-4802-8792-eb676148a090",
+    "id":"bda052d0-6554-4898-b6f7-e932bad4a239",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Omnis placeat atque neque in in deleniti adipisci dolore non magnam.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"fcc1a9f0-37ac-4587-b06a-01ea6a7554e8",
+    "id":"9a89a1f3-0fef-47b1-aa0b-5f1b354b3144",
     "nombre":"GESTION DEL TALENTO HUMANO",
     "descripcion":"Nobis quasi veniam eveniet dolorum necessitatibus iusto.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"6163221d-dce5-476d-bf2e-8a1896dff43b",
+    "id":"1fc06927-f5ed-4144-ac99-8cdf54d1a36f",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Veritatis ad nobis ratione harum maiores deserunt.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"892cc8fb-1a52-4f1c-9dac-61e745af2717",
+    "id":"5c307520-346d-42f5-bad2-f63412152c95",
     "nombre":"Marketing Digital",
     "descripcion":"Itaque quam dolores iusto quae dicta consequatur aperiam.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"8c3a969b-e4cf-44c5-a26a-011f0bf8ca08",
+    "id":"55cf3567-e3db-4856-a437-65c0f09a468d",
     "nombre":"Inteligencia Artificial",
     "descripcion":"Dignissimos itaque doloribus nobis voluptatibus reiciendis.",
     "area_responsable":"soporte"
   },
   {
-    "id":"d8e9442e-3888-407f-a5d4-8785ba74e1e8",
+    "id":"e22f9d31-e179-43b2-88c7-708217a8a94f",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Magnam beatae nobis ex ullam culpa iure vitae ab adipisci perspiciatis.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"623de65a-2ae4-45f1-b568-146c6e92e990",
+    "id":"d7fc0240-c0c8-489d-9249-28590ef88afd",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Voluptatum similique architecto impedit ea quaerat commodi quod officia modi ad laboriosam.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"d2ffe961-c357-48dc-8817-9e765fab13f5",
+    "id":"76e44f97-c47d-43fc-8783-f059611930d3",
     "nombre":"  Finanzas y Fintech  ",
     "descripcion":"Eos id reprehenderit quisquam facilis quaerat.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"25206b7a-1a6f-48a7-9050-24fb7cfffee6",
+    "id":"ccbcad5e-2245-4d51-8292-87e1cca919d9",
     "nombre":"Transformacion Digital",
     "descripcion":"Occaecati ipsam ratione aut sed quidem neque recusandae quam facilis omnis consequuntur.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"e78aa17b-c8a9-492c-870a-c2c725131f95",
+    "id":"e0c2d065-2faf-453d-926b-7acb841cff58",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Recusandae distinctio atque odit asperiores tempore laudantium doloribus ea.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"c3da166b-f59b-47d6-a83f-88ddbf116c44",
+    "id":"593fdb8b-a928-4f0f-b696-65399dbf61f4",
     "nombre":"Logistica Y Operaciones",
     "descripcion":"Porro ex ipsum ducimus eius alias consequuntur maxime ad.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"cd347875-aa74-4586-942d-4f27a7ad9ce4",
+    "id":"286aa05d-ce65-4161-9209-ae1101cf1b74",
     "nombre":"sostenibilidad ambiental",
     "descripcion":"Natus quae esse quaerat necessitatibus esse quae perferendis culpa rem.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"29e86a25-474b-4458-89b2-7e3d5568d3ce",
+    "id":"9e11ccbf-0c30-415c-9bcb-35df17badfc2",
     "nombre":"  Logistica y Operaciones  ",
     "descripcion":"Corporis eos fugit odio adipisci distinctio esse.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"080c941c-7b07-4c63-aa09-e34f98363f46",
+    "id":"6c4f4a2b-b121-4a2a-9697-20c1721c16da",
     "nombre":"Logistica y Operaciones",
     "descripcion":null,
     "area_responsable":"Innovacion"
   },
   {
-    "id":"1af7841f-39e3-49ac-901c-e5bb25a2e86c",
+    "id":"0bb9cc8b-801c-4a4e-8dff-5da7c8f576cb",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Officiis sit laboriosam laborum fugit pariatur aperiam dolore dignissimos corrupti non quas.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"3672caf9-bdb4-4cbb-9cf8-d63aa1372bf1",
+    "id":"2dc2900f-f3f2-4bf6-a606-81ecaf1627be",
     "nombre":"comercio electronico",
     "descripcion":"Officiis explicabo itaque totam temporibus saepe sapiente.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"32262a58-073f-4ff0-bdba-81c954b2656d",
+    "id":"1596f6ff-28c2-40ca-a6a7-15543a4ac70f",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Tempore qui facilis adipisci occaecati veritatis magni earum vitae sed modi aspernatur.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"ffcdf3fb-c11d-4c49-9e4f-f4b8d8998588",
+    "id":"5fc40798-5c85-47fb-b00f-086742fef269",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Ipsum minima doloribus reiciendis delectus vel.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"8e5e01d3-0fd7-4584-92ba-73d3cb60193d",
+    "id":"570bf60d-ae4e-4e51-8932-f7db238b9069",
     "nombre":"Marketing Digital",
     "descripcion":null,
     "area_responsable":"Marketing"
   },
   {
-    "id":"ade73156-65df-470d-8b26-3b1b10905589",
+    "id":"5f2c004d-8c62-49f7-bb58-6cc12f1f6c95",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Minima aperiam dolorem nesciunt neque iure modi.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"16a8698f-4cf5-40b7-8ac5-c46d888a47e7",
+    "id":"de2c94c6-bfd3-441c-aba6-fffa2da4d055",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Eum odio deserunt blanditiis assumenda deserunt.",
     "area_responsable":"VENTAS"
   },
   {
-    "id":"bb86e9b6-1545-4ff0-9cc3-480c4985f15e",
+    "id":"495ba0d3-d0e1-41f9-a88a-404c0e6262ee",
     "nombre":"Marketing Digital",
     "descripcion":"Nihil nisi error ab inventore temporibus quam ipsam odit nihil odio quidem.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"da2599f0-f962-4f12-9ab5-82dd7a14c29d",
+    "id":"0589a566-96a0-445f-b489-340d464b66f5",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Dolorum illum earum occaecati eveniet laboriosam.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"6b53e3df-770a-463b-9927-a8968692f39e",
+    "id":"260e7adf-8817-44fd-a627-f504bf9c4c85",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Veritatis error sint dolorum eius natus est ipsam voluptate.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"39f0f3ba-8850-491e-a24d-772ab7d3d28b",
+    "id":"47886669-0f48-4004-9ab4-5a5bffbcc858",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Laborum eum voluptate iusto cum aperiam inventore esse.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"fc428365-aae0-4714-b225-786a28b9463c",
+    "id":"abef0f1e-ca06-433c-8c41-b3f023c7b60c",
     "nombre":"TECNOLOGIA E INNOVACION",
     "descripcion":"Exercitationem porro reprehenderit deserunt autem doloremque esse esse quisquam iusto placeat.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"bcade281-6b8d-42b6-a57d-23d6b67164f4",
+    "id":"7e35bb41-c4b6-4477-99d8-19365d67d3b1",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Distinctio perferendis eum deleniti id cupiditate culpa optio eveniet maiores labore nisi impedit.",
     "area_responsable":null
   },
   {
-    "id":"e8960ddf-ae82-45f5-9676-6524cd2a532d",
+    "id":"37cc17ee-f835-43a3-ab36-9f9739e7a2ba",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Dolorem ea vel rerum fuga esse quas repudiandae et.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"74250c72-f6be-43fb-964c-f4e0b73c4f7e",
+    "id":"5474548f-7073-40fc-9938-67c33910fb7d",
     "nombre":" gestion del talento humano ",
     "descripcion":null,
     "area_responsable":null
   },
   {
-    "id":"dd1c9074-eebb-4428-8cf3-efe13c4934b6",
+    "id":"db7a9fea-348f-4fe3-891a-682b7c89d260",
     "nombre":"Marketing Digital",
     "descripcion":"Accusantium provident dignissimos quaerat eos fuga eum ratione eveniet.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"d61e429e-3dcd-4cb1-8261-486e53b45152",
+    "id":"14671d30-103a-4877-8d11-6639b7b31d26",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Qui reiciendis nulla ipsam earum asperiores cum quam velit nihil veritatis veniam quos.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"f238fe1d-2667-4ba3-ab26-e72f422cce46",
+    "id":"97822e3d-93f9-48f7-9d6a-ef8f0d915fb4",
     "nombre":"Transformacion Digital",
     "descripcion":null,
     "area_responsable":"Marketing"
   },
   {
-    "id":"e973f847-e21d-4c86-aa6d-3fa0c423750a",
+    "id":"3839d4fe-40e2-4165-8099-608db810fdd3",
     "nombre":"Marketing Digital",
     "descripcion":"Beatae consequatur quibusdam eveniet quod impedit corrupti corrupti error.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"406fac3a-f9fb-4483-b7fb-047c7bcbbefc",
+    "id":"665660ae-8133-4a4e-b9cd-ac6a906a0d3e",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Natus ipsa eveniet molestias optio nam repellendus porro.",
     "area_responsable":null
   },
   {
-    "id":"c840695c-5377-482a-9785-cd48e9da73a3",
+    "id":"c09a3f38-1b30-4be0-a4d8-1d2972f07152",
     "nombre":"Optimizacion de Procesos",
     "descripcion":null,
     "area_responsable":"Marketing"
   },
   {
-    "id":"cbaff1c8-a1cd-4a58-aa2d-a5ba6d02d4d8",
+    "id":"181063c2-4113-4b28-a7f1-b8fd0ab0069b",
     "nombre":" optimizacion de procesos ",
     "descripcion":"Quibusdam dolor eum dolorem facere dicta voluptas ea nobis ut consequuntur.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"b016e155-9f1e-44c0-88f8-6150d403484d",
+    "id":"442fbe1d-9f12-47d8-99c0-d27c5494a9bd",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Incidunt rem reiciendis rerum animi voluptatibus fuga natus voluptatum vero sit.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"899df0d6-d65c-477c-8ae8-1fb3c4712c20",
+    "id":"496cf1e5-d500-4edd-bf0f-715d013e4a52",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Ratione laudantium nemo odio quasi natus voluptate quos minus reiciendis.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"1c091c66-e5c8-4f78-8c2f-621416b8fe03",
+    "id":"944a9804-fb43-4b17-ae82-ab60fc91bdae",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Nemo iusto officiis deleniti asperiores placeat repellendus.",
     "area_responsable":null
   },
   {
-    "id":"9db19a1b-d7ca-403f-8771-279e5d3f20a7",
+    "id":"5715f649-a1a5-4d8d-9500-801903013a17",
     "nombre":"Inteligencia Artificial",
     "descripcion":"Iste sunt qui officiis asperiores officia excepturi minus possimus reprehenderit inventore.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"c7a8497f-3d2a-4f00-a800-88ce5d1c4130",
+    "id":"dcd6e770-09ff-4f64-b14c-bcd3b06beab4",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Illo eos numquam harum ab eum.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"babd5dd4-eaf5-4f02-94a0-4cdb525150a7",
+    "id":"5a8302f0-a16d-4f74-a488-52fba108d630",
     "nombre":"INTELIGENCIA ARTIFICIAL",
     "descripcion":"Ea dolore perferendis eveniet itaque pariatur quo.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"5361ae29-4348-4f2e-ba7d-54de34285ce9",
+    "id":"2a5ba0b8-fe10-45ac-a8ff-972d703c051e",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":null,
     "area_responsable":"Operaciones"
   },
   {
-    "id":"da7af285-de9b-4cea-b04b-ea7df5822d1d",
+    "id":"8298657e-a4c1-4f11-b208-bfc5bd96a0c2",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Eveniet et dolorem distinctio esse incidunt.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"329107c7-f5a6-4753-8ccb-0e4bdce48f02",
+    "id":"f4161c01-857d-4647-9125-c7cc06a32fd0",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":null,
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"6a019842-cc70-439e-822d-e7e4fbe069dc",
+    "id":"cb4aa553-9ffc-4eee-8841-c2a059ae29a6",
     "nombre":"  Ciberseguridad  ",
     "descripcion":null,
     "area_responsable":"Soporte"
   },
   {
-    "id":"b0a9252d-5c51-4d1d-a39f-832bfaca48cf",
+    "id":"e20ffad3-797d-4f33-be05-2cb0f4c97c08",
     "nombre":"Marketing Digital",
     "descripcion":"Quam commodi quidem blanditiis laudantium non quibusdam et deleniti voluptates reiciendis facere ducimus.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"dd6fddf6-64c8-4bd2-a7b9-ac8e8583171a",
+    "id":"d66a3b28-0fe2-4f69-b111-64ab61e320fd",
     "nombre":"Ciberseguridad",
     "descripcion":"Velit accusamus fugit in vitae aut facere.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"914ea038-2503-4469-bd65-068f40d6be6a",
+    "id":"ad5dc33c-d099-47e9-92dc-11ce3fab97c9",
     "nombre":"Transformacion Digital",
     "descripcion":null,
     "area_responsable":"Soporte"
   },
   {
-    "id":"b1066bfe-772c-4c8a-86ca-5636bdf84027",
+    "id":"ce646c6e-641f-49ed-ac60-b2019e33fb5d",
     "nombre":"Marketing Digital",
     "descripcion":"Quas tempore aliquid sed debitis ab maxime consequuntur iusto.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"031c6a65-03fa-42e5-a9cf-5ad5e757d354",
+    "id":"72605356-6481-42d6-a185-66fc47b262fa",
     "nombre":"Experiencia del Cliente",
     "descripcion":null,
     "area_responsable":"Innovacion"
   },
   {
-    "id":"c717a5c6-de59-4f99-b987-fa210df8ab68",
+    "id":"7c03973a-ce5b-4fbb-aaea-3b531730b67b",
     "nombre":"Inteligencia Artificial",
     "descripcion":"In cupiditate maxime corrupti repellat pariatur facilis unde.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"bf9ec209-afbe-4f95-aa83-550c6ee31a9f",
+    "id":"3755c70e-1bed-4f9b-8748-02027be4c4aa",
     "nombre":"Marketing Digital",
     "descripcion":"Adipisci dignissimos illo fuga sapiente numquam adipisci ad.",
     "area_responsable":" soporte "
   },
   {
-    "id":"7dc5efd7-5000-444b-96b8-dab008bb8b35",
+    "id":"b216854b-6882-4013-a31d-5b46540acdd2",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":null,
     "area_responsable":"Soporte"
   },
   {
-    "id":"033d6c7f-55d5-4a31-b544-37051df713ea",
+    "id":"b08877a4-1c2c-43b9-aad9-5f0867cd9d3b",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Quam cumque aut expedita dolore in architecto voluptas iure impedit tempore ipsam sequi.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"f154955c-48b1-4911-8d4a-f773202323a2",
+    "id":"ec328727-a806-4a09-927d-c8e7515c100c",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Est iusto temporibus consectetur omnis facilis.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"ea99a829-a480-4274-a148-6ee69b297355",
+    "id":"2f4241d2-d8c7-4213-9ee0-c5b2f73a7fd2",
     "nombre":"Experiencia del Cliente",
     "descripcion":null,
     "area_responsable":"Marketing"
   },
   {
-    "id":"f5d6212f-17f5-4a34-bfb6-cfd17e41195c",
+    "id":"3e1f3265-eea8-4d61-a009-109c7a29703c",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Autem dolorem delectus optio eveniet voluptate pariatur maxime neque sunt quis consectetur in.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"27099938-b8d3-4ca0-871c-e494d1eaaca1",
+    "id":"aeb89f5c-0bcb-496d-bdb8-2d7f19beca24",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Neque vel alias temporibus harum aliquid dicta.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"f11bc886-be3c-482f-9970-e3079b9570b0",
+    "id":"4a7e1a26-c0ad-4422-80c0-07bc62d64fb8",
     "nombre":"Inteligencia Artificial",
     "descripcion":"Accusamus odio saepe dolores id accusamus laboriosam similique.",
     "area_responsable":" soporte "
   },
   {
-    "id":"2f55e682-266e-444b-87d2-67b54f4c0dc9",
+    "id":"7b50a450-c0a1-4608-94ea-06babf926e0f",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Occaecati repellendus neque iste dolor numquam molestias blanditiis.",
     "area_responsable":null
   },
   {
-    "id":"af3b0623-75b5-4672-ad6f-c04c847d4d67",
+    "id":"e48e8825-b236-49dc-adac-89239184a9e2",
     "nombre":"Ciberseguridad",
     "descripcion":"Omnis maiores excepturi voluptatum delectus exercitationem sit quo itaque.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"05026ac1-b337-4a8e-af0c-db190800cdaf",
+    "id":"0260ebf4-e38f-4dab-b988-e8be2c007ce9",
     "nombre":"Marketing Digital",
     "descripcion":"Pariatur exercitationem maxime aperiam facilis odit vitae.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"5d04e601-ebda-4ff7-bda6-e6d4dce0da46",
+    "id":"bfa28b78-66e6-4217-a7a1-8c0509773155",
     "nombre":"Experiencia Del Cliente",
     "descripcion":"Atque voluptate rerum blanditiis quae commodi expedita.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"0e62caa3-5bcb-453c-9472-9664fb725e9c",
+    "id":"a769976d-2cd5-4340-9c66-8ccc27350a31",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Ipsa voluptates assumenda sint magnam id velit voluptatum deserunt saepe dolore.",
     "area_responsable":"OPERACIONES"
   },
   {
-    "id":"27928609-c62a-47cf-8ae9-c3ecfb19b8c5",
+    "id":"0fcf6e64-eda0-4e51-8d42-f6e3da13acf5",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Dicta quia minima quod natus minus.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"8c9aa650-b05b-40ee-8000-992f2bde350a",
+    "id":"53425b14-c87a-42d6-b814-e79eb7d88b9f",
     "nombre":"Ciberseguridad",
     "descripcion":"Reiciendis facilis dolorem veniam minus fugiat.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"edb7dbdd-301c-4a42-ad1e-d56c8225f66b",
+    "id":"3d1519d8-0e44-4043-be13-b6e534812cfc",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Perspiciatis odio similique dolorem ut quaerat molestiae.",
     "area_responsable":"MARKETING"
   },
   {
-    "id":"359b6b35-e4e0-46c1-b28b-402160f99160",
+    "id":"2aad7611-635b-4022-9841-608102f526c9",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Incidunt dicta aliquid voluptas id harum maxime in labore eum quam error asperiores.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"97947344-0e30-4f46-8225-3735716700d4",
+    "id":"323d6647-9db2-46b6-9b7c-4776bc531820",
     "nombre":"GESTION DEL TALENTO HUMANO",
     "descripcion":"Pariatur dignissimos quasi nisi architecto quidem consequuntur laboriosam cum voluptas voluptate voluptatem hic.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"da9e6599-2745-4728-b2a0-6b337b03be79",
+    "id":"2a772cf6-4c20-4e44-bc8a-650e385968af",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Officia hic deserunt rerum architecto vitae eius tempora.",
     "area_responsable":"INNOVACION"
   },
   {
-    "id":"f9c2ed90-3264-46b2-ac99-2f19dde00e60",
+    "id":"fe206860-23e8-4902-9f11-9b161f3ea380",
     "nombre":"marketing digital",
     "descripcion":"Quas nesciunt perferendis dignissimos consequuntur eius eveniet.",
     "area_responsable":null
   },
   {
-    "id":"480d6230-e113-4334-8ff0-32f289f03661",
+    "id":"16e83a06-c761-4d12-9915-78ce59dbbace",
     "nombre":"Transformacion Digital",
     "descripcion":"Maxime minima quo nisi doloremque ipsa reprehenderit.",
     "area_responsable":"MARKETING"
   },
   {
-    "id":"7ebb2690-25ad-4ee5-bf7e-c6fb27762057",
+    "id":"571a414a-11c5-4870-aadb-756aac7b81a8",
     "nombre":"Transformacion Digital",
     "descripcion":"Quia iste architecto voluptatem tenetur exercitationem earum voluptates fugit tempora beatae iure.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"4b3f418d-8cf1-436c-8f5f-a671e5e99dcb",
+    "id":"3bfb6294-8c40-45e3-bbfd-9f1b26a9ee0c",
     "nombre":"GESTION DEL TALENTO HUMANO",
     "descripcion":"Cumque quae sint laborum enim minima at quasi vero sint dolores sed libero.",
     "area_responsable":"SOPORTE"
   },
   {
-    "id":"94bc5480-3140-4d51-af8b-2e1acbc5b310",
+    "id":"53f6dcb8-061f-4086-8a48-f7f99720bee0",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"In odit sint eius quam eius dolorum magni in saepe voluptatem.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"880cde09-7212-41a1-bcaa-873e3e70d4ba",
+    "id":"abaab363-efa9-41c9-8a58-89225556254e",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Accusamus quae laborum nesciunt dolore inventore eaque.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"d1a02bcf-ece7-4da9-8f4b-56a8cda64c08",
+    "id":"8dcb025c-1a08-4339-b0da-98cf1fdb0559",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Natus saepe fugiat maxime unde fugit nobis nihil recusandae veritatis nemo blanditiis.",
     "area_responsable":null
   },
   {
-    "id":"bb749eb1-2def-44c9-ada1-206bc3c4a601",
+    "id":"3e5bcd4b-fb68-4527-9f67-eabc1e37fb08",
     "nombre":"experiencia del cliente",
     "descripcion":"Facere perferendis temporibus in hic quia expedita ratione sequi.",
     "area_responsable":null
   },
   {
-    "id":"29850c61-312d-49e5-b56f-9df5d55f3d62",
+    "id":"19e9b2fd-9555-40de-8bc8-7ee6b8652fad",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Sint alias id rem quia inventore tenetur dolor debitis occaecati eveniet eos impedit.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"69a48519-c825-4c4b-b4f0-ef4b26ea204b",
+    "id":"5124506f-fccf-4970-9e70-eac8fc7e6b31",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Quas sed ducimus repellendus exercitationem voluptate.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"fa41fe68-25e0-4cfa-986f-3d486375bee0",
+    "id":"75366b5a-175c-4ea5-b6f7-e0a12922f00e",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Eius quos eveniet praesentium odio quisquam cum nam sint.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"6130b3fd-b83d-4945-8d72-c2ab93337e7d",
+    "id":"1fa3d1cd-c5e0-47dd-9c98-856025486f49",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Qui quidem quos cupiditate libero at explicabo modi rem vitae.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"aa3f6250-b58b-4035-91eb-c6e2835a83b7",
+    "id":"75d3b62d-0179-4eb1-ac84-75fe0004a99c",
     "nombre":"Comercio Electronico",
     "descripcion":"Repudiandae aut quam odit est libero delectus fugit eaque provident.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"0ee91a11-7f07-4aaf-8824-c43b70433940",
+    "id":"2508315e-82bb-4385-a521-4adc48be8f10",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Excepturi ipsa facere culpa cumque accusamus deleniti est magni odit.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"9ab48ea8-dca8-4b43-804d-64674e60b70b",
+    "id":"35f00d48-6923-4475-8872-560a52b30279",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Quidem modi id possimus dicta at nisi soluta illo.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"bbaf409c-64b0-4ea8-83c4-938e90f8ac5d",
+    "id":"0960a4f9-04e4-45a6-8baa-587c06b0768e",
     "nombre":" ciberseguridad ",
     "descripcion":"Corporis excepturi explicabo consequatur harum sapiente qui soluta reiciendis.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"3d636728-dca3-4605-9d11-7a0153904634",
+    "id":"e9f264ad-bfd5-473a-8223-ac513e9b6240",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Necessitatibus aspernatur voluptatum ipsam aliquam molestias pariatur earum laudantium rerum voluptatem doloribus dolorem.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"5469d71a-52d0-4798-8033-ea1ed92e374c",
+    "id":"26b3b936-fe7c-4a71-826d-6a9558937131",
     "nombre":"  Optimizacion de Procesos  ",
     "descripcion":"Corporis error vitae similique laboriosam ipsa nam voluptatum.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"fd8b0fdf-b0f5-4b66-9274-6a774012491f",
+    "id":"ca0be558-1f6c-4af3-80a0-3e92893c5715",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Impedit sed neque occaecati suscipit voluptatem quia provident.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"440e55b3-89c1-440b-9b7f-c1fd82922a3e",
+    "id":"62c29629-21b3-4e7b-945f-95a69e727ea9",
     "nombre":"transformacion digital",
     "descripcion":null,
     "area_responsable":"SOPORTE"
   },
   {
-    "id":"f71cdaa1-a6e6-4c51-a071-197dff3529d7",
+    "id":"ffba8749-dbc9-45f3-a662-c7dca8b1f1a4",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Recusandae neque atque totam voluptates provident modi autem repudiandae.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"d570a6cc-8b75-4a49-8976-10368f46409d",
+    "id":"f3d04b53-3501-4e95-86f7-f1215ecb428a",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Quam quaerat officia mollitia voluptates iure nemo amet.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"b182c1c7-f990-4d26-9c54-4171371a2af6",
+    "id":"70501340-08f9-4e2e-aa56-cb30d1a807e1",
     "nombre":" inteligencia artificial ",
     "descripcion":null,
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"20b05c6d-dc7d-4382-894b-46c14035452e",
+    "id":"0738b590-177a-4080-98af-3dcecd7c5cac",
     "nombre":"Marketing Digital",
     "descripcion":"Necessitatibus veniam quas quae laudantium provident velit voluptates dolor.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"603e7c5e-1a0e-4a91-b65e-b7980a65e0c5",
+    "id":"ebac6667-7533-4edc-88c8-63819da1328c",
     "nombre":"Optimizacion de Procesos",
     "descripcion":"Est possimus esse doloremque reiciendis magni illum quisquam voluptatem nesciunt sint.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"027706cd-6584-4da6-aa33-5cc456e4df25",
+    "id":"1007f2f5-fd50-4651-bb2e-30325a2d58f4",
     "nombre":"  Inteligencia Artificial  ",
     "descripcion":"Amet quidem nesciunt quo architecto aperiam impedit cum deserunt voluptatem quo voluptatibus saepe.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"1d35d973-218a-4b9c-8aae-a41023b2c63e",
+    "id":"5eaf0e03-210d-4a8d-a95c-288856170f17",
     "nombre":"Comercio Electronico",
     "descripcion":"Officiis libero blanditiis at veniam nemo.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"1c78f7d9-1810-4487-b24e-083c7b741970",
+    "id":"55d9ac3a-f885-483b-ae38-ef1316c91c21",
     "nombre":"sostenibilidad ambiental",
     "descripcion":"Rem fugit labore sed delectus est debitis inventore dolorum at.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"371ebf85-84b4-4513-a134-4fc854391f9c",
+    "id":"71bd4c76-6b7e-4b82-9600-a5a49fd3967d",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Illo dolorem voluptates odio excepturi quibusdam minima accusantium non.",
     "area_responsable":"  Soporte  "
   },
   {
-    "id":"099b863a-b2ba-427f-bb0a-cd10385c3523",
+    "id":"b6b428f5-f49c-42d9-9f9f-684df927da67",
     "nombre":"Transformacion Digital",
     "descripcion":null,
     "area_responsable":"Operaciones"
   },
   {
-    "id":"2c8590d9-27e6-49f3-8ba0-9e703b422eba",
+    "id":"2979dff1-59b5-4f14-b40c-bdf210aba8d0",
     "nombre":" comercio electronico ",
     "descripcion":null,
     "area_responsable":"Marketing"
   },
   {
-    "id":"23829547-650b-47df-b0c0-d6d851eb55a2",
+    "id":"010b663d-9879-442b-ac25-841f81d89230",
     "nombre":"Gestion del Talento Humano",
     "descripcion":null,
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"bc8c0164-9481-45d8-99cf-f7e60f0b9ff3",
+    "id":"d15da944-8769-4b98-8de4-8cff2a48aae8",
     "nombre":"Gestion Del Talento Humano",
     "descripcion":"Libero nobis voluptatum ullam vel ut molestias.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"812f12ac-6847-4554-a338-2e82da6d1ea9",
+    "id":"4d6c3335-2776-4107-8637-bc1cbf97ad02",
     "nombre":"  Marketing Digital  ",
     "descripcion":"Quos velit pariatur aperiam doloribus consequuntur vero laudantium recusandae aliquam.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"4b72478e-4cf0-4990-af00-b19da0d2e29a",
+    "id":"0978c78e-ebe3-4270-87b4-343d347d1120",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Totam ullam repellat tenetur provident saepe.",
     "area_responsable":null
   },
   {
-    "id":"a0ad2e5e-8aae-466d-b054-f76a68f21e34",
+    "id":"2a315984-4766-4801-91f9-fb167825a3a2",
     "nombre":"Inteligencia Artificial",
     "descripcion":null,
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"361c8af1-a728-48d7-bd23-abab56d48d52",
+    "id":"1e74945b-74ef-4f12-9af8-1185199bc7c5",
     "nombre":"Transformacion Digital",
     "descripcion":"Officia eligendi consequatur quis eos numquam illo fugiat laudantium laudantium eum laborum.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"c0bb034f-bc7e-425e-aa1a-85b59396aff4",
+    "id":"f0612590-611f-412a-9258-0964400f84e8",
     "nombre":"Marketing Digital",
     "descripcion":"Esse voluptatibus quo quo praesentium minus aliquam veniam esse nesciunt.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"4b778a52-a78b-42b9-8f19-99056ddbfe55",
+    "id":"fddd3232-1afc-418b-9296-c4beecfdf146",
     "nombre":" gestion del talento humano ",
     "descripcion":"Molestiae odit qui modi aliquid esse deleniti vitae amet repudiandae soluta qui minima.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"70afe73e-a58a-46c8-9624-d2723818b354",
+    "id":"934b18f8-9c69-495d-b34a-b8265989122b",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Magni perspiciatis aliquid dolor itaque delectus dolore eum.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"212690af-0a67-420f-b177-ee31b9b3e9a5",
+    "id":"8fabd3d0-b643-49c3-95bf-0fc5d59f8e2b",
     "nombre":" optimizacion de procesos ",
     "descripcion":"Libero necessitatibus nostrum aliquid fugit tempore blanditiis enim.",
     "area_responsable":null
   },
   {
-    "id":"87ee8e57-f46b-4bc7-9796-3033b36802cc",
+    "id":"725dd5ab-5c93-4872-b7bc-d16ca8b5ec2e",
     "nombre":"Optimizacion de Procesos",
     "descripcion":"Optio totam ex debitis harum dolorem ullam illo culpa.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"9cf11f03-2ba1-4eee-893e-588f3e446f4c",
+    "id":"2ca0af64-1a20-4350-a3b9-9d6c3672b4d1",
     "nombre":"Optimizacion de Procesos",
     "descripcion":"Doloribus pariatur sunt in necessitatibus sint numquam dignissimos soluta qui earum porro impedit.",
     "area_responsable":null
   },
   {
-    "id":"92a2b32b-ca91-45be-8349-7644fd94eab9",
+    "id":"b2a9fd72-ef37-4d51-b89d-921217d01aff",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Fugiat sapiente deleniti quod ducimus ab possimus aliquam quisquam consectetur porro.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"5272d676-36c0-4d23-a951-b3a41d393f0e",
+    "id":"21e99e04-f422-42e0-8790-d44516a03cf8",
     "nombre":"Logistica Y Operaciones",
     "descripcion":null,
     "area_responsable":"Innovacion"
   },
   {
-    "id":"17393ff6-366b-4b14-924b-96a0adf3eab8",
+    "id":"3a75fc22-51a2-4608-8269-c96cfb514344",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Veritatis quaerat possimus eligendi enim sequi ea quis hic.",
     "area_responsable":null
   },
   {
-    "id":"1218ee47-f8d3-4bc9-afb4-5f759b039531",
+    "id":"241c2d7c-cb5e-417e-b4c4-32554d71bfa2",
     "nombre":"LOGISTICA Y OPERACIONES",
     "descripcion":"Veniam mollitia libero consectetur voluptatum iusto autem dolorem.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"c5805e44-20f5-483a-bf30-ee8e43265ae2",
+    "id":"aad6138a-96e3-43e4-95fe-9291f7f55f83",
     "nombre":"  Finanzas y Fintech  ",
     "descripcion":"Delectus quis rem dolores nostrum ipsa consequuntur nisi aliquam ut.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"28b130ee-34ac-4a78-8fc0-c4ecaf3948ad",
+    "id":"445fa52c-508b-4377-aa92-bcfe1a958ca3",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Quisquam quam aliquam accusamus corrupti similique dolorum cupiditate.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"38a65229-cfbe-46e3-84f5-4832cf543400",
+    "id":"9f1e1f4c-e859-4cd1-a51a-d5e8520dc59f",
     "nombre":"Ciberseguridad",
     "descripcion":"Dicta officia hic corrupti eos aperiam delectus deserunt omnis ipsa sit.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"238c703b-2a4c-4812-8ebb-64eb85ffcf4d",
+    "id":"0973ffe1-c776-4a0a-b60a-1fd9d3ec3b4f",
     "nombre":"Marketing Digital",
     "descripcion":null,
     "area_responsable":"Soporte"
   },
   {
-    "id":"11be766f-ebf8-46d4-877c-ec819a348545",
+    "id":"1ad2d6ab-d1e4-44d2-9441-214657230809",
     "nombre":" logistica y operaciones ",
     "descripcion":"Placeat illum modi nulla cumque ut fuga.",
     "area_responsable":null
   },
   {
-    "id":"a0cd6a09-fdd2-47ba-bb74-06289080f8b6",
+    "id":"2d91c094-713b-483f-8810-f5bd69b54c9e",
     "nombre":" ciberseguridad ",
     "descripcion":"Temporibus placeat ab a animi harum necessitatibus.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"e68fa9c9-a7a2-439b-b293-9cf23a8db2e4",
+    "id":"051fabe4-7662-42b5-b2a8-2c82251a45e1",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Quis alias molestias accusantium reprehenderit labore nemo harum.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"9c91f4b6-e7e2-4b6e-be5f-37bff8d17be6",
+    "id":"c72d4b6d-755c-4047-b109-790e15afbaad",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Harum tenetur dolores laudantium dolorum voluptatem odio laboriosam tempore iste sunt dolore enim.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"c1e4c86f-3daf-4009-b194-d097c995ab4e",
+    "id":"764468bd-7c24-44e4-8218-b6a80e3dd0c2",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Vitae harum ducimus cum qui inventore error aliquam.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"4f0d7560-5eeb-4041-8bff-1169f0f60adc",
+    "id":"0500bfd2-7de4-486d-8f00-2b7e6f069309",
     "nombre":"Comercio Electronico",
     "descripcion":"Quae molestiae dolorem illo saepe explicabo velit in in quasi ipsam.",
     "area_responsable":null
   },
   {
-    "id":"0016dcf4-c94f-4ef1-b3d9-0cc77d0160ba",
+    "id":"9499da33-c990-444e-9c59-0cae588cdedb",
     "nombre":"Logistica y Operaciones",
     "descripcion":null,
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"85bdaa6a-e36f-4ca1-b8e6-09365ab5c11a",
+    "id":"ae295e10-18c6-42fc-bb22-5e78946b878a",
     "nombre":"Transformacion Digital",
     "descripcion":"Facilis iure similique recusandae fugiat esse hic iusto molestiae iste temporibus veritatis sit.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"a41f94c8-8c4e-4bf2-b3ac-88b3a627d295",
+    "id":"f0a8495c-062d-426c-b7b8-ac3904b6035a",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Amet dolor mollitia culpa fugit maxime debitis ipsam possimus harum pariatur.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"2bd43240-7ddc-48a4-ba6a-5523594ebe4f",
+    "id":"5b125531-b4c5-4476-bbd9-6ceb305d2e18",
     "nombre":"Transformacion Digital",
     "descripcion":"Voluptates perspiciatis quo odit nemo reiciendis corrupti et doloribus.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"105a2841-fa95-4044-babc-b71551e2d6d5",
+    "id":"299d8845-6ea3-4dfd-a510-2a4f19f0b451",
     "nombre":"  Ciberseguridad  ",
     "descripcion":"Quis laborum nostrum quis minus occaecati alias.",
     "area_responsable":null
   },
   {
-    "id":"d4f5a1e2-c5e9-43cc-b425-e62c633af795",
+    "id":"9de195a8-983e-405d-b6b0-b4e6ad5600ed",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Ratione assumenda ab similique amet sequi et.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"47a9f215-25e4-408c-97a8-98f6ae0bcc4a",
+    "id":"eaa657c9-ecc0-40aa-b449-15b5d6c29881",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Dicta corrupti distinctio sapiente facilis tenetur nesciunt repudiandae labore provident.",
     "area_responsable":"  Ventas  "
   },
   {
-    "id":"37ce76e0-35bc-4aeb-9865-6cab3afbc443",
+    "id":"0b262141-5b94-424f-8123-7e14fff3cdf6",
     "nombre":" inteligencia artificial ",
     "descripcion":"Esse rem cum sunt cum blanditiis tenetur illum natus.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"81713675-4a96-4eab-86fc-7b1bc3f5c44d",
+    "id":"37170fd1-cde1-46a8-b6bf-dbf04818a1d8",
     "nombre":"Transformacion Digital",
     "descripcion":"Iusto voluptatem porro temporibus voluptate optio corporis ipsam quidem consequatur fugit fugit cupiditate accusantium.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"a0d00e63-3e55-47ce-9f4d-5778c3ec915b",
+    "id":"363427ee-c6b2-4f86-ba0c-fe152eeb9963",
     "nombre":"Marketing Digital",
     "descripcion":"Ut nesciunt delectus tempora voluptas veniam necessitatibus suscipit voluptates suscipit.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"2dfcd6ec-dc30-4287-93af-8d694f8390bd",
+    "id":"2c6f83f6-a81d-410c-b9df-487535d78a8f",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Debitis numquam perspiciatis totam beatae vel.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"5eb5ed40-23e3-4e37-a0b9-dd098f459646",
+    "id":"b20b078d-ddca-4d48-b20d-22aaf119ec21",
     "nombre":"Inteligencia Artificial",
     "descripcion":null,
     "area_responsable":"Marketing"
   },
   {
-    "id":"d5dbce58-43b4-4dfa-9623-a86994b117f0",
+    "id":"f8e69932-8bd7-49f6-9e45-2ac28a12da73",
     "nombre":"Inteligencia Artificial",
     "descripcion":"In cumque sed deleniti eligendi maxime totam laudantium temporibus amet dolores esse ipsum.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"0179e47e-3b5c-4efa-99fa-d625bce7a9a7",
+    "id":"bc5c8f4b-55f8-408b-b8c4-4b66a7dab682",
     "nombre":"GESTION DEL TALENTO HUMANO",
     "descripcion":"Excepturi earum voluptatum omnis optio ex adipisci sit unde ab nemo.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"070dc9cd-0c50-4fa5-9bfc-243a42b8a6bc",
+    "id":"a34684f7-54d3-4999-a2ec-87b9e75d84f1",
     "nombre":"Inteligencia Artificial",
     "descripcion":"Fugit temporibus fugit alias perferendis possimus excepturi rem sequi.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"5530b89e-8d96-43d4-a47d-d1731073aa1f",
+    "id":"70d98313-9774-4edd-9f70-3c78d8f6d953",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Illum exercitationem velit quaerat mollitia laborum eaque totam ullam assumenda pariatur.",
     "area_responsable":"DESARROLLO"
   },
   {
-    "id":"dee7bf0f-5926-4ef6-a89c-163838d6096a",
+    "id":"ffb67962-eb1a-41c2-bdb9-17b0b398b905",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Similique tempore ad consectetur quis doloribus debitis aperiam nemo dolores.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"513a5928-15bc-4472-b050-e9259e913df8",
+    "id":"95504c38-d542-45b4-97a8-cf82cb125ae9",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Sint ab accusamus rem sit nulla culpa.",
     "area_responsable":" innovacion "
   },
   {
-    "id":"4a8ae080-be25-4566-a3e7-003e991ada08",
+    "id":"b276d3a1-3cb4-4e2e-893c-4610d076dca3",
     "nombre":"Gestion Del Talento Humano",
     "descripcion":"Vitae voluptas occaecati ex pariatur nostrum animi consequuntur ullam unde delectus quaerat at inventore.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"1a6db6d3-c537-4435-a808-073f780b1fd9",
+    "id":"581fef1c-fe78-4e41-9e52-afffba93793b",
     "nombre":"Finanzas y Fintech",
     "descripcion":null,
     "area_responsable":"INNOVACION"
   },
   {
-    "id":"7940d2b1-46f9-42fb-8a9c-90a8bf55bf3f",
+    "id":"c5cf8f87-39c6-4be1-ab74-b6e65a3601e9",
     "nombre":" transformacion digital ",
     "descripcion":"Iusto quasi nihil similique ipsam magni aspernatur voluptate.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"70f1d7ae-121e-4a37-b99a-0d5ba08beac4",
+    "id":"04ebccd8-b5cd-4bb2-9d97-d105539f6dbd",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Corporis molestiae voluptate praesentium praesentium asperiores deleniti eum voluptatibus.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"0299cb69-acbd-46ac-b152-1d74e6405b97",
+    "id":"f7ee5b00-b88f-4840-8664-fa774f187771",
     "nombre":"Marketing Digital",
     "descripcion":null,
     "area_responsable":"Innovacion"
   },
   {
-    "id":"220edd3f-33d1-4392-9002-f89a7056c20e",
+    "id":"4d49accd-a880-48b9-9ad4-d3a9f1e8c249",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Minus omnis voluptas dolorum quidem aperiam aperiam exercitationem quasi.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"0dd0719c-586f-43cd-9399-2100a8e8ff13",
+    "id":"e925eaa0-c356-49dc-8979-390ad6e73771",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Quidem inventore perferendis tempore ipsum voluptate perferendis et quo totam praesentium non vero.",
     "area_responsable":" marketing "
   },
   {
-    "id":"015567aa-ff2b-45b4-bcf9-e05b7477be7a",
+    "id":"96be8a91-44d4-4b99-90c3-97b8d5c67a28",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Ea saepe iste quia laboriosam libero quis et voluptatum deleniti nesciunt aliquam explicabo.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"97d60a2b-ac97-44da-b8ef-d1663cccfcf8",
+    "id":"0987e561-8149-4a90-8f70-55279d2358eb",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Sunt eveniet recusandae veniam illo sit iure corrupti qui harum veniam.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"34c943fa-2188-43a3-b200-4defc47e1708",
+    "id":"1c495be7-ed20-4e8d-8796-17b0f8d5f151",
     "nombre":"Inteligencia Artificial",
     "descripcion":"Ratione fugit sit corrupti facilis ipsa repellendus.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"39835320-912c-4217-a23e-6482818a62b6",
+    "id":"6631df5f-835a-42df-97e0-0c48485b7d68",
     "nombre":"Optimizacion de Procesos",
     "descripcion":"Corrupti veniam dolor accusamus iusto earum deserunt libero.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"f325689e-5c35-4446-947e-2c27ef69679c",
+    "id":"9703f23e-ec39-4418-a648-ed4d880c2338",
     "nombre":"Ciberseguridad",
     "descripcion":"Esse veritatis molestias dolorem laborum quam inventore veniam.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"3061ec5f-6331-4b2d-801c-7e2357e5b3df",
+    "id":"d67d37a6-e34d-4936-af1d-879be3f98abd",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Laborum pariatur explicabo autem veritatis provident non consequuntur.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"df48e86a-2eec-4179-91f3-52d29f91f4c4",
+    "id":"965da0b3-2542-409b-983f-a9ee11aa2821",
     "nombre":"COMERCIO ELECTRONICO",
     "descripcion":"Velit rem impedit accusamus est culpa occaecati placeat inventore commodi consectetur eligendi.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"443c9991-d11a-49a8-bfc1-396aeaa7520f",
+    "id":"0e9864fc-ed98-41f0-8756-1710b1b3a3c8",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Rem sint fuga voluptas aperiam ipsum impedit distinctio eveniet doloremque.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"f8391348-e23d-477b-b032-4eaacdd70352",
+    "id":"fcb0e1c3-0f82-4c41-b9dc-3efba4c9cd05",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Odio temporibus labore eligendi exercitationem recusandae praesentium temporibus vitae quos.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"13098b4b-2f8f-48ea-8cc1-cc9979c24bc7",
+    "id":"fa2cf6ea-63c5-4353-9722-844a2e8f26b4",
     "nombre":"Comercio Electronico",
     "descripcion":"Voluptas dolorem nihil dolores reprehenderit laborum iusto accusantium magni atque quibusdam numquam aspernatur.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"624e9488-481e-4f37-b3b6-1787eba3f085",
+    "id":"d842e117-9d6f-4f8f-aabd-a83c66bb18d8",
     "nombre":"GESTION DEL TALENTO HUMANO",
     "descripcion":"Iure tempore veniam quas architecto harum deserunt quo quae facilis quod labore.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"668fcce4-c7dd-46eb-9066-6af96bf4fc6a",
+    "id":"c212e46a-abcc-48fe-8d97-728fdf6b29e4",
     "nombre":"Inteligencia Artificial",
     "descripcion":"Odio eveniet repudiandae laboriosam corporis earum eum voluptates.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"8f3a9207-8a94-44b5-a82b-ca1571ed665f",
+    "id":"e24260b0-7db9-47b3-b688-7d3515c73328",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Sunt dicta repellat deleniti unde non eos aperiam suscipit minima magnam dolorum fugiat.",
     "area_responsable":"operaciones"
   },
   {
-    "id":"be8287fb-2d7d-4b1f-9e02-70396217418b",
+    "id":"7b783a0a-06ae-4d18-a1fc-94516140a4f9",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":null,
     "area_responsable":"Ventas"
   },
   {
-    "id":"544334cb-7619-4d64-91f3-0c8e80418029",
+    "id":"c3b9d96b-010b-4378-b3b6-6369bec26cfd",
     "nombre":"Comercio Electronico",
     "descripcion":"Iure tenetur corporis numquam nam nisi quis autem earum eius.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"10d5a614-674a-491f-90a5-fa76c48c9bec",
+    "id":"f16be955-1b89-4188-8bf4-79e968ba89a8",
     "nombre":"Comercio Electronico",
     "descripcion":"Iste cum consectetur vero commodi sint mollitia fuga et quam mollitia occaecati officia.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"007113ab-6473-4b1a-843f-9d3ec5955ac1",
+    "id":"7e9d696e-e63e-48d0-9151-007f0ace9f91",
     "nombre":"Optimizacion de Procesos",
     "descripcion":"Debitis nostrum quis officia eum quidem aliquam maiores quam quae libero.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"d79afcd8-4b6e-43f8-9a7a-c366ca45f169",
+    "id":"4b4bad7f-8b75-4b46-8f81-3c1f5c4d46da",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Consequuntur aut cum quae at facere.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"652c9506-7d38-415d-8b90-7cc3900fe82d",
+    "id":"ddd7b9b4-f97b-49fd-a7f0-f503736ff04d",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Excepturi impedit quibusdam laudantium molestias minima odit id culpa reprehenderit.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"2163dc56-b179-405c-89f3-7263e26926eb",
+    "id":"ea5d70a7-9979-4cd9-91ba-210b557499fc",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Ipsum beatae tenetur ea dolores officia nam amet.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"b1896d3f-a5ef-4c09-9f50-64650d8fb411",
+    "id":"d627d219-f385-43e2-ad68-960e83d88adf",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Laboriosam aliquam quis veniam veritatis consequuntur eum harum.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"c812af84-6e8f-4504-b0b9-c0325eef8a4c",
+    "id":"8dc5c611-4133-4c33-8b3b-aab753ecfdde",
     "nombre":"Transformacion Digital",
     "descripcion":"Accusantium quisquam laudantium pariatur possimus mollitia aliquam nihil distinctio nesciunt ab.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"460e8e86-6896-4e84-a3f6-c6209ab6dd21",
+    "id":"52d57d15-dbf9-42ce-acec-16ef3cc9bcd3",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Neque facilis tempore cum distinctio modi totam.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"58a37236-dc60-4676-aed4-b9f9b9e22ef8",
+    "id":"6c88c128-38e9-4f83-86cb-f0fd41c8678b",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":null,
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"d66be6e8-765a-473b-a128-e2255dee45d9",
+    "id":"22d322db-fd63-4a06-9769-7b29c096a809",
     "nombre":"Optimizacion de Procesos",
     "descripcion":"Quo dignissimos beatae harum autem ut dignissimos quis quasi error porro dolor.",
     "area_responsable":"SOPORTE"
   },
   {
-    "id":"48c7bf09-825e-4d9c-84ae-3fb1e5394dd4",
+    "id":"6f8a127b-3a2f-46b9-a306-50d1ff1ea694",
     "nombre":"sostenibilidad ambiental",
     "descripcion":"Repellendus facere amet numquam necessitatibus sunt dolorum maiores est dolor debitis ex libero.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"df2959d6-f061-4054-be4e-5f347114de8d",
+    "id":"88cde154-35b3-48fa-8cf9-61785408dde5",
     "nombre":"COMERCIO ELECTRONICO",
     "descripcion":"Quam itaque hic quidem ullam laboriosam nisi recusandae pariatur vel.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"a31d9143-f5f8-4b06-81ea-53f09b05f31c",
+    "id":"b0173fba-8c71-44c7-bd94-7fcccbea6e07",
     "nombre":"Transformacion Digital",
     "descripcion":"Nulla sunt sequi nulla similique veniam.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"bcbd9518-9509-48c3-abc7-f308a2a21330",
+    "id":"ebfa354c-62e2-4bd5-8535-15beef1a47f6",
     "nombre":"  Tecnologia e Innovacion  ",
     "descripcion":"Esse fugit necessitatibus cum amet dolor.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"61f40225-8dfd-4b8c-9f1b-bf1401867662",
+    "id":"24db300f-3627-420a-b163-8a50b324c415",
     "nombre":"Ciberseguridad",
     "descripcion":"Voluptas quia fuga eius officiis error alias blanditiis.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"5f026b6c-682e-4bca-bbe1-8069c76c910e",
+    "id":"8a8a05a8-6566-4b1d-b7f4-d61c5c200701",
     "nombre":" ciberseguridad ",
     "descripcion":"Ea ut suscipit reiciendis dignissimos ullam quia.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"6072feac-6284-4c61-99ca-07beb166f2a2",
+    "id":"f3784268-064c-4128-99c1-76b0470c5524",
     "nombre":"Transformacion Digital",
     "descripcion":"Sunt ut cupiditate beatae quam iste.",
     "area_responsable":"  Desarrollo  "
   },
   {
-    "id":"99f503bb-356c-4ca6-8ea9-9e40f68ea348",
+    "id":"1e15130c-7300-4177-bb69-9efd4f0f0f2e",
     "nombre":"Finanzas y Fintech",
     "descripcion":null,
     "area_responsable":null
   },
   {
-    "id":"d4c14a1d-dcaa-447c-a6b1-4ef1405a6525",
+    "id":"8e3218b9-2a8e-40ea-8ce1-d198cd8caab3",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Nemo aliquid aperiam quo eligendi eligendi.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"a67a080f-3536-4a0f-bb35-d2c20a3499be",
+    "id":"0f34ddb5-46e0-4cda-9577-32f66664e406",
     "nombre":" transformacion digital ",
     "descripcion":null,
     "area_responsable":"Soporte"
   },
   {
-    "id":"54a1b7b2-cf40-4c02-836e-299cc71ffacc",
+    "id":"1fda4b28-6bfa-4a80-8ce4-0c5c06502b25",
     "nombre":"Logistica Y Operaciones",
     "descripcion":null,
     "area_responsable":"Soporte"
   },
   {
-    "id":"83e67523-2a4f-437c-a617-66545e287eca",
+    "id":"bf55aaea-50a4-4724-bdf9-0b89dc7e7c0a",
     "nombre":"Comercio Electronico",
     "descripcion":"Quasi expedita cupiditate illo iusto expedita eos repellendus quibusdam libero.",
     "area_responsable":null
   },
   {
-    "id":"c46e6573-aa76-4d8c-bebd-49120ea6098f",
+    "id":"6a51c4b0-cb32-40fa-bdbe-534c101413f4",
     "nombre":"Comercio Electronico",
     "descripcion":"Illum vero assumenda ducimus consequuntur unde officia iste molestiae perspiciatis suscipit exercitationem.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"d9bed6f2-f924-4334-9452-98ee54c580fc",
+    "id":"96d143b9-f8ef-48d1-be61-2f7cb6fdc175",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Corporis exercitationem odio quia sed nemo voluptate recusandae repudiandae id reprehenderit sunt voluptatibus molestias.",
     "area_responsable":" soporte "
   },
   {
-    "id":"b15cbf6d-1ac2-4a62-9e95-66d74aa70ee2",
+    "id":"25be7082-094b-4d3e-82fd-f9cdecc1c4b4",
     "nombre":" logistica y operaciones ",
     "descripcion":"Aut a vel optio cum dolorem quae ex blanditiis quasi reiciendis molestias.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"b2ae7c55-77f1-4e43-8601-08748995879c",
+    "id":"4439ea04-805f-468c-b3c9-ba1d9a6770ca",
     "nombre":"Optimizacion de Procesos",
     "descripcion":"Minima reprehenderit dolor expedita illum quibusdam autem odit iste rerum tempora.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"7b541e5b-d712-4856-b17f-482f0f9b7af5",
+    "id":"98b67ddf-54c4-4dcb-8945-41d4e7fe303b",
     "nombre":"  Finanzas y Fintech  ",
     "descripcion":"Quaerat tempora voluptas reiciendis libero totam possimus esse.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"3be1babf-407b-4b67-bdb6-bafe938536bf",
+    "id":"1a7b4c8d-2ad2-45d3-b4d5-3ccf99090423",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":null,
     "area_responsable":"Marketing"
   },
   {
-    "id":"1d4841d4-266c-4476-a283-49633c833fd5",
+    "id":"99ab0d8d-1ceb-416e-89bb-840fceeabc09",
     "nombre":"Inteligencia Artificial",
     "descripcion":"Veritatis in facere illo praesentium error harum dignissimos incidunt nihil laboriosam.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"83952533-c279-4a51-9ccf-4af724badd75",
+    "id":"bd1356f2-ca71-4a17-8bea-cad9da9a5702",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Nihil perspiciatis voluptate libero expedita ducimus labore reiciendis quidem quo in nesciunt sunt.",
     "area_responsable":"  Operaciones  "
   },
   {
-    "id":"7a1f16f3-a3ac-4005-9c5b-1fd08b33a62f",
+    "id":"4cf7c909-fbb4-4da3-9005-6387b3e29850",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Voluptatum fugit vitae quis assumenda dolorum at doloribus rerum occaecati atque fugit.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"7e0937b9-a28f-4b44-b46e-51868bccaab8",
+    "id":"acbab18d-1e6b-4ec8-be9d-51b43144cd83",
     "nombre":"Inteligencia Artificial",
     "descripcion":"Dolores voluptates alias est quod sequi dolor illum ab consectetur.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"9dcbc363-505b-4f07-97df-2bcc20448657",
+    "id":"515ee8f0-fe8a-48b6-8109-dfb427a5d833",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Vel ipsam magnam iure possimus harum.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"5aaafcd1-3b2a-4e5b-bae0-1a8dbbef1311",
+    "id":"e5b65e9b-9e8a-4415-befb-61b5c58f8fcb",
     "nombre":"Ciberseguridad",
     "descripcion":"Officiis aliquid nesciunt praesentium laudantium temporibus eos cum enim ex autem culpa.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"f4b13882-2bb1-4797-b772-d0b26361ec76",
+    "id":"8c8738f8-37a3-477e-acd9-ebab5c81cb60",
     "nombre":"Inteligencia Artificial",
     "descripcion":"Dicta laborum ab quod rem temporibus.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"a3893120-7eff-4da1-9db7-6e06c60a4c5e",
+    "id":"6b3b3b4c-5b03-4173-aa34-a332ab08a1a1",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Aliquam delectus excepturi placeat sapiente dolorem ipsam praesentium tenetur aut.",
     "area_responsable":" soporte "
   },
   {
-    "id":"551ce335-368b-4e08-b5ba-047ef391a575",
+    "id":"38990723-b7de-444a-ac84-ec06a3f7a20a",
     "nombre":"Experiencia del Cliente",
     "descripcion":null,
     "area_responsable":"Marketing"
   },
   {
-    "id":"eec58e17-6d1b-4eb2-a2a8-63df49cc4132",
+    "id":"7cc00174-ebe4-4155-871b-5c69d758fd41",
     "nombre":"Ciberseguridad",
     "descripcion":"Tempore fuga molestiae in alias ipsa praesentium architecto assumenda soluta optio labore.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"5d5a1113-d9f7-4a29-b610-2aa930c287f8",
+    "id":"f2eeda27-fe2c-4982-a379-16e75922dc44",
     "nombre":"  Finanzas y Fintech  ",
     "descripcion":"Ullam tenetur soluta commodi cum necessitatibus optio ipsum voluptatum fuga ea architecto.",
     "area_responsable":null
   },
   {
-    "id":"316da05e-8c3d-4bc0-b048-08d28029bfe1",
+    "id":"fc5a31be-1545-4cd0-ad0a-22c4e9c9ae1b",
     "nombre":" optimizacion de procesos ",
     "descripcion":"Neque blanditiis aliquam dicta error quia hic fuga.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"3821ba78-52b0-4312-840b-aa7297e26c9d",
+    "id":"5a902bce-b3b2-405a-a870-2d4ef21627e8",
     "nombre":"logistica y operaciones",
     "descripcion":"Ratione beatae pariatur nesciunt ab sunt consequatur ullam similique reiciendis deleniti labore.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"c4cb6bfa-e9c1-44d2-b56c-4a207faff679",
+    "id":"f645025a-2917-4412-b30b-85e4ee434100",
     "nombre":"Sostenibilidad Ambiental",
     "descripcion":"Distinctio cupiditate mollitia occaecati similique architecto pariatur similique corporis quis labore voluptatibus.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"b26dfce3-db20-4d20-aa69-02b0f2c9072f",
+    "id":"7ccbf187-0699-4896-9887-67871eed6bf0",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Necessitatibus doloribus quidem saepe facere dolorem.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"b5248f1c-8b73-4541-a684-9a2b3e611b74",
+    "id":"204b3314-9120-4f20-a774-aac1ca02dc5a",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Illo quibusdam aliquam eum hic deserunt quas fugiat ipsum.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"33971d8c-30f6-4b16-906f-ba79067eff31",
+    "id":"b1f604cc-843b-432b-be82-4c71f90938c6",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Quibusdam consectetur nostrum ratione suscipit officia quidem culpa.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"48a0a2a8-7f12-45c7-9a67-ad818e1c031c",
+    "id":"7a3f5d41-0dc7-4570-8176-fc5b6676afea",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Maxime libero asperiores nobis impedit natus provident quod quo aliquam eius eligendi officiis.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"2e108224-222e-4752-9ac0-467ce5586b4d",
+    "id":"68e714ab-1086-4c89-afb3-7fa4300646f4",
     "nombre":"Transformacion Digital",
     "descripcion":null,
     "area_responsable":null
   },
   {
-    "id":"42e1361f-957f-4213-960c-4355dd1cacf4",
+    "id":"74b6c79d-0aad-4dbf-b24e-94bba638c89b",
     "nombre":" ciberseguridad ",
     "descripcion":null,
     "area_responsable":null
   },
   {
-    "id":"ea6f8c8f-b415-40f5-a095-d5576d5a8d39",
+    "id":"f7cb956f-c2b4-4c89-8638-5603716ec780",
     "nombre":"Experiencia del Cliente",
     "descripcion":null,
     "area_responsable":"Innovacion"
   },
   {
-    "id":"2caf9ff9-1afb-44cb-975b-436566819e5b",
+    "id":"908e9206-2153-41d1-ba95-9cf97d39fb33",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Eius nisi pariatur deleniti nostrum ratione rem porro deleniti placeat quae.",
     "area_responsable":null
   },
   {
-    "id":"f1e0eaf9-bfd1-4226-8bc0-41a5aea261dc",
+    "id":"a935b116-1e1e-483e-ae36-3009242fc0d1",
     "nombre":"Optimizacion de Procesos",
     "descripcion":null,
     "area_responsable":"Innovacion"
   },
   {
-    "id":"2b50b57f-ab35-432d-b9e4-dc5e26ed4e1c",
+    "id":"183e66ce-fc8d-46e3-a3e9-3d84300ee1fc",
     "nombre":"Logistica y Operaciones",
     "descripcion":null,
     "area_responsable":"  Soporte  "
   },
   {
-    "id":"8bea4f3d-ffbc-42a4-8397-de1144b59e3e",
+    "id":"e13c53b0-a1dd-444c-83b9-9464dbea0a68",
     "nombre":" logistica y operaciones ",
     "descripcion":"Voluptates a deleniti vel unde iste voluptatibus nesciunt eius necessitatibus dicta amet incidunt.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"3c0b1f91-5f44-4ad6-ab72-7eda26c4f7ee",
+    "id":"ff75bd93-79a2-4e18-9cf2-712233ba9f30",
     "nombre":"Tecnologia E Innovacion",
     "descripcion":"Nisi labore harum blanditiis debitis facere reiciendis amet sed eius molestias eaque.",
     "area_responsable":"Marketing"
   },
   {
-    "id":"2f979bd5-672d-4ae8-9e3f-60d424dc816d",
+    "id":"dac5dd55-5d2b-4891-8fdf-0baca33b889f",
     "nombre":"Transformacion Digital",
     "descripcion":"Unde placeat dignissimos tempora necessitatibus ab excepturi.",
     "area_responsable":"Operaciones"
   },
   {
-    "id":"65cdfba1-5b0a-447b-8b5e-733b07e0d84f",
+    "id":"91067010-d8cd-4e23-ad30-2bfd18b94b22",
     "nombre":" experiencia del cliente ",
     "descripcion":"Quaerat eligendi dolores dolore nobis quibusdam unde explicabo dolores ad nesciunt quis cupiditate.",
     "area_responsable":null
   },
   {
-    "id":"2b9ca6f3-a9c1-48a0-a9f6-f62df6783c0d",
+    "id":"5e631973-c276-4578-8165-b4679ca33438",
     "nombre":"Logistica y Operaciones",
     "descripcion":"Dicta nulla veritatis at qui voluptatem earum laborum atque sapiente.",
     "area_responsable":"SOPORTE"
   },
   {
-    "id":"577798f6-4a6d-4ceb-a87f-08b18978f408",
+    "id":"8eb52e8c-f9d3-4838-9d1a-e3571e7600e2",
     "nombre":"Transformacion Digital",
     "descripcion":"Doloribus non tempora ullam eius a perferendis ipsa.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"7940d2b1-46f9-42fb-8a9c-90a8bf55bf3f",
+    "id":"c5cf8f87-39c6-4be1-ab74-b6e65a3601e9",
     "nombre":" transformacion digital ",
     "descripcion":"Iusto quasi nihil similique ipsam magni aspernatur voluptate.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"b1896d3f-a5ef-4c09-9f50-64650d8fb411",
+    "id":"d627d219-f385-43e2-ad68-960e83d88adf",
     "nombre":"Experiencia del Cliente",
     "descripcion":"Laboriosam aliquam quis veniam veritatis consequuntur eum harum.",
     "area_responsable":"Soporte"
   },
   {
-    "id":"83952533-c279-4a51-9ccf-4af724badd75",
+    "id":"bd1356f2-ca71-4a17-8bea-cad9da9a5702",
     "nombre":"Finanzas y Fintech",
     "descripcion":"Nihil perspiciatis voluptate libero expedita ducimus labore reiciendis quidem quo in nesciunt sunt.",
     "area_responsable":"  Operaciones  "
   },
   {
-    "id":"007113ab-6473-4b1a-843f-9d3ec5955ac1",
+    "id":"7e9d696e-e63e-48d0-9151-007f0ace9f91",
     "nombre":"Optimizacion de Procesos",
     "descripcion":"Debitis nostrum quis officia eum quidem aliquam maiores quam quae libero.",
     "area_responsable":"Desarrollo"
   },
   {
-    "id":"af3b0623-75b5-4672-ad6f-c04c847d4d67",
+    "id":"e48e8825-b236-49dc-adac-89239184a9e2",
     "nombre":"Ciberseguridad",
     "descripcion":"Omnis maiores excepturi voluptatum delectus exercitationem sit quo itaque.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"d61e429e-3dcd-4cb1-8261-486e53b45152",
+    "id":"14671d30-103a-4877-8d11-6639b7b31d26",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Qui reiciendis nulla ipsam earum asperiores cum quam velit nihil veritatis veniam quos.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"0e62caa3-5bcb-453c-9472-9664fb725e9c",
+    "id":"a769976d-2cd5-4340-9c66-8ccc27350a31",
     "nombre":"Tecnologia e Innovacion",
     "descripcion":"Ipsa voluptates assumenda sint magnam id velit voluptatum deserunt saepe dolore.",
     "area_responsable":"OPERACIONES"
   },
   {
-    "id":"1c78f7d9-1810-4487-b24e-083c7b741970",
+    "id":"55d9ac3a-f885-483b-ae38-ef1316c91c21",
     "nombre":"sostenibilidad ambiental",
     "descripcion":"Rem fugit labore sed delectus est debitis inventore dolorum at.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"d1a02bcf-ece7-4da9-8f4b-56a8cda64c08",
+    "id":"8dcb025c-1a08-4339-b0da-98cf1fdb0559",
     "nombre":"Gestion del Talento Humano",
     "descripcion":"Natus saepe fugiat maxime unde fugit nobis nihil recusandae veritatis nemo blanditiis.",
     "area_responsable":null
   },
   {
-    "id":"cd347875-aa74-4586-942d-4f27a7ad9ce4",
+    "id":"286aa05d-ce65-4161-9209-ae1101cf1b74",
     "nombre":"sostenibilidad ambiental",
     "descripcion":"Natus quae esse quaerat necessitatibus esse quae perferendis culpa rem.",
     "area_responsable":"Innovacion"
   },
   {
-    "id":"5aaafcd1-3b2a-4e5b-bae0-1a8dbbef1311",
+    "id":"e5b65e9b-9e8a-4415-befb-61b5c58f8fcb",
     "nombre":"Ciberseguridad",
     "descripcion":"Officiis aliquid nesciunt praesentium laudantium temporibus eos cum enim ex autem culpa.",
     "area_responsable":"Ventas"
   },
   {
-    "id":"480d6230-e113-4334-8ff0-32f289f03661",
+    "id":"16e83a06-c761-4d12-9915-78ce59dbbace",
     "nombre":"Transformacion Digital",
     "descripcion":"Maxime minima quo nisi doloremque ipsa reprehenderit.",
     "area_responsable":"MARKETING"
