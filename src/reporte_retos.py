@@ -2,7 +2,7 @@
 Módulo de Visualización y Generación de Reportes: Retos.
 
 Script: src/reporte_retos.py
-Lee el archivo limpio 'data/limpio/retos_limpio.csv', genera 3 gráficas analíticas
+Lee el archivo limpio 'datos/limpios/retos_limpio.csv', genera 3 gráficas analíticas
 utilizando matplotlib a partir de las consultas previas y las guarda en formato PNG
 dentro de 'reportes/'. Finaliza imprimiendo en consola las conclusiones analíticas
 sobre la estacionalidad, duración y reglas de validación temporal en el backend.
@@ -20,8 +20,8 @@ import pandas as pd
 
 # 1. Configuración de Rutas con Pathlib y os
 CARPETA_PROYECTO = Path(__file__).resolve().parent.parent
-CARPETA_DATA = CARPETA_PROYECTO / "data" / "limpio"
 CARPETA_DATOS = CARPETA_PROYECTO / "datos" / "limpios"
+CARPETA_CRUDOS = CARPETA_PROYECTO / "datos" / "crudos"
 CARPETA_REPORTES = CARPETA_PROYECTO / "reportes"
 
 # Asegurar la creación automática de la carpeta reportes
@@ -30,15 +30,11 @@ CARPETA_REPORTES.mkdir(parents=True, exist_ok=True)
 
 
 def obtener_ruta_limpia() -> Path:
-    """Retorna la ruta del archivo limpio retos_limpio.csv."""
-    rutas = [
-        CARPETA_DATA / "retos_limpio.csv",
-        CARPETA_DATOS / "retos_limpio.csv",
-    ]
-    for r in rutas:
-        if r.exists():
-            return r
-    raise FileNotFoundError("No se encontró 'retos_limpio.csv' en 'data/limpio/' ni 'datos/limpios/'.")
+    """Retorna la ruta del archivo limpio generado por la fase de limpieza."""
+    ruta = CARPETA_DATOS / "retos_limpio.csv"
+    if not ruta.exists():
+        raise FileNotFoundError(f"No se encontró {ruta}. Ejecuta primero: python main.py --limpiar")
+    return ruta
 
 
 def cargar_datos() -> pd.DataFrame:
@@ -147,11 +143,38 @@ def generar_grafica_3_histograma_duracion(df: pd.DataFrame) -> str:
 # =============================================================================
 def imprimir_conclusiones(df: pd.DataFrame, conteo: pd.Series, por_mes: pd.Series) -> None:
     """Imprime por consola las conclusiones derivadas de las consultas y visualizaciones."""
-    mes_lider = str(por_mes.idxmax())
-    max_retos_mes = por_mes.max()
+    top_meses = por_mes.sort_values(ascending=False)
+    mes_lider = str(top_meses.index[0])
+    max_retos_mes = top_meses.iloc[0]
+    siguientes_meses = " y ".join(f"'{m}' ({c})" for m, c in top_meses.iloc[1:3].items())
 
     # Duración promedio por estado
     resumen_duracion = df.groupby("estado")["duracion_dias"].mean().round(1)
+    mas_largos = resumen_duracion.sort_values(ascending=False).head(2)
+    texto_mas_largos = " y ".join(f"'{e}' ({d:.1f} días)" for e, d in mas_largos.items())
+    if "CERRADO" in resumen_duracion.index:
+        dias_cerrado = resumen_duracion["CERRADO"]
+        texto_cerrado = (
+            f"Los retos con estado 'CERRADO' promedian {dias_cerrado:.1f} días "
+            f"(~{dias_cerrado / 30:.1f} meses) de ciclo de resolución."
+        )
+    else:
+        texto_cerrado = "No hay retos con estado 'CERRADO' en los datos limpios."
+
+    # Fechas invertidas y nulas medidas directamente en el dataset crudo
+    ruta_crudo = CARPETA_CRUDOS / "retos_crudo.csv"
+    if ruta_crudo.exists():
+        crudo = pd.read_csv(ruta_crudo, sep=";", encoding="utf-8-sig").drop_duplicates(subset=["id"])
+        ini = pd.to_datetime(crudo["fecha_inicio"], format="mixed", dayfirst=True, errors="coerce")
+        fin = pd.to_datetime(crudo["fecha_fin"], format="mixed", dayfirst=True, errors="coerce")
+        invertidas = int((fin <= ini).sum())
+        fin_nulas = int(fin.isna().sum())
+        texto_invertidas = (
+            f"En el dataset crudo se detectaron {invertidas} retos (de {len(crudo)}) donde la fecha de\n"
+            f"     finalización era anterior o igual a la fecha de inicio (más {fin_nulas} retos con fecha de fin nula)."
+        )
+    else:
+        texto_invertidas = f"No se encontró {ruta_crudo.name}; no fue posible medir las fechas invertidas."
 
     print("\n" + "=" * 75)
     print("                      CONCLUSIONES DEL ANÁLISIS")
@@ -160,25 +183,22 @@ def imprimir_conclusiones(df: pd.DataFrame, conteo: pd.Series, por_mes: pd.Serie
     print(f"""
 1. EN QUÉ MES SE CONCENTRAN LOS RETOS Y POR QUÉ PUEDE SER:
    - El pico más alto de aperturas de retos se concentra en el mes '{mes_lider}' con un 
-     total de {max_retos_mes} retos iniciados, seguido por febrero y enero de 2026.
-   - Justificación de negocio:
-     El mes de junio coincide con el cierre del segundo trimestre fiscal (Q2) y el inicio de 
-     ciclos masivos de innovación abierta de mitad de año en empresas aliadas, sumado a las 
-     convocatorias intersemestrales de universidades y centros de formación tecnológica. 
-     Esto genera olas sincronizadas de publicación de necesidades en la plataforma.
+     total de {max_retos_mes} retos iniciados, seguido por {siguientes_meses}.
+   - Posible explicación de negocio:
+     Los picos de apertura suelen coincidir con cierres de trimestre fiscal en las empresas
+     aliadas y con las convocatorias semestrales de universidades y centros de formación,
+     lo que genera olas sincronizadas de publicación de necesidades en la plataforma.
 
 2. CUÁNTO DURA EN PROMEDIO UN RETO SEGÚN SU ESTADO:
    - La duración promedio general en días según cada estado operativo es:
 {chr(10).join([f"     * {est:<15}: {dias:>5.1f} días" for est, dias in resumen_duracion.items()])}
    - Observación:
-     Los retos con estado 'CERRADO' promedian aproximadamente 87.0 días, lo que evidencia 
-     un ciclo de resolución cercano a los 3 meses. Por su parte, los retos 'EN_REVISION' y 
-     'BLOQUEADO' registran los promedios más altos (~111-113 días) debido a cuellos de botella 
-     administrativos o dependencias no resueltas.
+     {texto_cerrado}
+     Los promedios más altos los registran {texto_mas_largos}, lo que puede
+     indicar cuellos de botella administrativos o dependencias no resueltas.
 
 3. CUÁNTOS RETOS TENÍAN LA FECHA DE FIN ANTES QUE LA DE INICIO (DATO PARA EL BACKEND):
-   - En el dataset crudo original se detectaron exactamente 93 registros donde la fecha de 
-     finalización era anterior o igual a la fecha de inicio (más 41 registros con fecha de fin nula).
+   - {texto_invertidas}
    - Importancia técnica para el Backend:
      Permitir fechas invertidas representa un fallo grave de lógica temporal:
      a) Provoca duraciones negativas o inconsistencias matemáticas en reportes y métricas SLA.

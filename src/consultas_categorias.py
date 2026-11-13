@@ -2,11 +2,11 @@
 Módulo de Consultas Analíticas sobre la entidad 'categorias'.
 
 Script: src/consultas_categorias.py
-Lee el archivo limpio 'data/limpio/categorias_limpio.csv' y responde 5 preguntas
+Lee el archivo limpio 'datos/limpios/categoria_limpio.csv' y responde 5 preguntas
 analíticas sobre los datos, utilizando conteo de frecuencias, filtrado de cadenas
 y agregaciones con groupby (longitud de texto, distribución por área y tabla cruzada).
 Cada consulta se encuentra en su propia función, imprime la respuesta en consola
-y persiste el resultado en 'data/limpio/categorias_consulta_N.csv'.
+y persiste el resultado en 'datos/limpios/categorias_consulta_N.csv'.
 """
 
 from pathlib import Path
@@ -15,29 +15,18 @@ import pandas as pd
 
 # Detección dinámica de rutas usando Pathlib
 CARPETA_PROYECTO = Path(__file__).resolve().parent.parent
-CARPETA_DATA_LIMPIO = CARPETA_PROYECTO / "data" / "limpio"
 CARPETA_DATOS_LIMPIOS = CARPETA_PROYECTO / "datos" / "limpios"
 
 
 def obtener_ruta_archivo_limpio() -> Path:
-    """Localiza el archivo limpio de categorias dando prioridad a 'data/limpio/'."""
-    rutas_candidatas = [
-        CARPETA_DATA_LIMPIO / "categorias_limpio.csv",
-        CARPETA_DATOS_LIMPIOS / "categorias_limpio.csv",
-        CARPETA_DATA_LIMPIO / "categoria_limpio.csv",
-        CARPETA_DATOS_LIMPIOS / "categoria_limpio.csv",
-    ]
-
-    for ruta in rutas_candidatas:
-        if ruta.exists():
-            return ruta
-
-    raise FileNotFoundError(
-        f"No se encontró el archivo limpio de categorias en:\n"
-        f"- {CARPETA_DATA_LIMPIO / 'categorias_limpio.csv'}\n"
-        f"- {CARPETA_DATOS_LIMPIOS / 'categorias_limpio.csv'}\n"
-        "Asegúrate de ejecutar primero la fase de limpieza."
-    )
+    """Retorna la ruta del archivo limpio generado por la fase de limpieza."""
+    ruta = CARPETA_DATOS_LIMPIOS / "categoria_limpio.csv"
+    if not ruta.exists():
+        raise FileNotFoundError(
+            f"No se encontró {ruta}.\n"
+            "Ejecuta primero la fase de limpieza: python main.py --limpiar"
+        )
+    return ruta
 
 
 def cargar_datos() -> pd.DataFrame:
@@ -62,15 +51,9 @@ def cargar_datos() -> pd.DataFrame:
 
 
 def guardar_resultado(df_o_serie, nombre_archivo: str, index: bool = True) -> None:
-    """Guarda el resultado en 'data/limpio/' y sincroniza con 'datos/limpios/'."""
-    CARPETA_DATA_LIMPIO.mkdir(parents=True, exist_ok=True)
-    ruta_data = CARPETA_DATA_LIMPIO / nombre_archivo
-    df_o_serie.to_csv(ruta_data, sep=";", encoding="utf-8-sig", index=index)
-
-    # Mantener sincronizado si existe datos/limpios/
-    if CARPETA_DATOS_LIMPIOS.exists():
-        ruta_datos = CARPETA_DATOS_LIMPIOS / nombre_archivo
-        df_o_serie.to_csv(ruta_datos, sep=";", encoding="utf-8-sig", index=index)
+    """Guarda el resultado de la consulta en 'datos/limpios/'."""
+    CARPETA_DATOS_LIMPIOS.mkdir(parents=True, exist_ok=True)
+    df_o_serie.to_csv(CARPETA_DATOS_LIMPIOS / nombre_archivo, sep=";", encoding="utf-8-sig", index=index)
 
 
 # =============================================================================
@@ -92,7 +75,7 @@ def consulta_1_frecuencia_categorias(df: pd.DataFrame) -> pd.Series:
     print(f"\n-> Total de categorías únicas consolidadas: {len(conteo)}")
 
     guardar_resultado(conteo, "categorias_consulta_1.csv", index=True)
-    print("-> Guardado en: data/limpio/categorias_consulta_1.csv")
+    print("-> Guardado en: datos/limpios/categorias_consulta_1.csv")
     return conteo
 
 
@@ -115,7 +98,7 @@ def consulta_2_categorias_sin_descripcion(df: pd.DataFrame) -> pd.DataFrame:
     print(f"\n-> Total de categorías sin descripción: {len(sin_desc)} de {len(df)}")
 
     guardar_resultado(sin_desc, "categorias_consulta_2.csv", index=False)
-    print("-> Guardado en: data/limpio/categorias_consulta_2.csv")
+    print("-> Guardado en: datos/limpios/categorias_consulta_2.csv")
     return sin_desc
 
 
@@ -138,7 +121,7 @@ def consulta_3_groupby_largo_promedio_descripcion(df: pd.DataFrame) -> pd.Series
     print(f"\n-> Largo promedio calculado exitosamente para {len(largos)} categorías.")
 
     guardar_resultado(largos, "categorias_consulta_3.csv", index=True)
-    print("-> Guardado en: data/limpio/categorias_consulta_3.csv")
+    print("-> Guardado en: datos/limpios/categorias_consulta_3.csv")
     return largos
 
 
@@ -161,7 +144,7 @@ def consulta_4_groupby_categorias_por_area(df: pd.DataFrame) -> pd.Series:
     print(f"\n-> Total de áreas responsables analizadas: {len(por_area)}")
 
     guardar_resultado(por_area, "categorias_consulta_4.csv", index=True)
-    print("-> Guardado en: data/limpio/categorias_consulta_4.csv")
+    print("-> Guardado en: datos/limpios/categorias_consulta_4.csv")
     return por_area
 
 
@@ -184,7 +167,7 @@ def consulta_5_groupby_doble_categorias_por_area(df: pd.DataFrame) -> pd.DataFra
     print(f"\n-> Tabla cruzada generada con dimensiones: {tabla.shape[0]} áreas x {tabla.shape[1]} categorías.")
 
     guardar_resultado(tabla, "categorias_consulta_5.csv", index=True)
-    print("-> Guardado en: data/limpio/categorias_consulta_5.csv")
+    print("-> Guardado en: datos/limpios/categorias_consulta_5.csv")
     return tabla
 
 

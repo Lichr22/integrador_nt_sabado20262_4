@@ -2,7 +2,7 @@
 Módulo de Visualización y Generación de Reportes: Empresas.
 
 Script: src/reporte_empresas.py
-Lee el archivo limpio 'data/limpio/empresas_limpio.csv', genera 3 gráficas analíticas
+Lee el archivo limpio 'datos/limpios/empresa_limpio.csv', genera 3 gráficas analíticas
 utilizando matplotlib y las guarda en formato PNG dentro del directorio 'reportes/'.
 Finaliza imprimiendo por consola las conclusiones sobre la calidad y el comportamiento
 de los datos de empresas.
@@ -20,8 +20,8 @@ import pandas as pd
 
 # 1. Configuración de Rutas con Pathlib y os
 CARPETA_PROYECTO = Path(__file__).resolve().parent.parent
-CARPETA_DATA = CARPETA_PROYECTO / "data" / "limpio"
 CARPETA_DATOS = CARPETA_PROYECTO / "datos" / "limpios"
+CARPETA_CRUDOS = CARPETA_PROYECTO / "datos" / "crudos"
 CARPETA_REPORTES = CARPETA_PROYECTO / "reportes"
 
 # Asegurar la creación automática de la carpeta de reportes
@@ -30,16 +30,11 @@ CARPETA_REPORTES.mkdir(parents=True, exist_ok=True)
 
 
 def obtener_ruta_limpia() -> Path:
-    """Retorna la ruta del archivo limpio empresas_limpio.csv."""
-    rutas = [
-        CARPETA_DATA / "empresas_limpio.csv",
-        CARPETA_DATOS / "empresas_limpio.csv",
-        CARPETA_DATOS / "empresa_limpio.csv",
-    ]
-    for r in rutas:
-        if r.exists():
-            return r
-    raise FileNotFoundError("No se encontró 'empresas_limpio.csv' en 'data/limpio/' ni 'datos/limpios/'.")
+    """Retorna la ruta del archivo limpio generado por la fase de limpieza."""
+    ruta = CARPETA_DATOS / "empresa_limpio.csv"
+    if not ruta.exists():
+        raise FileNotFoundError(f"No se encontró {ruta}. Ejecuta primero: python main.py --limpiar")
+    return ruta
 
 
 def cargar_datos() -> pd.DataFrame:
@@ -154,10 +149,24 @@ def imprimir_conclusiones(df: pd.DataFrame, por_sector: pd.Series) -> None:
 
     sector_lider = por_sector.index[0]
     cant_sector_lider = por_sector.iloc[0]
+    siguientes = " y ".join(f"{s} ({c})" for s, c in por_sector.iloc[1:3].items())
+    resumen_inactivas = (
+        "Más de la mitad de las organizaciones" if pct_inactivas > 50 else "Una proporción relevante de las organizaciones"
+    )
 
-    # Conteo de correos que requirieron corrección durante el ensuciado (6% aprox de 300)
-    # y los que se repararon en el pipeline de limpieza
-    correos_reparados_estimados = 18  # 6% de la simulación original
+    # Correos inválidos (nulos o sin '@') medidos directamente en el dataset crudo
+    ruta_crudo = CARPETA_CRUDOS / "empresa_crudo.csv"
+    if ruta_crudo.exists():
+        df_crudo = pd.read_csv(ruta_crudo, sep=";", encoding="utf-8-sig").drop_duplicates(subset=["id"])
+        correo = df_crudo["correo"]
+        correos_invalidos = int((correo.isna() | ~correo.astype(str).str.contains("@")).sum())
+        pct_correos = correos_invalidos / len(df_crudo) * 100
+        texto_correos = (
+            f"En los datos crudos se detectaron {correos_invalidos} correos inválidos (sin arroba '@' o nulos),\n"
+            f"     el {pct_correos:.1f}% de las {len(df_crudo)} empresas."
+        )
+    else:
+        texto_correos = f"No se encontró {ruta_crudo.name}; no fue posible medir los correos inválidos."
 
     print("\n" + "=" * 75)
     print("                      CONCLUSIONES DEL ANÁLISIS")
@@ -166,23 +175,21 @@ def imprimir_conclusiones(df: pd.DataFrame, por_sector: pd.Series) -> None:
     print(f"""
 1. SECTOR CON MÁS EMPRESAS REGISTRADAS:
    - El sector líder es '{sector_lider}' con un total de {cant_sector_lider} empresas 
-     registradas, seguido cercanamente por los sectores Agro y Tecnología. Esto demuestra 
-     que las operaciones logísticas y la digitalización de la cadena de suministro 
-     representan el motor de demanda principal en el ecosistema de la plataforma.
+     registradas, seguido por {siguientes}. Este sector representa el motor de demanda
+     principal en el ecosistema de la plataforma.
 
 2. PORCENTAJE DE EMPRESAS INACTIVAS Y SU IMPACTO EN LA PLATAFORMA:
    - El {pct_inactivas:.1f}% de las empresas ({inactivas} de {total_empresas}) se encuentra actualmente 
      INACTIVO.
    - Impacto para la plataforma:
-     Tener más de la mitad de las organizaciones en estado inactivo indica una fricción 
+     {resumen_inactivas} en estado inactivo indica una fricción
      severa en el proceso de adopción (onboarding incompleto) o abandono temprano. Estas 
      empresas no pueden publicar retos ni interactuar comercialmente, lo que puede 
      distorsionar los KPIs de conversión y generar falsas expectativas a los proponentes. 
      Se requiere una estrategia de reactivación por correo y verificación de cuentas.
 
 3. CORREOS ELECTRÓNICOS INVÁLIDOS Y LA IMPORTANCIA DE LA VALIDACIÓN EN EL BACKEND:
-   - En la etapa de datos crudos se detectaron aproximadamente {correos_reparados_estimados} correos 
-     inválidos (sin arroba '@' o nulos), lo que representó cerca del 6% de los registros.
+   - {texto_correos}
    - ¿Por qué es fundamental validarlos en el Backend?
      El Backend es la barrera definitiva de protección de la base de datos. Permitir correos 
      mal formados rompe canales críticos de comunicación (confirmación de retos, restablecimiento 

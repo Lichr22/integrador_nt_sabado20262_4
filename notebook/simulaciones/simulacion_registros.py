@@ -4,14 +4,22 @@ Genera datos sintéticos y aplica ensuciado de datos para análisis de calidad.
 '''
 
 import random
-import uuid
+from pathlib import Path
+import sys
+
+CARPETA_PROYECTO = Path(__file__).resolve().parents[2]
+if str(CARPETA_PROYECTO) not in sys.path:
+    sys.path.insert(0, str(CARPETA_PROYECTO))
+
+from notebook.simulaciones.comun import SEMILLA, sembrar, generar_id, ids_de, hace_dias
+from notebook.simulaciones.simulacion_usuario import FILAS as FILAS_USUARIO
+from notebook.simulaciones.simulacion_retos import FILAS as FILAS_RETO
 import pandas as pd
 from datetime import datetime
 from faker import Faker
 
 # 1. Sembrar semillas para los datos a simular
-random.seed(42)
-Faker.seed(42)
+sembrar(SEMILLA)
 
 # 2. Identificar los datos a simular con su tipo de dato
 # id (texto (UUID)), 
@@ -24,18 +32,20 @@ Faker.seed(42)
 # 3. Establecer una constante para el número de simulaciones
 FILAS = 800
 ESTADOS = ["Activo", "No Activo", "Bloqueado", "En revisión", "en_curso", "EN CURSO", "Cerrado"]
-IDS_USUARIO = [str(uuid.uuid4()) for _ in range(5)]
-IDS_RETO = [str(uuid.uuid4()) for _ in range(5)]
+# Llaves foráneas: ids reales generados por las simulaciones de usuario y retos
+IDS_USUARIO = ids_de("usuario", FILAS_USUARIO)
+IDS_RETO = ids_de("reto", FILAS_RETO)
 FALSITO = Faker("es_CO")
 
 
 # 4. Funcion generadora
 def generar_datos(numero_filas=FILAS):
     registros = []
-    for _ in range(numero_filas):
+    sembrar(SEMILLA)  # mismo resultado sin importar el orden de ejecución
+    for indice in range(numero_filas):
         registros.append({
-            "id": str(uuid.uuid4()),
-            "fecha_registro": FALSITO.date_time_between(start_date="-1y", end_date="now"),
+            "id": generar_id("registro", indice),
+            "fecha_registro": FALSITO.date_time_between(start_date=hace_dias(365), end_date=hace_dias(0)),
             "observacion": FALSITO.sentence(nb_words=10),
             "estado": random.choice(ESTADOS),
             "id_usuario": random.choice(IDS_USUARIO),

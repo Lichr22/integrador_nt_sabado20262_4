@@ -1,39 +1,39 @@
 ﻿id;nombre;descripcion;area_responsable;largo_desc
-db2925ea-da60-467f-a6f6-a423104c1170;Inteligencia Artificial;Sin descripcion;Soporte;15
-c3c05b6e-9ed2-42cb-aac6-f2570b9224b7;Comercio Electronico;Sin descripcion;Innovacion;15
-6c4f4a2b-b121-4a2a-9697-20c1721c16da;Logistica y Operaciones;Sin descripcion;Innovacion;15
-570bf60d-ae4e-4e51-8932-f7db238b9069;Marketing Digital;Sin descripcion;Marketing;15
-5474548f-7073-40fc-9938-67c33910fb7d;Gestion del Talento Humano;Sin descripcion;General;15
-97822e3d-93f9-48f7-9d6a-ef8f0d915fb4;Transformacion Digital;Sin descripcion;Marketing;15
-c09a3f38-1b30-4be0-a4d8-1d2972f07152;Optimizacion de Procesos;Sin descripcion;Marketing;15
-2a5ba0b8-fe10-45ac-a8ff-972d703c051e;Tecnologia e Innovacion;Sin descripcion;Operaciones;15
-f4161c01-857d-4647-9125-c7cc06a32fd0;Sostenibilidad Ambiental;Sin descripcion;Desarrollo;15
-cb4aa553-9ffc-4eee-8841-c2a059ae29a6;Ciberseguridad;Sin descripcion;Soporte;15
-ad5dc33c-d099-47e9-92dc-11ce3fab97c9;Transformacion Digital;Sin descripcion;Soporte;15
-72605356-6481-42d6-a185-66fc47b262fa;Experiencia del Cliente;Sin descripcion;Innovacion;15
-b216854b-6882-4013-a31d-5b46540acdd2;Sostenibilidad Ambiental;Sin descripcion;Soporte;15
-2f4241d2-d8c7-4213-9ee0-c5b2f73a7fd2;Experiencia del Cliente;Sin descripcion;Marketing;15
-62c29629-21b3-4e7b-945f-95a69e727ea9;Transformacion Digital;Sin descripcion;Soporte;15
-70501340-08f9-4e2e-aa56-cb30d1a807e1;Inteligencia Artificial;Sin descripcion;Desarrollo;15
-b6b428f5-f49c-42d9-9f9f-684df927da67;Transformacion Digital;Sin descripcion;Operaciones;15
-2979dff1-59b5-4f14-b40c-bdf210aba8d0;Comercio Electronico;Sin descripcion;Marketing;15
-010b663d-9879-442b-ac25-841f81d89230;Gestion del Talento Humano;Sin descripcion;Desarrollo;15
-2a315984-4766-4801-91f9-fb167825a3a2;Inteligencia Artificial;Sin descripcion;Desarrollo;15
-21e99e04-f422-42e0-8790-d44516a03cf8;Logistica y Operaciones;Sin descripcion;Innovacion;15
-0973ffe1-c776-4a0a-b60a-1fd9d3ec3b4f;Marketing Digital;Sin descripcion;Soporte;15
-9499da33-c990-444e-9c59-0cae588cdedb;Logistica y Operaciones;Sin descripcion;Desarrollo;15
-b20b078d-ddca-4d48-b20d-22aaf119ec21;Inteligencia Artificial;Sin descripcion;Marketing;15
-581fef1c-fe78-4e41-9e52-afffba93793b;Finanzas y Fintech;Sin descripcion;Innovacion;15
-f7ee5b00-b88f-4840-8664-fa774f187771;Marketing Digital;Sin descripcion;Innovacion;15
-7b783a0a-06ae-4d18-a1fc-94516140a4f9;Tecnologia e Innovacion;Sin descripcion;Ventas;15
-6c88c128-38e9-4f83-86cb-f0fd41c8678b;Sostenibilidad Ambiental;Sin descripcion;Desarrollo;15
-1e15130c-7300-4177-bb69-9efd4f0f0f2e;Finanzas y Fintech;Sin descripcion;General;15
-0f34ddb5-46e0-4cda-9577-32f66664e406;Transformacion Digital;Sin descripcion;Soporte;15
-1fda4b28-6bfa-4a80-8ce4-0c5c06502b25;Logistica y Operaciones;Sin descripcion;Soporte;15
-1a7b4c8d-2ad2-45d3-b4d5-3ccf99090423;Tecnologia e Innovacion;Sin descripcion;Marketing;15
-38990723-b7de-444a-ac84-ec06a3f7a20a;Experiencia del Cliente;Sin descripcion;Marketing;15
-68e714ab-1086-4c89-afb3-7fa4300646f4;Transformacion Digital;Sin descripcion;General;15
-74b6c79d-0aad-4dbf-b24e-94bba638c89b;Ciberseguridad;Sin descripcion;General;15
-f7cb956f-c2b4-4c89-8638-5603716ec780;Experiencia del Cliente;Sin descripcion;Innovacion;15
-a935b116-1e1e-483e-ae36-3009242fc0d1;Optimizacion de Procesos;Sin descripcion;Innovacion;15
-183e66ce-fc8d-46e3-a3e9-3d84300ee1fc;Logistica y Operaciones;Sin descripcion;Soporte;15
+1cac7601-7c0e-5d0c-9cb4-589e33fb498f;Optimizacion de Procesos;Sin descripcion;Innovacion;15
+ad84ba3e-2271-58b8-ab3a-eecbf4829c39;Marketing Digital;Sin descripcion;General;15
+87bd6fc6-2500-527e-8a3f-a63c8c6330d9;Finanzas y Fintech;Sin descripcion;Desarrollo;15
+9238707d-c8a0-5205-9594-d805e0d56e6a;Tecnologia e Innovacion;Sin descripcion;Desarrollo;15
+127290c7-9213-5418-a177-f3cd6574b4fb;Experiencia del Cliente;Sin descripcion;Ventas;15
+d7e8197f-aa2e-5030-9738-ddd46dcf8c08;Inteligencia Artificial;Sin descripcion;Ventas;15
+5a889945-b9fd-5a23-9e9d-aa6c0c268651;Optimizacion de Procesos;Sin descripcion;Operaciones;15
+b4718682-9007-5fbc-b5bd-4c56d86510ca;Inteligencia Artificial;Sin descripcion;Operaciones;15
+2a4eee93-a0fa-5d1d-b6c5-b34233724d0e;Finanzas y Fintech;Sin descripcion;Soporte;15
+675c38ef-1185-5c6f-a603-570e0e5884fc;Tecnologia e Innovacion;Sin descripcion;Marketing;15
+244f4a11-24a5-5897-8ae4-b581202a59f6;Logistica y Operaciones;Sin descripcion;Marketing;15
+86634014-c718-580b-acdd-7dd87692d751;Tecnologia e Innovacion;Sin descripcion;Ventas;15
+31d169b7-3722-5091-9cbb-6116b8612801;Finanzas y Fintech;Sin descripcion;Marketing;15
+e200f5c9-e002-57af-a5b4-08d31f973a37;Comercio Electronico;Sin descripcion;General;15
+c9d73af6-f91e-5cbb-90e3-6ec5457352bd;Marketing Digital;Sin descripcion;Desarrollo;15
+a485aa15-377d-5673-9383-ada4a9b8c0fc;Gestion del Talento Humano;Sin descripcion;Desarrollo;15
+a41c36bd-9218-5cd9-97c0-6abda65bb2d8;Experiencia del Cliente;Sin descripcion;Marketing;15
+3c341a54-fb3c-505f-9c0a-9766ee5ab99c;Marketing Digital;Sin descripcion;Innovacion;15
+31112278-f722-535c-9078-690dd1e03af1;Finanzas y Fintech;Sin descripcion;General;15
+13fa4ffc-2030-563d-9339-6d0f029b689b;Gestion del Talento Humano;Sin descripcion;Soporte;15
+182d4540-6003-5a5c-8a99-448cb07a998a;Marketing Digital;Sin descripcion;Desarrollo;15
+53f45017-5db6-586c-a68c-51bc266dd06d;Optimizacion de Procesos;Sin descripcion;Ventas;15
+568d7f1e-327c-51fa-aa04-3ccb9bd3127d;Comercio Electronico;Sin descripcion;General;15
+061e19e9-dcd2-5b9b-97ed-7079c9956d67;Finanzas y Fintech;Sin descripcion;Operaciones;15
+56c5bbfa-9dbb-5a60-82d7-d79b3351785e;Finanzas y Fintech;Sin descripcion;Soporte;15
+5e9e6084-3169-50d0-86b8-0de9367fc869;Finanzas y Fintech;Sin descripcion;Ventas;15
+4de9721a-01e9-53a6-9e43-9b185b46fa01;Optimizacion de Procesos;Sin descripcion;Desarrollo;15
+1578a511-4f7e-539c-8b88-4318241c4b51;Ciberseguridad;Sin descripcion;Ventas;15
+7de97636-995a-5551-9b83-5a16f24d443f;Inteligencia Artificial;Sin descripcion;General;15
+431c7bd4-93e4-570c-82d5-983390fdf8d0;Logistica y Operaciones;Sin descripcion;Ventas;15
+5f8c5ae6-dcb7-5088-827f-08e1906ebb67;Experiencia del Cliente;Sin descripcion;Desarrollo;15
+8623e52f-9a53-5760-9351-5329d3fec50b;Gestion del Talento Humano;Sin descripcion;Innovacion;15
+4589816b-9228-5219-86d2-68a12c781b44;Logistica y Operaciones;Sin descripcion;Desarrollo;15
+18a6488c-6bbb-5885-9950-20ca77998e7b;Transformacion Digital;Sin descripcion;Desarrollo;15
+3afda455-b03f-509e-a3ce-81a84c27142a;Sostenibilidad Ambiental;Sin descripcion;Marketing;15
+68e8f470-9f82-53b5-984d-0fd3c2d4520c;Tecnologia e Innovacion;Sin descripcion;Marketing;15
+32087130-1cb3-5a93-9c85-15d903156054;Sostenibilidad Ambiental;Sin descripcion;Desarrollo;15
+dbec3d18-da2e-5a17-9795-84076af1806b;Ciberseguridad;Sin descripcion;Marketing;15

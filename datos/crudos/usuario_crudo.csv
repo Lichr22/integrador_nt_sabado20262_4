@@ -1,251 +1,251 @@
 ﻿id;nombre;correo;contrasena_hash;rol;activo;fecha_registro
-2dba2fee-164a-4d8a-b22f-11708cb013ee;María Marcela Torres;buitragostiven@example.org;913d199f349e540cf50caa123e5697cb1d6089eff315529b3ea3f7d9ff917632;administrador;True;2024-12-05 01:48:06
-c021b424-258e-4f7d-ad08-ac3c41dbdcdf;Luz Moreno;londonoalejandro@example.net;aa91bb1289552259250e1b2a3cc07a788779cc744490e7f50a6cba9cd8eb48b4;estudiante;1;2025-04-30 14:38:26
-fe4bf488-d5ae-449f-9c08-af9fa5a1858e; William Anderson Rodríguez Cifuentes ;jherrera@example.org;761d6a1bf9580e75cfa815a19e7e69f30b50e13883934096cf5d37d8adb13f98;empresario;True;2025-07-29 19:54:24
-a767ae77-96eb-4ead-a943-100a58e9eee7;Luz Luz Sanabria;mario78@example.org;9cd52e58dcfc7bee1bfae889e674e81b2831cfbf025d4434d8f2f57ccf4d6784;administrador;1;31/08/25 09:43
-9331c7cb-354a-4943-9b9b-7546fdbc47f9;Esperanza Fabiola Beltrán;carlos10@example.net;4e132b417a4596b2edd634bb466f602660787cfd9bfa68884ba1e5da53632f94;profesor;True;2025-06-23 03:54:44
-0e4d9254-d12d-44e8-bcae-693794cc9e2d;Yadira Bibiana Rivera;xacevedoexample.org;4a37ee90281551b78b2dde8c6a3c9d3b45da019ba8014cd496f6ef8cc269d91c;administrador;1;2025-04-22 02:49:25
-a39fc58a-7dce-4e55-b403-5eb2cd81a92a;Hernando Carrillo;;2f26e3fe0b795d16831fe3408e4ac6540f62d39a9a60d22a709e422e36333eca; empresario ;SI;2025-11-04 10:29:04
-a5bd5733-f190-4d9b-8849-7c3ed5625a8f; Fernando Velandia Pacheco ;manuelbenitez@example.org;92aa91f91a0a1660cc8b38a2f9fe97b1c0e1d0452bed70d894a0db7b5d310f9a;administrador;True;2024-12-05 07:43:17
-687b2d10-3ef2-475f-8369-328467e255bc; Diego Andrés Barreto ;fernanda76@example.net;abb346954e29a8141c8cb94eddfb8190b61b3051dfa0b4ec95d5e29d93e182d8;Profesor;1;2025-06-04 03:03:14
-47280151-17a0-4d85-9780-ef8d55f4ae4d;Paola Londoño Muñoz;zburbano@example.com;528a0ba6937407022a0b6ab2b585d67c2d34910b599f40a76b083229b39904be;profesor;False;2025-02-25 20:01:13
-92fc7353-978c-43d9-94ae-21bf87f08132;Luis José González Pineda;yhurtado@example.com;338722e96dad3aae7568873eb3b6e1944c3f951dc876e9865a963bee68f43e8c;administrador;True;2025-11-08 22:24:43
-eb360f99-8333-4dc3-ac70-802d3335cf29;Alcides Estrada;duartemartha@example.net;32c23b80181cdf52be16c3fbf2bc5bc3b713cb596449a76be09e5bfed67a14a7;Profesor;False;30/06/26 09:02
-955e1fd5-956c-498c-b73f-c9fc72dd92a6; Luis Óscar Cárdenas ;miller28@example.org;42378b182b047f5e843072aa4141a3b1eff586c0285523cf355b223a0d73c04b;estudiante;True;2025-06-30 04:44:37
-a7b27c36-dc10-4dba-8a2f-42e967cc8d7e;Ana Mery Montoya Patiño;carvajalfrancia@example.org;c509823c0820d9d7ea38abcff816c8fb5eebca42f04a3833721db9af6927f77e;empresario;False;2026-09-23 21:53:33
-0965614a-effd-4c9f-86c4-38ff49f1a06b;David Moreno;garciayury@example.org;2eb28aab3b37da76916e5718305a00835a518306f46227f39c45dfc21dbf85fd;administrador;True;2025-12-29 03:41:32
-55301f52-1e46-48cb-b25f-3f9ef4ce4d7c;Patricia Ortega Caicedo;andres96@example.org;215e10fcd56d8f84a4647be5e5e5033754a80a52fed17351305f5e0fec344867;profesor;True;2026-06-20 00:29:36
-036c9345-fbe4-4974-bc19-bfcd009d14c2;Edith Alejandra Sandoval Arias;ogonzalez@example.org;e901ca7cf8dd3bd6503db5a64cc84076fdf0c33906ccbf83bfaa5874e4933c9c;estudiante;False;2026-02-10 08:11:56
-004e60b7-6168-46fd-a8b1-c95fa76b5883;ELIZABETH MARÍA TORO MARTÍNEZ;espitiahumberto@example.org;812db7572d950c1b8b4a4f34bdec7a445209d6ef706ffa2dcfc03601340e2074;estudiante;True;2025-06-14 16:31:19
-ca0e7faf-6f9a-4c2a-b48a-5a9961f7c153;Alberto Carlos Rubio Jaramillo;evargas@example.com;8111b62d5150f0ec6dc6a65e87fa1f3e8edcb094d842ab4d6dbb0a06e5b152bc;profesor;True;2025-01-24 16:15:03
-6911352f-ae2d-4d1a-a837-ca4e5ec82b8d;Javier Peña Alvarado;gilmarino@example.org;e995646fb19d8824a5b315e3443bbc18184872ce6e9cbe45209753b07c839676;profesor;True;30/05/26 00:12
-1825f3d3-3afe-40e9-8b70-12cdd4e53530;Raúl Luis Ramírez;lhernandez@example.com;09e637ff7d74149186e53ac39cc9f7a2393b55f62a92088646a7b6e3a7ff4d7d;estudiante;False;2026-09-20 14:55:45
-5d067598-cb3c-4582-b06e-5f75a5bd1748;Inés Gabriela Caicedo;arangoandres@example.org;c7851c0f1530640d469066362549c79ff9663512e68519975f1389a37198061e;empresario;True;2026-10-30 22:03:42
-62d86edd-c67d-44dc-b2d7-ef607f11f41b;Ana Olga Rojas Castillo;perezmaria@example.com;206813f36553af6c471b8b52d69649975505d8f049f93d6cbdf7db081a13248c;administrador;True;12/07/26 09:27
-0ce363f6-da14-4498-8ebe-d02a4dc9d84b;Jorge Gustavo Ariza Páez;ssanchez@example.org;e54dece40379a5be1596ee27755d8b97f6c654e3b580ada6a9fe814613cd3888;estudiante;True;2026-02-03 06:01:58
-2a608b2d-ec95-4335-b191-080ae24f6ab8;Katherine Martínez;hmora@example.org;5c2a35e1d703717481c4d5dcb500e2d2eb7c0444794097ef3b65ebe8a1a4d837;empresario;True;2025-12-09 19:56:20
-04afecf8-67f9-48ca-952e-47b035c0f506;Manuela María García;liliaibarra@example.net;6c5becfb1dfe76b0b51000d873e489f6e8af4649336cfc4e6679c696e6dac269;profesor;NO;15/02/26 03:58
-33aabf90-6987-4aba-86aa-4649feb8bf3d;Natalia Guerrero;ignacio35@example.org;80a50e0ed6bc260ffa9e6aeb490b71ad1ce60b59212fb2b171a610f8f8dd16a3;profesor;False;20/02/25 01:04
-1d3fae4d-d7a6-461a-9cbc-4be4ced0dc74;Miguel Oviedo;rodriguezantonio@example.net;eda531ac99a5256e82e24bb2153f30e75bb094c615197ca8c0988a205e84e589;empresario;0;2025-01-06 07:00:30
-76b5c0f8-88a0-46d3-a9d3-c89febe6139e;Johana Patricia Romero García;elianasanchez@example.net;a076f4a88f1694c9622b2f3e6f16087244d97d3751571b524fb1e55dd54a204f;estudiante;1;2026-02-28 11:49:46
-4608d9c4-2041-468f-a1f3-bc5108981d88; Nelly Cortés ;;157f62fd0bad5b4bc794ad19ffb7117173489013111e5f3edfe90945ad0635c4;estudiante;True;10/06/26 00:58
-891b977c-e846-458c-a29d-b817118c18eb;Marcela Calderón Becerra;eduardomarquez@example.net;d93d4e55114cda87626e8a5ce601bf09c184051654fb0e3a89e1de39dc367aa1;empresario;True;2026-10-14 14:01:30
-481a95c1-4669-4121-853c-9cf79185507f; Luz Salazar ;maria52example.net;354b9fcedd419b55319fef1e1156801a065e1580a14a9827f2b474da28fa6e27;empresario;False;15/03/25 21:26
-b2009e31-69a1-4f8a-94e8-4fe7eae777e1;Jaime Alejandro Rodríguez García;luispalacio@example.net;fc6e8ad7547e1cc68b5998d9fc3dc2d140fd8ebde2a86166195fe3dc601cad9b; profesor ;False;2025-10-10 05:08:05
-ff861319-47b7-4800-9b83-00db79ec3259;María Morales Saavedra;maldonadolaura@example.org;19af4a21c30b3f36e938e14caba2620484962c9077a86b88b19a9a04630a36e4;empresario;False;2025-08-12 02:22:38
-4ae498f4-588f-483b-afb7-0bbb6fa1fd06;Gildardo Zambrano Velandia;wilsonobandoexample.org;e0d36b57438e8da872d8736d6b863db9977d6be4c266df4a480af151af5f6872;administrador;True;2024-11-29 15:22:51
-38efd60a-cdcc-44b9-92a8-e470899719f3;Aura Quintero Granados;monicamesa@example.org;96ef5b1ead44f2679b2af38a87dc4fb4310f35a5baa7cbd21f7e348da4f8be3b;administrador;False;2024-12-10 11:12:31
-77268011-dbae-4af1-9e50-2a0154a98433;David Ferney Cruz Suárez;inesduran@example.com;abb81c41d18aebd6db7cbc2f340432a7f74ad30f92a7551af1386bec08ba9725;profesor;False;2026-09-12 18:02:11
-522a047c-1662-4f92-88c5-77a4ed17a440;Marlén Isabel Bedoya;iduarte@example.com;0c08e6f646b99353b6144fa6b6e4ce506b6a5f70b94c2a88bcd56d5c5389a8a3;Administrador;True;2025-02-07 23:27:20
-9dc64368-5f20-41a0-a4b6-f15c3c3da2d6;Juan Burgos;maria96@example.com;49843e6e986f479997ea8885a03bbe655d80fdb667803afc62b1a3bef51ca04e;estudiante;1;2025-07-12 00:41:55
-00190aa6-b7b6-40e1-9ab1-d7fd529d78c6;RICARDO MOLINA FLÓREZ;johanablanco@example.org;d1318b78a0eb2dde5d36ba03b70b60403e1500940de97052635cd146139e0e7b;profesor;False;29/07/26 19:46
-0081fc11-6b00-4761-80a7-06693a8ed110;Rosa María Vergara Valencia;alexander14@example.net;797a3e45e9927c4aa1e860d148f6659636626202bebd827a8c96f7d67a77bf6a;profesor;True;23/09/25 14:19
-b1365b5f-dc53-4757-abe9-e507367e8bcc;Diego Jesús Hernández;yvergara@example.net;1c2eb5986ead95919a281c75d28d110f0afda0f89ad6185c112c9c3b08165bf2;estudiante;True;25/03/25 13:26
-6db4e7bd-f6a3-43ad-b601-06135374dc54;Diego Palacio;;8f5bfd940218a10739ae331333324948a4e6f08090d6ea160dbaf9aacd6aefc3;empresario;False;2025-11-06 13:20:16
-4e898684-00e0-49ae-8bfb-4a4737c74042;Óscar Alberto Ortega Galeano;alexandergutierrez@example.net;65a31258120287f1c42a7d3537c5429b753f439e7bd73d8c4b70e7fbec33af1d;profesor;False;2025-07-28 17:41:30
-e2b2d7b7-fe23-43d4-b281-209fb134d67d;Amanda Janeth Sandoval;mariosanchez@example.org;0764349837af5adb7f6fa800b376f8e2ca7728e21d8834d1453d5c6d7cb1c1a6;estudiante;True;2025-11-14 10:30:47
-afa33d3d-fd34-4130-a5da-166d724f599c;Lorena Raquel Escobar;pzapata@example.org;253a878a69438a02165b7e4fd7a749f6b382cb42a30e0281d1c47fadcd768e5c;empresario;NO;2024-11-14 16:41:33
-6ef0a2ed-5af3-4feb-a3a6-b1bec61c0e04; LIGIA SANDRA CIFUENTES ;pmartinez@example.org;2c9dec0f5a696fd198bf421a3b46bb20ee59f5878f095d856a0b0f78f441e738;administrador;True;25/07/26 20:49
-783c66d5-31e8-44d6-bd75-476ead4fe8e8;Hernán Ovidio Hurtado Quiroga;uavila@example.net;30a638f262caff7a2af2338686c5781b800569329042ba982d1006e847eb26c8;administrador;True;2026-10-15 18:19:37
-cb662867-9aa9-41a4-bc56-b44c5d00ae03; Efrain Alfredo Ortega Muñoz ;pedrocastro@example.net;267ac97d8637b278bf958c1e6eafa369915e1157a4cd11ba55312c1b3908a58d;empresario;False;2025-05-15 05:11:45
-60c7c92d-03c4-4534-8459-ee5c99dd767b;Óscar Forero;luisaruiz@example.net;652bd42aa22e8e1c4b243f6dff9eca7aaf93338a271660ee7718f975c50ae088;administrador;False;2025-03-07 13:01:01
-6dc5cbcb-61f9-4082-8741-e4156a27d79e;Liliana Ana Rojas Guerrero;andres60@example.org;0af844cdd022337f5168ff609efd387794bf641791e4ceb811c6f1ab0535d546;profesor;False;2025-09-08 21:42:13
-56f68cba-4ca0-476d-b73f-9068a811778e;ELISA CABRERA;wacosta@example.com;cad699403b3d00fd614a826a255090bc720e86f09963a018026fcdf7fde9f90e;estudiante;SI;2026-09-04 06:45:09
-6cfb3969-39bf-4641-9631-9cc475830861;Ángel Galvis Vera;yenifercastro@example.com;4ee055718325f5b925326fddb471a8dc32e82ce163323fccc65df906254b1e55;administrador;False;29/07/25 11:14
-f38eab40-460e-49c0-a668-9df26089b664;Nelson Villa Villegas;fajardojuan@example.net;858d3cbb26320c6dbd2eb61f334481369fd4e03b46db3521192b4322cb70c31c;estudiante;True;2026-03-24 15:03:05
-2df8daae-72e8-41d3-ae59-7a86cf5a20f0;CARLOS RESTREPO MARTÍNEZ;dvalencia@example.com;f04f3cd770b4621896cbea242b8d7f1dfd0c18c4cca9c50a6d5b68acd293c029;estudiante;NO;2026-09-24 15:00:27
-6983907c-9279-4db6-9522-b19d4fce98aa;Fernando Angarita Salazar;correacesar@example.org;2d77699db37aca5deb2a33c6375bc0e31bed8dfb579134ac8ae98cc2cfd1f0a3;empresario;False;2025-08-09 05:03:48
-42d1a843-c569-4fc8-a90f-6afd4954971c;Camila Sara Arango Gallego;alejandrarodriguez@example.org;9fb5bd3506a944c50c15c59d5db0abe3d25ff878a674ca9d72c71187fccb3ac2;administrador;False;2025-11-13 05:08:51
-53529fea-836a-479a-a5a4-90447a1e3164;Blanca Sandra Bermúdez;claudia91@example.org;c277ae4bf4e34c0a0eb7b4abf312800e4ecd208eddd69853042f72d383d4eb46;empresario;True;2025-02-02 08:26:11
-00d184df-703b-4c0a-8c1e-7c5476f9990c;Margoth Escobar;tmedina@example.org;0419003752c954987e3a847724693f7bd30c645bb85c5770af31da9308f21624;estudiante;True;30/04/26 19:18
-9294a473-642e-4439-abab-b3d17170653c;Luz Constanza Gaitán Carvajal;roserocarlos@example.org;38d3a823b791bd2c7386a018e6803349e0556351782f2094f88e45d428388e27;Empresario;False;2025-10-09 02:52:28
-f4928c1c-ae69-4e8b-af22-e8f9f9cf7462;Andrés Augusto Rodríguez;gpinto@example.com;078942353dc3eadc1a4e88335f559ebe30922d4788ef46f00ddb940d1f2d4f24;empresario;True;2026-03-19 01:29:41
-5eddf412-bcd0-4964-8a55-2cb1e8eb946d;Guillermo Óscar Ardila Paz;david87@example.com;228333c1ed72ea815c31995e86826cf3314b8ada2c861f16d2636a1c76758c46;estudiante;False;01/06/26 04:38
-98dd0b4d-f55e-434e-8e1d-1cf6991cda42;Alexander Vargas;castrogina@example.com;8483a1b5f692f375a37b5f2f3f3af29a3d94155284ea81d88c69c9a0d79f02bb;administrador;True;2026-04-13 09:15:56
-05dbe6bd-e488-4a59-8c10-2012c2da8154;Enrique Zapata Valencia;zrojas@example.com;39799c6856ab146326085ebe09cc378f8d302a8aadb4b1e127f892a2380a8207;estudiante;False;2026-09-25 03:41:00
-0cc7ce9f-2d57-4040-8c9d-5916b6f69fdc;Jaime Delgado;andreapinzon@example.com;d668cfde040c5eaa1d4e69b25622d994b09eddf3cc014defa2d9f14ee4008491;empresario;True;2025-05-16 01:17:33
-812bf579-8bd7-4b78-a86a-c8e663061b7b;Armando Mauricio Alzate López;karinavargas@example.net;41c6a5d6a6daa9eb15a183ddf9e46a5d8c83edeadb73266ef60f77d3457560c8;empresario;True;12/11/25 23:32
-dd869499-163c-4605-bdf8-dccfe6b2fe67;Alejandro Omar Valencia;qortiz@example.org;0e8acb583ba483be23ae800bc03470b2bf39c2c2816b7368536ac627b7407ed9;Administrador;NO;08/04/25 23:21
-87a8e9f1-b9db-4404-aa83-24a89a145a38;LUIS SEBASTIÁN CASTELLANOS;lilianadaza@example.com;6ca585e917736dc9b94d673c2c308c323be7e8a07fc644db3217eb5617fea35f;administrador;SI;23/06/26 20:37
-8712c2ab-6b9a-48cd-ac3c-a7570f5cae3a; Heriberto Roa ;lorena24@example.org;6d54a5f45626fe08cd421d63dbac4d969c049a93e3cb9348bc21a12592b19a36;empresario;False;2025-02-16 17:00:25
-601a223c-608d-4a13-8a6d-00c660dcb69e;José Martínez;jhon27@example.org;ad17e5a624bbb01dc90e21f707036f8337e97f09276498d4e8370a4ffddf808c;empresario;False;30/01/26 06:39
-951dcad1-cdef-47f7-a1a1-e0f3788c12ea; Felipe Mendoza ;tuliomunoz@example.com;eb9802f8be31f9dc3059e39cb64c77819bdc4ecd7dcdf2a1723e9d7c1a32ec3a;profesor;True;31/12/24 03:25
-46fe0741-8898-47cc-a7d8-d808f3041e96;Mauricio Escobar Pacheco;milenalondono@example.com;be73bae8060ab15e962344506dc4488c484edd08795b96274058d21598d01621;empresario;NO;2025-05-22 03:56:40
-5c2cd447-f00d-4881-a209-ccbe25d20881;Yaneth Laura Hurtado;ivanflorez@example.com;ee6e3dbd7c1c707cd0883e71ae9083f57ebb73711ec3721bf6495657506d6783;profesor;False;10/02/26 12:14
-62453629-7bde-4f66-9f75-b693eccf0680;Jesús Beltrán León;erazolaura@example.org;5777bdfb428e76e18330291872dd279a8b627638bf46fbf522e57ad37cdb883c;profesor;False;2025-01-12 10:46:25
-97b2b3e8-e13e-4104-a626-20dfab684524;Paola Caicedo Sánchez;mcardona@example.com;d93baa3c55fa724b9b93dc849288c9df78ab3b9882873822a4a78c2cadf8f47d;administrador;True;2025-05-09 04:21:34
-8555c1cc-f2dd-4711-8096-a414df71f8ce;Guillermo Narváez;ogarcia@example.com;4d8902b960e90cf37d68a457d47394d836b392695ac89bc285c4cd04e2d064ba;empresario;1;2026-03-10 21:15:19
-2c87e7f4-8b67-4e4f-b2db-76873ea07780;Fernanda Luisa Jaimes Gamboa;patriciaperez@example.com;82b7de6c4c1a6fe54fabdea0e183a74d6910b283101dadabfd190751bcb7dd14;estudiante;1;2026-08-12 14:16:57
-a5888709-4c30-4b37-a4bc-e0f6e720f2a4;Óscar Correa;diego48@example.net;a9e4ce44efc56d8692e6f4a23b09e37c93f1d3454b64075f4be1639ff9d35405;empresario;True;2025-01-11 20:52:28
-d0f98914-fa31-43a5-beee-e2b9e829f04b; Hilda Galvis ;maria39@example.net;0b4a2365a0a6222a90e1a85d75518651aef8744a9ebede3643f1e4c81769e079;administrador;True;2026-06-27 09:29:47
-04797d8a-eef9-45d4-8214-ee9c7355dad3;Fabián Castellanos;nelcyarango@example.com;a57c467f83e077b793475b2e862a78bb18c0622977248dcc23ceab9e762d73c3;administrador;True;08/02/26 00:39
-2423c645-8526-41d5-a723-10898cade9b5;Víctor Rincón López;maribel51@example.org;99d81e985d7137eedc60a7a9ed57d2106d7d3b166576b5eac978a853e9f9d076;administrador;True;2026-05-03 04:20:39
-7ed6d2d5-315b-4bc0-95b9-845ccfccdea5;Jorge Esneider Aguilar Caicedo;qlopez@example.com;9229b84961c49e4b6890eb9c283edd5ad9ca04331983ac434f67c99ae4ab2f8c;estudiante;True;2026-07-03 10:40:00
-cf05625b-7e12-41f2-af3b-70dfda4a7886;León Luna Rodríguez;mpena@example.net;643049ee57bda7504bd996d2c0b83bc1f3a612e0b8432959e51e63f392986e19;empresario;NO;2026-06-20 22:27:07
-9ecad474-641f-4fc7-b356-15945190c4ae;JOHN FABIO RAMÍREZ CAICEDO;betty71@example.org;dcf0990fff4a72a9263388fc2345f016159c90d28cd64c29886f4ab10970d329;profesor;1;26/02/26 07:31
-9055b426-45be-4d3d-b6ff-8ccf57d0f49d;Maritza Lucía Rodríguez Parra;jonatanbarreto@example.com;473496c38b9c1f755c5f16e603fef74a0662e615c11c2ee4210e988fdaad6eef;empresario;0;2026-03-28 11:30:48
-b847c716-1aa1-4cc9-b905-dacdc13ac253; Tatiana Becerra Palacios ;marleny77@example.org;98825c006d0a363ba7679d63f4dec73c9142c840f1e965ea5384cf79f3c8ceac;empresario;0;02/03/25 17:39
-bfc5ed78-87e8-41f3-b56f-869f43083971;Juan Carvajal Cano;wilsoncastro@example.com;8f582f7927625174fec5e79f3764c1ae6b98546d0f20d9f300cf25a79d2942db;profesor;True;15/07/26 05:26
-84ae1438-48b0-41ce-b0ac-f489f083e34d;Steven Gutiérrez;fredy97@example.org;b835bba4c38abcc85cf426e11cc6957159a1f923e8e2e27cc9203cd60f25a356;administrador;True;2025-11-21 14:06:27
-2f68ea3f-26c6-4f62-a61b-7e2989ba465e;Enrique Alonso Rivera;gabriel39@example.com;aec6b9bc61ef84998e4f3170fde32019dd11ba867a5d7eee306040c8fc02b3e2;profesor;False;05/07/26 18:31
-b72e6164-c082-4020-bc23-38c2cbb24df2;José Sarmiento Rueda;qflorez@example.net;a58290097f5067812a6168ba609dd1d3273ad0afd99a165b04e9d2eccb3efdc9;profesor;False;2025-11-30 02:55:29
-99f6a814-eb81-4e77-94e9-52c7a278008e;Patricia Paz;gabriel71@example.net;03f5003e1967ac582cbf5a35125116191106c601f5d93389ed9603c9cfb568e3;profesor;True;2024-11-22 07:25:46
-d91595b0-8397-4853-9b1c-6bbdd403c2b9;Adriana Hoyos Sánchez;qocampo@example.com;39d5a3bcfa7d221e678f87302b061bf228a614309f593e0f77c5fd74194025c7;administrador;True;2025-09-15 02:57:21
-777f2a29-3106-420f-96c9-84280d44cc3d;Jennifer Jennifer Andrade;;29061d101c61cbef8efe9dfda6bf505c1ea438f4c22fcad901a73c5796812c92;profesor;False;2025-11-24 09:19:48
-41b8c181-3187-4187-8980-bc0a41c36d24;NATALIA MORENO;leider16@example.org;c20df23fa021c040bda8db127bab66e028c43147f6faf5ac293d7b8d2f45da1f;administrador;True;11/05/26 02:48
-ff644aa5-f2bb-4472-a981-01b5a74a8420;Inés Erika Rentería;valencialuz@example.com;470d460908efdcd1860c8bd6a87bdcf4374ca2bc48d1a511cea0d5df3be6d85c;empresario;True;2025-03-03 10:56:50
-36e28d06-9175-408e-b112-423266ef7c87;Mónica Amparo Alzate Pérez;leonnidia@example.net;1b8a9a661dc5de330a1dde6606c8b22d935003406393be6048b68011b47dbe9e;profesor;1;2026-10-20 09:41:45
-9b7dfc18-4fc9-4c59-acca-3d745c22a410;Martha Henao Cruz;maldonadoyuri@example.com;8246bf405ee6b4109eed3b15064e830a7de2f9fb83fbf8e004606ae0785e8182;profesor;True;13/03/25 02:12
-f411bc5e-7a03-471d-a9be-9dd70bb72afc;Inés Carolina Fernández;dbarrios@example.com;3b81647d147e0c8926d98442f6e21655f588fb712adeb1ab481b8af92d2a7116;estudiante;False;05/09/25 04:31
-753d60fa-0ce0-4827-a56b-6465f1c867dc; Luis Eduardo Mosquera Jiménez ;;021ce31677cb204479fdfb88821b54c94635e9a84db197529138b5717127a2bb;empresario;True;27/04/26 01:33
-51f5295f-7efe-4ffb-82a6-1be7c52b0cd6;YASMÍN SARMIENTO;jaime39@example.com;72bb7e9c244f052a2871084ccf5a7eb2f49a2c6a88111310b1ceceb76b08e9ba;profesor;True;07/04/25 01:38
-b16e68a8-b4a5-4d57-b9ff-331cb4e86411;PEDRO CAMARGO;antoniorenteria@example.net;15bfd2d8a068f8f77359a5e2898ccaad53a5c4426a9ff91b284a205504a98594;administrador;True;2026-07-15 22:05:40
-227951c8-8991-4c74-a508-e3ef5e57c3de;José Manuel Hernández Chávez;mauricio23@example.org;fc3db1663e0ce905a64432cb3df2e5f382444cb717799d660b97269360c7890c;Administrador;True;2026-09-22 03:44:21
-9a5abe9d-3d07-42ea-a406-fca256138c49;Sebastián Ronald Serrano;nestor74@example.net;90d90c3a17dd9da972db6aa5bd42c7f54d7e91d906379897a54b1b967edb1ef7;empresario;False;28/07/26 01:18
-d6c63fd8-8db8-44dd-902c-7af0e8165b8f;Cristina María Gallego;humbertovanegas@example.com;d73f8534b2819294afa9542571ef5de130c95f0d94f584260423714b354c1bb2;profesor;False;28/07/26 07:55
-0289955c-1e4d-4804-9696-6d96f4937811;Luis Jhon Ortiz;cardenasjavier@example.net;cefeaa7675070942bff2d2d94f7c8777b9e9aa274cf7e41d226c347ff776df16; empresario ;False;2025-09-02 08:09:35
-20b0e745-8e43-457c-9b56-a84098a0098f; Luis David Rodríguez ;albeiro31@example.net;01f5165c3d76eab4ae56bb0f656b28c5cd6828f6c1dca1472c70e8ebb0ec2c6f;administrador;True;2026-10-17 17:32:38
-9d1c2ffd-37ad-4f07-95cc-e8382563a5d5;Augusto González;monroyangie@example.com;5bbde089556e63ea8a7653ec2586f618ed6324499014d8a0670b27f1bf5c2571;profesor;True;2025-05-11 18:19:10
-92a5b897-9a4b-481a-87a3-8ffe98435e53;Elena Arias Núñez;;99ac1807797f997fc9517e8eb3c340695ed15f63c384800ea761d1e3a8ba2ba4;profesor;False;03/04/26 01:57
-53a9f43e-f835-4e2a-b595-1d6a9ea75935;Elvira Natalia Rico;maria53@example.com;4eef5c183ffe39d8aa70c371982233d1d6109e9867990065ca72acdcbe12512a;profesor;NO;2025-05-12 18:47:17
-e085bf1e-c937-4e7b-ba9a-8cfbe02ddd49;Luis Héctor Vásquez;luz43@example.org;fe9274cc457a88cd0607a61168abb62523f1bf14d23bd92f065f7a0c84db08a1;profesor;False;12/08/26 13:21
-e24a51c7-8b7b-4a92-9e03-3e61e49e9b45; Luis Alberto Henao Domínguez ;mesaolga@example.org;02f8d67bf4fd301e29e0056d13ac4acdbc6050409fe5acb0e1e3ec0223be11e9;empresario;True;2025-04-18 18:38:20
-d17b22e1-6ea4-4816-8f01-5a1858d9fc84;Marleny Yaneth Orozco;;342af7fbfda27cfdd0841cfa4d78a886b4a14c5a404541cd547ac9e943aa248f;estudiante;True;2026-09-08 03:10:46
-bb4f9494-0868-4f98-8477-b13c53599e26;Adela Montoya Vera;duranmaria@example.org;d1ca632ac43b272246b2291ef2b8527bf5444fd4ec20b7034ebd2ea8975cc585;Administrador;True;15/07/26 18:45
-e28c64e1-5d2b-402c-880f-af3bc0c084bc;Elizabeth María Ortiz Hernández;vsilva@example.org;aa5f69cd59bab3b10a2b6d686eeb33f84266a3764ae425bdd0f8bee984395542;estudiante;True;2026-07-07 16:37:06
-59a199e6-1698-4af0-bab9-245716950e6d;Rafael Luis Mora;bonillaferney@example.net;56bac80050c404a1944f07c6217a1e7352a7ac9c217a1a621675636ce0218836;administrador;False;01/11/25 03:51
-c143affb-d847-4c01-bbf7-d452267d5e78;María Acosta;gosorio@example.com;3c445c89d16b3f45043b9bf8ef81072a85df6313b41a24ec2d834aaa2a497432;empresario;1;2025-10-20 21:55:51
-02be9b15-b931-4152-ba89-5a9867ee51ff;Verónica Cecilia Sánchez;esperanzabarrera@example.net;4f1705f5e7603ac4821bee32e215ca58b5df08635af74e3ad8571e6f96f7b0f6;administrador;True;02/09/25 05:54
-1c0dc13e-affa-4783-91b8-43556588bd9d;Daniel Calderón;alzatemartha@example.net;a8f58a9b60ca317c66c3453476e4b87e4b266f0b7bac7dff4b77fbf6b4e29732; administrador ;True;2026-06-30 15:50:02
-cf14c685-80c3-456b-9fba-5bd1e5ed4c36;Fernanda Estefanía Peña Niño;gguerrero@example.com;e436925227d3ea9165ffd32de86f43591f5961eed5306d766797f6fe757aec0c;empresario;False;2026-04-10 23:50:20
-e8c09b5d-4ca5-420d-a49d-b1659f297a29;EDUARDO SÁNCHEZ;fmartinez@example.org;2e25ded319ba28289010301ed8c10411dba69e773193d52998b356bfba7593e9;administrador;True;2026-06-11 17:28:26
-3ccb4d9a-d768-4047-9fce-a937a87720ae; Eliecer Jaime Orozco ;enrique65@example.net;3b30ed162c37e026934628a94102c43ee63b5d45ba984b208a276dc7237dc02c;Andres;True;04/10/25 21:26
-cd6ce192-d540-42ed-94c5-8ab51b096937;Yeny Carvajal;sandra83@example.org;cfdceeba7d3b6844e4b232e08f0d426a5547c970847cc403f02ef4787af2a06f;profesor;False;2025-05-03 13:33:25
-d38c3a58-ce5a-4300-801c-7ca8c8ce392d;Carolina Yaneth González;carlos68@example.net;2158f6a63fa3f01c7959ecfbe0916781e3bbf9fc93bf42391ca3e26099fb730e;estudiante;True;2026-03-24 14:06:37
-34c7d8e5-e2b6-49e3-9b5e-3ec681877aa7;Angie Navarro;maria44@example.com;e76a98a4009ce80bc1ce453e7362783e015b7c30d4b02db72b1ec9a60b3a34e5;estudiante;True;2025-03-31 06:58:27
-93a3af59-939f-425e-8c08-2172168bb4fe;Amparo Castillo Sánchez;lopezandres@example.com;c14e622f4f0b4893c9a38961c07429d08f842b26704e314d2384c1df49c09e54;estudiante;False;2025-08-02 04:05:29
-3486a91a-0a13-4092-bf52-0f03b1e2dc53;Rosa Camargo Castaño;loaizalucia@example.net;1f9b64ee812c5e7f7b743a42f09e637205c63dba8e839229bc49a6a7ec5e5db2;empresario;False;2025-01-12 18:07:10
-b3b7b102-151a-48de-a7c7-edf67138782b;Óscar Salazar;npena@example.net;70544bee5e638d035f39d0d0eb7bf96367b57f5e24261b8092c8bc4517999118;profesor;False;10/10/25 07:30
-94cdeb4c-4673-4dbe-8e68-6bea41b81453;Isabel Ruth Reyes;maria69@example.org;316260357ed76d799c4a85c64436f97ff85bf0c8aee4aa3327937c9a44a6fae9;administrador;True;2025-07-02 12:11:37
-b72aadb0-b618-449b-aada-263aeb846f7b;Jenny Nidia Gutiérrez González;lcanoexample.org;fac45ec3afe0cd0ceb569740704dbd462810074dee8efd5472bf9f2a31bca18d;profesor;True;2026-05-10 22:42:46
-068ad594-1a6c-4241-b63c-a52553a51b02;Tatiana Elvira Arévalo García;mejiaaurora@example.org;6b2d3f478927b17274591d10421f268cb68fa1415fd6a912818c2a3acd483482;administrador;True;2026-01-31 14:15:30
-a7ac7cb0-779b-41e4-922c-0c155752f78e; Fabián Blanco Guerrero ;parrajunior@example.org;d3bf3444caea8d869fcfdf779d2d4ce0aff0e73d7a25b58bf3909d52f822852e;estudiante;True;2026-03-05 12:01:11
-c84bb8fb-1c10-4afd-b56f-73f81190e595;Albeiro Jaider López Meza;nohoracastillo@example.org;86d99424f394538b2115a6fb15e6a66718d89fb8be82f85b595e2d5d1ef114e5;estudiante;1;2025-07-09 09:16:00
-1aa8a8fb-0217-423f-9554-3f85fcfe4372;David Alexis García;contreraselena@example.com;770b7b0802d06b902d3449fd7cd3b7bfa4758f2af7ccfb128fabe928ab44e032;empresario;False;2026-08-08 11:38:17
-3f098a8b-303d-4e6b-8e84-db51fa63eab3;Paola Sánchez Ramírez;rafaelhoyos@example.org;68122637f8e1fe3a2fb09d2b44235339e3c31441b82908128d85143503cbb7f8;estudiante;1;2026-03-13 03:08:35
-d5646af7-ab84-41a8-923a-da233f4a25fe;Miguel Julio Murillo Duarte;wilson52@example.com;1299eab23b8886e63743d725300ca67a6d03a7ea50f6b91634aa7d836a8f9626;profesor;False;2025-10-19 20:41:07
-a09f9bcb-c9a8-428a-b9cc-582b90ae1588;Ernesto Vega;jose47@example.com;c194ee94161875b283bacbd2cace7b49facc9b7bc731978d76ad8b3802212c15;administrador;False;2025-08-23 19:05:48
-7239d5fc-f7fe-4a7f-8c6a-d515f9f77ce7;Andrés Alvarado;garzonjose@example.com;d4ca9c2b6877d665d122e95a920b10352a2dd0d4cf9b91a0c5c73e86a40a560b;administrador;True;18/07/26 09:52
-e737a963-e455-480c-b841-b1de9f9e9640;Lorena Arrieta;angelicaacosta@example.org;c531885a256ffb82aab74deb200263295c2f0311361ae36170cd91613d1143ed;estudiante;True;2025-10-26 07:41:21
-dd4680bf-1423-4d8b-8e2d-0dc49fce4b7e;Mariana Yuliana Riascos;moracarolina@example.org;d8c7158baaf551a03dace17a7a557834c3b4405485be511ba695a88acad86ba1;administrador;True;2025-10-17 16:44:44
-8104f445-7e92-410b-82b6-07d4501bfd5c;Rosa Prada Giraldo;javier05@example.org;5f641a61ac54e4da9384c9c4a130439ca62293ac357328632432a2fcbaec657c;estudiante;0;2026-01-17 18:31:04
-2cb8c688-9d8a-43e3-8780-87193c177eea;Jorge Vanegas Hoyos;nellymurillo@example.org;5284192589e3ce6f9933272ef06f4763a6eafaa0d2d8e22a16c6daaa12a24880;empresario;False;2025-07-09 08:28:06
-b8a49e66-ab0d-4c64-a750-cc501f13d3fb;Carlos Blanco García;vfranco@example.org;e302b79a75e9710f20fe89cff19c2286b0252ac8e8162f339f56a3116a78c618;empresario;False;2026-08-16 06:14:41
-950ff9af-6b21-43c4-b4f3-f292409693e9;Paula Laura Morales;natalia35@example.com;56e72a8119a84d8ee703f3e014af3e2d5cab70a46dd1059332176b3fb6d15c59;Profesor;False;2025-02-25 05:44:01
-c4848b3b-b081-4fe3-9d88-7027b60ef51b;María Meza López;durangerman@example.net;d89a7969f77eb3301b80da5c28c7c054a9b450e91128f20b706a89dcd6d71b9a;administrador;True;2025-08-29 23:53:49
-e8ef140f-f4af-4b15-ae70-36cd346c972d;Ana Serrano Fuentes;oscargomez@example.com;c0cfc2c74374fb9696744c67c80927b373889423af17f59104d322f2080aea77;profesor;0;2025-05-13 21:12:48
-a8da6785-1cbd-439f-9fd0-4b5fd3964dd9;Ricardo Germán Páez Moreno;nataliamontes@example.com;29bb6d43fe2f3edd6c1659438029ae8c1efc34139d4311781babd55e5fd11010;administrador;True;2025-04-10 02:03:12
-d29bc656-e128-4872-bb98-62d165484d86;Pedro Julián Mendoza;jaime88example.com;2947255c8b7ee57d97f84ca66bfeaf2bf1a5c90b47463ad18b69880acdcea2ad;estudiante;True;2026-08-06 21:17:10
-8437dd45-e6ec-422a-be51-b242a46743ec;Yenny Patricia Vargas Bedoya;luis18@example.org;b3779f7840f5c8176613286e3c23b1eee9b5735fa1b53e745728e8d005523604;estudiante;True;2026-06-26 02:51:30
-33fdad66-6927-477f-8dab-cfb2c9e51f99;Marcela Espitia Sánchez;olopez@example.com;39facb0dfeed7d9df7e5fd124132f314857f2163a1a46ed7663566599ae6f52d;profesor;False;03/11/26 02:35
-f466b71b-15b9-4441-b570-c3ee946c6c18;Adriana Medina;leidy15@example.org;30af809cbc1422f6338e12f1f631283d1d7a5f5f430f3f2aacfb017fd7ced07c;administrador;True;03/11/26 09:10
-6a15489b-f4d1-4620-91a2-5331773e27fb;Mireya Camila Mercado;mariaalarcon@example.com;d9c8bbdc11c19453fa1eb30a3b115c0f92e3bd6c4b02d3a37c9624bbb93837d7;administrador;True;2025-02-26 04:36:46
-0e9aaed8-7f67-40eb-8e06-3dde2f6300d9;Daniel José García Muñoz;luisbonilla@example.net;6ccde8c8f594ae26ef8d05b07ac8faa255eb0f2a8d7be9ad6fbaffe5a2063047;administrador;False;2026-07-06 06:14:10
-6c1f95ab-c963-4269-8c40-a08b4fdddaf6;David González;mireyaalzate@example.com;4b67e6a1965d3843c87f7a686dccf8b7101172c83b53d035f893b232283dec74;empresario;False;2026-08-22 06:19:09
-7f5d1368-5176-47bd-831f-1154953c3f6c;Orlando José Molina Vargas;margaritarodriguez@example.com;ff2f78518dc01dcf21f66192d48de2b779407fc6c097a43982206b618bf7cc1a;empresario;1;29/09/25 22:42
-6646ba11-3c8b-4ac6-bf32-89e6d2a1b35a;Vanessa García Bastidas;posadaandres@example.net;11f13ba5efc87691d1bdb869b5733a1eaa7873e9335c8e33a075875a77a67c03;estudiante;False;09/09/25 15:54
-27e24372-499a-439f-8d77-457718d05138;José Jhon Arias Cano;fabian53@example.net;c1fc310b5e3aad14c084ce832f430f9498b87cc28979989fc794931ff7114f9b;administrador;NO;2025-01-29 21:45:51
-41991c6d-b18e-4abc-b62a-3162bca515f6;Carlos Javier Quintero;alvaroduque@example.net;5ff4cb37bd43250b0a12bffad095bcd81b0d973c53d751a7e9aadf88a3d5b769;empresario;True;2025-03-31 23:14:16
-6fa79cd7-e464-49bb-9665-5c3eca7f8f06;María Guevara Cruz;alejandra30@example.com;bd2052937010491328d1d7adf57919b2a7664f96165394516eb9dbda4d25f9cd;Administrador;False;2025-12-15 16:46:34
-5f3456e3-fef2-4fa4-95b5-6c7f970d214e;Johnny Ríos Muñoz;alexandraprieto@example.org;9d5e0696f0d2bfee1f0cc448eabbe19d5ecd3a4d4db986c163480816869494a8;profesor;True;2025-07-26 04:51:15
-209c241d-fc9f-4e69-87b8-a0a13bc2c075;Luis Morales;yvillamizar@example.com;7d307746e02da00fad12b6a12896efe12a559349ec0954245961614198e6cba3;empresario;True;2025-11-30 19:13:41
-000b221c-48e5-41dd-9da0-9aff6d18931c;Manuel Ernesto Ortiz García;mgarcia@example.org;8e632c90b54961c3262f4d4d47d38b4f44583b7649661000c231c81b64ba382a;empresario;False;2025-07-17 21:08:41
-48a0b197-3161-45fe-b9d3-a087baf83087;María Sofía Suárez;cperez@example.com;4b0c0ad0c54d72f181971f52e112244fd7ef208550e87fc3a901230479e16aca;administrador;True;2026-05-28 22:07:55
-f22eb708-dd9d-43df-a8d5-58774a0969b6;Mario Óscar Henao;garciafernando@example.com;fe4a73ee48aad737470b7074d2e89789cb8612f4c00ed1b274cd41bb79e8959a; estudiante ;False;2026-06-15 20:26:28
-5907e341-7968-4bc4-b154-25b7fd1d6732;Irene Sánchez Calderón;egomez@example.org;f8f98833637abced0940631996c4135e82d3cfc2b33f49cc7b3fe1dff2d109c6;empresario;False;2025-08-21 22:11:14
-d731c0a4-78ec-41a8-baa6-911dcedcc3b7;Eduardo Julián Calderón;xnunez@example.com;0791ca96f4c280c83bc8fb5267d11d48d9620ac4fcd1816d5f79007957ff4dbb;Empresario;True;2026-01-30 04:00:25
-4631785a-c051-4947-9db8-c18a94aeaee9;Mónica Castillo Bernal;darwinrodriguez@example.org;d9a5fc9bda97800b706be4bef161d85b84ecf6390055a79fc7b34c56514699b2;profesor;True;2025-09-06 23:17:50
-c1cf846b-e6ba-4f2f-bc48-d4ff00347dec;Carmen Carmen Marín;jhon73@example.org;b442aad37d8820195d7a782d2d62836fabb28c6d6eb9bdd4820a5ed3ed6e9bcd;profesor;True;2025-01-06 21:45:35
-b2ac7d42-88a2-47ab-8ff3-7aa4bc8ecf82;Juan Esteban Bolívar Arrieta;enrique18@example.net;76df058f75f1f997ceb1b3746a2f9e7a60092e1de195f61826b78a2a23c4846f;empresario;0;2025-07-01 08:55:38
-f54d7cda-5a89-4062-b118-adbcddde15d1;Maritza Chaparro Henao;jose13@example.org;67b0a1b54628046b35286c902d2e1c1eb37374b49326e93dcb62c41da64ddbf2;estudiante;False;29/11/25 02:33
-5d6f643a-88fe-414d-a320-2b2b8b40f9e1;GLORIA CÓRDOBA;jarenas@example.org;d904b089e5e28599c371f6f0b90b218648567b28ea65d8106ce047c1825de7f6;empresario;True;2025-01-16 08:30:10
-c9f741cb-fbc2-4e56-80a0-b27e790749b5;Lucía Catherine Pinzón;ksolano@example.org;eda3974e29919e132deab2c6579d674f673c5777d862b4346021daf6e655df2d;administrador;True;14/07/25 15:09
-804a3d17-14e1-4475-b35e-1995fd4f0fa6;Lorena Ruth Herrera;sebastianhernandez@example.net;e511b2fb8b3d4d921f98be4945a8f57eaece81f68bfe4acad041fd97a11201bd;Profesor;False;23/12/24 10:18
-9fdc458e-627d-49ad-938e-e43a18268055;Beatriz Lucía Pérez;erikaibarraexample.com;1041a7277ce82f195bae81027e0b9510888d7100f43b297454b425c3e089495f;estudiante;True;2025-05-24 00:57:04
-aa414cf7-3f30-4775-9598-7ed192fa73e2; Yolanda Esperanza Hernández Suárez ;sierraclaudia@example.net;3feda1a82c874161ac7baefaf0435f7f9de84f2744c4d9a7495d38fac7294570;estudiante;False;2026-04-06 01:00:01
-7f8b74ff-2e25-4f46-a6e9-98751fe57086;Marco Julio Luna;garciaefrainexample.net;fb37f13641169df8e8f930373f273afa114b21b86cd0bde378b66819f1bb7160;profesor;False;2025-04-23 03:04:57
-9b0effbc-0170-4714-8783-0041051e7ea5;EDWIN GÓMEZ CAMPO;jorge47@example.org;26f2546709442dd14453a9009ecd3665bfcba0455d1cf2e6a825299c89ae35dd;administrador;True;2026-04-26 10:29:04
-81c79496-0d95-4933-8933-99018597a491;Jesús García Martínez;dguerrero@example.org;74add56d09830496718783bc1096108b0662fa85fe1d5b0cda6495c91eec30e2;estudiante;True;2025-03-01 23:30:29
-48af419e-859f-4f21-a221-1e46b5eb9043;Ramiro Alexander Ojeda;hermes25@example.net;e95064ef305779de572b3c83d93f3ad4cd8a6d4342e0b42c9dba64f960b14291;estudiante;True;2025-07-16 06:04:51
-605de3f1-c7bb-4074-ae3a-c16b93994673; Cristina Marcela Vargas López ;giovanny96@example.org;dbd10c399bd9f737a9c9ca03ec8edab956732b3941b2f8e736e11ee8bf2856ce;administrador;False;2026-10-12 05:37:21
-a51165f7-cdd0-4c9b-b845-e849336b6646;SILVIA SAAVEDRA CAMARGO;cristiansierra@example.net;c4582e137d3b973db89b5193c822a9745d21d82cf7cf27c62f2307d9b14e988f;estudiante;False;2026-09-24 04:29:16
-298e740e-c963-43b1-85c2-0a7172dffd6a; César López ;pmora@example.org;336407785f5338a6cd14d70b862212677e673b820ecdaccc9b45433fbb838578;profesor;True;2024-12-18 04:22:59
-2bc962fd-5998-4b44-ab1e-8cacb1d8e70a;Isabel Carvajal;agutierrez@example.org;c58d8610722d7f8d2d7b596d53e2519e8ad970c26bb7d68ec909fe0da8753877;profesor;True;2026-09-26 19:29:48
-c2b5a026-4651-4cac-a140-6b1e0bf5cba5;Wilson Cabrera;maria09@example.net;5b93e0bcb3e9cdb3c5688c71e80f0a30c79b744ab9c9dc3a7f79af12a34e1968;estudiante;True;2026-01-14 02:09:09
-867e6edd-cb30-4d9d-9fff-921cdd1505ce;Andrés Mora;augusto99@example.org;db29041be67f5094cf466d0eaad85885ceda268e68a7d06fe4ce72deb57c69e9;profesor;True;2025-01-24 11:36:11
-ef338879-abf3-4682-9703-72c4b67193d2;Eduardo Ospino Velásquez;alfonso39@example.net;035c828c6e1b1840666a18311d771124bdddbf2328f50bbea4c61e5d2e02e444;empresario;False;2024-12-11 15:44:08
-15abc4e4-290d-465d-8d61-f663feaf3ae7;María Forero;jdelgado@example.net;b4bd50cf30e765a589f1918ab2d92fc1a969b6dc797b81018bbcddba99313fda;profesor;True;26/02/25 23:02
-1ecdddf7-8352-4bb3-b54a-6f0def0bdd0c; Eduar Alexander Medina ;juan88@example.net;08069652faf664d355f5c02aae93e48ac96847f9630191ee42fadedc1f6eff5b;estudiante;False;2026-01-21 14:59:54
-c07ec58d-2d3d-4847-8668-344992599a7e;Felipe Rodríguez;javier69@example.com;fff04c364d2333b05d9f348be5a51a7d1902ed5355b890b8e56a4f7c87b61d01;administrador;False;2026-05-27 18:21:10
-0fb1e0f2-8170-4a1e-866a-a37967c91704;Stella Ortiz;oscarorozco@example.org;31cf6c20b4df972757278d7607fdc87f93334641bbdc106967c25b6a37a7ce40;estudiante;False;2026-05-24 13:09:07
-b0039acc-d18a-4406-b136-bd126d67e473;Carlos Duarte Gómez;ramirezedna@example.com;ba25695fa18f0ee95007788ff86a4ecb0f47ceead2c92db4449fc1cd939571b1;estudiante;False;2026-04-30 17:11:15
-db232af1-1848-45b3-8b0f-21e0821ecef4;Adriana Ximena Cáceres Arboleda;ruedajose@example.net;965ba874764988a2d924436c4bb5230eee9995bbb17b0abb6a61a92812472843;estudiante;True;2026-04-08 18:07:55
-4a7bc877-160b-460f-8900-fa80381eb91b;Cristian Alexander Pérez Barreto;luis49@example.com;846e2665ec26e296cae6e8961dd5caf335dc7f80324d5c13198522428105e4ce;empresario;False;20/05/25 20:46
-8f61c7e1-0cd3-42c7-aea8-1332640ead4b;Jaime Torres;angel37example.com;edb8f863784ddd5ab9195039610bb71f4478df8c67827f209977fadaca6862ca;profesor;True;2026-01-19 17:34:32
-79b2906c-458f-4d38-92e7-64a109df8a1a; JORGE CÓRDOBA ;ztriana@example.com;d1f166af7103849bec4263217080f9f753df2e73431f665f7c809b188f3892d4;estudiante;False;2026-07-28 08:27:21
-eaccc467-9b06-4875-ba31-0017ef02ebdd;MILENA GUTIÉRREZ FORERO;martin47@example.org;3fd9b12da1eb77ed9496031fb27e46869a9548e4f4725ba48c18050045b0592f;administrador;False;2026-01-02 17:08:59
-4afb56e7-cfca-4344-a0f3-418eb338df35;Didier Vélez;sandramena@example.org;72501d579f6d2afaf59538e49b99a1c3c7e742a394ffc02788fa52962a154efc;estudiante;True;2026-04-14 15:56:23
-126a18d9-44d5-4a77-919b-e41a423088ef;Yolanda María Peña Becerra;duartemarcelaexample.net;0ef94fce994184153736256528535cb87114695cf4a91af11a0bf10f64b222fd;profesor;False;2025-03-13 01:33:53
-650d0223-c14f-459b-91a1-bca5c7d5c53e;Augusto Rangel Acosta;alfonsogutierrez@example.com;9d5f74c2570008a8b441bbf39566dfab66e086f7cf56a9fa62b5ad9e990c5e90;profesor;False;2026-10-16 14:30:04
-8f8808bd-ac70-4e1f-a954-3187876508ae;Teresa Martha Daza;barretocarolina@example.org;ec3fa0951dfe77af7aee1c37b387b19500e3f08d592e8aa907df53437b6714b5;profesor;True;2024-12-08 14:45:12
-10a3d5a8-b1a2-4325-8454-ae0426ecc27f;Kevin Díaz Zambrano;;e8fdd7fc8f8401415bbb40b0e5c1f11c93f666afa018c4f77488af99401eea83;profesor;True;01/11/26 12:58
-44cf124f-9342-4eb4-9339-ee0559ff9ff1;Jorge Johnny Ríos;icampo@example.net;f021843fb8d684912cc88e4c4dae33fea83a9b97274f6bf71db32176aef6f2d1;administrador;False;2025-04-09 03:35:40
-9857c283-f9de-40ad-b1d7-8d81da984159;Claudia Dora Jaimes;mariaquintero@example.com;99620f8538617e1f2d3e72193e11a8e9cce0cede7af2446a58393bf439859c64;estudiante;True;2026-06-21 14:06:12
-b3b15be1-3a77-4c7e-856b-9225bb834a9f;Andrea Yadira Triana Niño;andrea12@example.org;1d06f12058d4a0a7b943ecf2e9841aa00cf34d44b157cb8334990a8cd761cb73;empresario;False;2026-11-07 06:22:45
-87a90a98-3960-4f08-8219-7ca29527cb67;María Liliana Cardona Ortiz;karen90@example.com;15f8451840e4a006fbf4af634e968ae599ae6e36f2e8f59a932af121bc9a5ead;empresario;True;02/05/26 11:28
-b282beeb-48e8-49d6-859f-be3a0d310f9c; MARÍA LUZ SUÁREZ PARRA ;eduardo45example.net;440b2b81f8c948392656e4c4fb108b70c305f2e67df7d5e3c231884b312636ab;empresario;True;2025-02-22 03:13:56
-35d8dc1b-871d-4985-8689-68982d00589f;Carlos Omar Calderón Guerrero;zuribe@example.net;30921cc361132dd43c11cb5477acee3ee6a489cebaf13af5b9550841e554d2ec;administrador;True;25/06/26 03:25
-2d4d886b-9fa2-499a-b24f-944a257a3050;Ruth Stella Mesa Silva;ana91@example.org;4412e35c2a0646757e75a4c33b66aa1ea2590bef2382dae7a5c785308a380c68;profesor;True;2026-10-12 16:23:05
-2cc29e33-1ec1-4515-8b45-f27b8e1359ec;Alexandra Ana Valencia Guzmán;;e729bd3dfed67a071bb1baaab9c17faacc4666c23d18864e322e1c111722e1e7;profesor;False;11/12/25 19:24
-347dd8b6-6092-48cf-9e76-4c4ed69ee198;Rubén Daniel Molina Cruz;velasquezjavier@example.com;26c8844220e3a5c7efc582e887f567c7aa44e3f2026837b00ae5f2d9fbf2d245;empresario;False;2025-09-13 22:20:55
-a82e3f8b-34f9-425d-aded-4e44066788f4; Ferney Cano ;gomezjohanna@example.org;5256d36c3607210bd518e3ac1db239a1912bcfa5deadf9aa6e865964a1826b79;profesor;False;27/12/24 04:34
-2d8da111-2c2f-41b4-8e48-9650741a779b;Zulma Leidy Gutiérrez;angelcastaneda@example.net;1e5b82aef2553de5891a8c97966e4969e0c22d31640519241d8465b1a454aaa7;empresario;True;02/10/25 21:26
-09782989-9177-4713-a9b0-ad07097f7626;Edier Eduardo Polo;rrivera@example.net;40288d7da10694148a42c5c31fef0d4d1f48c4c5e9c69ffa5027ec8140bedd2a;administrador;True;2025-02-21 16:26:21
-4ed9079b-1ce7-44c8-a580-615991644095;Luis Edier Medina;migueltorres@example.org;eb390ffc01235e2aa0bccc6f3ce0b1abd517ec336d59afcca4dd0f5b403a86f0;profesor;SI;30/06/25 03:13
-efefc50d-d85e-465f-b7f2-0e220c3e5ec5;Fredy Iván Contreras Bravo;magdasanchez@example.org;8d37969e30fde2cc8e83970204cc40e32d25f7f4f6a0db1956ef6e2e4111e607;empresario;False;2026-05-27 12:45:20
-11d0cb7e-5b1e-4ccc-8c3b-7fe561dd279f;María Sofía Garzón;morenopatricia@example.net;087488ffe89e2c553b2d9df59948641f5a8308f47dddfe3ca72eb9b6b4b1e856;administrador;True;2026-02-17 16:50:52
-95a73cc2-f995-4128-90c1-550428f85937;Paola Gómez;nmoreno@example.org;8d92a84cd6fe2e841d5cfd284170b1796d7813ab2d3a53163763c8fe0ccc3440;administrador;NO;2025-06-23 01:35:28
-dde915b5-13a5-49fd-8a64-de0131987761;Julia Dora Ruiz Carvajal;;c8420d30eedc29d1e9928a855ae8ff951d39d931f3fff1c675d3a77703bba38d;empresario;False;12/06/25 02:34
-e88274ea-49aa-4787-83e6-ff0618e2d779;Yaneth Vega;antonioosorio@example.com;3871f0b3843e6912f2052c8872da6ba1be0b08e44196f29993c839049f69d5fc;estudiante;False;2025-08-04 21:41:14
-31a475ba-56e8-4af0-953b-1214bf8383a0;Stiven Ruiz Guerrero;karendiaz@example.net;4aa2d2b27ed7b69492fb7394309103da989a3f22dd6548caa847d1167533d4e3;profesor;False;2026-09-01 02:11:32
-0303521c-1fc2-4e00-bdd5-66d0ab4abe35;Milena Sonia Cifuentes Ceballos;jbolanos@example.net;cd4569c57a64031fce079efb138c54fdec7fe77b3f56965918f191986dcc7093;empresario;False;2025-05-18 00:32:26
-763e0b66-ee8f-433e-ac2d-ba72e897e84b;Alberto Jaimes;fsanabria@example.net;281149bbda8b47c6303bb46e45ce71d8b371b1c17cffc59b3875c4d3ab30483e;profesor;NO;07/04/25 08:09
-ac16fcf3-9ab8-4545-af81-44172793f942;Marcela Gil;arboledaliliana@example.net;9c51e85072a1f57ed9008cb64b4a57e35a2a54a94880509b31e5ea1128bc01b5;empresario;False;2026-01-18 11:03:27
-6f1fd2d4-caee-47d7-815f-1b3433ffe3f3;Daniela Edilma Quintero Yepes;rojasliliana@example.net;3aeb7cb30497239c41a0d7b5ce7119fbee19ede7aa86038d84dcfd47e4d1bc5a;profesor;True;2026-06-19 07:04:26
-7a3ec8be-3aa7-4dbd-9df4-4bea83f2e532;René Edgar Rueda Medina;luisguevara@example.com;2cf4ccfa1bbab2ce871b874eeee622d0e6f2009d76aee3e906358aa100c5d5ee;estudiante;False;2026-03-29 06:22:19
-96c6618f-c9db-499b-8b99-34a272d15030;Jesús Manuel Nieto;ulopezexample.com;f8e2b81bfd26833d5ed56336c05d0bb1a565373dc1cf61c9f2e0c7bf447e191b;administrador;NO;2025-07-17 02:54:38
-fda774aa-dbc7-4f2c-afa8-b6dc76f21c24;Rosa Adriana Londoño Torres;mariacortes@example.net;335b4221721fe3a014d959831c78744884a99c2376b8141e84fde15ac703b346;empresario;False;2025-09-30 17:32:57
-5104c626-a97e-4095-85ad-2a2d3abadd76;Carlos Valencia;pjaramillo@example.com;7ab41833b0a3ac82f5807b9e2266e805fa8ea8bb15fef7cc44a2f33fe9b54135;estudiante;False;2026-04-26 07:47:45
-4fc7a518-dbc5-43bf-9322-8a1193e6e991;Antonio Emilio Parada;ucruz@example.com;dc026a37fdf89010e90679635e1d9dfc44c98ed35dd6b3f121eb97ff35af4c2e;administrador;True;2026-05-23 20:56:49
-03093bde-e144-430e-b430-b8e80f4d422c;Juan Danilo Cerón Yepes;villapatricia@example.net;38cd84e71a6a4b4ebb51b9a086f2ccf33f06dc402d6b39785a120398a4035025;empresario;True;2024-11-15 08:19:58
-773b10c7-2a4f-4082-8b4f-255b8aace26d;Carlos Barrera García;mariamora@example.com;897b95b2a0d7426b8c442575a5777f5058e95bf977349ed0d89ef230d779a5d8;Andres;True;2026-03-20 17:27:08
-58ada0a0-2195-4c89-92c8-0dedac94feb0;ÁLVARO JOSÉ LOZANO PEÑA;contrerasesperanza@example.com;84fa64cb911c423449c4e1b666685d874ce85cc343edf94235c123339b710a0a;empresario;True;2026-08-03 23:40:44
-69aadc5f-513f-42da-835e-b2f832bbd6e9; Roberto Chávez González ;silvadaniela@example.net;64c0a2f18bca6ac93838cceea9b436c13ae03df7e80bf2c069a62de322deb65c;profesor;False;2026-08-05 14:01:38
-1aafb056-72e2-42e9-850a-c329afcd4c52;Fernando Jhon Arias;pcruz@example.net;05d3eeaae3fe119c880d02482d69a7959dd394798b96858132c6eb2ab73a77c1;estudiante;False;2026-04-25 16:47:23
-7f5e3155-72f0-44c8-85b0-79951d0816e2;Teresa Yolima Ochoa;parraleonor@example.com;8cd26afdfeb7a6345cdf6d883d738c50894e25eed94282f65423524d477ebad6;profesor;SI;2024-11-17 17:29:37
-75478e13-ad2e-4eb8-b31c-fc7c55f81ba5;María Meza Franco;carlos18@example.org;8b59b524d658cfc1900908174f8d00a6dc4ae6baf39453ef245c4330e496f0ef;empresario;0;11/10/26 10:16
-db3f4995-2f37-4f00-87f4-43d44fe60a88;Fernando Emiro Duque Castro;diazgustavo@example.org;67c94e2d2af2bb486585e2332791996400ed898b1c8dcf7b413b07e0713e8dff;profesor;True;2026-02-09 08:28:33
-cd16209c-e0d8-4a2e-a060-109e358a876b;Leonor Amaya Castillo;suarezcarlos@example.net;4f393da501afa6053b642fee625a46fea499285107a96a966d8e09ad46cdf3b1;profesor;False;08/09/25 15:44
-04e29f6e-511a-4c67-9fb6-4932856fb1ee;Eduardo Gabriel Mercado;sierraroger@example.org;bea501b75d5858aa694c1cb8d1956aea73ebd55fd03dc928fab0c70f733d6e8b;administrador;False;2025-05-09 16:48:27
-9b8d84fc-d36f-4ea6-9c7b-38e3d3e76e4e;Carolina Kelly Pedraza;utamayo@example.org;baac59f497d650b9e3a8dcea3c411c496368e84bc0d52fa32f8c3729833102a6;estudiante;False;2026-07-11 23:43:32
-89070d16-dddd-4ec5-bbcf-a1dbea12d56f;Mauricio Javier Ibarra Mejía;ngarcia@example.com;1d6becc661929b8ee854c21ea1a8ed3f6a8df2029d9d4f54f12a6a2c92720821;profesor;True;2026-05-18 06:38:10
-b798d96f-9b67-48af-9468-bdda7c70f540;María Ana Amaya;jairoruiz@example.org;59d958ff5fd141c7e28d1d662fc43290f66e569ff46c96a400b6d1964c6d9c38;profesor;True;2025-07-07 19:51:05
-be738525-6027-4517-a35c-9da2ec404457;Manuel Fernando Hernández Díaz;gvelasquez@example.com;4285d2fa1bcb9e392775806e1858ed8e163b453bdb3571bce86f5d854b3c21fa;estudiante;False;2025-01-18 23:56:45
-1ef887c6-7939-487d-a5d4-10c4e9428b6b;Jaime Orlando Serna;arodriguez@example.com;f9eb2731a879cbb059d24434a3454f98e8dea44f63129f1f0d66f1c1a7b51e6a;profesor;True;2026-05-27 09:23:53
-ffd9a4f9-c20d-4536-9640-50485b363e5c;Alexandra Andrea Flórez Hernández;alba21@example.org;dbd98b604d511c2b70c8eb2603a7c1d7997c5af87bdc4fdb0ff1e965e0cf1bcb;profesor;False;2025-10-03 11:14:46
-a10dd2a3-3765-45a5-bac9-2d9a086f2b41;Jairo García;ariel79@example.net;485956f7e16581c00678d6c011980702ae60cf458e80b766cedbd7f6d278a430;profesor;True;2025-02-01 11:26:21
-7de1aa20-5b24-4665-8806-2795ba72beed;Lucía Núñez Quintero;varenasexample.com;2f6d82eba5d1f313bb763bb25b3e146f9dbfe0975fc888fc1fe09a69961be305;profesor;SI;2026-08-05 18:53:39
-011c5bd5-48b8-4e6f-91db-14b268878809;MILENA AGUDELO VÉLEZ;zalvarez@example.com;9e3427da96f46e64ffca9d8a9bf36a741fbf25bba8bcc3685e5f402a4a9be44e;administrador;False;2026-05-04 04:16:53
-abbc858f-8fb0-4730-9e3a-f4af069a159b;Gerson Adolfo Valencia Castro;kmorales@example.org;180c827e9de67bdad16bccc2fdf358bdba0ce56f9d4279a5e1ff598018813209;administrador;True;2026-01-08 04:35:35
-aa6c4459-c7c8-430f-8944-5f526aac77cb;FLOR CAICEDO CANTILLO;nvalderrama@example.com;f4df109a7cbe3e9990caf9300782666ef1c453f8c5503677a5483eef8189e250;profesor;True;2026-08-18 01:32:44
-eaa4c989-fe2e-4fec-b4e8-9bf9437e7698;Amanda Catalina Parra;thernandez@example.org;740d00b6621159f28dbd1b2dce07593d51fd4f66f672db7f6138943576f6d6b0;profesor;True;10/03/25 02:46
+cc241355-c341-53eb-b59c-55c57851f64b;María Marcela Torres;buitragostiven@example.org;913d199f349e540cf50caa123e5697cb1d6089eff315529b3ea3f7d9ff917632;administrador;True;2024-11-24 16:28:19
+5e742d2a-7b39-5be4-9ae6-23507c920a96;Luz Moreno;londonoalejandro@example.net;aa91bb1289552259250e1b2a3cc07a788779cc744490e7f50a6cba9cd8eb48b4;estudiante;1;2025-04-20 05:18:39
+7228d15f-fde5-52d5-9339-0f89cd2cadf6; William Anderson Rodríguez Cifuentes ;jherrera@example.org;761d6a1bf9580e75cfa815a19e7e69f30b50e13883934096cf5d37d8adb13f98;empresario;True;2025-07-19 10:34:37
+ea1464f7-407d-5931-b3ed-6813d8eda6bc;Luz Luz Sanabria;mario78@example.org;9cd52e58dcfc7bee1bfae889e674e81b2831cfbf025d4434d8f2f57ccf4d6784;administrador;1;21/08/25 00:23
+49b35409-6c79-5ebf-a9ef-387bf981db6f;Esperanza Fabiola Beltrán;carlos10@example.net;4e132b417a4596b2edd634bb466f602660787cfd9bfa68884ba1e5da53632f94;profesor;True;2025-06-12 18:34:57
+5a0aa7cb-d547-5de2-be8d-2a73df8e3051;Yadira Bibiana Rivera;xacevedoexample.org;4a37ee90281551b78b2dde8c6a3c9d3b45da019ba8014cd496f6ef8cc269d91c;administrador;1;2025-04-11 17:29:38
+622df9a4-26f1-545c-88ae-7fddd31cf8bf;Hernando Carrillo;;2f26e3fe0b795d16831fe3408e4ac6540f62d39a9a60d22a709e422e36333eca; empresario ;SI;2025-10-25 01:09:17
+bd487977-6e5f-5da2-ac0f-ce7c6bb1e8b0; Fernando Velandia Pacheco ;manuelbenitez@example.org;92aa91f91a0a1660cc8b38a2f9fe97b1c0e1d0452bed70d894a0db7b5d310f9a;administrador;True;2024-11-24 22:23:30
+7f995638-d6c7-5059-81c6-66d12f6d2212; Diego Andrés Barreto ;fernanda76@example.net;abb346954e29a8141c8cb94eddfb8190b61b3051dfa0b4ec95d5e29d93e182d8;Profesor;1;2025-05-24 17:43:27
+4468b03b-c897-5921-8099-9fa3f9c707d3;Paola Londoño Muñoz;zburbano@example.com;528a0ba6937407022a0b6ab2b585d67c2d34910b599f40a76b083229b39904be;profesor;False;2025-02-15 10:41:26
+57f475b6-948f-5d4b-b304-a04ce9679b39;Luis José González Pineda;yhurtado@example.com;338722e96dad3aae7568873eb3b6e1944c3f951dc876e9865a963bee68f43e8c;administrador;True;2025-10-29 13:04:56
+5e99cc78-5ff7-50b1-893b-ddeacb33b423;Alcides Estrada;duartemartha@example.net;32c23b80181cdf52be16c3fbf2bc5bc3b713cb596449a76be09e5bfed67a14a7;Profesor;False;19/06/26 23:43
+da4c4460-f1dd-5774-bc4d-33b702d1d80e; Luis Óscar Cárdenas ;miller28@example.org;42378b182b047f5e843072aa4141a3b1eff586c0285523cf355b223a0d73c04b;estudiante;True;2025-06-19 19:24:50
+99ce9d2a-b835-5cdf-96a8-0d2b47ad4bff;Ana Mery Montoya Patiño;carvajalfrancia@example.org;c509823c0820d9d7ea38abcff816c8fb5eebca42f04a3833721db9af6927f77e;empresario;False;2026-09-13 12:33:46
+0be8de03-0436-5589-9935-bfde086c8909;David Moreno;garciayury@example.org;2eb28aab3b37da76916e5718305a00835a518306f46227f39c45dfc21dbf85fd;administrador;True;2025-12-18 18:21:45
+04b5f260-bdf2-52a5-b35c-90c5dbf5f0e1;Patricia Ortega Caicedo;andres96@example.org;215e10fcd56d8f84a4647be5e5e5033754a80a52fed17351305f5e0fec344867;profesor;True;2026-06-09 15:09:49
+32631d10-1c96-5dee-9c94-a81b10b4c84d;Edith Alejandra Sandoval Arias;ogonzalez@example.org;e901ca7cf8dd3bd6503db5a64cc84076fdf0c33906ccbf83bfaa5874e4933c9c;estudiante;False;2026-01-30 22:52:09
+491b4fdc-099e-5b06-a5ed-0a1a1226f4b7;ELIZABETH MARÍA TORO MARTÍNEZ;espitiahumberto@example.org;812db7572d950c1b8b4a4f34bdec7a445209d6ef706ffa2dcfc03601340e2074;estudiante;True;2025-06-04 07:11:32
+6ddfd8a8-04fa-556e-8f3f-95b49011cb94;Alberto Carlos Rubio Jaramillo;evargas@example.com;8111b62d5150f0ec6dc6a65e87fa1f3e8edcb094d842ab4d6dbb0a06e5b152bc;profesor;True;2025-01-14 06:55:16
+22167b93-ca74-5dc1-a8a6-bd2d88c3c30a;Javier Peña Alvarado;gilmarino@example.org;e995646fb19d8824a5b315e3443bbc18184872ce6e9cbe45209753b07c839676;profesor;True;19/05/26 14:53
+2bf42aea-70ee-5afd-b145-c6478b88af6c;Raúl Luis Ramírez;lhernandez@example.com;09e637ff7d74149186e53ac39cc9f7a2393b55f62a92088646a7b6e3a7ff4d7d;estudiante;False;2026-09-10 05:35:58
+20399fad-d9c6-5f0b-9ca5-9f7737bc0f47;Inés Gabriela Caicedo;arangoandres@example.org;c7851c0f1530640d469066362549c79ff9663512e68519975f1389a37198061e;empresario;True;2026-10-20 12:43:55
+590ef467-40b7-5256-9c61-5b5ab44cda72;Ana Olga Rojas Castillo;perezmaria@example.com;206813f36553af6c471b8b52d69649975505d8f049f93d6cbdf7db081a13248c;administrador;True;02/07/26 00:08
+a3f9ccb9-f55d-507c-9c79-2cf142497a61;Jorge Gustavo Ariza Páez;ssanchez@example.org;e54dece40379a5be1596ee27755d8b97f6c654e3b580ada6a9fe814613cd3888;estudiante;True;2026-01-23 20:42:11
+e9496329-4c15-5abe-b928-66246243602e;Katherine Martínez;hmora@example.org;5c2a35e1d703717481c4d5dcb500e2d2eb7c0444794097ef3b65ebe8a1a4d837;empresario;True;2025-11-29 10:36:33
+626c1557-4d8c-53e8-ad1b-569df8f4ffb5;Manuela María García;liliaibarra@example.net;6c5becfb1dfe76b0b51000d873e489f6e8af4649336cfc4e6679c696e6dac269;profesor;NO;04/02/26 18:38
+225698da-7647-50d4-9770-33348249a7e3;Natalia Guerrero;ignacio35@example.org;80a50e0ed6bc260ffa9e6aeb490b71ad1ce60b59212fb2b171a610f8f8dd16a3;profesor;False;09/02/25 15:44
+632bf459-1b32-55ef-b50f-34ec610d2b62;Miguel Oviedo;rodriguezantonio@example.net;eda531ac99a5256e82e24bb2153f30e75bb094c615197ca8c0988a205e84e589;empresario;0;2024-12-26 21:40:43
+a8b458bd-022c-5ac6-83d1-4349ce1fe41e;Johana Patricia Romero García;elianasanchez@example.net;a076f4a88f1694c9622b2f3e6f16087244d97d3751571b524fb1e55dd54a204f;estudiante;1;2026-02-18 02:29:59
+e6aa70e5-3924-51cd-b064-52785aac1ebf; Nelly Cortés ;;157f62fd0bad5b4bc794ad19ffb7117173489013111e5f3edfe90945ad0635c4;estudiante;True;30/05/26 15:39
+acd3f038-0af2-5085-845f-fcfad37b7db1;Marcela Calderón Becerra;eduardomarquez@example.net;d93d4e55114cda87626e8a5ce601bf09c184051654fb0e3a89e1de39dc367aa1;empresario;True;2026-10-04 04:41:43
+6bfe0c8a-da20-5d73-9efc-f23068b4ec4d; Luz Salazar ;maria52example.net;354b9fcedd419b55319fef1e1156801a065e1580a14a9827f2b474da28fa6e27;empresario;False;05/03/25 12:06
+49f28951-fba1-5996-a1af-4b0ee82cc27e;Jaime Alejandro Rodríguez García;luispalacio@example.net;fc6e8ad7547e1cc68b5998d9fc3dc2d140fd8ebde2a86166195fe3dc601cad9b; profesor ;False;2025-09-29 19:48:18
+0f743ceb-ab4e-5ab9-9dce-5aaed40ee3e4;María Morales Saavedra;maldonadolaura@example.org;19af4a21c30b3f36e938e14caba2620484962c9077a86b88b19a9a04630a36e4;empresario;False;2025-08-01 17:02:51
+36271c65-4a1b-5950-be74-ca36043f4023;Gildardo Zambrano Velandia;wilsonobandoexample.org;e0d36b57438e8da872d8736d6b863db9977d6be4c266df4a480af151af5f6872;administrador;True;2024-11-19 06:03:04
+82e124d9-c449-5fb4-9d63-2f74f486b858;Aura Quintero Granados;monicamesa@example.org;96ef5b1ead44f2679b2af38a87dc4fb4310f35a5baa7cbd21f7e348da4f8be3b;administrador;False;2024-11-30 01:52:44
+85d9e0a0-89ca-5d8d-8c08-0ca4e8b27292;David Ferney Cruz Suárez;inesduran@example.com;abb81c41d18aebd6db7cbc2f340432a7f74ad30f92a7551af1386bec08ba9725;profesor;False;2026-09-02 08:42:24
+8ee9e67c-9eba-58dc-b509-0191a2bb90d3;Marlén Isabel Bedoya;iduarte@example.com;0c08e6f646b99353b6144fa6b6e4ce506b6a5f70b94c2a88bcd56d5c5389a8a3;Administrador;True;2025-01-28 14:07:33
+b74e1b7c-2371-5613-9bde-979062739a96;Juan Burgos;maria96@example.com;49843e6e986f479997ea8885a03bbe655d80fdb667803afc62b1a3bef51ca04e;estudiante;1;2025-07-01 15:22:08
+6618c597-76bd-5802-97a5-bb09534fcc71;RICARDO MOLINA FLÓREZ;johanablanco@example.org;d1318b78a0eb2dde5d36ba03b70b60403e1500940de97052635cd146139e0e7b;profesor;False;19/07/26 10:27
+3e2f9812-8cf2-50c6-8e3f-1875cf46e6b3;Rosa María Vergara Valencia;alexander14@example.net;797a3e45e9927c4aa1e860d148f6659636626202bebd827a8c96f7d67a77bf6a;profesor;True;13/09/25 04:59
+15be35d9-2e1c-57c9-9708-cae3beb32f92;Diego Jesús Hernández;yvergara@example.net;1c2eb5986ead95919a281c75d28d110f0afda0f89ad6185c112c9c3b08165bf2;estudiante;True;15/03/25 04:06
+b560b44c-393b-5ea6-b0fe-1487c99c9685;Diego Palacio;;8f5bfd940218a10739ae331333324948a4e6f08090d6ea160dbaf9aacd6aefc3;empresario;False;2025-10-27 04:00:29
+a4d14629-3eda-5b8d-af14-d0251c9857f1;Óscar Alberto Ortega Galeano;alexandergutierrez@example.net;65a31258120287f1c42a7d3537c5429b753f439e7bd73d8c4b70e7fbec33af1d;profesor;False;2025-07-18 08:21:43
+99a594af-91a5-5288-af41-3e4a4d9b2302;Amanda Janeth Sandoval;mariosanchez@example.org;0764349837af5adb7f6fa800b376f8e2ca7728e21d8834d1453d5c6d7cb1c1a6;estudiante;True;2025-11-04 01:11:00
+a6dd4a69-5716-5228-b00a-4e235743677d;Lorena Raquel Escobar;pzapata@example.org;253a878a69438a02165b7e4fd7a749f6b382cb42a30e0281d1c47fadcd768e5c;empresario;NO;2024-11-04 07:21:46
+9319d3a3-0ceb-580e-a647-cf31df12b842; LIGIA SANDRA CIFUENTES ;pmartinez@example.org;2c9dec0f5a696fd198bf421a3b46bb20ee59f5878f095d856a0b0f78f441e738;administrador;True;15/07/26 11:29
+ccb5be85-74f3-524f-ad72-05b6f7e9764a;Hernán Ovidio Hurtado Quiroga;uavila@example.net;30a638f262caff7a2af2338686c5781b800569329042ba982d1006e847eb26c8;administrador;True;2026-10-05 08:59:50
+32f72261-7590-5210-bf60-02b8999ed69e; Efrain Alfredo Ortega Muñoz ;pedrocastro@example.net;267ac97d8637b278bf958c1e6eafa369915e1157a4cd11ba55312c1b3908a58d;empresario;False;2025-05-04 19:51:58
+9aefd73d-2aba-53be-96ce-8ca331128173;Óscar Forero;luisaruiz@example.net;652bd42aa22e8e1c4b243f6dff9eca7aaf93338a271660ee7718f975c50ae088;administrador;False;2025-02-25 03:41:14
+e160a76f-2102-5eb2-952e-4c52264e27da;Liliana Ana Rojas Guerrero;andres60@example.org;0af844cdd022337f5168ff609efd387794bf641791e4ceb811c6f1ab0535d546;profesor;False;2025-08-29 12:22:26
+1a550086-6969-5925-8bf5-6cbafbade9a9;ELISA CABRERA;wacosta@example.com;cad699403b3d00fd614a826a255090bc720e86f09963a018026fcdf7fde9f90e;estudiante;SI;2026-08-24 21:25:22
+16977e11-6755-5507-b09d-9c97e7969704;Ángel Galvis Vera;yenifercastro@example.com;4ee055718325f5b925326fddb471a8dc32e82ce163323fccc65df906254b1e55;administrador;False;19/07/25 01:54
+7f3815fc-4457-573f-98c1-5e708a47f193;Nelson Villa Villegas;fajardojuan@example.net;858d3cbb26320c6dbd2eb61f334481369fd4e03b46db3521192b4322cb70c31c;estudiante;True;2026-03-14 05:43:18
+bfeaa1d1-4b01-522a-a03c-aa7db18228ef;CARLOS RESTREPO MARTÍNEZ;dvalencia@example.com;f04f3cd770b4621896cbea242b8d7f1dfd0c18c4cca9c50a6d5b68acd293c029;estudiante;NO;2026-09-14 05:40:40
+b0b117c4-ccbe-5352-978b-2f2d2d53fa7e;Fernando Angarita Salazar;correacesar@example.org;2d77699db37aca5deb2a33c6375bc0e31bed8dfb579134ac8ae98cc2cfd1f0a3;empresario;False;2025-07-29 19:44:01
+d985820f-6448-579e-9054-b94fc45bd187;Camila Sara Arango Gallego;alejandrarodriguez@example.org;9fb5bd3506a944c50c15c59d5db0abe3d25ff878a674ca9d72c71187fccb3ac2;administrador;False;2025-11-02 19:49:04
+63486731-a219-5f27-ad9b-b73be0797fde;Blanca Sandra Bermúdez;claudia91@example.org;c277ae4bf4e34c0a0eb7b4abf312800e4ecd208eddd69853042f72d383d4eb46;empresario;True;2025-01-22 23:06:24
+04cd05b9-c3ac-535c-8de3-69d29b5abb3f;Margoth Escobar;tmedina@example.org;0419003752c954987e3a847724693f7bd30c645bb85c5770af31da9308f21624;estudiante;True;20/04/26 09:59
+58c6eaa1-608e-5421-8376-7a2f00c4405f;Luz Constanza Gaitán Carvajal;roserocarlos@example.org;38d3a823b791bd2c7386a018e6803349e0556351782f2094f88e45d428388e27;Empresario;False;2025-09-28 17:32:41
+44df56ff-5af3-5c9c-94fa-b7428792f64c;Andrés Augusto Rodríguez;gpinto@example.com;078942353dc3eadc1a4e88335f559ebe30922d4788ef46f00ddb940d1f2d4f24;empresario;True;2026-03-08 16:09:54
+50f54842-e1f0-540b-a8c0-b94cd9760ba9;Guillermo Óscar Ardila Paz;david87@example.com;228333c1ed72ea815c31995e86826cf3314b8ada2c861f16d2636a1c76758c46;estudiante;False;21/05/26 19:18
+896991ec-eb87-5b02-be7f-53da45c23102;Alexander Vargas;castrogina@example.com;8483a1b5f692f375a37b5f2f3f3af29a3d94155284ea81d88c69c9a0d79f02bb;administrador;True;2026-04-02 23:56:09
+01483104-cf46-5cd3-82e6-2a1d3b6df6be;Enrique Zapata Valencia;zrojas@example.com;39799c6856ab146326085ebe09cc378f8d302a8aadb4b1e127f892a2380a8207;estudiante;False;2026-09-14 18:21:13
+abea83c2-7aae-5c0e-9448-72e5334835e6;Jaime Delgado;andreapinzon@example.com;d668cfde040c5eaa1d4e69b25622d994b09eddf3cc014defa2d9f14ee4008491;empresario;True;2025-05-05 15:57:46
+c527b92a-78ba-582d-aa05-f3cfc6b49424;Armando Mauricio Alzate López;karinavargas@example.net;41c6a5d6a6daa9eb15a183ddf9e46a5d8c83edeadb73266ef60f77d3457560c8;empresario;True;02/11/25 14:12
+a88c4615-e8af-52f9-9e85-263df0c865d4;Alejandro Omar Valencia;qortiz@example.org;0e8acb583ba483be23ae800bc03470b2bf39c2c2816b7368536ac627b7407ed9;Administrador;NO;29/03/25 14:01
+a41b502e-300a-5600-8e74-7085f187dbd6;LUIS SEBASTIÁN CASTELLANOS;lilianadaza@example.com;6ca585e917736dc9b94d673c2c308c323be7e8a07fc644db3217eb5617fea35f;administrador;SI;13/06/26 11:18
+ca257dd0-44d1-5ead-bf58-7a82e7b62caa; Heriberto Roa ;lorena24@example.org;6d54a5f45626fe08cd421d63dbac4d969c049a93e3cb9348bc21a12592b19a36;empresario;False;2025-02-06 07:40:38
+d60a88b7-bcd3-5a1a-9167-07aa6d0a5ea8;José Martínez;jhon27@example.org;ad17e5a624bbb01dc90e21f707036f8337e97f09276498d4e8370a4ffddf808c;empresario;False;19/01/26 21:19
+89eef0ac-ab21-51e1-bed7-8159ef7043d3; Felipe Mendoza ;tuliomunoz@example.com;eb9802f8be31f9dc3059e39cb64c77819bdc4ecd7dcdf2a1723e9d7c1a32ec3a;profesor;True;20/12/24 18:05
+f64be8dd-d5b3-54c6-b034-d755c23f8e69;Mauricio Escobar Pacheco;milenalondono@example.com;be73bae8060ab15e962344506dc4488c484edd08795b96274058d21598d01621;empresario;NO;2025-05-11 18:36:53
+a68c0e49-9d11-5625-8184-0839614ff1c9;Yaneth Laura Hurtado;ivanflorez@example.com;ee6e3dbd7c1c707cd0883e71ae9083f57ebb73711ec3721bf6495657506d6783;profesor;False;31/01/26 02:54
+a5946d9c-0472-55e9-819f-2b7a694a7cb0;Jesús Beltrán León;erazolaura@example.org;5777bdfb428e76e18330291872dd279a8b627638bf46fbf522e57ad37cdb883c;profesor;False;2025-01-02 01:26:38
+5e368975-027b-5ccc-93db-8450521849f4;Paola Caicedo Sánchez;mcardona@example.com;d93baa3c55fa724b9b93dc849288c9df78ab3b9882873822a4a78c2cadf8f47d;administrador;True;2025-04-28 19:01:47
+b4160bed-ed94-56a1-9559-edb8c01ab905;Guillermo Narváez;ogarcia@example.com;4d8902b960e90cf37d68a457d47394d836b392695ac89bc285c4cd04e2d064ba;empresario;1;2026-02-28 11:55:32
+30c81ce5-6e25-58c2-8b1f-4e46e9368951;Fernanda Luisa Jaimes Gamboa;patriciaperez@example.com;82b7de6c4c1a6fe54fabdea0e183a74d6910b283101dadabfd190751bcb7dd14;estudiante;1;2026-08-02 04:57:10
+c276da25-d3f0-517f-8136-5176b687ed45;Óscar Correa;diego48@example.net;a9e4ce44efc56d8692e6f4a23b09e37c93f1d3454b64075f4be1639ff9d35405;empresario;True;2025-01-01 11:32:41
+8dbbba6f-314c-52a9-a136-57ab2c663267; Hilda Galvis ;maria39@example.net;0b4a2365a0a6222a90e1a85d75518651aef8744a9ebede3643f1e4c81769e079;administrador;True;2026-06-17 00:10:00
+dd4a36d8-e978-541e-a548-95b148b6e235;Fabián Castellanos;nelcyarango@example.com;a57c467f83e077b793475b2e862a78bb18c0622977248dcc23ceab9e762d73c3;administrador;True;28/01/26 15:20
+4cf1f984-a3ac-5871-82e2-ac5f2850c5dc;Víctor Rincón López;maribel51@example.org;99d81e985d7137eedc60a7a9ed57d2106d7d3b166576b5eac978a853e9f9d076;administrador;True;2026-04-22 19:00:52
+2b1c30ee-4eb8-5aea-8c5e-20ad0408cb6f;Jorge Esneider Aguilar Caicedo;qlopez@example.com;9229b84961c49e4b6890eb9c283edd5ad9ca04331983ac434f67c99ae4ab2f8c;estudiante;True;2026-06-23 01:20:13
+0ceddd47-dec4-56af-a031-bd62503fd100;León Luna Rodríguez;mpena@example.net;643049ee57bda7504bd996d2c0b83bc1f3a612e0b8432959e51e63f392986e19;empresario;NO;2026-06-10 13:07:20
+bc4e9fa2-01ca-57b4-a54b-86f5fb19f112;JOHN FABIO RAMÍREZ CAICEDO;betty71@example.org;dcf0990fff4a72a9263388fc2345f016159c90d28cd64c29886f4ab10970d329;profesor;1;15/02/26 22:11
+d943a1bb-afdb-5d8b-8d99-64712d92ecc8;Maritza Lucía Rodríguez Parra;jonatanbarreto@example.com;473496c38b9c1f755c5f16e603fef74a0662e615c11c2ee4210e988fdaad6eef;empresario;0;2026-03-18 02:11:01
+c712bc6a-a212-5f97-8f8c-bb67b031ba51; Tatiana Becerra Palacios ;marleny77@example.org;98825c006d0a363ba7679d63f4dec73c9142c840f1e965ea5384cf79f3c8ceac;empresario;0;20/02/25 08:19
+0ac471cb-95ad-5913-9e67-ecb53cb83b8d;Juan Carvajal Cano;wilsoncastro@example.com;8f582f7927625174fec5e79f3764c1ae6b98546d0f20d9f300cf25a79d2942db;profesor;True;04/07/26 20:07
+cb2ff6e5-c6c2-5846-9877-dec1b8381a19;Steven Gutiérrez;fredy97@example.org;b835bba4c38abcc85cf426e11cc6957159a1f923e8e2e27cc9203cd60f25a356;administrador;True;2025-11-11 04:46:40
+01e72de5-3ef8-5475-8f76-6e046ec4798e;Enrique Alonso Rivera;gabriel39@example.com;aec6b9bc61ef84998e4f3170fde32019dd11ba867a5d7eee306040c8fc02b3e2;profesor;False;25/06/26 09:11
+ec0e84cc-e47e-5e54-8a37-896a75db6fec;José Sarmiento Rueda;qflorez@example.net;a58290097f5067812a6168ba609dd1d3273ad0afd99a165b04e9d2eccb3efdc9;profesor;False;2025-11-19 17:35:42
+625c94fa-6c72-54e8-bbd8-5984a15a190d;Patricia Paz;gabriel71@example.net;03f5003e1967ac582cbf5a35125116191106c601f5d93389ed9603c9cfb568e3;profesor;True;2024-11-11 22:05:59
+04334e43-e6e8-5b0f-bfc7-bb30ae4c1dbc;Adriana Hoyos Sánchez;qocampo@example.com;39d5a3bcfa7d221e678f87302b061bf228a614309f593e0f77c5fd74194025c7;administrador;True;2025-09-04 17:37:34
+eafc713f-6575-51a9-9561-29147122dc2b;Jennifer Jennifer Andrade;;29061d101c61cbef8efe9dfda6bf505c1ea438f4c22fcad901a73c5796812c92;profesor;False;2025-11-14 00:00:01
+f793f779-a751-53b5-98c5-50507505d2e3;NATALIA MORENO;leider16@example.org;c20df23fa021c040bda8db127bab66e028c43147f6faf5ac293d7b8d2f45da1f;administrador;True;30/04/26 17:28
+11f9aac0-afd3-5458-b7a9-d4241f64f210;Inés Erika Rentería;valencialuz@example.com;470d460908efdcd1860c8bd6a87bdcf4374ca2bc48d1a511cea0d5df3be6d85c;empresario;True;2025-02-21 01:37:03
+5c71b892-9904-56ff-aa60-0b75288d45a7;Mónica Amparo Alzate Pérez;leonnidia@example.net;1b8a9a661dc5de330a1dde6606c8b22d935003406393be6048b68011b47dbe9e;profesor;1;2026-10-10 00:21:58
+f4cc7cf3-1cd9-50b1-bcaf-7550e9cac7d5;Martha Henao Cruz;maldonadoyuri@example.com;8246bf405ee6b4109eed3b15064e830a7de2f9fb83fbf8e004606ae0785e8182;profesor;True;02/03/25 16:52
+e2de5594-9ef4-5feb-a8ed-f254650fcf5d;Inés Carolina Fernández;dbarrios@example.com;3b81647d147e0c8926d98442f6e21655f588fb712adeb1ab481b8af92d2a7116;estudiante;False;25/08/25 19:12
+f0061f95-11ef-56e7-b863-fb4293421331; Luis Eduardo Mosquera Jiménez ;;021ce31677cb204479fdfb88821b54c94635e9a84db197529138b5717127a2bb;empresario;True;16/04/26 16:13
+6ec58e88-efd6-57ee-ada0-60442ab5438c;YASMÍN SARMIENTO;jaime39@example.com;72bb7e9c244f052a2871084ccf5a7eb2f49a2c6a88111310b1ceceb76b08e9ba;profesor;True;27/03/25 16:19
+0be7128e-299d-59e4-8617-86c6b3080302;PEDRO CAMARGO;antoniorenteria@example.net;15bfd2d8a068f8f77359a5e2898ccaad53a5c4426a9ff91b284a205504a98594;administrador;True;2026-07-05 12:45:53
+d9827e07-ad08-5e17-9a03-fff040465a52;José Manuel Hernández Chávez;mauricio23@example.org;fc3db1663e0ce905a64432cb3df2e5f382444cb717799d660b97269360c7890c;Administrador;True;2026-09-11 18:24:34
+b292a63f-a674-5df6-88b7-e9c1415c2c48;Sebastián Ronald Serrano;nestor74@example.net;90d90c3a17dd9da972db6aa5bd42c7f54d7e91d906379897a54b1b967edb1ef7;empresario;False;17/07/26 15:58
+a405971e-ca56-5105-86ea-ead6e7cc6d4b;Cristina María Gallego;humbertovanegas@example.com;d73f8534b2819294afa9542571ef5de130c95f0d94f584260423714b354c1bb2;profesor;False;17/07/26 22:36
+7cdc2881-78e4-5e26-bb95-873cffbb141c;Luis Jhon Ortiz;cardenasjavier@example.net;cefeaa7675070942bff2d2d94f7c8777b9e9aa274cf7e41d226c347ff776df16; empresario ;False;2025-08-22 22:49:48
+5679ea19-ca52-5f71-9890-a500af0373aa; Luis David Rodríguez ;albeiro31@example.net;01f5165c3d76eab4ae56bb0f656b28c5cd6828f6c1dca1472c70e8ebb0ec2c6f;administrador;True;2026-10-07 08:12:51
+93b8241d-7635-5ff7-97ef-840c340c5cf2;Augusto González;monroyangie@example.com;5bbde089556e63ea8a7653ec2586f618ed6324499014d8a0670b27f1bf5c2571;profesor;True;2025-05-01 08:59:23
+39a4ef90-3e64-5d35-b7bb-e4e20341c640;Elena Arias Núñez;;99ac1807797f997fc9517e8eb3c340695ed15f63c384800ea761d1e3a8ba2ba4;profesor;False;23/03/26 16:37
+9f2a6716-d727-5f2d-af1a-fb59ea5afcb1;Elvira Natalia Rico;maria53@example.com;4eef5c183ffe39d8aa70c371982233d1d6109e9867990065ca72acdcbe12512a;profesor;NO;2025-05-02 09:27:30
+58172060-2a46-5996-81ef-895bc02e1cd5;Luis Héctor Vásquez;luz43@example.org;fe9274cc457a88cd0607a61168abb62523f1bf14d23bd92f065f7a0c84db08a1;profesor;False;02/08/26 04:02
+df864097-7b28-5f8f-b1b6-3fd07e11efea; Luis Alberto Henao Domínguez ;mesaolga@example.org;02f8d67bf4fd301e29e0056d13ac4acdbc6050409fe5acb0e1e3ec0223be11e9;empresario;True;2025-04-08 09:18:33
+ec0fec2e-706f-5426-bec7-9b247fc07928;Marleny Yaneth Orozco;;342af7fbfda27cfdd0841cfa4d78a886b4a14c5a404541cd547ac9e943aa248f;estudiante;True;2026-08-28 17:50:59
+edcc610f-81a9-5eb9-970f-f734fb2f4581;Adela Montoya Vera;duranmaria@example.org;d1ca632ac43b272246b2291ef2b8527bf5444fd4ec20b7034ebd2ea8975cc585;Administrador;True;05/07/26 09:25
+646c185a-cd4a-5321-8274-6718ca21496e;Elizabeth María Ortiz Hernández;vsilva@example.org;aa5f69cd59bab3b10a2b6d686eeb33f84266a3764ae425bdd0f8bee984395542;estudiante;True;2026-06-27 07:17:19
+78fd48ef-abad-5763-a6ab-48ad1f773e7f;Rafael Luis Mora;bonillaferney@example.net;56bac80050c404a1944f07c6217a1e7352a7ac9c217a1a621675636ce0218836;administrador;False;21/10/25 18:31
+0ff70c58-5e4f-51a5-9a0d-e0e2cb46994e;María Acosta;gosorio@example.com;3c445c89d16b3f45043b9bf8ef81072a85df6313b41a24ec2d834aaa2a497432;empresario;1;2025-10-10 12:36:04
+ebfe0e48-5431-53e5-873d-4a4e73359a6b;Verónica Cecilia Sánchez;esperanzabarrera@example.net;4f1705f5e7603ac4821bee32e215ca58b5df08635af74e3ad8571e6f96f7b0f6;administrador;True;22/08/25 20:34
+9dfe02e5-1a5c-56f9-8958-9974d0ddb16f;Daniel Calderón;alzatemartha@example.net;a8f58a9b60ca317c66c3453476e4b87e4b266f0b7bac7dff4b77fbf6b4e29732; administrador ;True;2026-06-20 06:30:15
+fb5ef57c-df9b-5a28-9bbc-62b28705e223;Fernanda Estefanía Peña Niño;gguerrero@example.com;e436925227d3ea9165ffd32de86f43591f5961eed5306d766797f6fe757aec0c;empresario;False;2026-03-31 14:30:33
+ac338005-92b9-5487-8b0c-9c2c40b87e68;EDUARDO SÁNCHEZ;fmartinez@example.org;2e25ded319ba28289010301ed8c10411dba69e773193d52998b356bfba7593e9;administrador;True;2026-06-01 08:08:39
+b31936ef-c6f9-572d-a538-6397db8e9f62; Eliecer Jaime Orozco ;enrique65@example.net;3b30ed162c37e026934628a94102c43ee63b5d45ba984b208a276dc7237dc02c;Andres;True;24/09/25 12:06
+3ec525d3-c261-5c0b-a653-a7b4bd69cc0e;Yeny Carvajal;sandra83@example.org;cfdceeba7d3b6844e4b232e08f0d426a5547c970847cc403f02ef4787af2a06f;profesor;False;2025-04-23 04:13:38
+049ee838-c00a-55a5-98e7-629776578e93;Carolina Yaneth González;carlos68@example.net;2158f6a63fa3f01c7959ecfbe0916781e3bbf9fc93bf42391ca3e26099fb730e;estudiante;True;2026-03-14 04:46:50
+74f59e96-0cc8-52a7-a53b-0654c141e608;Angie Navarro;maria44@example.com;e76a98a4009ce80bc1ce453e7362783e015b7c30d4b02db72b1ec9a60b3a34e5;estudiante;True;2025-03-20 21:38:40
+0f425cca-9537-5404-8230-cd9363412d1d;Amparo Castillo Sánchez;lopezandres@example.com;c14e622f4f0b4893c9a38961c07429d08f842b26704e314d2384c1df49c09e54;estudiante;False;2025-07-22 18:45:42
+8ca52924-ef00-57d4-beec-50053ccb0791;Rosa Camargo Castaño;loaizalucia@example.net;1f9b64ee812c5e7f7b743a42f09e637205c63dba8e839229bc49a6a7ec5e5db2;empresario;False;2025-01-02 08:47:23
+8beb07c7-c64f-54a2-8b81-96e530bad2a7;Óscar Salazar;npena@example.net;70544bee5e638d035f39d0d0eb7bf96367b57f5e24261b8092c8bc4517999118;profesor;False;29/09/25 22:10
+1bad3f9a-d8d5-5ec4-821f-b206f6983ed8;Isabel Ruth Reyes;maria69@example.org;316260357ed76d799c4a85c64436f97ff85bf0c8aee4aa3327937c9a44a6fae9;administrador;True;2025-06-22 02:51:50
+3169b99e-0814-5cbc-8bb9-c3e98f9de559;Jenny Nidia Gutiérrez González;lcanoexample.org;fac45ec3afe0cd0ceb569740704dbd462810074dee8efd5472bf9f2a31bca18d;profesor;True;2026-04-30 13:22:59
+2829f2c8-d336-5907-af96-0d67472d8949;Tatiana Elvira Arévalo García;mejiaaurora@example.org;6b2d3f478927b17274591d10421f268cb68fa1415fd6a912818c2a3acd483482;administrador;True;2026-01-21 04:55:43
+b534e92e-4173-5988-bbad-2e02e69d5281; Fabián Blanco Guerrero ;parrajunior@example.org;d3bf3444caea8d869fcfdf779d2d4ce0aff0e73d7a25b58bf3909d52f822852e;estudiante;True;2026-02-23 02:41:24
+9360c363-33aa-5912-85ba-93804f246b9e;Albeiro Jaider López Meza;nohoracastillo@example.org;86d99424f394538b2115a6fb15e6a66718d89fb8be82f85b595e2d5d1ef114e5;estudiante;1;2025-06-28 23:56:13
+cc9a52ec-b958-5b8e-9a99-569810a11fb1;David Alexis García;contreraselena@example.com;770b7b0802d06b902d3449fd7cd3b7bfa4758f2af7ccfb128fabe928ab44e032;empresario;False;2026-07-29 02:18:30
+3ecc2b76-5554-508b-8b7f-74a3d03582b1;Paola Sánchez Ramírez;rafaelhoyos@example.org;68122637f8e1fe3a2fb09d2b44235339e3c31441b82908128d85143503cbb7f8;estudiante;1;2026-03-02 17:48:48
+0152f136-3e12-5968-a629-49cc59a761df;Miguel Julio Murillo Duarte;wilson52@example.com;1299eab23b8886e63743d725300ca67a6d03a7ea50f6b91634aa7d836a8f9626;profesor;False;2025-10-09 11:21:20
+bf79d73d-b86e-5ae3-862c-1db1ac36531e;Ernesto Vega;jose47@example.com;c194ee94161875b283bacbd2cace7b49facc9b7bc731978d76ad8b3802212c15;administrador;False;2025-08-13 09:46:01
+95cf886d-dbe0-53a3-839f-f63111aee582;Andrés Alvarado;garzonjose@example.com;d4ca9c2b6877d665d122e95a920b10352a2dd0d4cf9b91a0c5c73e86a40a560b;administrador;True;08/07/26 00:33
+25d82502-66d5-5d0f-8c49-eef5ddf56fef;Lorena Arrieta;angelicaacosta@example.org;c531885a256ffb82aab74deb200263295c2f0311361ae36170cd91613d1143ed;estudiante;True;2025-10-15 22:21:34
+a1cf96ee-f9ef-5c12-a6f6-e5fc489fbcaa;Mariana Yuliana Riascos;moracarolina@example.org;d8c7158baaf551a03dace17a7a557834c3b4405485be511ba695a88acad86ba1;administrador;True;2025-10-07 07:24:57
+7efcf45b-b03c-5380-8f5a-961eb0dca670;Rosa Prada Giraldo;javier05@example.org;5f641a61ac54e4da9384c9c4a130439ca62293ac357328632432a2fcbaec657c;estudiante;0;2026-01-07 09:11:17
+00599971-b35b-56f5-8416-2d13a37ceb52;Jorge Vanegas Hoyos;nellymurillo@example.org;5284192589e3ce6f9933272ef06f4763a6eafaa0d2d8e22a16c6daaa12a24880;empresario;False;2025-06-28 23:08:19
+b5e3bec3-3ee6-5432-8d4f-4529cd109330;Carlos Blanco García;vfranco@example.org;e302b79a75e9710f20fe89cff19c2286b0252ac8e8162f339f56a3116a78c618;empresario;False;2026-08-05 20:54:54
+74fafc0c-501d-5134-834c-e8211c7a2d1f;Paula Laura Morales;natalia35@example.com;56e72a8119a84d8ee703f3e014af3e2d5cab70a46dd1059332176b3fb6d15c59;Profesor;False;2025-02-14 20:24:14
+d50d082c-64bd-521f-98e9-c0c00a586bcf;María Meza López;durangerman@example.net;d89a7969f77eb3301b80da5c28c7c054a9b450e91128f20b706a89dcd6d71b9a;administrador;True;2025-08-19 14:34:02
+0c597ce2-97f4-5361-a103-a80a06d1ef60;Ana Serrano Fuentes;oscargomez@example.com;c0cfc2c74374fb9696744c67c80927b373889423af17f59104d322f2080aea77;profesor;0;2025-05-03 11:53:01
+8facccfc-fac3-5d4a-a2f9-49d57fe35714;Ricardo Germán Páez Moreno;nataliamontes@example.com;29bb6d43fe2f3edd6c1659438029ae8c1efc34139d4311781babd55e5fd11010;administrador;True;2025-03-30 16:43:25
+bb1022d2-eaa8-5f4c-8c11-9b65ff1b5161;Pedro Julián Mendoza;jaime88example.com;2947255c8b7ee57d97f84ca66bfeaf2bf1a5c90b47463ad18b69880acdcea2ad;estudiante;True;2026-07-27 11:57:23
+8535667a-9a74-5033-8d53-8585f47cfad6;Yenny Patricia Vargas Bedoya;luis18@example.org;b3779f7840f5c8176613286e3c23b1eee9b5735fa1b53e745728e8d005523604;estudiante;True;2026-06-15 17:31:43
+f2b34e43-35fd-5732-9872-d265991e15c4;Marcela Espitia Sánchez;olopez@example.com;39facb0dfeed7d9df7e5fd124132f314857f2163a1a46ed7663566599ae6f52d;profesor;False;23/10/26 17:15
+f0cde527-dc3e-509c-bf9c-f61fdf229f67;Adriana Medina;leidy15@example.org;30af809cbc1422f6338e12f1f631283d1d7a5f5f430f3f2aacfb017fd7ced07c;administrador;True;23/10/26 23:51
+fee588ba-ff31-5fcb-99e0-560123521a64;Mireya Camila Mercado;mariaalarcon@example.com;d9c8bbdc11c19453fa1eb30a3b115c0f92e3bd6c4b02d3a37c9624bbb93837d7;administrador;True;2025-02-15 19:16:59
+82ddfffc-fc7f-55fb-9c0e-d5c22572abeb;Daniel José García Muñoz;luisbonilla@example.net;6ccde8c8f594ae26ef8d05b07ac8faa255eb0f2a8d7be9ad6fbaffe5a2063047;administrador;False;2026-06-25 20:54:23
+565d3436-2f14-5f14-93b3-e4ee59139efb;David González;mireyaalzate@example.com;4b67e6a1965d3843c87f7a686dccf8b7101172c83b53d035f893b232283dec74;empresario;False;2026-08-11 20:59:22
+b070236a-a7c9-58a2-887c-9ad27a1698c5;Orlando José Molina Vargas;margaritarodriguez@example.com;ff2f78518dc01dcf21f66192d48de2b779407fc6c097a43982206b618bf7cc1a;empresario;1;19/09/25 13:22
+08a25306-c834-5088-be26-50f4363f7849;Vanessa García Bastidas;posadaandres@example.net;11f13ba5efc87691d1bdb869b5733a1eaa7873e9335c8e33a075875a77a67c03;estudiante;False;30/08/25 06:35
+1835e390-74be-5244-8766-de17c4279c8d;José Jhon Arias Cano;fabian53@example.net;c1fc310b5e3aad14c084ce832f430f9498b87cc28979989fc794931ff7114f9b;administrador;NO;2025-01-19 12:26:04
+2446858a-de4a-55df-aa08-2e7471bab6a1;Carlos Javier Quintero;alvaroduque@example.net;5ff4cb37bd43250b0a12bffad095bcd81b0d973c53d751a7e9aadf88a3d5b769;empresario;True;2025-03-21 13:54:29
+09b417d1-a159-5823-87d9-d0a4ec108b8b;María Guevara Cruz;alejandra30@example.com;bd2052937010491328d1d7adf57919b2a7664f96165394516eb9dbda4d25f9cd;Administrador;False;2025-12-05 07:26:47
+4ba92d6e-e567-5a2f-8a78-80c2a5e46bc8;Johnny Ríos Muñoz;alexandraprieto@example.org;9d5e0696f0d2bfee1f0cc448eabbe19d5ecd3a4d4db986c163480816869494a8;profesor;True;2025-07-15 19:31:28
+bbd7ed5d-c01c-5404-a529-efd4c7d46584;Luis Morales;yvillamizar@example.com;7d307746e02da00fad12b6a12896efe12a559349ec0954245961614198e6cba3;empresario;True;2025-11-20 09:53:54
+d1ce4842-efcc-5359-800e-d78f60f003a1;Manuel Ernesto Ortiz García;mgarcia@example.org;8e632c90b54961c3262f4d4d47d38b4f44583b7649661000c231c81b64ba382a;empresario;False;2025-07-07 11:48:54
+13a8990f-107f-5591-b015-3a2b5866192f;María Sofía Suárez;cperez@example.com;4b0c0ad0c54d72f181971f52e112244fd7ef208550e87fc3a901230479e16aca;administrador;True;2026-05-18 12:48:08
+0866bea8-faff-5868-bf7f-22e629e62897;Mario Óscar Henao;garciafernando@example.com;fe4a73ee48aad737470b7074d2e89789cb8612f4c00ed1b274cd41bb79e8959a; estudiante ;False;2026-06-05 11:06:41
+bff15863-2668-5d08-bd2e-6801467a37f5;Irene Sánchez Calderón;egomez@example.org;f8f98833637abced0940631996c4135e82d3cfc2b33f49cc7b3fe1dff2d109c6;empresario;False;2025-08-11 12:51:27
+fdfe1590-c30d-5112-b310-d8bae7634b6b;Eduardo Julián Calderón;xnunez@example.com;0791ca96f4c280c83bc8fb5267d11d48d9620ac4fcd1816d5f79007957ff4dbb;Empresario;True;2026-01-19 18:40:38
+b120bbe9-9fb2-5026-bbdb-3e71eff0f17c;Mónica Castillo Bernal;darwinrodriguez@example.org;d9a5fc9bda97800b706be4bef161d85b84ecf6390055a79fc7b34c56514699b2;profesor;True;2025-08-27 13:58:03
+b83c33d4-370f-54f4-afbe-f48c218080dc;Carmen Carmen Marín;jhon73@example.org;b442aad37d8820195d7a782d2d62836fabb28c6d6eb9bdd4820a5ed3ed6e9bcd;profesor;True;2024-12-27 12:25:48
+1c17584e-d373-5e68-8f09-c02864520fdc;Juan Esteban Bolívar Arrieta;enrique18@example.net;76df058f75f1f997ceb1b3746a2f9e7a60092e1de195f61826b78a2a23c4846f;empresario;0;2025-06-20 23:35:51
+eac66e3b-200c-5f39-aa0a-c59eef1f7492;Maritza Chaparro Henao;jose13@example.org;67b0a1b54628046b35286c902d2e1c1eb37374b49326e93dcb62c41da64ddbf2;estudiante;False;18/11/25 17:14
+bcc65d89-b1f0-50f0-a81e-2c34135a4e99;GLORIA CÓRDOBA;jarenas@example.org;d904b089e5e28599c371f6f0b90b218648567b28ea65d8106ce047c1825de7f6;empresario;True;2025-01-05 23:10:23
+2e5daafd-6f57-5f09-af71-a9f687e0be77;Lucía Catherine Pinzón;ksolano@example.org;eda3974e29919e132deab2c6579d674f673c5777d862b4346021daf6e655df2d;administrador;True;04/07/25 05:49
+8c96ab81-1dfc-5261-b92a-5f48b27ba424;Lorena Ruth Herrera;sebastianhernandez@example.net;e511b2fb8b3d4d921f98be4945a8f57eaece81f68bfe4acad041fd97a11201bd;Profesor;False;13/12/24 00:58
+0c1852e6-b436-577d-9589-d94b1c21e7b0;Beatriz Lucía Pérez;erikaibarraexample.com;1041a7277ce82f195bae81027e0b9510888d7100f43b297454b425c3e089495f;estudiante;True;2025-05-13 15:37:17
+5bc80d4f-2a62-5739-aa7e-9139d6270c8f; Yolanda Esperanza Hernández Suárez ;sierraclaudia@example.net;3feda1a82c874161ac7baefaf0435f7f9de84f2744c4d9a7495d38fac7294570;estudiante;False;2026-03-26 15:40:14
+b9ddd7f5-04f8-566b-8aa3-e3561eae7134;Marco Julio Luna;garciaefrainexample.net;fb37f13641169df8e8f930373f273afa114b21b86cd0bde378b66819f1bb7160;profesor;False;2025-04-12 17:45:10
+01e4d6ca-e0f8-52b6-8e62-5f8ef9ad4ec3;EDWIN GÓMEZ CAMPO;jorge47@example.org;26f2546709442dd14453a9009ecd3665bfcba0455d1cf2e6a825299c89ae35dd;administrador;True;2026-04-16 01:09:17
+4854227f-d44e-538c-89b8-085a7c92892c;Jesús García Martínez;dguerrero@example.org;74add56d09830496718783bc1096108b0662fa85fe1d5b0cda6495c91eec30e2;estudiante;True;2025-02-19 14:10:42
+7916250f-d1cf-5a6d-9626-f8a96f4354c1;Ramiro Alexander Ojeda;hermes25@example.net;e95064ef305779de572b3c83d93f3ad4cd8a6d4342e0b42c9dba64f960b14291;estudiante;True;2025-07-05 20:45:04
+aad63648-9f16-563d-b56c-6e47553c63e4; Cristina Marcela Vargas López ;giovanny96@example.org;dbd10c399bd9f737a9c9ca03ec8edab956732b3941b2f8e736e11ee8bf2856ce;administrador;False;2026-10-01 20:17:34
+613fec10-5be1-594d-9268-1f7002fe1aff;SILVIA SAAVEDRA CAMARGO;cristiansierra@example.net;c4582e137d3b973db89b5193c822a9745d21d82cf7cf27c62f2307d9b14e988f;estudiante;False;2026-09-13 19:09:29
+4c6aee5a-7976-5d69-a4da-64fa12cb4841; César López ;pmora@example.org;336407785f5338a6cd14d70b862212677e673b820ecdaccc9b45433fbb838578;profesor;True;2024-12-07 19:03:12
+58684c81-32f2-5f92-97ce-b91baab7db54;Isabel Carvajal;agutierrez@example.org;c58d8610722d7f8d2d7b596d53e2519e8ad970c26bb7d68ec909fe0da8753877;profesor;True;2026-09-16 10:10:01
+6d55f4bc-3cd8-5753-8a15-7d163f1c274c;Wilson Cabrera;maria09@example.net;5b93e0bcb3e9cdb3c5688c71e80f0a30c79b744ab9c9dc3a7f79af12a34e1968;estudiante;True;2026-01-03 16:49:22
+8b34736b-923b-550f-acf1-8b5ff09827a0;Andrés Mora;augusto99@example.org;db29041be67f5094cf466d0eaad85885ceda268e68a7d06fe4ce72deb57c69e9;profesor;True;2025-01-14 02:16:24
+693496c1-d14d-5a9f-aab3-ddaf2ecabf63;Eduardo Ospino Velásquez;alfonso39@example.net;035c828c6e1b1840666a18311d771124bdddbf2328f50bbea4c61e5d2e02e444;empresario;False;2024-12-01 06:24:21
+143c8930-38a0-529e-aed0-bd581d58645b;María Forero;jdelgado@example.net;b4bd50cf30e765a589f1918ab2d92fc1a969b6dc797b81018bbcddba99313fda;profesor;True;16/02/25 13:42
+30b16412-b271-5191-91a9-1a0a255ae944; Eduar Alexander Medina ;juan88@example.net;08069652faf664d355f5c02aae93e48ac96847f9630191ee42fadedc1f6eff5b;estudiante;False;2026-01-11 05:40:07
+202b9c4f-28fa-5828-8f2e-5243fcb6eb67;Felipe Rodríguez;javier69@example.com;fff04c364d2333b05d9f348be5a51a7d1902ed5355b890b8e56a4f7c87b61d01;administrador;False;2026-05-17 09:01:23
+9e561ded-9db5-5234-8710-5d75e522d979;Stella Ortiz;oscarorozco@example.org;31cf6c20b4df972757278d7607fdc87f93334641bbdc106967c25b6a37a7ce40;estudiante;False;2026-05-14 03:49:20
+0a2ac394-6d43-596e-8b4a-dd89f5658dc5;Carlos Duarte Gómez;ramirezedna@example.com;ba25695fa18f0ee95007788ff86a4ecb0f47ceead2c92db4449fc1cd939571b1;estudiante;False;2026-04-20 07:51:28
+cc59b338-e6ee-5692-b3f9-b748bc1e6152;Adriana Ximena Cáceres Arboleda;ruedajose@example.net;965ba874764988a2d924436c4bb5230eee9995bbb17b0abb6a61a92812472843;estudiante;True;2026-03-29 08:48:08
+814e208c-e951-5c81-8703-db764caf7821;Cristian Alexander Pérez Barreto;luis49@example.com;846e2665ec26e296cae6e8961dd5caf335dc7f80324d5c13198522428105e4ce;empresario;False;10/05/25 11:26
+d4edfe95-dbaf-5b2f-a461-a9afc8657ece;Jaime Torres;angel37example.com;edb8f863784ddd5ab9195039610bb71f4478df8c67827f209977fadaca6862ca;profesor;True;2026-01-09 08:14:45
+36ba5b5e-cc35-5319-9077-54c46bc2e8c4; JORGE CÓRDOBA ;ztriana@example.com;d1f166af7103849bec4263217080f9f753df2e73431f665f7c809b188f3892d4;estudiante;False;2026-07-17 23:07:34
+e6d89221-5fad-512f-896c-15ec83413500;MILENA GUTIÉRREZ FORERO;martin47@example.org;3fd9b12da1eb77ed9496031fb27e46869a9548e4f4725ba48c18050045b0592f;administrador;False;2025-12-23 07:49:12
+5ed3d802-a937-5d3b-8e27-18127d55886f;Didier Vélez;sandramena@example.org;72501d579f6d2afaf59538e49b99a1c3c7e742a394ffc02788fa52962a154efc;estudiante;True;2026-04-04 06:36:36
+9d4f2faa-1736-552a-aa10-c95b1d997017;Yolanda María Peña Becerra;duartemarcelaexample.net;0ef94fce994184153736256528535cb87114695cf4a91af11a0bf10f64b222fd;profesor;False;2025-03-02 16:14:06
+1ccd26bc-afcf-58e7-9149-e0f16e2320fc;Augusto Rangel Acosta;alfonsogutierrez@example.com;9d5f74c2570008a8b441bbf39566dfab66e086f7cf56a9fa62b5ad9e990c5e90;profesor;False;2026-10-06 05:10:17
+05904c3f-7d44-580a-bee9-59e87f238a7d;Teresa Martha Daza;barretocarolina@example.org;ec3fa0951dfe77af7aee1c37b387b19500e3f08d592e8aa907df53437b6714b5;profesor;True;2024-11-28 05:25:25
+12935c81-3600-5874-b58d-31dde860ddf1;Kevin Díaz Zambrano;;e8fdd7fc8f8401415bbb40b0e5c1f11c93f666afa018c4f77488af99401eea83;profesor;True;22/10/26 03:39
+8d2de6cd-876a-5de9-af14-85f62903597a;Jorge Johnny Ríos;icampo@example.net;f021843fb8d684912cc88e4c4dae33fea83a9b97274f6bf71db32176aef6f2d1;administrador;False;2025-03-29 18:15:53
+5aad47a7-3a69-5fe3-8465-9eb77c9e9f2f;Claudia Dora Jaimes;mariaquintero@example.com;99620f8538617e1f2d3e72193e11a8e9cce0cede7af2446a58393bf439859c64;estudiante;True;2026-06-11 04:46:25
+5c81e5f4-50e2-57f8-8a97-f9f76512dcb7;Andrea Yadira Triana Niño;andrea12@example.org;1d06f12058d4a0a7b943ecf2e9841aa00cf34d44b157cb8334990a8cd761cb73;empresario;False;2026-10-27 21:02:58
+e17df7e4-403d-5335-a491-baa9507ecb12;María Liliana Cardona Ortiz;karen90@example.com;15f8451840e4a006fbf4af634e968ae599ae6e36f2e8f59a932af121bc9a5ead;empresario;True;22/04/26 02:08
+1195ec08-fcd4-5360-ba85-1eb5e4a46553; MARÍA LUZ SUÁREZ PARRA ;eduardo45example.net;440b2b81f8c948392656e4c4fb108b70c305f2e67df7d5e3c231884b312636ab;empresario;True;2025-02-11 17:54:09
+39355527-881d-508d-b430-bba23356db63;Carlos Omar Calderón Guerrero;zuribe@example.net;30921cc361132dd43c11cb5477acee3ee6a489cebaf13af5b9550841e554d2ec;administrador;True;14/06/26 18:05
+3c7d5f57-0348-591d-92f6-68992e16296a;Ruth Stella Mesa Silva;ana91@example.org;4412e35c2a0646757e75a4c33b66aa1ea2590bef2382dae7a5c785308a380c68;profesor;True;2026-10-02 07:03:18
+18635a67-be9e-57ea-bc2f-dea8f2aebe56;Alexandra Ana Valencia Guzmán;;e729bd3dfed67a071bb1baaab9c17faacc4666c23d18864e322e1c111722e1e7;profesor;False;01/12/25 10:05
+86da0953-e0f0-5211-a15a-cd35b0f08688;Rubén Daniel Molina Cruz;velasquezjavier@example.com;26c8844220e3a5c7efc582e887f567c7aa44e3f2026837b00ae5f2d9fbf2d245;empresario;False;2025-09-03 13:01:08
+838b24fe-e76d-5304-ba70-cc8153b8455a; Ferney Cano ;gomezjohanna@example.org;5256d36c3607210bd518e3ac1db239a1912bcfa5deadf9aa6e865964a1826b79;profesor;False;16/12/24 19:14
+94e1cf0b-6fc1-5da6-ae49-d6a73cf5793f;Zulma Leidy Gutiérrez;angelcastaneda@example.net;1e5b82aef2553de5891a8c97966e4969e0c22d31640519241d8465b1a454aaa7;empresario;True;22/09/25 12:06
+c709a2a1-54af-506c-a883-4da284c27f41;Edier Eduardo Polo;rrivera@example.net;40288d7da10694148a42c5c31fef0d4d1f48c4c5e9c69ffa5027ec8140bedd2a;administrador;True;2025-02-11 07:06:34
+7b8aeeed-1262-5db3-b3f0-1972b057d818;Luis Edier Medina;migueltorres@example.org;eb390ffc01235e2aa0bccc6f3ce0b1abd517ec336d59afcca4dd0f5b403a86f0;profesor;SI;19/06/25 17:53
+b78bdd87-acbd-53ec-9ed2-85cc5487858a;Fredy Iván Contreras Bravo;magdasanchez@example.org;8d37969e30fde2cc8e83970204cc40e32d25f7f4f6a0db1956ef6e2e4111e607;empresario;False;2026-05-17 03:25:33
+0988b625-3441-50e8-bd64-c9dcd3e71555;María Sofía Garzón;morenopatricia@example.net;087488ffe89e2c553b2d9df59948641f5a8308f47dddfe3ca72eb9b6b4b1e856;administrador;True;2026-02-07 07:31:05
+e6125e0e-548d-5cba-b6dc-097034125a81;Paola Gómez;nmoreno@example.org;8d92a84cd6fe2e841d5cfd284170b1796d7813ab2d3a53163763c8fe0ccc3440;administrador;NO;2025-06-12 16:15:41
+778d6fb9-95bf-5b29-ab6b-b31cfda87c00;Julia Dora Ruiz Carvajal;;c8420d30eedc29d1e9928a855ae8ff951d39d931f3fff1c675d3a77703bba38d;empresario;False;01/06/25 17:14
+6440018f-e75b-5d04-a9b9-31531bab6f0a;Yaneth Vega;antonioosorio@example.com;3871f0b3843e6912f2052c8872da6ba1be0b08e44196f29993c839049f69d5fc;estudiante;False;2025-07-25 12:21:27
+552959a6-39ef-53c3-a45d-33cbeb0a891e;Stiven Ruiz Guerrero;karendiaz@example.net;4aa2d2b27ed7b69492fb7394309103da989a3f22dd6548caa847d1167533d4e3;profesor;False;2026-08-21 16:51:45
+ba455631-7405-5452-97f9-c92765386dc6;Milena Sonia Cifuentes Ceballos;jbolanos@example.net;cd4569c57a64031fce079efb138c54fdec7fe77b3f56965918f191986dcc7093;empresario;False;2025-05-07 15:12:39
+2b54e6f0-68b7-5190-805b-8adb5a181c16;Alberto Jaimes;fsanabria@example.net;281149bbda8b47c6303bb46e45ce71d8b371b1c17cffc59b3875c4d3ab30483e;profesor;NO;27/03/25 22:50
+79b61da4-810b-5307-b02c-f8eee647bce4;Marcela Gil;arboledaliliana@example.net;9c51e85072a1f57ed9008cb64b4a57e35a2a54a94880509b31e5ea1128bc01b5;empresario;False;2026-01-08 01:43:40
+314717b6-d444-5a02-a485-53338a6a484a;Daniela Edilma Quintero Yepes;rojasliliana@example.net;3aeb7cb30497239c41a0d7b5ce7119fbee19ede7aa86038d84dcfd47e4d1bc5a;profesor;True;2026-06-08 21:44:39
+e2b54270-861d-5e6f-b5b4-b6950102dacb;René Edgar Rueda Medina;luisguevara@example.com;2cf4ccfa1bbab2ce871b874eeee622d0e6f2009d76aee3e906358aa100c5d5ee;estudiante;False;2026-03-18 21:02:32
+a2b1745f-86a9-5578-9682-abca3466494b;Jesús Manuel Nieto;ulopezexample.com;f8e2b81bfd26833d5ed56336c05d0bb1a565373dc1cf61c9f2e0c7bf447e191b;administrador;NO;2025-07-06 17:34:51
+a2fb2d5f-4d45-5258-ac53-7bf032f8de5f;Rosa Adriana Londoño Torres;mariacortes@example.net;335b4221721fe3a014d959831c78744884a99c2376b8141e84fde15ac703b346;empresario;False;2025-09-20 08:13:10
+0ad0be5b-11b1-581f-a766-cd0d1b99df55;Carlos Valencia;pjaramillo@example.com;7ab41833b0a3ac82f5807b9e2266e805fa8ea8bb15fef7cc44a2f33fe9b54135;estudiante;False;2026-04-15 22:27:58
+f09eb571-ea7f-5576-bec0-e5d9d3ae9f22;Antonio Emilio Parada;ucruz@example.com;dc026a37fdf89010e90679635e1d9dfc44c98ed35dd6b3f121eb97ff35af4c2e;administrador;True;2026-05-13 11:37:02
+0c720142-9427-5b54-9f6f-dd03aafb76a8;Juan Danilo Cerón Yepes;villapatricia@example.net;38cd84e71a6a4b4ebb51b9a086f2ccf33f06dc402d6b39785a120398a4035025;empresario;True;2024-11-04 23:00:11
+9804b648-e9eb-5e9e-82ff-4974835b7f01;Carlos Barrera García;mariamora@example.com;897b95b2a0d7426b8c442575a5777f5058e95bf977349ed0d89ef230d779a5d8;Andres;True;2026-03-10 08:07:21
+419b1216-f63c-5141-a8e7-ffa230954def;ÁLVARO JOSÉ LOZANO PEÑA;contrerasesperanza@example.com;84fa64cb911c423449c4e1b666685d874ce85cc343edf94235c123339b710a0a;empresario;True;2026-07-24 14:20:57
+94e473cb-05a9-565b-85b5-e46bdbdd3c6c; Roberto Chávez González ;silvadaniela@example.net;64c0a2f18bca6ac93838cceea9b436c13ae03df7e80bf2c069a62de322deb65c;profesor;False;2026-07-26 04:41:51
+cc83c07e-6059-5c79-943c-f94ab9c7aad1;Fernando Jhon Arias;pcruz@example.net;05d3eeaae3fe119c880d02482d69a7959dd394798b96858132c6eb2ab73a77c1;estudiante;False;2026-04-15 07:27:36
+4f695827-05ab-576f-bb0e-60d8d65abcd2;Teresa Yolima Ochoa;parraleonor@example.com;8cd26afdfeb7a6345cdf6d883d738c50894e25eed94282f65423524d477ebad6;profesor;SI;2024-11-07 08:09:50
+9be9ac00-6568-5353-a8ce-73db1afb56d9;María Meza Franco;carlos18@example.org;8b59b524d658cfc1900908174f8d00a6dc4ae6baf39453ef245c4330e496f0ef;empresario;0;01/10/26 00:56
+dbc0d9bd-be39-56f4-828a-0abd821aab34;Fernando Emiro Duque Castro;diazgustavo@example.org;67c94e2d2af2bb486585e2332791996400ed898b1c8dcf7b413b07e0713e8dff;profesor;True;2026-01-29 23:08:46
+df598d80-3824-59cd-a34b-504462fe3f8b;Leonor Amaya Castillo;suarezcarlos@example.net;4f393da501afa6053b642fee625a46fea499285107a96a966d8e09ad46cdf3b1;profesor;False;29/08/25 06:24
+f1a6507f-c321-59a6-ba76-c72fc4bf24c4;Eduardo Gabriel Mercado;sierraroger@example.org;bea501b75d5858aa694c1cb8d1956aea73ebd55fd03dc928fab0c70f733d6e8b;administrador;False;2025-04-29 07:28:40
+d5f16a35-4721-5a65-8f43-bb8950801fa9;Carolina Kelly Pedraza;utamayo@example.org;baac59f497d650b9e3a8dcea3c411c496368e84bc0d52fa32f8c3729833102a6;estudiante;False;2026-07-01 14:23:45
+d66fae7f-bfa5-5b11-a359-5fde566b4eb8;Mauricio Javier Ibarra Mejía;ngarcia@example.com;1d6becc661929b8ee854c21ea1a8ed3f6a8df2029d9d4f54f12a6a2c92720821;profesor;True;2026-05-07 21:18:23
+667d112a-c15e-574c-838e-2ef65b049861;María Ana Amaya;jairoruiz@example.org;59d958ff5fd141c7e28d1d662fc43290f66e569ff46c96a400b6d1964c6d9c38;profesor;True;2025-06-27 10:31:18
+bcb0cc53-4e03-5ca4-9d14-0fbe14db2daa;Manuel Fernando Hernández Díaz;gvelasquez@example.com;4285d2fa1bcb9e392775806e1858ed8e163b453bdb3571bce86f5d854b3c21fa;estudiante;False;2025-01-08 14:36:58
+155c4b3d-4a9a-59ac-99b0-a9a4f73f62f1;Jaime Orlando Serna;arodriguez@example.com;f9eb2731a879cbb059d24434a3454f98e8dea44f63129f1f0d66f1c1a7b51e6a;profesor;True;2026-05-17 00:04:06
+e5e942a1-b274-5a31-b2e3-d3ea9096a98c;Alexandra Andrea Flórez Hernández;alba21@example.org;dbd98b604d511c2b70c8eb2603a7c1d7997c5af87bdc4fdb0ff1e965e0cf1bcb;profesor;False;2025-09-23 01:54:59
+53d22ae0-738e-58bb-81ca-4f701489328a;Jairo García;ariel79@example.net;485956f7e16581c00678d6c011980702ae60cf458e80b766cedbd7f6d278a430;profesor;True;2025-01-22 02:06:34
+6e96a7ba-1e00-502c-9142-fa6a676c9dd3;Lucía Núñez Quintero;varenasexample.com;2f6d82eba5d1f313bb763bb25b3e146f9dbfe0975fc888fc1fe09a69961be305;profesor;SI;2026-07-26 09:33:52
+f4b9f1e4-f834-5e62-8742-3f26ab95fc86;MILENA AGUDELO VÉLEZ;zalvarez@example.com;9e3427da96f46e64ffca9d8a9bf36a741fbf25bba8bcc3685e5f402a4a9be44e;administrador;False;2026-04-23 18:57:06
+ec22f434-3076-5d40-b67c-c67f019dea8a;Gerson Adolfo Valencia Castro;kmorales@example.org;180c827e9de67bdad16bccc2fdf358bdba0ce56f9d4279a5e1ff598018813209;administrador;True;2025-12-28 19:15:48
+e965e757-dfb9-5fb1-94ee-b46a5f9f31c1;FLOR CAICEDO CANTILLO;nvalderrama@example.com;f4df109a7cbe3e9990caf9300782666ef1c453f8c5503677a5483eef8189e250;profesor;True;2026-08-07 16:12:57
+e4a5b2d6-9c2c-501b-b744-2e2f4aa01dc2;Amanda Catalina Parra;thernandez@example.org;740d00b6621159f28dbd1b2dce07593d51fd4f66f672db7f6138943576f6d6b0;profesor;True;27/02/25 17:26

@@ -2,7 +2,7 @@
 Módulo de Visualización y Generación de Reportes: Prioridades.
 
 Script: src/reporte_prioridades.py
-Lee el archivo limpio 'data/limpio/prioridades_limpio.csv', genera 3 gráficas analíticas
+Lee el archivo limpio 'datos/limpios/prioridades_limpio.csv', genera 3 gráficas analíticas
 utilizando matplotlib y las guarda en formato PNG dentro del directorio 'reportes/'.
 Finaliza imprimiendo por consola las conclusiones sobre la calidad y el comportamiento
 de las prioridades y acuerdos de nivel de servicio (SLA).
@@ -20,8 +20,8 @@ import pandas as pd
 
 # 1. Configuración de Rutas con Pathlib y os
 CARPETA_PROYECTO = Path(__file__).resolve().parent.parent
-CARPETA_DATA = CARPETA_PROYECTO / "data" / "limpio"
 CARPETA_DATOS = CARPETA_PROYECTO / "datos" / "limpios"
+CARPETA_CRUDOS = CARPETA_PROYECTO / "datos" / "crudos"
 CARPETA_REPORTES = CARPETA_PROYECTO / "reportes"
 
 # Asegurar la creación automática de la carpeta reportes
@@ -30,15 +30,11 @@ CARPETA_REPORTES.mkdir(parents=True, exist_ok=True)
 
 
 def obtener_ruta_limpia() -> Path:
-    """Retorna la ruta del archivo limpio prioridades_limpio.csv."""
-    rutas = [
-        CARPETA_DATA / "prioridades_limpio.csv",
-        CARPETA_DATOS / "prioridades_limpio.csv",
-    ]
-    for r in rutas:
-        if r.exists():
-            return r
-    raise FileNotFoundError("No se encontró 'prioridades_limpio.csv' en 'data/limpio/' ni 'datos/limpios/'.")
+    """Retorna la ruta del archivo limpio generado por la fase de limpieza."""
+    ruta = CARPETA_DATOS / "prioridades_limpio.csv"
+    if not ruta.exists():
+        raise FileNotFoundError(f"No se encontró {ruta}. Ejecuta primero: python main.py --limpiar")
+    return ruta
 
 
 def cargar_datos() -> pd.DataFrame:
@@ -142,6 +138,39 @@ def imprimir_conclusiones(df: pd.DataFrame, conteo: pd.Series, resumen: pd.DataF
     total_prioridades_reales = len(conteo)
     nombres_prioridades = list(conteo.index)
 
+    # Relación nivel -> días máximos de respuesta calculada a partir de los datos limpios
+    por_nivel = df.groupby("nivel").agg(
+        nombre=("nombre", lambda s: s.mode().iloc[0]),
+        dias=("dias_max_respuesta", "median"),
+    ).sort_index()
+    lineas_nivel = "\n".join(
+        f"     * Nivel {int(nivel)} ({fila['nombre']:<9}): {fila['dias']:g} días máximos de respuesta."
+        for nivel, fila in por_nivel.iterrows()
+    )
+    if por_nivel["dias"].is_monotonic_decreasing:
+        texto_relacion = "Existe una relación inversa entre el nivel y el tiempo de atención:"
+    else:
+        texto_relacion = "La relación entre el nivel y el tiempo de atención NO es estrictamente inversa:"
+
+    # Anomalías de 'nivel' y 'dias_max_respuesta' medidas en el dataset crudo
+    ruta_crudo = CARPETA_CRUDOS / "prioridades_crudo.csv"
+    if ruta_crudo.exists():
+        crudo = pd.read_csv(ruta_crudo, sep=";", encoding="utf-8-sig").drop_duplicates(subset=["id"])
+        nivel_num = pd.to_numeric(crudo["nivel"], errors="coerce")
+        nivel_nulos = int(crudo["nivel"].isna().sum())
+        nivel_texto = int((crudo["nivel"].notna() & nivel_num.isna()).sum())
+        nivel_fuera = int((nivel_num.notna() & ~nivel_num.between(1, 5)).sum())
+        dias_num = pd.to_numeric(crudo["dias_max_respuesta"], errors="coerce")
+        dias_nulos = int(dias_num.isna().sum())
+        dias_absurdos = int((dias_num > 30).sum())  # ningún SLA válido supera un mes
+        texto_anomalias = (
+            f"En los datos crudos ({len(crudo)} prioridades) aparecieron {nivel_nulos} niveles nulos,\n"
+            f"     {nivel_texto} niveles escritos como texto ('tres', 'cinco'), {nivel_fuera} niveles fuera de [1, 5],\n"
+            f"     {dias_nulos} días de respuesta nulos y {dias_absurdos} con valores absurdos (como 999)."
+        )
+    else:
+        texto_anomalias = f"No se encontró {ruta_crudo.name}; no fue posible medir las anomalías del crudo."
+
     print("\n" + "=" * 75)
     print("                      CONCLUSIONES DEL ANÁLISIS")
     print("=" * 75)
@@ -151,21 +180,16 @@ def imprimir_conclusiones(df: pd.DataFrame, conteo: pd.Series, resumen: pd.DataF
    - Quedaron exactamente {total_prioridades_reales} prioridades REALES y únicas: {nombres_prioridades}.
    - En la simulación original se habían inyectado errores de casing ('ALTA', ' alta ', 'Alta'), 
      pero gracias a la fase de limpieza y normalización se eliminaron las redundancias 
-     semánticas y duplicados exactos, consolidando las 5 categorías oficiales del negocio.
+     semánticas y duplicados exactos, consolidando {total_prioridades_reales} prioridades oficiales del negocio.
 
 2. RELACIÓN ENTRE EL NIVEL Y LOS DÍAS MÁXIMOS DE RESPUESTA:
-   - Existe una relación inversa y proporcional estricta entre la urgencia y el tiempo de atención:
-     * Nivel 1 (muy baja) : 10 días máximos de respuesta.
-     * Nivel 2 (baja)     : 7 días máximos de respuesta.
-     * Nivel 3 (media)    : 5 días máximos de respuesta.
-     * Nivel 4 (alta)     : 2 días máximos de respuesta.
-     * Nivel 5 (crítica)  : 1 día máximo de respuesta.
+   - {texto_relacion}
+{lineas_nivel}
    - A mayor nivel de severidad y criticidad del reto o solicitud, menor es la ventana de 
      tiempo permitida por el SLA (Acuerdo de Nivel de Servicio) para brindar una solución.
 
 3. POR QUÉ EL BACKEND DEBE VALIDAR QUE 'NIVEL' ESTÉ ENTRE 1 Y 5:
-   - Durante la inyección de anomalías aparecieron valores nulos, textos ("tres", "cinco") y 
-     días absurdos como '999'.
+   - {texto_anomalias}
    - Si el backend permite niveles fuera del rango [1, 5]:
      a) Se rompe la lógica de negocio del SLA, asignando plazos infinitos o inexistentes a casos urgentes.
      b) Se compromete la integridad referencial y las agregaciones analíticas de las tablas relacionadas (retos).
