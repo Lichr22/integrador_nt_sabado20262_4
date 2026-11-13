@@ -3,13 +3,19 @@
 Usa `Faker("es_CO")` y fija la semilla con `Faker.seed(42)` y `random.seed(42)` para que el resultado sea SIEMPRE el mismo y tu compañero pueda reproducirlo.'''
 
 import random
-import uuid
+from pathlib import Path
+import sys
+
+CARPETA_PROYECTO = Path(__file__).resolve().parents[2]
+if str(CARPETA_PROYECTO) not in sys.path:
+    sys.path.insert(0, str(CARPETA_PROYECTO))
+
+from notebook.simulaciones.comun import SEMILLA, sembrar, generar_id
 import pandas as pd
 from faker import Faker
 
 # 1. Sembrar Semillas para los datos a simular
-random.seed(42)
-Faker.seed(42)
+sembrar(SEMILLA)
 
 # 2. identificar los datos a similiar con su tipo de dato
 # id (texto (UUID)),
@@ -114,9 +120,10 @@ def ensuciar(datos_df):
 def generar_datos(n=FILAS):
     """Genera lista de diccionarios de empresas limpias."""
     empresas = []
-    for _ in range(n):
+    sembrar(SEMILLA)  # mismo resultado sin importar el orden de ejecución
+    for indice in range(n):
         empresas.append({
-            "id": str(uuid.uuid4()),
+            "id": generar_id("empresa", indice),
             "nombre": FAKE.company(),
             "nit": FAKE.numerify("##########"), # Base de 10 numeros
             "sector": random.choice(SECTORES),

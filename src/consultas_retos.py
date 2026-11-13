@@ -2,11 +2,11 @@
 Módulo de Consultas Analíticas sobre la entidad 'retos'.
 
 Script: src/consultas_retos.py
-Lee el archivo limpio 'data/limpio/retos_limpio.csv' y responde 5 preguntas
+Lee el archivo limpio 'datos/limpios/retos_limpio.csv' y responde 5 preguntas
 analíticas sobre los datos, utilizando filtrado booleano, nlargest, conteo de frecuencias
 y agregaciones avanzadas con groupby (duración y evolución mensual).
 Cada consulta se encuentra en su propia función, imprime la respuesta en consola
-y persiste el resultado en 'data/limpio/retos_consulta_N.csv'.
+y persiste el resultado en 'datos/limpios/retos_consulta_N.csv'.
 """
 
 from pathlib import Path
@@ -15,27 +15,18 @@ import pandas as pd
 
 # Detección dinámica de rutas usando Pathlib
 CARPETA_PROYECTO = Path(__file__).resolve().parent.parent
-CARPETA_DATA_LIMPIO = CARPETA_PROYECTO / "data" / "limpio"
 CARPETA_DATOS_LIMPIOS = CARPETA_PROYECTO / "datos" / "limpios"
 
 
 def obtener_ruta_archivo_limpio() -> Path:
-    """Localiza el archivo limpio de retos dando prioridad a 'data/limpio/'."""
-    rutas_candidatas = [
-        CARPETA_DATA_LIMPIO / "retos_limpio.csv",
-        CARPETA_DATOS_LIMPIOS / "retos_limpio.csv",
-    ]
-
-    for ruta in rutas_candidatas:
-        if ruta.exists():
-            return ruta
-
-    raise FileNotFoundError(
-        f"No se encontró el archivo limpio de retos en:\n"
-        f"- {CARPETA_DATA_LIMPIO / 'retos_limpio.csv'}\n"
-        f"- {CARPETA_DATOS_LIMPIOS / 'retos_limpio.csv'}\n"
-        "Asegúrate de ejecutar primero la fase de limpieza."
-    )
+    """Retorna la ruta del archivo limpio generado por la fase de limpieza."""
+    ruta = CARPETA_DATOS_LIMPIOS / "retos_limpio.csv"
+    if not ruta.exists():
+        raise FileNotFoundError(
+            f"No se encontró {ruta}.\n"
+            "Ejecuta primero la fase de limpieza: python main.py --limpiar"
+        )
+    return ruta
 
 
 def cargar_datos() -> pd.DataFrame:
@@ -72,15 +63,9 @@ def cargar_datos() -> pd.DataFrame:
 
 
 def guardar_resultado(df_o_serie, nombre_archivo: str, index: bool = True) -> None:
-    """Guarda el resultado en 'data/limpio/' y sincroniza con 'datos/limpios/'."""
-    CARPETA_DATA_LIMPIO.mkdir(parents=True, exist_ok=True)
-    ruta_data = CARPETA_DATA_LIMPIO / nombre_archivo
-    df_o_serie.to_csv(ruta_data, sep=";", encoding="utf-8-sig", index=index)
-
-    # Mantener sincronizado si existe datos/limpios/
-    if CARPETA_DATOS_LIMPIOS.exists():
-        ruta_datos = CARPETA_DATOS_LIMPIOS / nombre_archivo
-        df_o_serie.to_csv(ruta_datos, sep=";", encoding="utf-8-sig", index=index)
+    """Guarda el resultado de la consulta en 'datos/limpios/'."""
+    CARPETA_DATOS_LIMPIOS.mkdir(parents=True, exist_ok=True)
+    df_o_serie.to_csv(CARPETA_DATOS_LIMPIOS / nombre_archivo, sep=";", encoding="utf-8-sig", index=index)
 
 
 # =============================================================================
@@ -102,7 +87,7 @@ def consulta_1_retos_en_curso(df: pd.DataFrame) -> pd.DataFrame:
     print(f"\n-> Total de retos en curso: {len(en_curso)} de {len(df)}")
 
     guardar_resultado(en_curso, "retos_consulta_1.csv", index=False)
-    print("-> Guardado en: data/limpio/retos_consulta_1.csv")
+    print("-> Guardado en: datos/limpios/retos_consulta_1.csv")
     return en_curso
 
 
@@ -125,7 +110,7 @@ def consulta_2_retos_mas_largos(df: pd.DataFrame) -> pd.DataFrame:
     print(f"\n-> Top 10 retos más largos obtenido exitosamente.")
 
     guardar_resultado(largos, "retos_consulta_2.csv", index=False)
-    print("-> Guardado en: data/limpio/retos_consulta_2.csv")
+    print("-> Guardado en: datos/limpios/retos_consulta_2.csv")
     return largos
 
 
@@ -148,7 +133,7 @@ def consulta_3_retos_por_estado(df: pd.DataFrame) -> pd.Series:
     print(f"\n-> Total de estados distintos registrados: {len(conteo)}")
 
     guardar_resultado(conteo, "retos_consulta_3.csv", index=True)
-    print("-> Guardado en: data/limpio/retos_consulta_3.csv")
+    print("-> Guardado en: datos/limpios/retos_consulta_3.csv")
     return conteo
 
 
@@ -171,7 +156,7 @@ def consulta_4_groupby_duracion_por_estado(df: pd.DataFrame) -> pd.DataFrame:
     print(f"\n-> Resumen de duración por estado generado exitosamente.")
 
     guardar_resultado(resumen, "retos_consulta_4.csv", index=True)
-    print("-> Guardado en: data/limpio/retos_consulta_4.csv")
+    print("-> Guardado en: datos/limpios/retos_consulta_4.csv")
     return resumen
 
 
@@ -194,7 +179,7 @@ def consulta_5_groupby_retos_por_mes(df: pd.DataFrame) -> pd.Series:
     print(f"\n-> Total de períodos mensuales registrados: {len(por_mes)}")
 
     guardar_resultado(por_mes, "retos_consulta_5.csv", index=True)
-    print("-> Guardado en: data/limpio/retos_consulta_5.csv")
+    print("-> Guardado en: datos/limpios/retos_consulta_5.csv")
     return por_mes
 
 

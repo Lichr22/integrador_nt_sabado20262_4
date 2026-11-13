@@ -4,13 +4,19 @@ Define niveles y tiempos de respuesta para los retos.
 '''
 
 import random
-import uuid
+from pathlib import Path
+import sys
+
+CARPETA_PROYECTO = Path(__file__).resolve().parents[2]
+if str(CARPETA_PROYECTO) not in sys.path:
+    sys.path.insert(0, str(CARPETA_PROYECTO))
+
+from notebook.simulaciones.comun import SEMILLA, sembrar, generar_id
 import pandas as pd
 from faker import Faker
 
 # 1. Sembrar Semillas para los datos a simular
-random.seed(42)
-Faker.seed(42)
+sembrar(SEMILLA)
 
 # 2. Identificar los datos a simular con su tipo de dato
 # id (texto (UUID)), 
@@ -110,13 +116,14 @@ def ensuciar(datos_df):
 def generar_datos(n=FILAS):
     """Genera lista de diccionarios de prioridades limpias."""
     prioridades = []
-    for _ in range(n):
+    sembrar(SEMILLA)  # mismo resultado sin importar el orden de ejecución
+    for indice in range(n):
         nombre = random.choice(list(NIVELES.keys()))
         nivel = NIVELES[nombre]
         dias = DIAS[nivel]
         
         prioridades.append({
-            "id": str(uuid.uuid4()),
+            "id": generar_id("prioridad", indice),
             "nombre": nombre,
             "nivel": nivel,
             "dias_max_respuesta": dias,

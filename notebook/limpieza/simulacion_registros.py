@@ -77,13 +77,8 @@ def ejecutar_limpieza():
     print(f"Filas después de limpieza: {len(df_limpio)}")
 
     rutas = exportar_registros_limpios(df_limpio)
-    
-    # Asegurar copia en 'data/limpio/'
-    carpeta_data_limpio = CARPETA_PROYECTO / "data" / "limpio"
-    carpeta_data_limpio.mkdir(parents=True, exist_ok=True)
-    df_limpio.to_csv(carpeta_data_limpio / "registros_limpio.csv", sep=";", encoding="utf-8-sig", index=False)
 
-    print("Datos limpios exportados exitosamente a 'datos/limpios/' y 'data/limpio/':")
+    print("Datos limpios exportados exitosamente a 'datos/limpios/':")
     for r in rutas:
         if r:
             print(f"  * {r}")

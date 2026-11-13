@@ -1,11 +1,17 @@
 import random
-import uuid
+from pathlib import Path
+import sys
+
+CARPETA_PROYECTO = Path(__file__).resolve().parents[2]
+if str(CARPETA_PROYECTO) not in sys.path:
+    sys.path.insert(0, str(CARPETA_PROYECTO))
+
+from notebook.simulaciones.comun import SEMILLA, sembrar, generar_id, hace_dias
 import pandas as pd
 from faker import Faker
 
 #1. Sembrar Semillas para los datos a simular
-random.seed(42)
-Faker.seed(42)
+sembrar(SEMILLA)
 
 #2. identificar los datos a similiar con su tipo de dato
 # id (texto(UUID)),
@@ -24,15 +30,16 @@ FALSITO = Faker("es_CO")
 #4. Funcion generadora
 def generar_datos(numero_filas=FILAS):
     usuarios = []
-    for _ in range(numero_filas):
+    sembrar(SEMILLA)  # mismo resultado sin importar el orden de ejecución
+    for indice in range(numero_filas):
         usuarios.append({
-            "id": str(uuid.uuid4()),
+            "id": generar_id("usuario", indice),
             "nombre": FALSITO.name(),
             "correo": FALSITO.email(),
             "contrasena_hash": FALSITO.sha256(),
             "rol": random.choice(ROLES),
             "activo": random.choice([True, False]),
-            "fecha_registro": FALSITO.date_time_between(start_date="-2y", end_date="now"),
+            "fecha_registro": FALSITO.date_time_between(start_date=hace_dias(730), end_date=hace_dias(0)),
         })
     return usuarios
 

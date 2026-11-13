@@ -2,7 +2,7 @@
 Módulo de Visualización y Generación de Reportes: Categorías.
 
 Script: src/reporte_categorias.py
-Lee el archivo limpio 'data/limpio/categorias_limpio.csv', genera 3 gráficas analíticas
+Lee el archivo limpio 'datos/limpios/categoria_limpio.csv', genera 3 gráficas analíticas
 con matplotlib a partir de las consultas previas y las guarda en formato PNG en 'reportes/'.
 Finaliza imprimiendo en consola las conclusiones de calidad de datos, catálogo de entidades
 y justificación técnica para unicidad de nombres en el backend.
@@ -20,7 +20,6 @@ import pandas as pd
 
 # 1. Configuración de Rutas con Pathlib y os
 CARPETA_PROYECTO = Path(__file__).resolve().parent.parent
-CARPETA_DATA = CARPETA_PROYECTO / "data" / "limpio"
 CARPETA_DATOS = CARPETA_PROYECTO / "datos" / "limpios"
 CARPETA_CRUDOS = CARPETA_PROYECTO / "datos" / "crudos"
 CARPETA_REPORTES = CARPETA_PROYECTO / "reportes"
@@ -31,17 +30,11 @@ CARPETA_REPORTES.mkdir(parents=True, exist_ok=True)
 
 
 def obtener_ruta_limpia() -> Path:
-    """Retorna la ruta del archivo limpio categorias_limpio.csv."""
-    rutas = [
-        CARPETA_DATA / "categorias_limpio.csv",
-        CARPETA_DATOS / "categorias_limpio.csv",
-        CARPETA_DATA / "categoria_limpio.csv",
-        CARPETA_DATOS / "categoria_limpio.csv",
-    ]
-    for r in rutas:
-        if r.exists():
-            return r
-    raise FileNotFoundError("No se encontró 'categorias_limpio.csv' en 'data/limpio/' ni 'datos/limpios/'.")
+    """Retorna la ruta del archivo limpio generado por la fase de limpieza."""
+    ruta = CARPETA_DATOS / "categoria_limpio.csv"
+    if not ruta.exists():
+        raise FileNotFoundError(f"No se encontró {ruta}. Ejecuta primero: python main.py --limpiar")
+    return ruta
 
 
 def cargar_datos() -> pd.DataFrame:
@@ -144,19 +137,33 @@ def generar_grafica_3_barras_largo_promedio(largos: pd.Series) -> str:
 # =============================================================================
 def imprimir_conclusiones(df_limpio: pd.DataFrame, conteo: pd.Series) -> None:
     """Imprime en consola las conclusiones analíticas y técnicas sobre categorías."""
-    # Obtener conteo de crudos para cálculo de filas eliminadas
-    ruta_crudo = CARPETA_CRUDOS / "categoria_crudo.csv"
-    filas_crudo = 262
-    if ruta_crudo.exists():
-        try:
-            df_crudo = pd.read_csv(ruta_crudo, sep=";", encoding="utf-8-sig")
-            filas_crudo = len(df_crudo)
-        except Exception:
-            pass
-
     filas_limpias = len(df_limpio)
-    filas_eliminadas = filas_crudo - filas_limpias
     total_categorias_reales = len(conteo)
+
+    # Comparar con el dataset crudo para medir lo que corrigió la limpieza
+    ruta_crudo = CARPETA_CRUDOS / "categoria_crudo.csv"
+    if ruta_crudo.exists():
+        df_crudo = pd.read_csv(ruta_crudo, sep=";", encoding="utf-8-sig")
+        filas_crudo = len(df_crudo)
+        filas_eliminadas = filas_crudo - filas_limpias
+        crudo_unico = df_crudo.drop_duplicates(subset=["id"])
+        comparacion = crudo_unico[["id", "nombre"]].merge(
+            df_limpio[["id", "nombre"]], on="id", suffixes=("_crudo", "_limpio")
+        )
+        nombres_corregidos = int((comparacion["nombre_crudo"] != comparacion["nombre_limpio"]).sum())
+        descripciones_nulas = int(crudo_unico["descripcion"].isna().sum())
+        texto_filas = (
+            f"Se eliminaron {filas_eliminadas} filas duplicadas (reducción de {filas_crudo}\n"
+            f"     registros crudos a {filas_limpias} registros limpios y consistentes)."
+        )
+        texto_correcciones = (
+            f"Adicionalmente, se corrigieron {nombres_corregidos} anomalías de escritura en 'nombre' (mezclas de\n"
+            f"     mayúsculas, minúsculas y espacios sobrantes) y se estandarizaron {descripciones_nulas}\n"
+            f"     descripciones nulas bajo el rótulo unificado 'Sin descripcion'."
+        )
+    else:
+        texto_filas = f"No se encontró {ruta_crudo.name}; no fue posible medir las filas eliminadas."
+        texto_correcciones = f"Quedaron {filas_limpias} registros limpios."
 
     print("\n" + "=" * 75)
     print("                      CONCLUSIONES DEL ANÁLISIS")
@@ -164,13 +171,10 @@ def imprimir_conclusiones(df_limpio: pd.DataFrame, conteo: pd.Series) -> None:
 
     print(f"""
 1. CUÁNTAS FILAS SE ELIMINARON AL QUITAR DUPLICADOS Y VARIANTES DE ESCRITURA:
-   - Se eliminaron exactamente {filas_eliminadas} filas duplicadas (reducción de {filas_crudo} 
-     registros crudos a {filas_limpias} registros limpios y consistentes).
-   - Adicionalmente, se corrigieron más de 60 anomalías de escritura en 'nombre' (mezclas de 
-     mayúsculas, minúsculas y espacios basura como '  tecnologia e innovacion  ') y se 
-     estandarizaron 38 descripciones nulas bajo el rótulo unificado 'Sin descripcion'.
+   - {texto_filas}
+   - {texto_correcciones}
 
-2. CUÁNTAS CATEGORÍAS REALES QUEDARON AL FINAL (DEBERÍAN SER 10 O EL CATÁLOGO OFICIAL):
+2. CUÁNTAS CATEGORÍAS REALES QUEDARON AL FINAL (CATÁLOGO OFICIAL):
    - Al finalizar la consolidación quedaron {total_categorias_reales} categorías REALES y canónicas:
      {list(conteo.index)}.
    - Todas las variantes tipográficas fueron unificadas hacia los términos rectores del negocio, 

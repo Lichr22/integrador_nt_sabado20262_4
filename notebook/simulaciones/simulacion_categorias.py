@@ -7,13 +7,19 @@ OJO: `area_responsable` NO esta en el modelo de Backend II: es una columna EXTRA
 '''
 
 import random
-import uuid
+from pathlib import Path
+import sys
+
+CARPETA_PROYECTO = Path(__file__).resolve().parents[2]
+if str(CARPETA_PROYECTO) not in sys.path:
+    sys.path.insert(0, str(CARPETA_PROYECTO))
+
+from notebook.simulaciones.comun import SEMILLA, sembrar, generar_id
 import pandas as pd
 from faker import Faker
 
 # 1. Sembrar semillas para los datos a simular
-random.seed(42)
-Faker.seed(42)
+sembrar(SEMILLA)
 
 # 2. Identificar los datos a simular con su tipo de dato
 # id (texto (UUID)),
@@ -44,9 +50,10 @@ FALSITO = Faker("es_CO")
 # 4. Funcion generadora
 def generar_datos(numero_filas=FILAS):
     categorias = []
-    for _ in range(numero_filas):
+    sembrar(SEMILLA)  # mismo resultado sin importar el orden de ejecución
+    for indice in range(numero_filas):
         categorias.append({
-            "id": str(uuid.uuid4()),
+            "id": generar_id("categoria", indice),
             "nombre": random.choice(NOMBRES_CATEGORIAS),
             "descripcion": FALSITO.sentence(nb_words=10),
             "area_responsable": random.choice(AREAS),  # Columna extra para agrupamiento

@@ -4,14 +4,23 @@ Genera datos sintéticos de la tabla 'retos' y aplica ensuciado intencional.
 '''
 
 import random
-import uuid
+from pathlib import Path
+import sys
+
+CARPETA_PROYECTO = Path(__file__).resolve().parents[2]
+if str(CARPETA_PROYECTO) not in sys.path:
+    sys.path.insert(0, str(CARPETA_PROYECTO))
+
+from notebook.simulaciones.comun import SEMILLA, sembrar, generar_id, ids_de, hace_dias
+from notebook.simulaciones.simulacion_empresa import FILAS as FILAS_EMPRESA
+from notebook.simulaciones.simulacion_categorias import FILAS as FILAS_CATEGORIA
+from notebook.simulaciones.simulacion_prioridades import FILAS as FILAS_PRIORIDAD
 import pandas as pd
 from datetime import datetime, timedelta
 from faker import Faker
 
 # 1. Sembrar semillas para los datos a simular
-random.seed(42)
-Faker.seed(42)
+sembrar(SEMILLA)
 
 # 2. Identificar los datos a simular con su tipo de dato
 # id (texto (UUID)), 
@@ -27,19 +36,21 @@ Faker.seed(42)
 # 3. Establecer una constante para el número de simulaciones
 FILAS = 500
 ESTADOS = ["Activo", "No Activo", "Bloqueado", "En revisión", "en_curso", "EN CURSO", "Cerrado"]
-IDS_EMPRESA = [str(uuid.uuid4()) for _ in range(5)]
-IDS_CATEGORIA = [str(uuid.uuid4()) for _ in range(5)]
-IDS_PRIORIDAD = [str(uuid.uuid4()) for _ in range(5)]
+# Llaves foráneas: ids reales generados por las simulaciones de cada tabla
+IDS_EMPRESA = ids_de("empresa", FILAS_EMPRESA)
+IDS_CATEGORIA = ids_de("categoria", FILAS_CATEGORIA)
+IDS_PRIORIDAD = ids_de("prioridad", FILAS_PRIORIDAD)
 FALSITO = Faker("es_CO")
 
 
 # 4. Funcion generadora
 def generar_datos(numero_filas=FILAS):
     retos = []
-    for _ in range(numero_filas):
-        fecha_ini = FALSITO.date_time_between(start_date="-1y", end_date="+3m")
+    sembrar(SEMILLA)  # mismo resultado sin importar el orden de ejecución
+    for indice in range(numero_filas):
+        fecha_ini = FALSITO.date_time_between(start_date=hace_dias(365), end_date=hace_dias(-90))
         retos.append({
-            "id": str(uuid.uuid4()),
+            "id": generar_id("reto", indice),
             "nombre": FALSITO.sentence(nb_words=6).rstrip("."),
             "descripcion": FALSITO.sentence(nb_words=12),
             "fecha_inicio": fecha_ini,

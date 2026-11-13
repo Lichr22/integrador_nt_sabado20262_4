@@ -2,10 +2,10 @@
 Módulo de Consultas Analíticas sobre la entidad 'empresas'.
 
 Script: src/consultas_empresas.py
-Lee el archivo limpio 'data/limpio/empresas_limpio.csv' y responde 5 preguntas
+Lee el archivo limpio 'datos/limpios/empresa_limpio.csv' y responde 5 preguntas
 analíticas sobre los datos, utilizando filtros, ordenamientos y agregaciones con groupby.
 Cada consulta se encuentra en su propia función, imprime la respuesta en consola
-y persiste el resultado en 'data/limpio/empresas_consulta_N.csv'.
+y persiste el resultado en 'datos/limpios/empresas_consulta_N.csv'.
 """
 
 from pathlib import Path
@@ -14,28 +14,18 @@ import pandas as pd
 
 # Detección dinámica de rutas usando Pathlib
 CARPETA_PROYECTO = Path(__file__).resolve().parent.parent
-CARPETA_DATA_LIMPIO = CARPETA_PROYECTO / "data" / "limpio"
 CARPETA_DATOS_LIMPIOS = CARPETA_PROYECTO / "datos" / "limpios"
 
 
 def obtener_ruta_archivo_limpio() -> Path:
-    """Localiza el archivo limpio de empresas dando prioridad a 'data/limpio/'."""
-    rutas_candidatas = [
-        CARPETA_DATA_LIMPIO / "empresas_limpio.csv",
-        CARPETA_DATOS_LIMPIOS / "empresas_limpio.csv",
-        CARPETA_DATOS_LIMPIOS / "empresa_limpio.csv",
-    ]
-
-    for ruta in rutas_candidatas:
-        if ruta.exists():
-            return ruta
-
-    raise FileNotFoundError(
-        f"No se encontró el archivo limpio de empresas en ninguna de las rutas esperadas:\n"
-        f"- {CARPETA_DATA_LIMPIO / 'empresas_limpio.csv'}\n"
-        f"- {CARPETA_DATOS_LIMPIOS / 'empresa_limpio.csv'}\n"
-        "Asegúrate de ejecutar primero la fase de limpieza."
-    )
+    """Retorna la ruta del archivo limpio generado por la fase de limpieza."""
+    ruta = CARPETA_DATOS_LIMPIOS / "empresa_limpio.csv"
+    if not ruta.exists():
+        raise FileNotFoundError(
+            f"No se encontró {ruta}.\n"
+            "Ejecuta primero la fase de limpieza: python main.py --limpiar"
+        )
+    return ruta
 
 
 def cargar_datos() -> pd.DataFrame:
@@ -55,15 +45,9 @@ def cargar_datos() -> pd.DataFrame:
 
 
 def guardar_resultado(df_o_serie, nombre_archivo: str, index: bool = True) -> None:
-    """Guarda el resultado en 'data/limpio/' y opcionalmente en 'datos/limpios/'."""
-    CARPETA_DATA_LIMPIO.mkdir(parents=True, exist_ok=True)
-    ruta_data = CARPETA_DATA_LIMPIO / nombre_archivo
-    df_o_serie.to_csv(ruta_data, sep=";", encoding="utf-8-sig", index=index)
-
-    # Si existe datos/limpios/, mantener sincronizado
-    if CARPETA_DATOS_LIMPIOS.exists():
-        ruta_datos = CARPETA_DATOS_LIMPIOS / nombre_archivo
-        df_o_serie.to_csv(ruta_datos, sep=";", encoding="utf-8-sig", index=index)
+    """Guarda el resultado de la consulta en 'datos/limpios/'."""
+    CARPETA_DATOS_LIMPIOS.mkdir(parents=True, exist_ok=True)
+    df_o_serie.to_csv(CARPETA_DATOS_LIMPIOS / nombre_archivo, sep=";", encoding="utf-8-sig", index=index)
 
 
 # =============================================================================
@@ -85,7 +69,7 @@ def consulta_1_empresas_activas(df: pd.DataFrame) -> pd.DataFrame:
     print(f"\n-> Total de empresas activas encontradas: {len(activas)} de {len(df)}")
 
     guardar_resultado(activas, "empresas_consulta_1.csv", index=False)
-    print("-> Guardado en: data/limpio/empresas_consulta_1.csv")
+    print("-> Guardado en: datos/limpios/empresas_consulta_1.csv")
     return activas
 
 
@@ -108,7 +92,7 @@ def consulta_2_empresas_por_sector_ordenadas(df: pd.DataFrame, sector: str = "Lo
     print(f"\n-> Total empresas en el sector '{sector}': {len(logistica)}")
 
     guardar_resultado(logistica, "empresas_consulta_2.csv", index=False)
-    print("-> Guardado en: data/limpio/empresas_consulta_2.csv")
+    print("-> Guardado en: datos/limpios/empresas_consulta_2.csv")
     return logistica
 
 
@@ -131,7 +115,7 @@ def consulta_3_conteo_rapido_sector(df: pd.DataFrame) -> pd.Series:
     print(f"\n-> Total de sectores analizados: {len(conteo)}")
 
     guardar_resultado(conteo, "empresas_consulta_3.csv", index=True)
-    print("-> Guardado en: data/limpio/empresas_consulta_3.csv")
+    print("-> Guardado en: datos/limpios/empresas_consulta_3.csv")
     return conteo
 
 
@@ -154,7 +138,7 @@ def consulta_4_groupby_sector_descendente(df: pd.DataFrame) -> pd.Series:
     print(f"\n-> Sector líder con mayor número de empresas: {por_sector.index[0]} ({por_sector.iloc[0]})")
 
     guardar_resultado(por_sector, "empresas_consulta_4.csv", index=True)
-    print("-> Guardado en: data/limpio/empresas_consulta_4.csv")
+    print("-> Guardado en: datos/limpios/empresas_consulta_4.csv")
     return por_sector
 
 
@@ -177,7 +161,7 @@ def consulta_5_groupby_doble_activa_sector(df: pd.DataFrame) -> pd.DataFrame:
     print("\n-> Resumen tabular generado con dimensiones:", tabla.shape)
 
     guardar_resultado(tabla, "empresas_consulta_5.csv", index=True)
-    print("-> Guardado en: data/limpio/empresas_consulta_5.csv")
+    print("-> Guardado en: datos/limpios/empresas_consulta_5.csv")
     return tabla
 
 

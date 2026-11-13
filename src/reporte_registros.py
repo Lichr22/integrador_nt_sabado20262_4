@@ -2,7 +2,7 @@
 Módulo de Visualización y Generación de Reportes: Registros (Participaciones).
 
 Script: src/reporte_registros.py
-Lee el archivo limpio 'data/limpio/registros_limpio.csv', genera 3 gráficas analíticas
+Lee el archivo limpio 'datos/limpios/registros_limpio.csv', genera 3 gráficas analíticas
 utilizando matplotlib a partir de las consultas previas y las guarda en formato PNG
 dentro de 'reportes/'. Finaliza imprimiendo por consola las conclusiones sobre demanda,
 estacionalidad y la necesidad de control de duplicados con HTTP 409 en el backend.
@@ -20,7 +20,6 @@ import pandas as pd
 
 # 1. Configuración de Rutas con Pathlib y os
 CARPETA_PROYECTO = Path(__file__).resolve().parent.parent
-CARPETA_DATA = CARPETA_PROYECTO / "data" / "limpio"
 CARPETA_DATOS = CARPETA_PROYECTO / "datos" / "limpios"
 CARPETA_REPORTES = CARPETA_PROYECTO / "reportes"
 
@@ -30,17 +29,11 @@ CARPETA_REPORTES.mkdir(parents=True, exist_ok=True)
 
 
 def obtener_ruta_limpia() -> Path:
-    """Retorna la ruta del archivo limpio registros_limpio.csv."""
-    rutas = [
-        CARPETA_DATA / "registros_limpio.csv",
-        CARPETA_DATOS / "registros_limpio.csv",
-        CARPETA_DATA / "registro_limpio.csv",
-        CARPETA_DATOS / "registro_limpio.csv",
-    ]
-    for r in rutas:
-        if r.exists():
-            return r
-    raise FileNotFoundError("No se encontró 'registros_limpio.csv' en 'data/limpio/' ni 'datos/limpios/'.")
+    """Retorna la ruta del archivo limpio generado por la fase de limpieza."""
+    ruta = CARPETA_DATOS / "registros_limpio.csv"
+    if not ruta.exists():
+        raise FileNotFoundError(f"No se encontró {ruta}. Ejecuta primero: python main.py --limpiar")
+    return ruta
 
 
 def cargar_datos() -> pd.DataFrame:
@@ -168,8 +161,8 @@ def imprimir_conclusiones(df: pd.DataFrame, top_retos: pd.Series, por_mes: pd.Se
 2. EN QUÉ MES HUBO MÁS INSCRIPCIONES:
    - El período con mayor actividad de inscripción fue '{mes_lider}' registrando {cant_mes_lider} 
      participaciones.
-   - Este comportamiento responde al inicio del segundo semestre académico (agosto), donde las 
-     instituciones y estudiantes buscan proyectos integradores, prácticas y desafíos abiertos 
+   - Los picos de inscripción suelen coincidir con el inicio de los semestres académicos, cuando
+     instituciones y estudiantes buscan proyectos integradores, prácticas y desafíos abiertos
      para complementar su formación curricular.
 
 3. CUÁNTAS INSCRIPCIONES DUPLICADAS SE ENCONTRARON Y POR QUÉ EL BACKEND DEBE BLOQUEARLAS CON 409:
